@@ -1,0 +1,373 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+* {
+        box-sizing: border-box;
+}
+
+@page{
+  width:63mm;
+  height:88mm;
+}
+
+.big.card {
+  --width:140mm;
+  --height:190mm;
+}
+
+.card {
+  --width:63mm;
+  --height:88mm;
+  --border:4mm;
+  --gap:1mm;
+  --stroke:#2B1F13;
+  --paper:#F7FFF7;
+  --color:#E1E0D8;
+
+      --stroke:#000;
+  --paper:#fff;
+  --color:#eee;
+    --color-dark:#aaa;
+        --color-dark:rgba(0,0,0,.5);
+
+    --shadow-blur:1mm;
+    --border-style:solid;
+    --border-width:1pt;
+    --border-radius:1.5pt;
+
+    font-family: 'Zarathustra';
+    font-weight: bold;
+    font-size: 11pt;
+
+    width:var(--width);
+    height: var(--height);
+    border-radius: 2mm;
+    margin:0;
+        position: relative;
+
+    background: black;
+}
+
+u {
+    text-decoration: none;
+}
+
+.card .infos {
+  display:none;
+} 
+
+
+
+.card .content {
+   width:calc(var(--width) - var(--border));
+   height:calc(var(--height) -  var(--border));
+    padding:calc(var(--border) / 2);
+    padding-bottom: 0;
+        position: relative;
+    top:calc(var(--border) / 2);
+    left:calc(var(--border) / 2);
+
+    display: flex;
+    flex-direction: column;
+    gap:var(--gap);;
+    align-content: center;
+    overflow: hidden;
+
+
+    background:var(--color);
+    
+    background-size: cover;
+    background-position: center;
+}
+
+.card .header {
+    display: flex;
+    flex-direction: column;
+flex-grow: 1;
+            z-index: 1;
+
+}
+
+
+
+.card  .title {
+
+    width:calc(var(--width) - 2 * var(--border));
+
+    border-width: var(--border-width);
+    border-style: var(--border-style);
+    border-color: var(--stroke);
+    border-radius: var(--border-radius);
+    background: var(--paper);
+
+
+    box-shadow: 0 0 var(--shadow-blur) var(--color-dark);
+    text-align: center;
+
+    padding: 0 .3em;
+    font-size:1.4em;
+
+    font-weight: bold;
+    font-family: 'Autopia';
+    font-family: 'Zarathustra';
+        font-family: 'Archivo Narrow';
+        font-family: 'Thestral Neue';
+    font-family: 'Nimbus Sans';
+    font-family: 'Bonbance';
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: .0em;
+    line-height: 1em;
+    padding-top: .15em;
+
+
+        z-index: 2;
+
+
+
+}
+
+.card .types {
+    width:calc(var(--width) - 2 * var(--border));
+
+    font-size: .8em;
+
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card .types span{
+    border-width: var(--border-width);
+    border-style: var(--border-style);
+    border-color: var(--stroke);
+    border-radius: var(--border-radius);
+    background: var(--paper);
+    color: var(--stroke);
+    box-shadow: 0 0 var(--shadow-blur) var(--color-dark);
+
+    padding: 0 .3em;
+
+    padding-top:5pt;
+    margin-top:-5pt;
+}
+
+.card .types span.primary_types{
+        padding-right:.6em;
+    border-radius: var(--border-radius) var(--border-radius) 9pt var(--border-radius);
+    font-weight: bold
+}
+
+.card .types span.secondary_types{
+        padding-left:.6em;
+    border-radius: var(--border-radius) var(--border-radius) var(--border-radius) 9pt;
+
+}
+
+.card .illu {
+    position: absolute;
+    z-index: 0;
+    top:0;
+    left:0;
+        width: 100%;
+    height: 100%;
+}
+
+.card .illu img{
+    width: 100%;
+    height: 100%;
+    
+    object-fit: cover;
+      filter: grayscale(100%) contrast(70%) brightness(110%);
+
+}
+
+.card .footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: .5em;
+    color: var(--paper);
+    font-family: 'FreeMono';
+    --text-border: 0.1em;
+    --text-border-color : var(--stroke);
+    text-shadow:
+         calc(0em + var(--text-border)) calc(0em + var(--text-border)) var(--text-border-color),
+         calc(0em + var(--text-border)) calc(0em - var(--text-border)) var(--text-border-color),
+         calc(0em - var(--text-border)) calc(0em + var(--text-border)) var(--text-border-color),
+         calc(0em - var(--text-border)) calc(0em - var(--text-border)) var(--text-border-color),
+         calc(0em + var(--text-border)) calc(0 * var(--text-border)) var(--text-border-color),
+         calc(0em - var(--text-border)) calc(0 * var(--text-border)) var(--text-border-color),
+         calc(0 * var(--text-border)) calc(0em + var(--text-border)) var(--text-border-color),
+         calc(0 * var(--text-border)) calc(0em - var(--text-border)) var(--text-border-color)
+        ;
+
+    background: var(--stroke);
+    text-shadow: none;
+    padding: 1pt 0;
+    text-transform:uppercase;
+    margin:  0 calc(var(--border) * -0.5);
+    margin-top: calc(var(--border) / 2 - var(--gap));
+    width:calc(var(--width) - var(--border));
+                    z-index: 1;
+
+}
+
+.card .rules {
+    display: flex;
+    flex-direction: column;
+    gap:var(--gap);;
+    width:100%;
+    z-index: 1;
+
+}
+
+.card .rule{
+    box-shadow: 0 0 var(--shadow-blur) var(--color-dark);
+}
+
+
+.card .rule_type {
+    display: none;
+}
+
+.card .rule_text {
+
+    border-width: var(--border-width);
+    border-style: var(--border-style);
+    border-color: var(--paper);
+    border-radius: var(--border-radius);
+    background: var(--paper);
+    color: var(--stroke);
+
+
+    box-shadow: 0 0 var(--shadow-blur) var(--color-dark);
+
+    padding: 0 .3em;
+}
+
+
+.card .rule_text small {
+        font-size: .8em;
+
+}
+
+
+.card .rule.intervention .rule_text{
+    background: var(--stroke);
+    border-color: var(--stroke);
+    color: var(--paper);
+
+
+}
+.card .rule.permanente .rule_text{
+
+    background: var(--paper);
+    border-color: var(----color-dark);
+    color: var(--stroke);
+        border-width: 3pt;
+    border-style:double;
+}
+
+
+.card .rule.condition .rule_text{
+
+    background: var(--paper);
+    color: var(--stroke);
+    font-size:.8em;
+}
+
+.card .rule.condition {
+
+
+    box-shadow: none;
+}
+
+
+.card .rule.effet{
+
+}
+
+/*
+.card .rule:not(.condition){
+    margin-left:2mm;
+}*/
+
+
+/******* BIG TEXTS ******/
+
+
+[data-card-style="bigtext"] .card .rules {
+
+    font-size: 1.5em !important;
+    width:100% !important;
+}
+
+
+[data-card-style="bigtext"] .card .types {
+        font-size: 1.5em !important;
+
+}
+
+[data-card-style="bigtext"] .card .title {
+        font-size: 2em !important;
+
+}
+
+
+
+
+/********** MEMO **********/
+
+
+.big.card.memo dl {
+columns: 2 ;
+    gap:5mm;
+}
+
+.card.memo .header {
+flex-grow: 0;
+
+}
+
+.card.memo .rules {
+    flex-grow: 1;
+}
+.card.memo dl,
+.card.memo dt,
+.card.memo dd
+{
+    margin:0
+}
+.card.memo dt {
+    background:white;
+    border:1px solid black;
+    border-radius:1mm;
+    padding: .1em .2em;
+    margin-right:1em;
+    break-before: always;
+
+}
+.card.memo dd {
+   font-size: .8em;
+    break-inside: avoid-column;
+    margin-bottom: .4em;
+    
+}
+
+.card.memo dl div{
+        break-inside: avoid-column;
+
+}
+
+
+.card.memo p,
+.card.memo dt {
+    margin:0;
+    margin-top: .1em;
+}

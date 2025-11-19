@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Zarathustra';
+    src: url('../font/Zarathustra.woff2') format('woff2'),
+        url('../font/Zarathustra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Bonbance';
+    src: url('../font/Bonbance-BoldCondensed.woff2') format('woff2'),
+        url('../font/Bonbance-BoldCondensed.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'FreeMono';
+    src: url('../font/FreeMono.woff2') format('woff2'),
+        url('../font/FreeMono.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+

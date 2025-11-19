@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"></meta>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BattleFight</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/card.css"></link>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"></link>
+      <link rel="stylesheet" type="text/css" href="assets/css/font.css"></link>
+    <script src="assets/js/papaparse.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</head>
+<body>
+  <div id="menu">
+    <button id="hide-menu">cacher le menu</button><br>
+    <label for="data-url">Lien framacal :</label><input size="50" name="data-url" id="data-url"></input><br>
+    <button id="reload">recharger les données</button><br>
+
+    <label for="style">Style:</label>
+    <select name="style" id="style">
+      <option value="basic">basic</option>
+      <option value="bigtext">big text</option>
+      <option value="altperm">alt perm</option>
+    </select><br>
+    
+    <input type="checkbox" id="show-infos" name="show-infos" checked="true">
+    <label for="show-infos">Afficher les infos de la carte au survol</label><br>
+    <a id="playing-cards-io-csv" download="cards.csv" href="#">Télécharger la liste des cartes en csv pour playingcards.io</a><br>
+    <a download="plateau.png" href="plateau.png">Télécharger le plateau</a><br>
+    <a href="memo.html">Voir les memos</a><br>
+  </div>
+  <button id="show-menu">menu</button>
+
+  <div id="cards">
+  </div>
+  
+  <template id="rule-template">
+    <div class="rule">
+      <div class="rule_text"></div>
+    </div>
+  </template>
+                                        
+  <template id="warning-template">
+    <div class="warning">!!!</div>
+  </template>
+  
+  <template id="card-template">  
+    <div class="card">
+      <div class="infos">
+        <table>
+          <tr><th>ID<td class="data-id"></td></tr>
+          <tr><th>TITLE<td class="data-title"></td></tr>
+          <tr><th>TYPE<td class="data-type"></td></tr>
+          <tr><th>COMMENT<td class="data-comment"></td></tr>
+          <tr><th>T<td class="data-t"></td></tr>
+          <tr><th>STEPS<td class="data-steps"></td></tr>
+          <tr><th>WARNING<td class="warning"></td></tr>
+        </table>
+      </div>
+      <div class=content>
+        <div class="header">
+          <div class=title></div>
+          <div class=types>
+            <span class=primary_types></span>
+            <!--<span class=secondary_types></span>-->
+          </div>
+        </div>
+        <div class=illu><img></img></div>
+        <div class=rules></div>
+        <div class="footer">
+        <span class="id"></span><span>BattleFight · Test · 2025</span>
+        </div>
+      </div>
+    </div>
+  </template>
+
+  <script>
+    main();
+  </script>
+</body>
+</html>
