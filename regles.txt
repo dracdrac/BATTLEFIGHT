@@ -1,0 +1,397 @@
+Règles officielles de BattleFight
+
+Ces règles sont les règles officielles de BattleFight à partir du 20 novembre 2025 et jusqu'à ce qu'une version plus récente soit publiée.
+
+0. Avant-propos
+
+0.1. Destination de ce document
+
+Ce document privilégie la rigueur et la précision à la lisibilité.
+Ce document n'est aucunement destiné aux personnes qui souhaitent apprendre à jouer à BattleFight.
+Ce document est destiné aux personnes qui, sachant déjà jouer aux jeu, souhaitent acquérir une compréhension profonde du fonctionnement du jeu.
+
+0.2. Utilisation de ce document.
+
+Ce document est sensé ne laisser aucune ambiguïté sur l'interprétation des règles et des cartes.
+Si lors d'une partie, une situation provoque un litige qui ne peut être résolu par la lecture de ce document,
+cette situation doit être considérée comme un bug du jeu et la partie considérée comme nulle.
+Merci de nous avertir si une telle situation se présentait.
+
+1. Généralités
+
+1.1. Cartes et ensembles de cartes.
+
+1.1.1. Carte
+
+Une carte représente une technique.
+La face d'une carte indique de haut en bas :
+- le titre de la technique ;
+- le type de la technique ;
+- les étapes de la technique ;
+- l'immatriculation et les crédits de la carte.
+
+1.1.2. Proxy
+
+Un proxy est une carte qui n'a pas été officiellement éditée par BattleFight.
+Un proxy doit indiquer strictement les mêmes titre, type et étapes qu'une carte du officielle.
+L'utilisation de proxys est toujours permise dans toute partie de BattleFight.
+
+1.1.2. Booster
+
+Un booster est un ensemble de 10 cartes.
+Un booster contient toujours 2 cartes pour chacun des 5 types.
+Ces cartes sont distribuées aléatoirement et secretement parmis les cartes d'une édition.
+
+1.1.3. Deck
+Un deck est l'ensemble des cartes que peut jouer un joueur·se pendant une partie.
+Un deck doit contenir 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
+Un deck peut contenir plusieurs fois la même carte.
+Les dos des cartes d'un même deck doivent être indiscernables.
+S'il est possible de discerner des cartes d'un deck par leur dos, utiliser des protège-cartes.
+Il existe plusieurs manière de former un deck :
+
+1.1.3.1. Former un deck aléatoire
+pour chaque type,
+prendre constituer une pile d'au moins 5 cartes appartenant à ce type,
+méllanger cette pile,
+piocher les 4 premières cartes de cette pile.
+
+1.1.3.2. Former un deck boosté
+Ouvrir 2 booster et joindre le contenu de ces deux boosters.
+
+1.1.3.3. Former un deck construit
+choisir 4 cartes pour chacun des 5 types parmis l'ensemble de votre collection.
+
+1.1.3.4. Former un deck drafté
+Ouvrir 3 booster, choisir 4 cartes pour chacun des 5 types parmis le contenu de ces 3 boosters.
+
+
+1.2. Plateau
+
+1.2.1 Grille
+Le plateau est une grille hexagonale de 4 par 4 par 4 cases hexagonales. Soit 37 cases.
+
+1.2.2. Cases adjacente
+Deux cases sont considérés comme adjacentes si elles partagent un de leur 6 côtés.
+
+1.2.3. Distance
+La distance entre deux cases est le nombre de case minimum qu'il faut franchir pour tracer un chemin de l'une à l'autre.
+La distance entre deux cases adjacente est donc 1.
+
+1.2.4. Pions
+
+Un pion indique la position d'un·e joueur·se,
+Dans une partie, les pions de chaque joueur·se doivent être distinguable,
+Un pion sur le plateau est toujours placé sur une case et il ne peut y avoir qu'un seul pion par case.
+
+1.3. Zones
+Pendant une partie les cartes sont placés dans des zones.
+Chaque joueur.se dispose de 4 zones :
+
+1.3.1. La pioche
+Les cartes de la pioche sont toujours faces cachées et forment une pile.
+
+1.3.2. La main
+Les cartes de la main d'un·e joueur·se sont visibles pour le·a joueur·se et cachées pour les adversaires.
+
+1.3.3. La zone d'activité
+Les cartes de la zone d'activités sont toujours face visible placées côtes-à-côtes.
+
+1.3.4. La défausse
+Les cartes de la défausse sont toujours face visible et forment une pile qui peut être consultées à n'importe quel moment par tout le monde.
+
+2. Déroulement d'une partie
+
+2.1. Mise en place
+
+2.1.2. Matériel nécessaire
+- Un plateau ;
+- un pion par joueur.se ;
+- de quoi compter les points de vie ;
+- un deck par joueur.se.
+
+2.1.3. Placement des pions
+Placer un pion par joueur·se sur le plateau.
+Les pions doivent être placés dans les angles du plateau de telle sorte à ce qu'ils soient le plus éloignés possibles les uns des autres.
+
+2.1.4. Mellange des decks
+Mélanger séparément chaque deck.
+Placer chaque deck dans la pioche de sa·on joueur·se.
+
+2.1.5. Initialisation et des points
+Chaque joueur.se commence la partie avec vingt points de vie.
+Tout autre compte de point évoqué par les cartes et les règles débute à zéro.
+
+2.1.6. Désignation de le·a première joueur·se
+En cas de match, le·a première joueur·se à jouer et le·a premièr·e à avoir été éliminée à la partie précédénte.
+Si c'est la première partie du match ou que la partie n'est pas dans un match,
+tirer au sort le·a premier·e joueur·se.
+
+2.3. Sens du jeu
+Les joueur.se jouent chacun·e leur tour, dans le sens des aiguilles d'une montre.
+
+2.4. Déroulement d'un tour de jeu
+Le tour de jeu consiste à jouer une Technique.
+Le tour s'arrête quand l'exécution de cette technique échoue, est terminée ou est mise en pause.
+
+2.5. Dégâts
+Lorsqu'un·e joueur·se subit des dégâts,
+si le nombre de dégât est supérieur à zéro,
+soustraire ce nombre aux points de vie du·de la joueur.se.
+additionner ce nombre aux points de dégat du·de la joueur.se.
+À la fin du tour d'un·e joueur·se, remettre le compte de ses points de dégat à zéro.
+
+2.4 Perdre la partie
+Si, à tout moment, un·e joueur·se perd, cette personne est éliminée de la partie,
+Désactiver ses techniques encore actives,
+Cette personne n'est plus considérés comme joueur·se par les règles, elle ne joue pas ses tours, elle ne peut pas être ciblée.
+Si une technique cible une personne et que cette personne est éliminée alors que cette technique est encore active,
+les étapes qui font référence à cette personne dans leur définition sont ignorées,
+les autres étapes sont executées normalement.
+
+2.5. Fin de la partie
+Si, à tout moment, un·e joueur·se est le·a dernier·re à ne pas avoir perdu, la partie s'arrête ;
+ce·tte joueur·se gagne la partie.
+
+3. Techniques
+
+3.1. Définition
+Une technique est une action que peut effectuer un·e joueur·se à un moment donné.
+Une technique peut-être une carte ou une technique de base.
+
+3.2. Composition
+
+3.2.1. Titre
+Le titre d'une technique permet d'identifier la technique.
+
+3.2.2. Type
+Le type d'une technique permet de catégoriser la technique.
+Il existe 5 types :
+- attaque ;
+- défense ;
+- déplacement ;
+- passif ;
+- rhétorique.
+
+3.2.3 Liste des étapes
+La liste des étapes d'une technique permet d'executer la technique.
+Une technique peut avoir une ou plusieurs étapes.
+
+3.3. Techniques de base
+Les techniques de bases sont des techniques qui ne sont pas représentés par une carte.
+Elles sont au nombre de 5 :
+
+3.3.1 Attaque de base
+Le titre de cette technique est : Attaque de base.
+Le type de cette technique est : Attaque.
+Les étapes de cette technique sont :
+- Corps à Corps
+- Blesser 1
+
+3.3.2 Défense de base
+Le titre de cette technique est : Attaque de base.
+Le type de cette technique est : Attaque.
+L'étape de cette technique est :
+- Bloquer 1
+
+3.3.3 Déplacement de base
+Le titre de cette technique est : Attaque de base.
+Le type de cette technique est : Attaque.
+L'étape de cette technique est :
+- Se déplacer 1
+
+3.3.4 Passif de base
+Le titre de cette technique est : Attaque de base.
+Le type de cette technique est : Attaque.
+L'étape de cette technique est :
+- Piocher 1
+
+3.3.5 Rhétorique de base
+Le titre de cette technique est : Attaque de base.
+Le type de cette technique est : Attaque.
+L'étape de cette technique est :
+- Intervenir
+
+3.4. Jouer une technique
+Jouer une technique consiste à :
+- choisir une technique ;
+- choisir l'adversaire ciblé par la technique ;
+- activer la technique.
+
+3.4.1. Choix de la technique
+Le·a joueur·se choisi une technique parmi les techniques de bases et les carte de sa main.
+Le contexte de la partie peut restreindre ce choix.
+
+3.4.2. Choix de l'adversaire ciblé
+Le·a joueur·se choisi parmi ses adversaires, l'adversaire ciblé par sa technique.
+
+3.4.3. Activation de la technique
+Le·a joueur·se informe ses adversaires de la technique choisie et de l'adversaire ciblé.
+L'annonce de l'adversaire ciblé peut-être omise si ce choix n'a aucune influence sur l'exécution de la technique.
+Si la technique choisie est une carte de sa main, le·a joueur·se pose cette carte dans sa zone d'activité.
+Une fois la technique activée on commence à executer ses étapes.
+L'execution d'une technique consiste à exécuter les étapes unes par unes, dans l'ordre jusqu'à ce qu'une de ces trois situation se présente :
+
+3.4.3.1. L'execution est mise en pause
+Quand l'execution d'une technique est mise en pause, la technique reste active.
+
+3.4.3.2. L'execution échoue
+Quand l'execution d'une technique échoue, la technique est désactivée.
+
+3.4.3.3. Il n'y a plus d'étape a éxecuter.
+Quand la dernière étape a été éxécutée, la technique est désactivée.
+
+3.4.4. Désactivation de la technique
+Quand une technique est désactivée, si c'est une carte, on la place dans l'historique face visible.
+
+
+4. Étapes
+
+4.1. Lecture de l'étape
+Une étape est définie par un texte qui indique ce qu'il faut faire au moment où l'étape est exécutée.
+La définition d'une étape est basée sur un mot clé. Elle peut aussi comporter un modificateur et un paramètre.
+
+4.2. Termes employés
+Lors de l'exécution d'une étape :
+- "La technique" désigne la technique sur la quelle se trouve l'étape.
+- "Le·a joueur·se" désigne la personne a qui appartient la technique ;
+- "L'adversaire" désigne la personne ciblée par la technique ;
+- "Tout le monde" désigne l'ensemble de tous·te les joueur·ses.
+
+
+4.3. Parametres
+Le parametre est un mot ou un nombre parfois placé après le mot clé.
+La définition du mot clé précise comment interpreter ce parametre
+
+4.4. Modificateur
+Le modificateur est une phrase parfois placée avant le mot clé.
+Il modifie les modalités d'executions de l'étape.
+Liste des modificateur :
+
+4.4.1. L'adversaire a
+Exécuter le reste de l'étape comme si la technique appartenait à l'adversaire et ciblait le·a joueur·se.
+
+4.4.2. Tout le monde a
+Dans l'ordre de jeu, en commençant par le·a joueur·se,
+exécuter le reste de l'étape pour chaque joueur.se comme si la technique appartenait à ce·tte joueur·se et ciblait la personne de son choix.
+
+4.4. Mots clés
+
+4.4.1. Blesser [N]
+Soit F les points de Force du·de la joueur·se ;
+et P les points de Protection de l'adversaire ;
+Infliger N + F - P dégâts à l'adversaire.
+
+4.4.2. Bloquer [N]
+si N est inférieur aux points de dégât du·e la joueur·se,
+ajouter N à ses points de Vie,
+soustraire N à ses points de Dégât.
+Sinon,
+ajouter ses points de Dégat à ses points de vie,
+remettre ses points de Dégat à zéro.
+
+4.4.3. Charme [N]
+Tant que la technique est active, ajouter N aux points de Charme du·de la joueur·se.
+
+4.4.4. Corps à corps
+Si la distance entre l'adversaire et le·a joueur·se est supérieur à 1,
+l'exécution de la technique échoue.
+
+4.4.5. Défausser [N]
+Si le nombre de carte en main du·de la joueur·se est inférieur à N,
+Placer toutes les cartes de sa main dans sa défausse,
+l'exécution de la technique échoue.
+Sinon,
+Le·a joueur·se choisi N cartes parmi sa main,
+placer ces cartes dans sa défausse.
+
+4.4.6. Distance [N]
+Si N est omis, N = 2.
+Si la distance entre l'adversaire et le·a joueur·se est inférieur à N,
+l'exécution de la technique échoue.
+
+4.4.7. Force [N]
+Tant que la technique est active, ajouter N aux points de Force du·de la joueur·se.
+
+4.4.8. Intervenir
+Le·a joueur·se peut choisir une technique dont l'execution est en pause,
+cette technique peut-être choisie parmis ses techniques ou celles de ses adversaires,
+Soit C les points de Charme du·de la joueur·se ;
+et I le coût d'intervention de cette technique,
+la technique ne peut être choisie si le nombre de cartes en main du·e la joueur·se est inférieur à I - C.
+Si une technique est choisie,
+Le·a joueur·se choisi I - C cartes parmi sa main,
+placer ces cartes dans sa défausse,
+Reprendre l'exécution de la technique choisie.
+
+4.4.9. Pause [N]
+Si N est omis, N = 0.
+L'execution de la technique est mise en pause.
+Le coup d'intervention de la technique est de N.
+
+4.4.10. Piocher [N]
+Répéter cette opération N fois :
+Si la pioche du·de la joueur·se n'est pas vide,
+placer la première carte de sa pioche dans sa main.
+Si sa pioche est vide et que sa défausse n'est pas vide,
+diviser ses points de vie vie par deux en arrondissant à l'entier supérieur,
+mélanger les cartes de sa défausse et les placer dans sa pioche,
+Placer la première carte de sa pioche dans sa main.
+Si sa pioche est vide et que sa défausse est vide,
+le·a joueur.se perd la partie.
+
+4.4.11. Pousser [N]
+Répéter cette opération N fois :
+Si l'adversaire est au bord du plateau,
+le joueur peut choisir de placer l'adversaire en dehors du plateau.
+Sinon, le.a joueur.se choisi une case adjacente à l'adversaire,
+cette case doit être inoccupée,
+la distance entre cette case et le·a joueur·se doit être supérieur à la distance entre le·a joueur·se et l'adversaire.
+Placer l'adversaire sur cette case.
+
+4.4.12. Protection [N]
+Tant que la technique est active, ajouter N aux points de Protection du·de la joueur·se.
+
+4.4.13. Rejouer
+Le·a joueur·se joue une technique.
+
+4.4.14. Se Blesser [N]
+Soit F les points de Force du·de la joueur·se ;
+et P les points de Protection du.de la joueur.se ;
+infliger N + F - P dégats au·à la joueur·se.
+
+4.4.15. Se déplacer [N]
+Soit V les points de Vitesse du·de la joueur·se ;
+Si V + N est supérieur à zéro,
+Répéter cette opération V + N fois :
+Le.a joueur.se choisi une case parmi sa propre case et les cases qui lui sont adjacentes,
+cette case doit être inoccupée,
+Placer le joueur sur cette case.
+
+4.4.16. S'empêcher [T]
+Tant que la technique est active,
+Lorqu'il doit jouer une technique, le joueur ne peut pas choisir une technique dont le type est T.
+
+4.4.17. S'empêcher carte [T]
+Tant que cette technique est active,
+Si T est omis,
+Lorqu'il doit jouer une technique, le joueur ne peut pas choisir une technique qui soit une carte.
+Sinon,
+Lorqu'il doit jouer une technique, le joueur ne peut pas choisir une technique qui soit une carte dont le type est T.
+
+4.4.18. Si possible défausser [N]
+Si le nombre de carte en main du·de la joueur·se est inférieur à N,
+Placer toutes les cartes de sa main dans sa défausse,
+Sinon,
+Le·a joueur·se choisi N cartes parmi sa main,
+placer ces cartes dans sa défausse,
+
+4.4.19. Vitesse [N]
+Tant que la technique est active, ajouter N aux points de vitesse du·de la joueur·se.
+
+
+
+
+
+
+
