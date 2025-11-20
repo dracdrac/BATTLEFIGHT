@@ -35,12 +35,11 @@ Il existe 4 zones de jeu :
 - la défausse, où l'on place les cartes utilisées face visible
 
 L'arène est le seul espace partagé, chaque joueur.euse posssède sa propre pioche, main, zone d'activité et défausse.
-![arène](BATTLEFIGHT/illu/plateau.png)
 
 ### Anatomie des cartes
 
 Les cartes sont composées ainsi :
-![carte météorite](illu/meteorite.png)
+![carte météorite](illu/meteorite.png|width=100)
 - Le nom de la technique (ici Météorite)
 - Le type, qui se situe en dessous du titre (ici attaque). Il est aussi rappelé dans le coin droit par un petit symbôle.
 - Les étapes de la carte (ici représentés par les trois rectangles).
@@ -101,6 +100,7 @@ Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de
 Le deck aléatoire consiste à ce que les joueur.euses prennent chacun.es deux boosters, les mélangent et s'affrontent. Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). Disposez alors les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
 
 L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
+
 
 
 
