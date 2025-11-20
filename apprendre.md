@@ -19,5 +19,6 @@ La 6ème action consiste de jouer une carte depuis sa main.
 Les tours vont donc s'enchaîner rapidement, il conviendra d'annoncer à voix haute l'action choisie.
 
 Les cartes sont composées ainsi :
+![alt tag](illu/meteorite V1)
 
 
