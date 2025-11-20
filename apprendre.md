@@ -67,7 +67,7 @@ N'importe quel joueur ou joueuse pourra **intervenir** dessus pour continuer la 
 
 Remarque : Pause X signifie que pour intervenir dessus il faut se défausser en plus de X cartes.
 
-#### Déroulement d'une partie
+### Déroulement d'une partie
 
 Chacun.e leur tour, les joueur.euse vont pouvoir éffectuer une de ces 2 actions :
 - jouer une carte de sa main
@@ -95,15 +95,12 @@ Les tours vont donc s'enchaîner rapidement, il conviendra d'annoncer à voix ha
 
 
 ### Les modes de jeux
+Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de 10 cartes aléatoires, comprenant 2 cartes de chaque type. Il en découle deux modes de jeux : les deck aléatoires et les decks construits.
 
-Il existe deux modes de jeux, les deck aléatoires et les decks construits.
-Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de 10 cartes aléatoires, comprenant 2 cartes de chaque type.
-Les joueur.euses peuvent donc prendre chacun.es deux boosters, les mélanger et s'affronter.
-
-Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). 
-Disposez les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
+Le deck aléatoire consiste à ce que les joueur.euses prennent chacun.es deux boosters, les mélangent et s'affrontent. Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). Disposez alors les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
 
 L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
+
 
 
 
