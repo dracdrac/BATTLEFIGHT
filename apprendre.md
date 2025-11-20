@@ -1,35 +1,42 @@
 # Apprendre a jouer
 
+## Règles de base
 BATTLEFIGHT est un jeu de deckbuilding où deux adversaires se battent sur une arène. Le but du jeu est de faire tomber les points de vie de son adversaire à zéro ou de le faire sortir de l'arène.
-Tout le monde commence avec 20 points de vie et son propre deck de 20 cartes. Ces cartes représentent l'ensemble des tecnhiques de combat du personnage que vous incarnez. Chaque deck contient 4 cartes de chacun des type suivants :
+
+### Préparation
+
+Matériel nécéssaire : 
+- deux decks de 20 cartes
+- un plateau héxagonal
+- deux pions
+- deux compteurs de point de vie
+
+Chaque joueur.euse mélange son deck et pose sa figurine à un angle du plateau de manière à ce que les deux figurines se situent à des angles opposés. 
+Les joueur.euses commencent avec 20 points de vie.
+
+
+### Le deck
+
+
+Tout le monde commence avec son propre deck de 20 cartes. Ces cartes représentent l'ensemble des tecnhiques de combat du personnage que vous incarnez. Chaque deck contient 4 cartes de chacun des type suivants :
 - l'attaque, qui fait baisser les points de vie adverses
 - la défense, qui bloque les blessures
 - le déplacement, qui fait se déplacer sur l'arène
 - le passif, qui permet de piocher des cartes
 - la rhétorique, qui permet d'enlever des cartes adverses
 
-Chacun.e leur tour, les joueur.euse vont pouvoir éffectuer une des 6 actions de bases, les 5 premières correspondant aux même type que les cartes :
-- attaque de base : Blesser 1 au corps à corps
-- défense de base : Bloquer 1
-- déplacement de base : Se Déplacer 1
-- passif de base : Piocher 1
-- rhétorique de base : Intervenir
-- jouer une carte depuis sa main
-
-Il faut imaginer les techniques de bases comme des cartes gratuites, disponibles à chaque tour.
-
-Les tours vont donc s'enchaîner rapidement, il conviendra d'annoncer à voix haute l'action choisie.
+### Les Zones de jeu
 
 Il existe 4 zones de jeu :
 - l'arène, représentée par un plateau héxagonal
 - la pioche, où l'on place son deck
 - la main, où l'on garde secrètement ses cartes
 - la zone d'activité, où l'on place les cartes jouées depuis la main
-- la défausse, où l'on place les cartes utilisées
+- la défausse, où l'on place les cartes utilisées face visible
 
 L'arène est le seul espace partagé, chaque joueur.euse posssède sa propre pioche, main, zone d'activité et défausse.
 
-#### Anatomie des cartes
+### Anatomie des cartes
 
 Les cartes sont composées ainsi :
 ![carte météorite](illu/meteorite-v1)
@@ -38,7 +45,7 @@ Les cartes sont composées ainsi :
 - Les étapes de la carte (ici représentés par les trois rectangles).
 - Les informations d'édition, qui n'impactent pas le jeu.
 
-Les cartes
+### Jouer les cartes
 
 Lorsqu'un.e joueur.euse joue une carte, il la pose depuis sa **main** dans sa **zone d'activité** le temps d'effectuer les étapes. 
 Une fois que toutes les étapes sont passées, il place la carte dans sa **défausse**.
@@ -60,8 +67,43 @@ N'importe quel joueur ou joueuse pourra **intervenir** dessus pour continuer la 
 
 Remarque : Pause X signifie que pour intervenir dessus il faut se défausser en plus de X cartes.
 
+#### Déroulement d'une partie
+
+Chacun.e leur tour, les joueur.euse vont pouvoir éffectuer une de ces 2 actions :
+- jouer une carte de sa main
+- effectuer une action de base
+
+Les actions de base sont les suivantes, chacunes correspondant à un type de carte :
+- attaque de base : Blesser 1 au corps à corps
+- défense de base : Bloquer 1
+- déplacement de base : Se Déplacer 1
+- passif de base : Piocher 1
+- rhétorique de base : Intervenir
+
+Il faut imaginer les techniques de bases comme des cartes gratuites, disponibles à chaque tour.
+
+Lorsqu'une technique de base ou une carte est jouée, ça passe au tour de l'adversaire. Les cartes dont les étapes sont finies vont dans la défausse.
 
 
+
+
+Si à la fin de son tour un.e joueur.euse est à zéro point de vie ou en dehors des limites du terrain, iel perd la partie. 
+On ne peux pas revenir sur le plateau une fois sorti des limites du plateau, ni jouer si les points de vie sont à zéro.
+
+Les tours vont donc s'enchaîner rapidement, il conviendra d'annoncer à voix haute l'action choisie.
+
+
+
+### Les modes de jeux
+
+Il existe deux modes de jeux, les deck aléatoires et les decks construits.
+Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de 10 cartes aléatoires, comprenant 2 cartes de chaque type.
+Les joueur.euses peuvent donc prendre chacun.es deux boosters, les mélanger et s'affronter.
+
+Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). 
+Disposez les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
+
+L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
 
 
 
