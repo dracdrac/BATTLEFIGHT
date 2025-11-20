@@ -29,6 +29,8 @@ Il existe 4 zones de jeu :
 
 L'arène est le seul espace partagé, chaque joueur.euse posssède sa propre pioche, main, zone d'activité et défausse.
 
+#### Anatomie des cartes
+
 Les cartes sont composées ainsi :
 ![carte météorite](illu/meteorite-v1)
 - Le nom de la technique (ici Météorite)
@@ -57,6 +59,7 @@ Si une étape est une **pause** :  on ne passe pas à la règle suivante, la car
 N'importe quel joueur ou joueuse pourra **intervenir** dessus pour continuer la carte. S'il l'effectue, on passe à la règle suivante. S'il n'y a rien après la **pause**, alors la carte est défaussée.
 
 Remarque : Pause X signifie que pour intervenir dessus il faut se défausser en plus de X cartes.
+
 
 
 
