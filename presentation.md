@@ -12,9 +12,12 @@ De nouvelles combinaisons sont régulièrements trouvées, rebattant totalement 
 
 Au fil des éditions, les joueur.se IRL pourront autant découvrir les techniques du moments que celles des temps anciens, apprenant ainsi l'existance de reliques puissantes du passé, ou encore celles des années à venir...
 
-Edition 1 : classique
-Edition 2 : temps anciens, talismans magiques (permanentes a effets déclenchés)
-Edition 3 : jouer sur les supporters? pour l'edition multi
+*Edition 1* : classique
+
+*Edition 2* : temps anciens, talismans magiques (permanentes a effets déclenchés)
+
+*Edition 3* : jouer sur les supporters? pour l'edition multi
+
 
 
 
