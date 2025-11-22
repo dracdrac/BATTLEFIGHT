@@ -22,7 +22,11 @@ HEADER
 
 
 body>header{
-  border:1px solid blue;
+      position: sticky;
+    top: 0;
+    z-index: 3;
+  background: black;
+  border-bottom:1px solid gray;
   width: 100vw;
   display: flex;
   justify-content: space-between;
@@ -68,19 +72,12 @@ body>header #menu-button {
   display:none;
 }
 
-body>main {
-  background: lime;
-}
-
-
 
 
 @media screen and (max-width: 800px) {
 
   body > header {
-    position: sticky;
-    top: 0;
-    z-index: 3;
+
   }
 
   body>header h1 {
@@ -94,10 +91,11 @@ body>main {
   body>header #menu-toggle ~ ul {
     position:fixed;
     width:100%;
-    top: -100%;
-    transition: 100ms;
+    top: -300px;
+    transition: 1000ms;
     right:0;
-    background: salmon;
+    background: black;
+    border-bottom:1px solid gray;
     padding:1em;
     padding-top:60px;
   }
@@ -128,7 +126,7 @@ body>main {
 
  }
   
-  body>header #menu-toggle:checked + .menu-button > span {
+  body>header #menu-toggle:checked + #menu-button > span {
     background-image:url('/assets/img/quitter.svg');  
     } 
 }
@@ -161,3 +159,22 @@ body>footer p {
 body>footer a {
   color:inherit;
 }
+
+/****************************************
+
+MAIN   
+
+****************************************/
+
+
+
+body>main {
+  max-width:800px;
+  border-radius: 2px;
+  color:black;
+  background: #ccc;
+  padding: .5em 2em;
+  margin: 1em auto;
+  
+}
+
