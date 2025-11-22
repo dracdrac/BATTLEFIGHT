@@ -7,7 +7,7 @@ BATTLEFIGHT est un jeu de deckbuilding où deux adversaires se battent sur une a
 
 Matériel nécéssaire : 
 - deux decks de 20 cartes
-- un plateau héxagonal
+- un plateau hexagonal
 - deux pions
 - deux compteurs de point de vie
 
@@ -97,6 +97,7 @@ Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de
 Le deck aléatoire consiste à ce que les joueur.ses prennent chacun.es deux boosters, les mélangent et s'affrontent. Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). Disposez alors les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
 
 L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
+
 
 
 
