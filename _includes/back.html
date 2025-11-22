@@ -1,0 +1,23 @@
+{% assign path = page.dir %}
+
+{% if page.name == "README.md" %}
+    {% assign path = "/" %}
+    {% assign name = "d'accueil" %}
+{% elsif path == "/contenu/prototypes/" %}
+    {% assign name = "Prototypes" %}
+{% elsif path == "/contenu/technique/" %}
+    {% assign name = "Technique" %}
+{% elsif path == "/contenu/ecriture/" %}
+    {% assign name = "Écriture" %}
+{% elsif path == "/contenu/objet/" %}
+    {% assign name = "Objet" %}
+{% elsif path == "/contenu/legal/" %}
+    {% assign name = "Légal" %}
+{% else %}
+    {% assign path = "/" %}
+    {% assign name = "d'accueil" %}
+{% endif %}
+
+{% unless page.dir == "/" %}
+    <a class="back" href="{{path}}">Retour à la page {{name}}</a>
+{% endunless %}

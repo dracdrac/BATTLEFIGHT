@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/font.css?v=' | append: site.github.build_revision | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/card.css?v=' | append: site.github.build_revision | relative_url }}"/>
+  <link rel="stylesheet" href="{{ '/assets/css/flipcards.css?v=' | append: site.github.build_revision | relative_url }}"/>"
+
+  <link rel="stylesheet" href="/assets/css/{{ page.type }}.css"/>
+
+
+  <script src="{{ '/assets/js/script.js?v=' | append: site.github.build_revision | relative_url }}"></script>
+  <script src="flipcards.js"></script>
+  <script src="papaparse.min.js"></script>
+
+  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  {% if page.pagedjs == true %}
+  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
+  <link href="/assets/css/interface.css" rel="stylesheet" type="text/css"/>
+  {% endif %}
+  {% seo %}
+</head>
+<body class="{{page.type}}">
+  <header>
+    <h1 class="title"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+    <nav>
+      <ul>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Mentions légales</a></li>
+        <li><a href="">Coin des </a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <article class="markdown-body">
+      {{ content }}
+    </article>
+  <main>
+
+  <footer>
+    <nav>
+      <ul>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Mentions légales</a></li>
+        <li><a href="{{site.github.repository_url}}/edit/main/{{page.path}}">Modifier</a></li>
+        <li><a href="{{site.github.repository_url}}">Dépôt</a></li>
+      </ul>
+    </nav>
+    <p><a href="{{site.github.repository_url}}/actions">Dernière mise à jour</a> du site le {{ "now" | date: "%d/%m/%Y" }}.</p>
+    <p>Ce travail est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">License CC BY-NC-SA 4.0</a>.</p>
+    <p>BattleFight 2020 - {{"now" | date: "%Y"}}</p>
+  </footer>
+</body>
+</html>
