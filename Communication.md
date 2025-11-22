@@ -17,12 +17,16 @@ Il y aurait 2 utilitées à faire ça :
 * laisser un souvenir aux gens qui auront joué à battlefight, que ce soit les pros ou les joueur.ses.
 * traîner dans le salon à Cannes et inviter les gens qu'on croise (éditeur.ses, distributeur.es, créateur.ices, influenceur.ses, etc..) en laissant notre carte de visite
 
-> les gens peuvent plus facilement retourner suivre plus tard en retombant dessus, tu garde une carte type jeux peut être plus precieusement qu'une carte de visite
-> pour les pros qu'on invite à venir tester aux protonights, le style de la carte peut donner encore plus envie de tester le jeu.
+=> les gens peuvent plus facilement retourner suivre plus tard en retombant dessus, tu garde une carte type jeux peut être plus precieusement qu'une carte de visite
+=> pour les pros qu'on invite à venir tester aux protonights, le style de la carte peut donner encore plus envie de tester le jeu.
 
 Bon le négatif de ça cest peut etre le format, tu glisse moins facilement une carte de jeu dans un portefeuille que les formats classique.
 
-Par contre ona vu via vistaprint que ça coute pas un bras d'imprimer ça, en bord arrondit format porker (une vingtaine d'euro les 100 ou 200jsp)
+Par contre on a vu via vistaprint que ça coute pas un bras d'imprimer ça, en bord arrondit format porker 
+
+https://www.vistaprint.fr/cartes-de-visite/coins-arrondis
+
+13e les 100, 18e les 250
 
 
 # Affiches
@@ -32,3 +36,10 @@ On pourrait éventuellement avoir des affiches en petit format, qu'on pourrait s
 à voir le budget qu'on peut allouer, mais je pensait au format A5
 
 <img src="illu/affiche bf.jpg" width="300">
+
+# Stickers
+
+ça serais pas mal de pouvoir les offrir, pourquoi pas faire un stickers avec le dos de la carte? ou des personnages peut etre?
+
+<img src="illu/stickers test1.jpg" width="300">
+
