@@ -52,8 +52,8 @@ Il existe plusieurs manière de former un deck :
 
 1.1.3.1. Former un deck aléatoire
 pour chaque type,
-prendre constituer une pile d'au moins 5 cartes appartenant à ce type,
-méllanger cette pile,
+constituer une pile d'au moins 5 cartes appartenant à ce type,
+mélanger cette pile,
 piocher les 4 premières cartes de cette pile.
 
 1.1.3.2. Former un deck boosté
