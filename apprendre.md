@@ -1,4 +1,4 @@
-# Apprendre a jouer
+# Apprendre à jouer
 
 ## Règles de base
 BATTLEFIGHT est un jeu de deckbuilding où deux adversaires se battent sur une arène. Le but du jeu est de faire tomber les points de vie de son adversaire à zéro ou de le faire sortir de l'arène.
@@ -11,12 +11,13 @@ Matériel nécéssaire :
 - deux pions
 - deux compteurs de point de vie
 
-Chaque joueur.euse mélange son deck et pose sa figurine à un angle du plateau de manière à ce que les deux figurines se situent à des angles opposés. 
-Les joueur.euses commencent avec 20 points de vie.
+On mélange son deck et on pose son pion dans un angle opposé au pion adverse, et on met les compteur de vie à 20 points.
 
 ### Le deck
 
-Tout le monde commence avec son propre deck de 20 cartes. Ces cartes représentent l'ensemble des tecnhiques de combat du personnage que vous incarnez. Chaque deck contient 4 cartes de chacun des type suivants :
+On commence avec son propre deck de 20 cartes. Ces cartes représentent l'ensemble des tecnhiques de combat du personnage que vous incarnez. 
+
+Chaque deck contient 4 cartes de chacun des type suivants :
 - l'attaque, qui fait baisser les points de vie adverses
 - la défense, qui bloque les blessures
 - le déplacement, qui fait se déplacer sur l'arène
@@ -37,7 +38,7 @@ L'arène est le seul espace partagé, chaque joueur.euse posssède sa propre pio
 ### Anatomie des cartes
 
 Les cartes sont composées ainsi :
-![carte météorite](illu/meteorite.png|width=100)
+![carte météorite](illu/meteorite.png)
 - Le nom de la technique (ici Météorite)
 - Le type, qui se situe en dessous du titre (ici attaque). Il est aussi rappelé dans le coin droit par un petit symbôle.
 - Les étapes de la carte (ici représentés par les trois rectangles).
@@ -93,6 +94,7 @@ Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de
 Le deck aléatoire consiste à ce que les joueur.euses prennent chacun.es deux boosters, les mélangent et s'affrontent. Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). Disposez alors les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
 
 L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
+
 
 
 
