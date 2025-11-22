@@ -1,4 +1,4 @@
-#L'Histoire
+# L'Histoire
 
 Le Battlefight est le sport de combat ultime où s'affrontent les plus grand.es champion.es de ce monde. Un tournois est organisé chaque année depuis des temps immémoriaux, sur une arène en pierre taillée, batie au milieux de nulle part durant l'Antiquité. Le Battlefight n'est soumis qu'à l'art du combat, car seul prix à gagner est la reconnaissance. Celà n'empêche en rien que tous les coups soient permis, seul 
 
@@ -17,6 +17,7 @@ Au fil des éditions, les joueur.se IRL pourront autant découvrir les technique
 **Edition 2** : temps anciens, talismans magiques (permanentes a effets déclenchés)
 
 **Edition 3** : jouer sur les supporters? pour l'edition multi
+
 
 
 
