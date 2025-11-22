@@ -33,6 +33,7 @@ body>header{
     flex-wrap: wrap;
     gap:1em;
   padding: 1em;
+  box-shadow: 0 0 20px rgba(0,0,0,0.7);
 }
 
 body>header nav ul{
@@ -173,6 +174,7 @@ body>main {
   border-radius: 2px;
   color:black;
   background: #ccc;
+  background-image: url("/assets/img/papier-bg.jpg");
   padding: .5em 2em;
   margin: 1em auto;
   
