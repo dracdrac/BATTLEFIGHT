@@ -8,3 +8,5 @@ Le site en construction d'un jeu en construction.
 * [Apprendre à jouer](apprendre.md)
 * [Règles officielles](regles.txt)
 * [Calendrier](Calendrier.md)
+* [Communication](Communication.md)
+* [Coûts et Budget](Budget.md)
