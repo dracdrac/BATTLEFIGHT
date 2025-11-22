@@ -2,6 +2,8 @@
 body{
   font-family: 'Zarathustra';
   margin: 0 ;
+  background:black;
+  color:white;
   
 }
 
@@ -12,6 +14,13 @@ body>*{
 
 
 
+/****************************************
+
+HEADER   
+
+****************************************/
+
+
 body>header{
   border:1px solid blue;
   width: 100vw;
@@ -20,13 +29,6 @@ body>header{
     flex-wrap: wrap;
     gap:1em;
   padding: 1em;
-
-
-}
-
-@media screen and (max-width: 800px) {
-
-
 }
 
 body>header nav ul{
@@ -39,8 +41,13 @@ body>header nav ul{
 }
 
 body>header nav a {
-  background:lightgrey;
+  font-weight:bold;
 }
+
+body>header a:hover {
+  text-shadow: 0 0 1em white, 0 0 .5em white ;
+}
+
 
 body>header a {
   color:inherit;
@@ -114,7 +121,7 @@ body>main {
      display:block;
      width: var(--size);
     height: var(--size);
-    background-image:url('https://jejeu.org/assets/img/burger.svg');
+    background-image:url('/assets/img/burger.svg');
        background-repeat: no-repeat;
    background-position: center;
 
@@ -122,6 +129,35 @@ body>main {
  }
   
   body>header #menu-toggle:checked + .menu-button > span {
-    background-image:url('https://jejeu.org/assets/img/quitter.svg');  
+    background-image:url('/assets/img/quitter.svg');  
     } 
+}
+
+
+/****************************************
+
+FOOTER   
+
+****************************************/
+
+body>footer {
+  font-size: .7em;
+  text-align: center;
+}
+
+body>footer nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap:2em;
+}
+
+body>footer p {
+  margin: .2em;
+}
+
+body>footer a {
+  color:inherit;
 }
