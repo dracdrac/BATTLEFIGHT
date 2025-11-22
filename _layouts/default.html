@@ -27,7 +27,7 @@
     <h1 class="title"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
     <nav>
       <input id="menu-toggle" type="checkbox" />
-    	<label class="menu-button" for="menu-toggle"><span></span></label>
+    	<label id="menu-button" for="menu-toggle"><span></span></label>
       <ul>
         <li><a href="apropos">À propos</a></li>
         <li><a href="cartes">Cartes</a></li>
@@ -41,7 +41,7 @@
     <article class="markdown-body">
       {{ content }}
     </article>
-  <main>
+  </main>
 
   <footer>
     <nav>
