@@ -41,5 +41,5 @@ On pourrait éventuellement avoir des affiches en petit format, qu'on pourrait s
 
 ça serais pas mal de pouvoir les offrir, pourquoi pas faire un stickers avec le dos de la carte? ou des personnages peut etre?
 
-<img src="illu/stickers test1.jpg" width="300">
+<img src="illu/stickers test1.png" width="300">
 
