@@ -47,6 +47,10 @@ en mode flyer ça coute 19e (23e pour un qualité ++) les 50
 
 <img src="illu/stickers test1.png" width="300">
 
+ou en mode médaillon?
+
+<img src="illu/medaillon.png" width="300">
+
 bon le prix est pas donné, et ça dépend vraiment de ce qu'on veux et des quantités
 
 https://www.vistaprint.fr/etiquettes-autocollants/stickers-personnalises/autocollants-individuels-personnalises
