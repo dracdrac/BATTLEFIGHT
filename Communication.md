@@ -37,9 +37,17 @@ On pourrait éventuellement avoir des affiches en petit format, qu'on pourrait s
 
 <img src="illu/affiche bf.jpg" width="300">
 
+https://www.vistaprint.fr/supports-marketing/flyers
+
+en mode flyer ça coute 19e (23e pour un qualité ++) les 50
+
 # Stickers
 
 ça serais pas mal de pouvoir les offrir, pourquoi pas faire un stickers avec le dos de la carte? ou des personnages peut etre?
 
 <img src="illu/stickers test1.png" width="300">
+
+bon le prix est pas donné, et ça dépend vraiment de ce qu'on veux et des quantités
+
+https://www.vistaprint.fr/etiquettes-autocollants/stickers-personnalises/autocollants-individuels-personnalises
 
