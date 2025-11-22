@@ -47,7 +47,7 @@ en mode flyer ça coute 19e (23e pour un qualité ++) les 50
 
 <img src="illu/stickers test1.png" width="300">
 
-ou en mode médaillon?
+en mode médaillon?
 
 <img src="illu/medaillon.png" width="300">
 
