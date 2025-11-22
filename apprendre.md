@@ -11,10 +11,12 @@ Matériel nécéssaire :
 - deux pions
 - deux compteurs de point de vie
 
-On mélange les decks, on pose les pion sur le plateau, chacun sur un angle opposé et on met les compteurs de vie à 20 points.
+On mélange les decks, on pose les pions sur le plateau, chacun sur un angle opposé et on met les compteurs de vie à 20 points.
 
 
 ![carte météorite](illu/plateau pions.png)
+
+<img src="illu/plateau pions.png" width="100">
 
 ### Le deck
 
@@ -97,6 +99,7 @@ Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de
 Le deck aléatoire consiste à ce que les joueur.ses prennent chacun.es deux boosters, les mélangent et s'affrontent. Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). Disposez alors les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
 
 L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
+
 
 
 
