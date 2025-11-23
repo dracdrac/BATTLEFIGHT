@@ -86,8 +86,16 @@ le probleme cest que je pense que tu y rentre des cartes mais pas des boosters..
 
 ## Les pions
 
+J'ai l'impression que les gens peuvent nous attendre sur ça, c'est dommage d'avoir un jeu de plateau de combat si les figurines ne refletent oas ça.
+
 ## Le livret de règles
+
+Ne pas l'imprimer et qu'il soit disponible sur le site
 
 ## Les compteurs de points de vie
 
+Faire un appli comme sur jejeu sur le site
+
 ## Les stickers
+
+ça fait tjrs plaisir les kdos
