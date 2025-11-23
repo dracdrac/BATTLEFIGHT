@@ -66,6 +66,12 @@ https://www.createjigsawpuzzles.com/design/6-inch-square-invitation-puzzle.html 
 
 50 ex : 5,35€ - 100 ex : 4,30€/u
 
+### Puzzle imprimante 3D
+
+designer une arène, en plusieurs pieces imbriquable pour un gain de place. L'avantage 
+
+Coût ? 
+
 
 
 
@@ -86,7 +92,19 @@ le probleme cest que je pense que tu y rentre des cartes mais pas des boosters..
 
 ## Les pions
 
-J'ai l'impression que les gens peuvent nous attendre sur ça, c'est dommage d'avoir un jeu de plateau de combat si les figurines ne refletent oas ça.
+J'ai l'impression que les gens peuvent nous attendre sur ça, c'est dommage d'avoir un jeu de plateau de combat si les figurines ne refletent pas ça.
+
+* Soit des pions classique, comme sur playingcards.io
+
+ça coute 0,11/u
+
+* Soit des pions qui ont la forme de personnage, comme les meeples par ex. https://www.boardgamesmaker.com/print/fi-8778.html
+
+ça coute pareil que les pions classiques : 0,11/u -  au max ils font 2,4 cm de hauteur
+
+* Soit designer des personnages pour, qu'on imprime avec une imprimante 3D. Coût? https://www.imprimetafig.fr/les-tarifs
+
+j'ai l'impression qu'on peut s'en sortir pour moins d'un euro la figurine dans un fablab, vu que ça serait des petites figurines. Apres ya le temps de confection des fichiers 3D aussi. A voir avec Collin?
 
 ## Le livret de règles
 
