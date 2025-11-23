@@ -45,11 +45,11 @@ en mode flyer ça coute 19e (23e pour un qualité ++) les 50
 
 ça serais pas mal de pouvoir les offrir, pourquoi pas faire un stickers avec le dos de la carte? ou des personnages peut etre?
 
-<img src="illu/stickers test1.png" width="300">
+<img src="img/stickers test1.png" width="300">
 
 en mode médaillon?
 
-<img src="illu/medaillon.png" width="300">
+<img src="img/medaillon.png" width="300">
 
 bon le prix est pas donné, et ça dépend vraiment de ce qu'on veux et des quantités
 
