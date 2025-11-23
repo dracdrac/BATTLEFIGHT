@@ -42,11 +42,13 @@ Je commence par le plateau car c'est lui qui prend le plus de place, et conditio
 
 Le grand plateau qu'on utilise actuellement fait 15 cm de diagonale (6"), ce qui pourrait être un bon point de départ.
 
-Je pense à deux choix dee matière : soit du carton, soit un playmat. Est ce que le playmat ferait pas trop tapis de souris dans ce format?
+Je pense à deux choix dee matière : soit du carton, soit un playmat, soit un puzzle. 
 
 ### playmat
 
 Le playmat existe en 5" (12,7cm) : https://www.boardgamesmaker.com/print/game-mats-5inches.html
+
+Est ce que le playmat ferait pas trop tapis de souris dans ce format?
 
 50 ex : 1,1€/unité - 100 ex : 1€/unité
 
@@ -56,13 +58,13 @@ Un plateau en carton en 6" : https://www.boardgamesmaker.com/print/custom-size-g
 
 50 ex : 3,55/u - 100 ex 3,15/u
 
-### Le puzzle ??
+### Le puzzle
 
 ça permettrait peut etre d'avoir un format spécial, plus petit, qui tiendrait dans une plus petite boîte? A la fois quel rapport avec BF, à la fois ça pourrait etre original
 
 https://www.createjigsawpuzzles.com/design/6-inch-square-invitation-puzzle.html (site issue de board game maker)
 
-50 ex : 5,35€ - 100 ex :4,30€/u
+50 ex : 5,35€ - 100 ex : 4,30€/u
 
 
 
@@ -72,7 +74,13 @@ https://www.createjigsawpuzzles.com/design/6-inch-square-invitation-puzzle.html 
 
 ## La boîte
 
-La boîte doit pouvoir faire au moins la taille du plateau, pouvoir acceuillir 4 boosters. La largeur
+La boîte doit pouvoir faire au moins la taille du plateau, pouvoir acceuillir 4 boosters et 2 pions
+
+une boite qui fait la taille d'une carte de poker : on pourrait y mettre 4 booster + le puzzle par exemple, si on la prend assez haute (le modele a 126 cartes par ex : https://www.boardgamesmaker.com/print/custom-rigid-box-for-126-poker-cards.html
+
+le probleme cest que je pense que tu y rentre des cartes mais pas des boosters...
+
+50 ex : 6,10/u - 100 ex : 4,1/u
 
 ## Les boosters
 
