@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
   let cardsElements = document.querySelectorAll('.card')
 
   if(cardsElements){
+  console.log(cardsElements)
     loadCards(cardsElements)
   }
 });
