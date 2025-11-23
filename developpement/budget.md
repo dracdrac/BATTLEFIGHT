@@ -106,6 +106,10 @@ Sur boardgamesmaker on pourrait par contre imprimer 100 cartes foil, pour en gli
 
 
 
+boite cheap : https://fr.higift.eu/boite-de-presentation-personnalise-halfred-publicitaire-mk21707-10.html
+
+
+
 ## Les pions
 
 J'ai l'impression que les gens peuvent nous attendre sur ça, c'est dommage d'avoir un jeu de plateau de combat si les figurines ne refletent pas ça.
