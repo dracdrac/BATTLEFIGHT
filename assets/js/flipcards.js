@@ -1,3 +1,19 @@
+/*
+<div class="card blastoise">
+    <span class="inner-card-backface">
+      verso
+
+      <span class="image">
+      </span>
+    </span>
+  <span class="inner-card">
+    recto
+    <span class="glare"></span>
+  </span>
+</div>
+
+*/
+
 
     let calculateAngle = function(e, item, parent) {
         let dropShadowColor = `rgba(0, 0, 0, 0.3)`
@@ -40,7 +56,7 @@
         item.style.filter = `drop-shadow(${-calcShadowX}px ${-calcShadowY}px 15px ${dropShadowColor})`;
     }
 
-    document.querySelectorAll('.card').forEach(function(item) {
+    document.querySelectorAll('.flipcard-container').forEach(function(item) {
           item.addEventListener('click', function() {
             item.classList.toggle('flipped');
           });

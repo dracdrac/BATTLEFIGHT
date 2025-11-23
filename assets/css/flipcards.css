@@ -1,4 +1,4 @@
-    .card {
+    .flipcard-container {
         box-shadow: none;
         backface-visibility: visible;
         transform-style: preserve-3d;
@@ -15,7 +15,7 @@
 
 
 
-    .inner-card-backface {
+    .flipcard-container .inner-card-backface {
         transform: rotateX(0) rotateY(0deg) scale(-1, 1) translateZ(-4px);
       border-radius: 14px;
       position: absolute;
@@ -29,10 +29,10 @@
       width: 100%;
       height: 100%;
     }
-    .card.flipped {
+    .flipcard-container.flipped {
       transform: rotateY(180deg);
     }
-    .card .flip-inner-card {
+    .flipcard-container .flip-inner-card {
       transform: rotateY(180deg);
       position: absolute;
       top: 0;
@@ -43,7 +43,7 @@
       height: 100%;
    }
 
-    .card .inner-card {
+    .flipcard-container .inner-card {
         font-size: 2rem;
         color: white;
         padding: 1rem 2rem;
@@ -69,18 +69,18 @@
         perspective-origin: 0 0;
         letter-spacing: 0;
     }
-    .card .inner-card {
+    .flipcard-container .inner-card {
 
         background: pink;
     }
 
-    .card .inner-card-backface {
+    .flipcard-container .inner-card-backface {
 
         background: green;
     }
 
 
-.card .glare {
+.flipcard-container .glare {
   content: '';
   position: absolute;
   top: 0;
