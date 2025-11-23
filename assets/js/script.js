@@ -104,7 +104,7 @@ console.log(data, container);
   }
   typeDisp = typeDisp.trim();
   clone.querySelector(".primary_types").innerHTML = typeDisp;
-  imgSrc = 'img/'+ data['ID'].trim() +'.jpg'
+  imgSrc = '/cartes/illu/'+ data['ID'].trim() +'.jpg'
   let illu = clone.querySelector(".illu img");
   illu.src = imgSrc;
 

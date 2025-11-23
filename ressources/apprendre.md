@@ -17,7 +17,7 @@ Matériel nécéssaire :
 
 On mélange les decks, on pose les pions sur le plateau, chacun sur un angle opposé et on met les compteurs de vie à 20 points.
 
-<img src="/illu/plateau_pions_cartes.png" width="400">
+<img src="/img/plateau_pions_cartes.png" width="400">
 
 ### Le deck
 
@@ -45,7 +45,7 @@ L'arène est le seul espace partagé, tout le monde posssède sa propre pioche, 
 
 Les cartes sont composées ainsi :
 
-<img src="/illu/meteorite.png" width="200">
+<img src="/img/meteorite.png" width="200">
 
 - Le nom de la technique (ici Météorite)
 - Le type, qui se situe en dessous du titre (ici attaque). Il est aussi rappelé dans le coin droit par un petit symbôle.
