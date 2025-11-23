@@ -18,7 +18,7 @@ function loadCards(cardsElements){
     header:true,
     complete: function(results) {
       console.log("Finished:", results, results.data);
-      createCards(results.data, cardsElements);
+      fillCards(results.data, cardsElements);
     },
     error: function(err, file, inputElem, reason) {
       console.log("Error:", err, reason);
@@ -31,7 +31,7 @@ function fillCards(data, cardsElements){
 
   cardsElements.forEach(cardElement=>{
     let cardData = data.find((cardData)=>cardData['ID'] == cardElement.dataset.id);
-    createCard(cardData, cardElement);
+    fillCard(cardData, cardElement);
   });
 }
 
