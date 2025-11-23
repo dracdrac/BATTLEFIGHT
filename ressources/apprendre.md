@@ -1,3 +1,7 @@
+---
+permalink: /apprendre
+---
+
 # Apprendre à jouer
 
 ## Règles de base
