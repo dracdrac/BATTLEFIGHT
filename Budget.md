@@ -90,6 +90,20 @@ le probleme cest que je pense que tu y rentre des cartes mais pas des boosters..
 
 ## Les boosters
 
+https://www.boardgamesmaker.com/print/custom-blank-card.html
+
+5€ les 18 cartes pour 50ex. Je sais pas s'ils ont un systeme de dsitribution aléatoire. Mais j'imagine qu'il vaux mieux pour nous d'imprimer la collection et de faire les boosters nous meme.
+
+50 ex : 14,65 les 108 cartes - 100 ex : 11,75
+
+Mais la vu que c'est des paquet de 10 boosters en soit, on peut partir sur 30x100cartes, soit 30x16,5 = 495€ les 300 boosters, donc 1,65 le boosters sans emballage
+
+Donc 6,6€ par boîte
+
+sur make my game on serait sur du 1,3€, soit 5,2€ par boite 
+
+
+
 ## Les pions
 
 J'ai l'impression que les gens peuvent nous attendre sur ça, c'est dommage d'avoir un jeu de plateau de combat si les figurines ne refletent pas ça.
