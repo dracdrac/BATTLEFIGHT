@@ -106,7 +106,7 @@ Sur boardgamesmaker on pourrait par contre imprimer 100 cartes foil, pour en gli
 
 
 
-boite cheap : https://fr.higift.eu/boite-de-presentation-personnalise-halfred-publicitaire-mk21707-10.html
+boite cheap : https://fr.higift.eu/boite-de-presentation-personnalise-steffon-publicitaire-mk21708-10.html
 
 
 
