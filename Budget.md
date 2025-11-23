@@ -23,8 +23,6 @@ https://www.vistaprint.fr/supports-marketing/flyers
 Il faut décider d'un nombre de boîte à fabriquer et comment les financer. Est ce qu'on en fait un certain nombre qu'on donne pour la com et le reste à vendre? à qui? notre entourage? peut etre un peu tot jsp
 Bon en tout cas si on fait 50 envoi de boîtes pour la com c'est dejà pas mal non?
 
-Ainsi une simulation discount pour 50 et pour 100 boîtes.
-
 Une boîte correspond à :
 * une boîte
 * un plateau
@@ -34,9 +32,33 @@ Une boîte correspond à :
 * 2 compteurs de points de vie
 * des stickers
 
-## La boîte
+Ainsi une simulation discount pour 50 et pour 100 boîtes. Je me base sur ce site qui est plutôt discount, basé à Hongkong, et les produits sont fabriqués en chine/vietnam. Il y a sans doute des taxes + du shipping à compter en +.
+
+
 
 ## Le plateau
+
+Je commence par le plateau car c'est lui qui prend le plus de place, et conditionnera donc la boîte. Les boosters font 7x12,5 cm, il faut soit que les 4 boosters soient empilés dedans (pas le plus pratique, soit que la boite/plateau fassent au moins 14cm, sachant qu'il faudra sans doute un petit sépérateur pour bien ranger les cartes (mais que peut être que l'édition 0 budget s'en passera).
+
+Le grand plateau qu'on utilise actuellement fait 15 cm de diagonale (6"), ce qui pourrait être un bon point de départ.
+
+Je pense à deux choix dee matière : soit du carton, soit un playmat. Est ce que le playmat ferait pas trop tapis de souris dans ce format?
+
+Le playmat existe en 5" (12,7cm) : https://www.boardgamesmaker.com/print/game-mats-5inches.html
+
+50 ex : 1,1€/unité - 100 ex : 1€/unité
+
+Un plateau en carton en 6" : https://www.boardgamesmaker.com/print/custom-size-game-board.html
+
+50 ex : 3,55/u - 100 ex 3,15/u
+
+
+
+
+
+## La boîte
+
+La boîte doit pouvoir faire au moins la taille du plateau, pouvoir acceuillir 4 boosters. La largeur
 
 ## Les boosters
 
