@@ -1,5 +1,11 @@
 # Calendrier
 
+* **2020** : Création du jeu par Louis et Léon
+
+* **2022** : Seconde session d'amélioration et playtests
+
+* **2025** : 3ème session, on a rendu plus le gameplay plus simple et éfficace avec des choix drastiques
+
 * **25 au 1er Mars 2026** :
 
   Présentation Battlefight aux protonights du FIJ (Festival Internationnal du JEU de Cannes), tous les soirs de 21h à 4h.
