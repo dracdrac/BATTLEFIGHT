@@ -8,7 +8,7 @@ Test :
 {% include carte.html id="00" %}
 
 
-<div class="card blastoise">
+<div class="flipcard-container">
     <span class="inner-card-backface">
       verso
 
