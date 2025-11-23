@@ -4,11 +4,11 @@
     <meta charset="utf-8"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>BattleFight</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/card.css"></link>
-    <link rel="stylesheet" type="text/css" href="assets/css/style-old.css"></link>
-      <link rel="stylesheet" type="text/css" href="assets/css/font.css"></link>
-    <script src="assets/js/papaparse.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/css/card.css"></link>
+    <link rel="stylesheet" type="text/css" href="/assets/css/style-old.css"></link>
+      <link rel="stylesheet" type="text/css" href="/assets/css/font.css"></link>
+    <script src="/assets/js/papaparse.min.js"></script>
+    <script src="/assets/js/script.js"></script>
 </head>
 <body>
   <div id="menu">
@@ -22,7 +22,7 @@
       <option value="bigtext">big text</option>
       <option value="altperm">alt perm</option>
     </select><br>
-    
+
     <input type="checkbox" id="show-infos" name="show-infos" checked="true">
     <label for="show-infos">Afficher les infos de la carte au survol</label><br>
     <a id="playing-cards-io-csv" download="cards.csv" href="#">Télécharger la liste des cartes en csv pour playingcards.io</a><br>
@@ -33,18 +33,18 @@
 
   <div id="cards">
   </div>
-  
+
   <template id="rule-template">
     <div class="rule">
       <div class="rule_text"></div>
     </div>
   </template>
-                                        
+
   <template id="warning-template">
     <div class="warning">!!!</div>
   </template>
-  
-  <template id="card-template">  
+
+  <template id="card-template">
     <div class="card">
       <div class="infos">
         <table>
