@@ -46,7 +46,7 @@ function fillCard(data, element){
   typeDisp = typeDisp.trim();
   element.querySelector(".primary_types").innerHTML = typeDisp;
   imgSrc = '/cartes/illu/'+ data['ID'].trim() +'.jpg'
-  let illu = clone.querySelector(".illu img");
+  let illu = element.querySelector(".illu img");
   illu.src = imgSrc;
 
   element.querySelector(".id").innerHTML = data['ID'].trim();
