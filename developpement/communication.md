@@ -11,7 +11,7 @@ Il nous faudrait être déjà présent sur les réseaux pour que les gens puisse
 L'idée serait d'imprimer une cartes au style de battlefight, en reprenant les cadres, le style et le dos, qu'on ait l'impression d'avoir une carte de battlefight en main.
 Un peu dans ce style, avec les coins arrondis :
 
-<img src="illu/visit card test.png" width="300">
+<img src="img/visit card test.png" width="300">
 
 Il y aurait 2 utilitées à faire ça : 
 * laisser un souvenir aux gens qui auront joué à battlefight, que ce soit les pros ou les joueur.ses.
@@ -35,7 +35,7 @@ On pourrait éventuellement avoir des affiches en petit format, qu'on pourrait s
 
 à voir le budget qu'on peut allouer, mais je pensait au format A5
 
-<img src="illu/affiche bf.jpg" width="300">
+<img src="img/affiche bf.jpg" width="300">
 
 https://www.vistaprint.fr/supports-marketing/flyers
 
