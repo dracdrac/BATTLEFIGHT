@@ -51,9 +51,9 @@ function fillCard(data, element){
 
   element.querySelector(".id").innerHTML = data['ID'].trim();
 
-  element.querySelector(".card").dataset.id = data['ID'];
-  element.querySelector(".card").dataset.title = data['TITLE'];
-  element.querySelector(".card").dataset.type = data['TYPE'];
+  element.dataset.id = data['ID'];
+  element.dataset.title = data['TITLE'];
+  element.dataset.type = data['TYPE'];
   createRules(data, element.querySelector(".rules"));
 }
 
