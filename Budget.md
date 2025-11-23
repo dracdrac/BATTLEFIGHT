@@ -44,13 +44,27 @@ Le grand plateau qu'on utilise actuellement fait 15 cm de diagonale (6"), ce qui
 
 Je pense à deux choix dee matière : soit du carton, soit un playmat. Est ce que le playmat ferait pas trop tapis de souris dans ce format?
 
+### playmat
+
 Le playmat existe en 5" (12,7cm) : https://www.boardgamesmaker.com/print/game-mats-5inches.html
 
 50 ex : 1,1€/unité - 100 ex : 1€/unité
 
+### Le plateau 
+
 Un plateau en carton en 6" : https://www.boardgamesmaker.com/print/custom-size-game-board.html
 
 50 ex : 3,55/u - 100 ex 3,15/u
+
+### Le puzzle ??
+
+ça permettrait peut etre d'avoir un format spécial, plus petit, qui tiendrait dans une plus petite boîte? A la fois quel rapport avec BF, à la fois ça pourrait etre original
+
+https://www.createjigsawpuzzles.com/design/6-inch-square-invitation-puzzle.html (site issue de board game maker)
+
+50 ex : 5,35€ - 100 ex :4,30€/u
+
+
 
 
 
