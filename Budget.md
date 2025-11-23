@@ -100,7 +100,9 @@ Mais la vu que c'est des paquet de 10 boosters en soit, on peut partir sur 30x10
 
 Donc 6,6€ par boîte
 
-sur make my game on serait sur du 1,3€, soit 5,2€ par boite 
+sur make my game de carte mundi on serait sur du 1,3€, soit 5,2€ par boite 
+
+Sur boardgamesmaker on pourrait par contre imprimer 100 cartes foil, pour en glisser une tout les 2/3 booster. ça couterais 60euros
 
 
 
