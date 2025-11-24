@@ -14,6 +14,11 @@
 
 */
 
+document.addEventListener("DOMContentLoaded", function() {
+  setupFlipCards();
+});
+
+
 
     let calculateAngle = function(e, item, parent) {
         let dropShadowColor = `rgba(0, 0, 0, 0.3)`
@@ -56,6 +61,7 @@
         item.style.filter = `drop-shadow(${-calcShadowX}px ${-calcShadowY}px 15px ${dropShadowColor})`;
     }
 
+function setupFlipCards(){
     document.querySelectorAll('.flipcard-container').forEach(function(item) {
           item.addEventListener('click', function() {
             item.classList.toggle('flipped');
@@ -79,4 +85,5 @@
 
 
         });
-    })
+    });
+}

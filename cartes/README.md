@@ -10,13 +10,13 @@ Test :
 
 <div class="flipcard-container">
     <span class="inner-card-backface">
-      verso
+      <img src="img/test-dos-1.png" width="63mm">
 
       <span class="image">
       </span>
     </span>
   <span class="inner-card">
-    {% include carte.html id="00" %}
+      <img src="img/test-carte-1.png" width="63mm">
     <span class="glare"></span>
   </span>
 </div>
