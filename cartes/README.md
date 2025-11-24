@@ -10,15 +10,4 @@ Test include :
 
 Test 3d :
 
-<div class="flipcard-container">
-    <span class="inner-card-backface">
-      <img src="img/test-dos-1.png" width="250">
-
-      <span class="image">
-      </span>
-    </span>
-  <span class="inner-card">
-      <img src="img/test-carte-1.png" width="250">
-    <span class="glare"></span>
-  </span>
-</div>
+<div class="flipcard-container"><span class="inner-card-backface"><img src="img/test-dos-1.png" width="250"></span><span class="inner-card"><img src="img/test-carte-1.png" width="250"><span class="glare"></span></span></div>

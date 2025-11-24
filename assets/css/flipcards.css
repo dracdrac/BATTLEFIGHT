@@ -1,4 +1,5 @@
     .flipcard-container {
+        --border-radius:7px;
         box-shadow: none;
         backface-visibility: visible;
         transform-style: preserve-3d;
@@ -8,13 +9,17 @@
         border: none;
         width: auto;
         display: inline-block;
+              border-radius: 16px;
+
     }
 
 
 
     .flipcard-container .inner-card-backface {
         transform: rotateX(0) rotateY(0deg) scale(-1, 1) translateZ(-4px);
-      border-radius: 6px;
+      border-radius: var(--border-radius);
+            overflow: hidden;
+
       position: absolute;
       transition: all 0.15s ease-out;
         will-change: transform, filter;
@@ -38,8 +43,8 @@
     .flipcard-container .inner-card {
 =        will-change: transform, filter;
         transition: all 0.15s ease-out;
-      border-radius: 6px;
-        box-sizing: border-box;
+      border-radius: var(--border-radius);
+
         overflow: hidden;
         display: block;
         transform: rotateX(0deg) rotateY(0deg) scale(1);
@@ -51,6 +56,7 @@
     .flipcard-container .inner-card-backface {
 
         background: black;
+
     }
 
 
@@ -63,8 +69,8 @@
   transition: all 0.1s ease-out;
   opacity: 0.3;
   pointer-events: none;
-  height: 100%;
-      border-radius: 6px;
+  /*! height: 100%; */
+      border-radius: var(--border-radius);
   z-index: 9999;
   mix-blend-mode: hard-light;
   background: radial-gradient(circle at 50% 50%, rgb(199 198 243), transparent);
