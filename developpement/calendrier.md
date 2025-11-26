@@ -1,6 +1,6 @@
 # Calendrier 
-
-BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Le développement de la première édition sera finalisé en 2026, sa production en 2027.
+    
+<big>BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Le développement de la première édition sera finalisé en 2026, sa production en 2027.</big>
 
 ## 2020
 
