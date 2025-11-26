@@ -90,6 +90,9 @@ le probleme cest que je pense que tu y rentre des cartes mais pas des boosters..
 
 https://www.laboiteaobjets.com/boite-d-expedition-personnalisable-steffon/?utm_campaign=Shopping&utm_source=ads&gad_source=1&gad_campaignid=21028902148&gclid=CjwKCAiA55rJBhByEiwAFkY1QDwa1YcJL7ChmAvk_dP0ui5UyBB79ezvo2kjaI-CjttXraS8yrxYYhoCb9EQAvD_BwE#tab-content
 
+
+boite cheap : https://fr.higift.eu/boite-de-presentation-personnalise-steffon-publicitaire-mk21708-10.html
+
 ## Les boosters
 
 https://www.boardgamesmaker.com/print/custom-blank-card.html
@@ -106,9 +109,10 @@ sur make my game de carte mundi on serait sur du 1,3€, soit 5,2€ par boite
 
 Sur boardgamesmaker on pourrait par contre imprimer 100 cartes foil, pour en glisser une tout les 2/3 booster. ça couterais 60euros
 
+h2impression.fr : basé à paris et cheap
 
 
-boite cheap : https://fr.higift.eu/boite-de-presentation-personnalise-steffon-publicitaire-mk21708-10.html
+
 
 
 
