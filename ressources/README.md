@@ -11,3 +11,4 @@ Le répertoire [ressources/](https://github.com/dracdrac/BATTLEFIGHT/tree/main/r
 * [Règles](regles.txt)
 * [Contact](contact.md)
 * [Legal](legal.md)
+* [Identification des cartes](ressources/identification-cartes.md)
