@@ -9,7 +9,9 @@ img="/img/carte-impro-proto-2020.png"
 caption="La carte Impro existait déjà dans le tout premier proto BattleFight en 2020 !"
 %}
 
-À l'époque on expérimente pas mal de prototypes de jeu dans plein de styles différents, au milieu de l'été 2020 on design une petite série de cartes pour un jeu de deck building qui deviendra BattleFight. Pendant les années qui suivent, on discute régulièrement du jeu entre nous, on fait même parfois quelques parties avec quelques ami·es.
+La première version du jeu a été créée en 2020. À l'époque on expérimente pas mal de prototypes de jeu dans plein de styles différents, au milieu de l'été on commence à designer une petite série de cartes pour un jeu de deck building qu'on se met à appeler BattleFight.
+
+Pendant les années qui suivent, on discute régulièrement du jeu entre nous, on fait même parfois quelques parties avec quelques ami·es.
 
 ## 2025
 
@@ -18,7 +20,9 @@ img="/img/carte-impro-alpha-2025.png"
 caption="La carte Impro lorsqu'on reprend serieusement le développement du jeu, début 2025."
 %}
 
-Au début de l'année 2025 le prototype à 5 ans, on n'a jamais pris le temps de le mener à bout mais on ne l'a jamais abandonné non plus. On décide alors de s'y replonger serieusement. Au fil de l'année on fait plusieurs sessions de travail et de test avec différents groupes d'ami·es. On fait le tri dans les cartes, on fait des choix drastiques pour rendre le gameplay plus simple et éfficace.
+Au début de l'année 2025 le prototype à 5 ans, on n'a jamais pris le temps de le mener à bout mais on ne l'a jamais abandonné non plus. On décide alors de s'y replonger serieusement.
+
+Au fil de l'année on fait de nombreuses sessions de travail et des playtest avec différents groupes d'ami·es. On fait le tri dans les cartes, on fait des choix drastiques pour rendre le gameplay plus simple et éfficace.
 
 ## 2026
 
