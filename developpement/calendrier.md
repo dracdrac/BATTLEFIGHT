@@ -7,7 +7,7 @@ BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lanc
 À l'époque on expérimente pas mal de prototypes de jeu dans plein de styles différents, au milieu de l'été 2020 on design une petite série de cartes pour un jeu de deck building qui deviendra BattleFight. Pendant les années qui suivent, on discute régulièrement du jeu entre nous, on fait même parfois quelques parties avec quelques ami·es.
 
 {% include card-img-with-caption.html
-img="carte-impro-proto-2020.png"
+img="/img/carte-impro-proto-2020.png"
 caption="La carte Impro existait déjà dans le tout premier proto BattleFight en 2020 !"
 %}
 
@@ -17,7 +17,7 @@ caption="La carte Impro existait déjà dans le tout premier proto BattleFight e
 Au début de l'année 2025 le prototype à 5 ans, on n'a jamais pris le temps de le mener à bout mais on ne l'a jamais abandonné non plus. On décide alors de s'y replonger serieusement. Au fil de l'année on fait plusieurs sessions de travail et de test avec différents groupes d'ami·es. On fait le tri dans les cartes, on fait des choix drastiques pour rendre le gameplay plus simple et éfficace.
 
 {% include card-img-with-caption.html
-img="carte-impro-alpha-2025.png"
+img="/img/carte-impro-alpha-2025.png"
 caption="La carte Impro lorsqu'on reprend serieusement le développement du jeu, début 2025."
 %}
 
@@ -29,7 +29,7 @@ caption="La carte Impro lorsqu'on reprend serieusement le développement du jeu,
 * **Fin 2026** : On tire l'édition 0, une première édition aboutie du jeu, produite en peu d'exemplaires. On envoie des échantillons à des professionnel·les et influenceur·ses. l'idée est de trouver des personnes qui seraient d'accord de relayer le lancement de la campagne de financement.
 
 {% include card-img-with-caption.html
-img="carte-inconue.png"
+img="/img/carte-inconue.png"
 caption="En 2026 La carte Impro aura enfin son illustration."
 %}
 
@@ -40,7 +40,7 @@ caption="En 2026 La carte Impro aura enfin son illustration."
 * **Fin 2027** : On tire l'édition 1, la qualité et la quantité des cartes dépend du résultat de la campagne de financement. Dans l'idéal, cette édition contient de nouvelles versions alternatives des cartes (illustrateur·ices invité·es, versions holographiques, etc.). Dans le pire des cas, elle est a peu près similaire à l'édition 0. 
 
 {% include card-img-with-caption.html
-img="carte-inconue.png"
+img="/img/carte-inconue.png"
 caption="En 2027 La carte Impro aura sûrement une magnifique version alternative super rare !"
 %}
 
