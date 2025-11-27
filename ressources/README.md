@@ -8,8 +8,8 @@ Le répertoire [ressources/](https://github.com/dracdrac/BATTLEFIGHT/tree/main/r
 
 * [Apprendre](apprendre.md)
 * [Présentation](presentation.md)
-* [Lore](ressources/lore.md)
+* [Lore](lore.md)
 * [Règles](regles.txt)
 * [Contact](contact.md)
 * [Legal](legal.md)
-* [Identification des cartes](ressources/identification-cartes.md)
+* [Identification des cartes](identification-cartes.md)
