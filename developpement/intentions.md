@@ -1,6 +1,6 @@
 # Intentions
 
-BattleFight est un TCG à la fois accessible et complexe, aux parties rythmées et à l'univers original
+BattleFight est un TCG aux parties rythmées et au système de jeu original. Facile à apprendre, il peut convenir à des non-initiés souhaitant profiter des particularité du genre sans en subir ses lourdeurs. Mais il peut plaire à des joueur·se de TCG chevronnés souhaitant profiter de sa grande rejouabilité pour en explorer les combinaison et les enjeux strategique. 
 
 ## Gameplay
 
@@ -40,8 +40,11 @@ Deck aléatoire à la fois une bonne introduction au jeu a la fois un mode de je
 
 ### Un TCG avec un plateau
 
-Déveloper
-------
+Ajoute une nouvelle dimension peut utilisee dans les tcg.
+
+Fondamental pour le game play.
+
+
 
 ## Un univers bizarre et décalé mais qui se prend au sérieux
 
