@@ -9,3 +9,6 @@ Dans une idée de transparence et d'ouverture des sources, tous ces documents de
 * [Communication](communication.md)
 * [Budget](budget.md)
 * [Calendrier](calendrier.md)
+* [Intentions](intentions.md)
+
+
