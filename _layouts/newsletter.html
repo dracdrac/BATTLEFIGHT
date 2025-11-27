@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="/assets/css/style.css"/>
+  <link rel="stylesheet" href="/assets/css/font.css"/>
+  <link rel="stylesheet" href="/assets/css/newsletter.css"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+</head>
+<body class="{{page.type}}">
+  <header>
+    <h1 class="title"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
+  </header>
+  <main>
+    <article class="markdown-body">
+      {{ content }}
+    </article>
+  </main>
+
+  <footer>
+    <p>BattleFight</p>
+  </footer>
+</body>
+</html>
