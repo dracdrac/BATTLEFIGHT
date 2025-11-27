@@ -1,25 +1,35 @@
 # Intentions
 
-BattleFight est un TCG aux parties rythmées et au système de jeu original. Facile à apprendre, il peut convenir à des non-initiés souhaitant profiter des particularité du genre sans en subir ses lourdeurs. Mais il peut plaire à des joueur·se de TCG chevronnés souhaitant profiter de sa grande rejouabilité pour en explorer les combinaison et les enjeux strategique. 
+<big>BattleFight est un jeu de carte à collectionner aux parties rythmées et au système de jeu original. Facile à apprendre, il conviendra à des non-initiés souhaitant profiter des particularité du genre sans en subir ses lourdeurs. Il plaira aussi à des joueur·se de TCG chevronné·es souhaitant profiter de sa grande rejouabilité pour en explorer les combinaison et les enjeux strategique. </big>
 
 ## Gameplay
 
 ### Des parties courtes et rythmées
+
+Détailler
 
 ### Un jeu complexe avec des règles simples
 
 Peu de mots dans les cartes c'est des mots transparents intuitif.
 mais bcp de chemins de combinaisons
 
-## Un TCG.
+## Un TCG
 
+### C'est quoi un TCG
 
 On s'inscrit dans le genre TCG (definir ce que c'est)
 
-C'est interessant pour nous car:
+### L'aléatoire
 
-* L'aléatoire de l Booster Aléatoire
-* Communautaire 
+Détailler pourquoi ça nous interesse
+
+### La communauté
+
+Détailler pourquoi ça nous interesse
+
+### La Collection
+
+Détailler pourquoi ça nous interesse
 
 ## Pas un TCG comme les autres
 
@@ -44,9 +54,15 @@ Ajoute une nouvelle dimension peut utilisee dans les tcg.
 
 Fondamental pour le game play.
 
+### Les cartes plus puissantes ne sont plus rare
 
+Toutes les cartes sont imprimées en un même nombre d'exemplaire
 
-## Un univers bizarre et décalé mais qui se prend au sérieux
+La rareté ne concerne que les arts et les traitements alternatif : les cartes plus rares ne sont différente qu'au niveau esthetique.
+
+## L'univers
+
+Un univers bizarre et décalé mais qui se prend au sérieux
 
 References aux shonen de combat. BD indé 
 
@@ -56,9 +72,7 @@ Fun surprenant amusant.
 
 Combat mais pas que on se tape.
 
-----
-
-## Intentoins Idéologique
+## Autres valeurs et intentions
 
 ### Un TCG qui n'est pas un pay-to-win
 
