@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ {% includes head.html}
+</head>
+<body>
+ {% includes header.html}
+  <main>
+    <header>
+      <h1 id="page-title">{{ page.title }}</h1>
+      <p id="page-description">{{ page.description }}</p>
+      <h2>Index</h2>
+      {% include page-list.html %}
+    </header>
+    <article class="markdown-body">
+      {{ content }}
+    </article>
+  </main>
+  {% includes footer.html}
+</body>
+</html>
