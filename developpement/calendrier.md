@@ -1,3 +1,9 @@
+---
+title: Calendrier
+excerpt:
+---
+
+
 # Calendrier 
     
 <big>BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Le développement de la première saison sera finalisé en 2026, sa production en 2027.</big>
