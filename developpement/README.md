@@ -1,3 +1,6 @@
+---
+title: Cartes
+---
 
 Le répertoire [developpement/](https://github.com/dracdrac/BATTLEFIGHT/tree/main/developpement) rassemble des éléments qui concerne le developpement du jeu et qui sont écrits par et pour les personnes qui développe le jeu.
 
