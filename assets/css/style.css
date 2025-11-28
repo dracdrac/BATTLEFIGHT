@@ -187,6 +187,10 @@ divers
 
 #phplistsubscriberesult{
   border:1px solid black;
+  padding: 0 1.5em;
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
 }
 
 #phplistsubscribeform  {
