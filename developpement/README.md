@@ -1,5 +1,5 @@
 ---
-var: ok?
+title: Développement
 permalink: /developpement/
 ---
 
