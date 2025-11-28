@@ -14,20 +14,4 @@
   <p>Aucune page trouvée dans le dossier <code>{{ dir }}</code>.</p>
 {% endif %}
 </div>
-mypages : {{ mypages.size }} ?
-
-site.pages : {{ site.pages.size }} ?
-
-  <ul>
-  {% for item in site.pages | sort: "title" %}
-    {% assign mytitle = item.title | default: item.url %}
-    <li>
-      <a href="{{ item.url }}">{{ mytitle }}</a> ({{item.dir}}) {% if item.description %} - <span>{{ item.description }}</span>{% endif %}
-    </li>
-  {% endfor %}
-  </ul>"
-
-<!--
- | where:"dir", dir
--->
 
