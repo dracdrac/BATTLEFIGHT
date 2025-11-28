@@ -185,6 +185,9 @@ body>main {
 divers
 **************************************/
 
+#phplistsubscriberesult{
+  border:1px solid black;
+}
 
 #phplistsubscribeform  {
   display: flex;

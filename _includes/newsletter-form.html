@@ -1,7 +1,121 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-<script type="text/javascript" src="https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js"></script>
-<script type="text/javascript">var pleaseEnter = "The text to show in the input box"; </script>
-<!--<script type="text/javascript">var thanksForSubscribing = '<div class="subscribed">Thanks for subscribing. Please check your inbox and click the link in the request for confirmation message.</div>'; </script>-->
+
+<script>
+
+  let pleaseWaitMessage = '<p>Merci de patienter...</p>';
+  let thanksForSubscribing = "<p>Merci pour ton inscription ! Vérifie tes mails (et tes spams) et clique sur le lien de confirmation pour valider l'inscription.</p><p><small><a href='#' id='showsubscribeformagain'>Ré-afficher le formulaire</a></small></p>";
+  let pleaseEnter = "Ton mail ici";
+
+  /* Ce code vient de https://s3.amazonaws.com/phplist/phplist-subscribe-0.2.min.js */
+  /* Les modifications apportées sont commentées */
+
+  /* Modifié */
+
+
+
+  $(document).ready(function() {
+    var h = new Image();
+    h.src = waitImage;
+    $("#phplistsubscribeform").submit(function() {
+        var d = $("#emailaddress").val();
+        var e = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
+        var f = this.action;
+        ajaxaddress = f.replace(/subscribe/, 'asubscribe');
+        /*Changement du message*/
+        $('#phplistsubscriberesult').html(pleaseWaitMessage);
+        if (e.test(d)) {
+            var g = $.ajax({
+                type: 'POST',
+                url: ajaxaddress,
+                crossDomain: true,
+                data: "email=" + d,
+                success: function(a, b, c) {
+                    if (a.search(/FAIL/) >= 0) {
+                        document.location = f + "&email=" + d
+                    } else {
+                        /*Simplification de l'affichage du resultat*/
+                        $('#phplistsubscriberesult').html(a)
+                        $("#phplistsubscribeform").hide();
+                        document.cookie = "phplistsubscribed=yes"
+                    }
+                },
+                error: function(a, b, c) {
+                    document.location = f + "&email=" + d
+                }
+            })
+        } else {
+            document.location = f + "&email=" + d
+        }
+        return false
+    });
+    $("#emailaddress").val(pleaseEnter);
+    $("#emailaddress").focus(function() {
+        var v = $("#emailaddress").val();
+        if (v == pleaseEnter) {
+            $("#emailaddress").val("")
+        }
+    });
+    $("#emailaddress").blur(function() {
+        var v = $("#emailaddress").val();
+        if (v == "") {
+            $("#emailaddress").val(pleaseEnter)
+        }
+    });
+    var i = document.cookie;
+    if (i.indexOf('phplistsubscribed=yes') >= 0) {
+        /* Modifié pour ne pas détruire le form */
+        $("#phplistsubscribeform").hide()
+        $('#phplistsubscriberesult').html(thanksForSubscribing)
+        $('#showsubscribeformagain').click(function(event) {
+          event.preventDefault();
+          $("#phplistsubscribeform").show();
+          $('#phplistsubscriberesult').html('');
+          document.cookie = "phplistsubscribed=no";
+        });
+    }
+});
+$.ajaxTransport("+*", function(d, e, f) {
+    if (jQuery.browser.msie && window.XDomainRequest) {
+        var g;
+        return {
+            send: function(b, c) {
+                g = new XDomainRequest();
+                g.open("get", d.url + "&" + d.data);
+                g.onload = function() {
+                    if (this.contentType.match(/\/xml/)) {
+                        var a = new ActiveXObject("Microsoft.XMLDOM");
+                        a.async = false;
+                        a.loadXML(this.responseText);
+                        c(200, "success", [a])
+                    } else {
+                        c(200, "success", [this.responseText])
+                    }
+                };
+                g.ontimeout = function() {
+                    c(408, "error", ["The request timed out."])
+                };
+                g.onerror = function() {
+                    c(404, "error", ["The requested resource could not be found."])
+                };
+                g.send()
+            },
+            abort: function() {
+                if (g) g.abort()
+            }
+        }
+    }
+});
+if (pleaseEnter == undefined) {
+    var pleaseEnter = "Please enter your email"
+}
+if (thanksForSubscribing == undefined) {
+    var thanksForSubscribing = '<div class="subscribed">Thanks for subscribing. Please click the link in the confirmation email you will receive.</div>'
+}
+if (waitImage == undefined) {
+    var waitImage = 'https://s3.amazonaws.com/phplist/img/busy.gif'
+}
+
+</script>
 
 <div id="phplistsubscriberesult"></div>
 <form action="https://battlefight.hosted.phplist.com/lists/?p=subscribe&id=2" method="post" id="phplistsubscribeform">
