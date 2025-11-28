@@ -1,5 +1,6 @@
 ---
 title: Cartes
+permalink: /cartes/
 ---
 
 * [l'ancienne page pour voir les cartes](cards-old.html)
