@@ -41,7 +41,7 @@
    }
 
     .flipcard-container .inner-card {
-=        will-change: transform, filter;
+        will-change: transform, filter;
         transition: all 0.15s ease-out;
       border-radius: var(--border-radius);
 

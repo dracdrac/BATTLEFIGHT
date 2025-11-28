@@ -17,6 +17,7 @@
 mypages : {{mypages.length}}
 
 site.pages : {{site.pages.length}}
+
   <ul>
   {% for item in site.pages | sort: "title" %}
     {% assign mytitle = item.title | default: item.url %}

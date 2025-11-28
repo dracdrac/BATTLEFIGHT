@@ -7,9 +7,6 @@
   <link rel="stylesheet" href="{{ '/assets/css/card.css?v=' | append: site.github.build_revision | relative_url }}"/>
   <link rel="stylesheet" href="{{ '/assets/css/flipcards.css?v=' | append: site.github.build_revision | relative_url }}"/>
 
-  <link rel="stylesheet" href="/assets/css/{{ page.type }}.css"/>
-
-
   <script src="/assets/js/flipcards.js"></script>
   <script src="/assets/js/card.js"></script>
   <script src="/assets/js/papaparse.min.js"></script>
@@ -22,7 +19,7 @@
   {% endif %}
   {% seo %}
 </head>
-<body class="{{page.type}}">
+<body>
   <header>
     <h1 class="title"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
     <nav>
