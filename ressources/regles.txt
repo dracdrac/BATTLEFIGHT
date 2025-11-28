@@ -333,12 +333,11 @@ Le coup d'intervention de la technique est de N.
 Répéter cette opération N fois :
 Si la pioche du·de la joueur·se n'est pas vide,
 placer la première carte de sa pioche dans sa main.
-Si sa pioche est vide et que sa défausse n'est pas vide,
+Si sa pioche est vide,
 diviser ses points de vie vie par deux en arrondissant à l'entier supérieur,
-mélanger les cartes de sa défausse et les placer dans sa pioche,
-Placer la première carte de sa pioche dans sa main.
-Si sa pioche est vide et que sa défausse est vide,
-le·a joueur.se perd la partie.
+mélanger les cartes de sa défausse et les placer dans sa pioche (si la défausse est vide passer cette étape),
+Placer la première carte de sa pioche dans sa main (si la pioche est vide passer cette étape).
+
 
 4.4.11. Pousser [N]
 Répéter cette opération N fois :
