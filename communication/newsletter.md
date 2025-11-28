@@ -8,7 +8,7 @@ Inscris-toi à notre newsletter pour rester informer des grandes étapes de l'av
 
 {% include newsletter-form.html %}
 
-(Pour préserver la santé de ta boîte mail, on garantit une **fréquence de message maximum de 4 mails par ans**)
+(Pour préserver la santé de ta boîte mail, on garantit une **fréquence de 4 mails par ans maximum**)
 
 ## Détails techniques
 
