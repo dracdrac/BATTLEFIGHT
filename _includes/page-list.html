@@ -14,13 +14,14 @@
   <p>Aucune page trouvée dans le dossier <code>{{ dir }}</code>.</p>
 {% endif %}
 </div>
+mypages : {{mypages.length}}
 
-{{site.pages}}
+site.pages : {{site.pages.length}}
   <ul>
   {% for item in site.pages | sort: "title" %}
     {% assign mytitle = item.title | default: item.url %}
     <li>
-      <a href="{{ item.url }}">{{ mytitle }}</a>{% if item.description %} - <span>{{ item.description }}</span>{% endif %}
+      <a href="{{ item.url }}">{{ mytitle }}</a> ({{item.dir}}) {% if item.description %} - <span>{{ item.description }}</span>{% endif %}
     </li>
   {% endfor %}
   </ul>"
