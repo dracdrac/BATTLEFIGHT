@@ -1,3 +1,9 @@
+---
+title: Budget
+description : Estimation des coûts de fabrication.
+---
+
+
 # Budget com Cannes
 
 On aurait besoin de ces éléments pour la com de Cannes, à discuter bien sûr, peut être que tout n'est pas nécessaire :

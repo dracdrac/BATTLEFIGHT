@@ -168,18 +168,27 @@ MAIN
 ****************************************/
 
 
-
 body>main {
   max-width:800px;
-  border-radius: 2px;
+  
+}
+
+body>main>header{
+  font-size: 1.4em;
+  text-align: center;
+}
+body>main>header p{
+ font-style: italic;
+}
+body>main>article{
+    border-radius: 2px;
   color:black;
   background: #ccc;
   background-image: url("/assets/img/papier-bg.jpg");
   padding: .5em 2em;
   margin: 1em auto;
-  
-}
 
+}
 
 /*************************************
 divers
@@ -234,7 +243,6 @@ figure figcaption {
 h1 {
   text-align: center;
   font-size:3em;
-  margin-top:0;
   
 }
 
@@ -244,4 +252,9 @@ h2 {
   text-align: center;
   border-bottom:1px solid black;
   margin-top:2em;
+}
+
+h2:first-child {
+    margin-top:1em;
+
 }

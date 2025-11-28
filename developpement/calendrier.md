@@ -4,11 +4,6 @@ description : Dates importantes du passé et du futur de BattleFight
 excerpt: BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Le développement de la première saison sera finalisé en 2026, sa production en 2027.
 ---
 
-
-# Calendrier 
-    
-<big>BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Le développement de la première saison sera finalisé en 2026, sa production en 2027.</big>
-
 ## 2020
 
 La première version du jeu a été créée en 2020. À l'époque on expérimente pas mal de prototypes de jeu dans plein de styles différents, au milieu de l'été on commence à designer une petite série de cartes pour un jeu de deck building qu'on se met à appeler BattleFight.

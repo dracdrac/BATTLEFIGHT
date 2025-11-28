@@ -1,6 +1,8 @@
-# Intentions
-
-<big>BattleFight est un jeu de carte à collectionner aux parties rythmées et au système de jeu original. Facile à apprendre, il conviendra à des non-initiés souhaitant profiter des particularité du genre sans en subir ses lourdeurs. Il plaira aussi à des joueur·se de TCG chevronné·es souhaitant profiter de sa grande rejouabilité pour en explorer les combinaison et les enjeux strategique. </big>
+---
+title: Intentions
+description : Liste des intentions et des principes qui guident le développement du jeu
+excerpt: BattleFight est un jeu de carte à collectionner aux parties rythmées et au système de jeu original. Facile à apprendre, il conviendra à des non-initiés souhaitant profiter des particularité du genre sans en subir ses lourdeurs. Il plaira aussi à des joueur·se de TCG chevronné·es souhaitant profiter de sa grande rejouabilité pour en explorer les combinaison et les enjeux strategique.
+---
 
 ## Gameplay
 
