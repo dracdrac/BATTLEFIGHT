@@ -185,6 +185,22 @@ body>main {
 divers
 **************************************/
 
+
+#phplistsubscribeform  {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:1em;
+}
+
+#phplistsubscribeform input {
+  font-size: 1em;
+}
+
+#phplistsubscribeform button {
+    font-size: 1.2em;
+
+}
 ul {
   padding-left:1em;
 
