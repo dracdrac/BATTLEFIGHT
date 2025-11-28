@@ -1,7 +1,6 @@
 ---
+title: Contact
 permalink: /contact
 ---
-
-# Contact
 
 À RÉDIGER

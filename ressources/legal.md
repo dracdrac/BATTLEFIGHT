@@ -1,7 +1,6 @@
 ---
+title: Mention Légales
 permalink: /legal
 ---
-
-# Mention légales
 
 À RÉDIGER

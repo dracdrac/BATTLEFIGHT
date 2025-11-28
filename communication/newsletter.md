@@ -1,3 +1,7 @@
+---
+title: Newletter
+---
+
 # Newletter
 
 Inscris-toi à notre newsletter pour rester informer des grandes étapes de l'avancée du projet !

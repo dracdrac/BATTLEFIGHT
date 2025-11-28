@@ -1,3 +1,5 @@
 ---
+title: Règles
 permalink: /regles
 ---
+

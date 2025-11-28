@@ -1,8 +1,7 @@
 ---
+title: Apprendre à jouer
 permalink: /apprendre
 ---
-
-# Apprendre à jouer
 
 ## Règles de base
 BATTLEFIGHT est un jeu de deckbuilding où deux adversaires se battent sur une arène. Le but du jeu est de faire tomber les points de vie de son adversaire à zéro ou de le faire sortir de l'arène.

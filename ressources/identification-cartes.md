@@ -1,4 +1,6 @@
-# Identification des cartes
+---
+title: Identification des cartes
+---
 
 Le titre d'une carte n'est pas toujours une information suffisante pour identifier une carte. 
 
