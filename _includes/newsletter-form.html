@@ -14,8 +14,6 @@
 
 
   $(document).ready(function() {
-    var h = new Image();
-    h.src = waitImage;
     $("#phplistsubscribeform").submit(function() {
         var d = $("#emailaddress").val();
         var e = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -34,7 +32,7 @@
                         document.location = f + "&email=" + d
                     } else {
                         /*Simplification de l'affichage du resultat*/
-                        $('#phplistsubscriberesult').html(a)
+                        $('#phplistsubscriberesult').show().html(a)
                         $("#phplistsubscribeform").hide();
                         document.cookie = "phplistsubscribed=yes"
                     }
@@ -65,13 +63,17 @@
     if (i.indexOf('phplistsubscribed=yes') >= 0) {
         /* Modifié pour ne pas détruire le form */
         $("#phplistsubscribeform").hide()
-        $('#phplistsubscriberesult').html(thanksForSubscribing)
+        $('#phplistsubscriberesult').show().html(thanksForSubscribing)
         $('#showsubscribeformagain').click(function(event) {
           event.preventDefault();
           $("#phplistsubscribeform").show();
-          $('#phplistsubscriberesult').html('');
+          $('#phplistsubscriberesult').hide();
           document.cookie = "phplistsubscribed=no";
         });
+    }
+    else {
+        $("#phplistsubscribeform").show();
+        $('#phplistsubscriberesult').hide();
     }
 });
 $.ajaxTransport("+*", function(d, e, f) {
