@@ -9,8 +9,6 @@ Inscris-toi à notre newsletter pour rester informer des grandes étapes de l'av
 
 et un petit test vite fait :
 
-{% include_relative /README.md %}
-
 et un autre : 
 
-{% include_relative /communication/newsletter/form.md %}
+{% include /communication/newsletter/form.md %}
