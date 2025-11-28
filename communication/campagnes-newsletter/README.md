@@ -1,3 +1,5 @@
 # Campagnes de la newsletter
 
-{% include page_list.html %}
+Les campagnes de la newsletter sont listée ici :
+
+{% include page-list.html %}
