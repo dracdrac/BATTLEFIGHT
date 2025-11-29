@@ -174,11 +174,10 @@ body>main {
 }
 
 body>main>header{
-  font-size: 1.4em;
   text-align: center;
   margin:2em 0;
 }
-body>main>header p{
+body>main>header #page-description {
  font-style: italic;
   margin:0;
 }
@@ -198,12 +197,15 @@ body>main>article{
 }
 
 
-body>main>article>section{
-      border-radius: inherit;
+body>main>article>section {
     padding: .5em 2em;
 
+}
+body>main>article>section{
+      border-radius: inherit;
+
   background-image: url("/assets/img/papier-bg.jpg");
-    box-shadow: 0 -75px 70px 5px rgba(20,0,40,0.1);
+    box-shadow: 0 -75px 70px 5px rgba(20,0,40,0.15);
 }
 
 body>main #page-excerpt {
@@ -211,33 +213,26 @@ body>main #page-excerpt {
   padding: 2em;
 }
 
-
-body>main #directory-index {
-  font-size:1.2em;
-  padding: 2em;
-}
-
-body>main #directory-index ul{
-  display: flex;
-  flex-direction: column;
-  gap:1em;
-}
-
-body>main #directory-index li {
-  display: flex;
-  flex-direction: column;
-}
-
-body>main #directory-index span {
-     font-size: 0.8em;
-  }
-
-
-
 /*************************************
 divers
 **************************************/
 
+ .page-list ul{
+  list-style: none;
+  padding: 0;
+  
+
+}
+
+ .page-list li {
+  display: flex;
+  flex-direction: column;
+  margin:1em;
+}
+
+ .page-list a {
+     font-size: 1.3em;
+  }
 
 
 #phplistsubscriberesult{
