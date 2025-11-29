@@ -20,9 +20,11 @@ TEST
 
 <div class="page-list">
   <ul>
+  {% assign mydir =  page.path | split: '/' | reverse | slice 1 | reverse | join: '/' %}
   {% for item in site.pages | sort: "title" %}
-    {% if page.path | split: '/' | reverse | slice 1 | reverse | join: '/' == item.path | split: '/' | reverse | slice 1 | reverse | join: '/' %}
     {% assign mytitle = item.title | default: item.url %}
+    {% assign itemdir =  item.path | split: '/' | reverse | slice 1 | reverse | join: '/' %}
+    {% if itemdir == mydir %}
     <li>
       <a href="{{ item.url }}">{{ mytitle }}</a>{% if item.description %} <span>{{ item.description }}</span>{% endif %}
     </li>
