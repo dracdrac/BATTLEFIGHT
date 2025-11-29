@@ -14,9 +14,11 @@
     <section id="directory-index">
       {% include page-list.html %}
     </section>
+    {% if content %}
     <section id="page-content">
       {{ content }}
     </section>
+    {% endif %}
     </article>
   </main>
   {% include footer.html %}
