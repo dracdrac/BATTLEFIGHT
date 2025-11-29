@@ -1,5 +1,6 @@
 ---
 title: Identification des cartes
+description: Guide pour lire l'identifiant en bas à gauche des cartes
 ---
 
 Le titre d'une carte n'est pas toujours une information suffisante pour identifier une carte. 

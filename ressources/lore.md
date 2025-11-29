@@ -1,5 +1,6 @@
 ---
 title: Lore
+description: L'histoire que raconte BattleFight
 excerpt: Depuis des temps immémoriaux, des champion.nes du monde entier viennent s'affronter dans cette arène, verser leur sueur et leur sang sur ces éternelles dalles de pierre. Une pratique riche et complexe qui traverse les âges et rassemble les peuples.
 ---
 
