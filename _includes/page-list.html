@@ -23,9 +23,9 @@ TEST
   {% assign mydir = page.url | split: '/' | where_exp: "a", "a.size > 0" |  reverse | slice: 1, 99 | reverse | join: '/' %}
   {% for item in site.pages | sort: "title" %}
     {% assign mytitle = item.title | default: item.url %}
-    {% assign itemdir = item.url | split: '/' | where_exp: "a", "a.size > 0" | reverse | slice: 1, 99 | reverse | join: '/' %}
+    {% assign itemdir = item.url | split: '/' | where_exp: "a", "a.size > 0" | join: '/' %}
     <!-- {{ item.url }} ( {{itemdir}} ) -->
-    {% if item.url == mydir %}
+    {% if itemdir == mydir %}
     <li>
       <a href="{{ item.url }}">{{ mytitle }}</a>{% if item.description %} <span>{{ item.description }}</span>{% endif %}
     </li>
