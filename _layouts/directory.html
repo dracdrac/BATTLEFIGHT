@@ -12,14 +12,15 @@
       <p id="page-description">{{ page.description }}</p>
     </header>
     <article>
-    <section id="directory-index">
-      {% include page-list.html %}
-    </section>
+
     {% if content %}
     <section id="page-content">
       {{ content }}
     </section>
     {% endif %}
+      <section id="directory-index">
+      {% include page-list.html %}
+    </section>
     </article>
   </main>
   {% include footer.html %}
