@@ -1,61 +1,26 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"/>
-  <link rel="stylesheet" href="{{ '/assets/css/font.css?v=' | append: site.github.build_revision | relative_url }}"/>
-  <link rel="stylesheet" href="{{ '/assets/css/card.css?v=' | append: site.github.build_revision | relative_url }}"/>
-  <link rel="stylesheet" href="{{ '/assets/css/flipcards.css?v=' | append: site.github.build_revision | relative_url }}"/>
-
-  <script src="/assets/js/flipcards.js"></script>
-  <script src="/assets/js/card.js"></script>
-  <script src="/assets/js/papaparse.min.js"></script>
-
-  <meta name="description" content="{{ site.description | default: site.github.project_tagline }}"/>
-  <meta name="viewport" content="width=device-width,initial-scale=1"/>
-  {% if page.pagedjs == true %}
-  <script src="https://unpkg.com/pagedjs/dist/paged.polyfill.js"></script>
-  <link href="/assets/css/interface.css" rel="stylesheet" type="text/css"/>
-  {% endif %}
-  {% seo %}
+ {% include head.html %}
 </head>
 <body>
-  <header>
-    <h1 class="title"><a href="/">{{ site.title | default: site.github.repository_name }}</a></h1>
-    <nav>
-      <input id="menu-toggle" type="checkbox" />
-    	<label id="menu-button" for="menu-toggle"><span></span></label>
-      <ul>
-        <li><a href="/presentation">À propos</a></li>
-        <li><a href="/cartes">Cartes</a></li>
-        <li><a href="/plateau">Plateau</a></li>
-        <li><a href="/apprendre">Apprendre à jouer</a></li>
-        <li><a href="/developpement">Développement</a></li>
-      </ul>
-    </nav>
-  </header>
+ {% include header.html %}
   <main>
     <header>
-      <h1>{{ page.title }}</h1>
-      <p>{{ page.excerpt }}</p>
+      <h1 id="page-title">{{ page.title }}</h1>
+      <p id="page-description">{{ page.description }}</p>
     </header>
-    <article class="markdown-body">
+    <article>
+      {% if page.excerpt %}
+    <section id="page-excerpt">
+      {{ page.excerpt }}
+    </section>
+      {% endif %}
+    <section id="page-content">
       {{ content }}
+    </section>
     </article>
   </main>
-
-  <footer>
-    <nav>
-      <ul>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/legal">Mentions légales</a></li>
-        <li><a href="{{site.github.repository_url}}/edit/main/{{page.path}}">Modifier</a></li>
-        <li><a href="{{site.github.repository_url}}">Dépôt</a></li>
-      </ul>
-    </nav>
-    <p><a href="{{site.github.repository_url}}/actions">Dernière mise à jour</a> du site le {{ "now" | date: "%d/%m/%Y" }}.</p>
-    <p>Ce travail est placé sous <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">License CC BY-NC-SA 4.0</a>.</p>
-    <p>BattleFight 2020 - {{"now" | date: "%Y"}}</p>
-  </footer>
+  {% include footer.html %}
 </body>
 </html>

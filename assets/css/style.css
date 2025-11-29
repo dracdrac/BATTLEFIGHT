@@ -190,13 +190,23 @@ body>main>header a{
   color:inherit
 }
 body>main>article{
-    border-radius: 2px;
+    border-radius: 10px;
   color:black;
   background: #ccc;
   background-image: url("/assets/img/papier-bg.jpg");
-  padding: .5em 2em;
   margin: 1em auto;
+}
 
+
+body>main>article>section {
+    padding: .5em 2em;
+
+}
+body>main>article>section{
+      border-radius: inherit;
+
+  background-image: url("/assets/img/papier-bg.jpg");
+    box-shadow: 0 -75px 70px 5px rgba(20,0,40,0.15);
 }
 
 /*************************************
@@ -283,5 +293,6 @@ h2 {
 
 h2:first-child {
     margin-top:1em;
+
 
 }
