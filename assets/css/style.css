@@ -180,6 +180,9 @@ body>main>header{
 body>main>header p{
  font-style: italic;
 }
+body>main>header a{
+  color:inherit
+}
 body>main>article{
     border-radius: 2px;
   color:black;
@@ -188,6 +191,26 @@ body>main>article{
   padding: .5em 2em;
   margin: 1em auto;
 
+}
+
+body>main>header h2 {
+      border-bottom: 1px solid gray;
+
+}
+body>main>header .page-list ul{
+  list-style: none;
+  padding: 0;
+  
+
+}
+
+body>main>header .page-list li {
+  display: flex;
+  flex-direction: column;
+}
+
+body>main>header .page-list span {
+  font-size: .8em;
 }
 
 /*************************************

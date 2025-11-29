@@ -6,7 +6,7 @@
   {% for item in mypages | sort: "title" %}
     {% assign mytitle = item.title | default: item.url %}
     <li>
-      <a href="{{ item.url }}">{{ mytitle }}</a>{% if item.description %} - <span>{{ item.description }}</span>{% endif %}
+      <a href="{{ item.url }}">{{ mytitle }}</a>{% if item.description %}<span>{{ item.description }}</span>{% endif %}
     </li>
   {% endfor %}
   </ul>
