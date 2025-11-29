@@ -1,7 +1,10 @@
 ---
 title: Communication
+description: Supports de com et autre trucs liés à la promo 
+layout: directory
 permalink: /communication/
 ---
+
 
 # Réseaux sociaux
 
@@ -61,7 +64,3 @@ bon le prix est pas donné, et ça dépend vraiment de ce qu'on veux et des quan
 https://www.vistaprint.fr/etiquettes-autocollants/stickers-personnalises/autocollants-individuels-personnalises
 
 
-
-# Index
-
-{% include page-list.html %}

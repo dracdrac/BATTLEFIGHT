@@ -177,6 +177,11 @@ body>main>header{
   text-align: center;
   margin:2em 0;
 }
+
+body>main>header #breadcrumbs {
+  color: gray;
+}
+
 body>main>header #page-description {
  font-style: italic;
   margin:0;
@@ -188,6 +193,7 @@ body>main>header h1{
 body>main>header a{
   color:inherit
 }
+
 body>main>article{
     border-radius: 10px;
   color:black;
