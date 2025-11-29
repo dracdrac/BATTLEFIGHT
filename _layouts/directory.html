@@ -10,11 +10,14 @@
       <h1 id="page-title">{{ page.title }}</h1>
       <p id="page-description">{{ page.description }}</p>
     </header>
-    <article class="markdown-body">
+    <article>
+    <section id="page-intro">
       <h2>Index</h2>
       {% include page-list.html %}
-
+    </section>
+    <section id="page-content">
       {{ content }}
+    </section>
     </article>
   </main>
   {% include footer.html %}

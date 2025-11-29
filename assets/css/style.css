@@ -176,10 +176,16 @@ body>main {
 body>main>header{
   font-size: 1.4em;
   text-align: center;
+  margin:2em 0;
 }
 body>main>header p{
  font-style: italic;
+  margin:0;
 }
+body>main>header h1{
+  margin:0;
+}
+
 body>main>header a{
   color:inherit
 }
@@ -193,29 +199,27 @@ body>main>article{
 
 }
 
-body>main>header h2 {
-      border-bottom: 1px solid gray;
+/*************************************
+divers
+**************************************/
 
-}
-body>main>header .page-list ul{
+ .page-list ul{
   list-style: none;
   padding: 0;
   
 
 }
 
-body>main>header .page-list li {
+ .page-list li {
   display: flex;
   flex-direction: column;
+  margin:1em;
 }
 
-body>main>header .page-list span {
-  font-size: .8em;
-}
+ .page-list a {
+     font-size: 1.3em;
+  }
 
-/*************************************
-divers
-**************************************/
 
 #phplistsubscriberesult{
   border:1px solid black;
