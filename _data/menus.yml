@@ -33,5 +33,5 @@ tertiaire :
 
   - special : modify
 
-  - href : /codesource
+  - special : repo
 
