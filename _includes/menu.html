@@ -1,12 +1,16 @@
 <ul>
+{% for item in site.pages %}
+  <!-- {{item.path}} -->
+{% endfor %}
 {% for item in include.menu %}
   {% if item.special == 'modify' %}
     <li><a href="{{site.github.repository_url}}/edit/main/{{page.path}}">Modifier</a></li>
   {% elsif item.special == 'repo' %}
     <li><a href="{{site.github.repository_url}}">Dépôt</a></li>
   {% else %}
+
     {% assign itempage = site.pages | where: "path", item.href | first %}
-    <li><a href="{{item.href}}">{{ itempage.title }}</a></li>
+    <li><a href="{{item.href}}">??{{ itempage.title }}</a></li>
   {% endif %}
 {% endfor %}
 </ul>
