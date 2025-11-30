@@ -315,3 +315,12 @@ h2:first-child {
 
 
 }
+
+pre {
+  border:1px solid gray;
+  background: white;
+  padding: 1em;
+  white-space: pre-wrap;
+    widh:100%;
+  
+}

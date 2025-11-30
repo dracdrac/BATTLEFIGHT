@@ -1,0 +1,37 @@
+primaire :
+
+  - href : /ressources/apropos
+    text : À propos
+
+  - href : /ressources/apprendre
+    text : Apprendre
+
+  - href : /cartes/
+    text : Cartes
+
+  - href : /ressources/plateau
+    text : Plateau
+
+secondaire :
+
+  - href : /ressources/
+    text : Ressources
+
+  - href : /developpement/
+    text : Développement
+
+  - href : /communication/
+    text : Communication
+
+tertiaire :
+
+  - href : /contact
+    text : Contact
+
+  - href : /legal
+    text : Legal
+
+  - special : modify
+
+  - href : /codesource
+
