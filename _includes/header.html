@@ -3,12 +3,6 @@
     <nav>
       <input id="menu-toggle" type="checkbox" />
     	<label id="menu-button" for="menu-toggle"><span></span></label>
-      <ul>
-        <li><a href="/ressources/presentation">À propos</a></li>
-        <li><a href="/cartes">Cartes</a></li>
-        <li><a href="/ressources/plateau">Plateau</a></li>
-        <li><a href="/ressources/apprendre">Apprendre à jouer</a></li>
-        <li><a href="/developpement">Développement</a></li>
-      </ul>
+      <nav>{% include menu.html menu=site.data.menus.primaire %}</nav>
     </nav>
   </header>

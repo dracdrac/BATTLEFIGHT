@@ -1,13 +1,4 @@
   <footer>
-    <nav>
-      <ul>
-        <li><a href="/contact">Contact</a></li>
-        <li><a href="/legal">Mentions légales</a></li>
-        <li><a href="{{site.github.repository_url}}/edit/main/{{page.path}}">Modifier</a></li>
-        <li><a href="{{site.github.repository_url}}">Dépôt</a></li>
-      </ul>
-    </nav>
-    <nav>{% include menu.html menu=site.data.menus.primaire %}</nav>
     <nav>{% include menu.html menu=site.data.menus.secondaire %}</nav>
     <nav>{% include menu.html menu=site.data.menus.tertiaire %}</nav>
     <p><a href="{{site.github.repository_url}}/actions">Dernière mise à jour</a> du site le {{ "now" | date: "%d/%m/%Y" }}.</p>
