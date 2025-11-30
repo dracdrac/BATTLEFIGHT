@@ -1,6 +1,5 @@
 ---
 title: Apprendre à jouer
-permalink: /apprendre
 ---
 
 ## Règles de base

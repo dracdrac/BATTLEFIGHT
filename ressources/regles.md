@@ -1,5 +1,7 @@
 ---
 title: Règles
-permalink: /regles
 ---
 
+<code>
+{% include_relative regles.txt %}
+</code>
