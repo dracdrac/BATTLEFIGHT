@@ -1,15 +1,38 @@
+:root {
+  --lgray:#d8dee2;
+  --light:#746ac0;
+  --mid:#413882;
+  --dark:#1b1927;
+
+
+}
 
 body{
   font-family: 'Zarathustra';
   margin: 0 ;
-  background:black;
-  color:white;
+  background:var(--dark);
+  color:var(--lgray);
+  height:100vh;
+  display: flex;
+  flex-direction: column;
+  
   
 }
 
+body:after {
+  position: absolute;
+  top:0;
+  left:0;
+  content:' ';
+  background: transparent;
+  width:100vw;
+  height: 100vh;
+  z-index:-1;
+  background-image: url('/assets/img/dirty-bg.png');
+  
+}
 body>*{
   margin:auto;
-  max-width: 1000px;
 }
 
 
@@ -26,14 +49,14 @@ body>header{
     top: 0;
     z-index: 3;
   background: black;
-  border-bottom:1px solid gray;
   width: 100vw;
   display: flex;
   justify-content: space-between;
     flex-wrap: wrap;
     gap:1em;
   padding: 1em;
-  box-shadow: 0 0 20px rgba(0,0,0,0.7);
+    border-bottom: 1px solid var(--light);
+
 }
 
 body>header nav ul{
@@ -50,7 +73,7 @@ body>header nav a {
 }
 
 body>header a:hover {
-  text-shadow: 0 0 1em white, 0 0 .5em white ;
+  color:var(--light);
 }
 
 
@@ -61,7 +84,13 @@ body>header a {
 
 body>header h1 {
   font-size:inherit;
+  color: var(--light);
   margin:0;
+}
+
+body>header h1 a:hover {
+    color:var(--lgray);
+
 }
 
 body>header  #menu-toggle {
@@ -77,9 +106,6 @@ body>header #menu-button {
 
 @media screen and (max-width: 800px) {
 
-  body > header {
-
-  }
 
   body>header h1 {
         z-index: 1;
@@ -140,12 +166,25 @@ FOOTER
 ****************************************/
 
 body>footer {
+  position: relative;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background:black;
+  width:100%;
+  padding: 1em;
 }
 
+body>footer:after{
+  content: ' ';
+  width: 100%;
+  position: absolute;
+  top:0;
+  height: 50px;
+  box-shadow: 0 0 50px 50px black;
+  z-index: -1;
+}
 body>footer>:not(:first-child){
     font-size: .7em;
 
@@ -153,7 +192,7 @@ body>footer>:not(:first-child){
 
 body>footer nav {
   display: inline-block;
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid var(--light);
   padding-bottom: 1em;
   margin-bottom: 1em;
 }
@@ -172,7 +211,7 @@ body>footer nav a {
 }
 
 body>footer a:hover {
-  text-shadow: 0 0 1em white, 0 0 .5em white ;
+  color:var(--light);
 }
 
 
@@ -189,20 +228,33 @@ body>footer a {
 MAIN   
 
 ****************************************/
+@media screen and (max-width: 800px) {
 
+  body>main {
+    max-width: 100%;
+  
+  }
+  
+}
 
 body>main {
-  max-width:800px;
-  
+  width:800px;
+  flex-grow: 1;
 }
 
 body>main>header{
   text-align: center;
   margin:2em 0;
+  
 }
 
 body>main>header #breadcrumbs {
-  color: gray;
+  color: var(--mid);
+}
+
+body>main>header #breadcrumbs a:hover{
+    color:var(--light);
+
 }
 
 body>main>header #page-description {
@@ -211,6 +263,9 @@ body>main>header #page-description {
 }
 body>main>header h1{
   margin:0;
+    background-color: transparent;
+  text-shadow: 0 0 10px var(--light);
+
 }
 
 body>main>header a{
@@ -218,11 +273,11 @@ body>main>header a{
 }
 
 body>main>article{
-    border-radius: 10px;
+    border-radius: 3px;
   color:black;
-  background: #ccc;
-  background-image: url("/assets/img/papier-bg.jpg");
+  background: var(--lgray);
   margin: 1em auto;
+  box-shadow: 0 0 50px -10px black;
 }
 
 
@@ -233,7 +288,6 @@ body>main>article>section {
 body>main>article>section{
       border-radius: inherit;
 
-  background-image: url("/assets/img/papier-bg.jpg");
     box-shadow: 0 -75px 70px 5px rgba(20,0,40,0.15);
 }
 
@@ -266,6 +320,15 @@ body>main #directory-index  .page-list  li {
 
 body>main #directory-index  .page-list a {
     font-size:1.2em;
+}
+
+body>main>article a {
+  color:var(--mid);
+  font-weight:bold;
+}
+
+body>main>article a:hover {
+  color:var(--light);
 }
 
 /*************************************
