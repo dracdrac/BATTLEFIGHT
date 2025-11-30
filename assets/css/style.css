@@ -46,6 +46,7 @@ HEADER
 
 body>header{
       position: sticky;
+  font-size:1.2em;
     top: 0;
     z-index: 3;
   background: black;
@@ -54,7 +55,7 @@ body>header{
   justify-content: space-between;
     flex-wrap: wrap;
     gap:1em;
-  padding: 1em;
+  padding: .5em 1em;
     border-bottom: 1px solid var(--light);
 
 }
@@ -94,7 +95,11 @@ body>header h1 a:hover {
 }
 
 body>header #logo {
-  width: 70px;
+  height: 1em;
+}
+
+body>header #logo:hover {
+  filter:drop-shadow(0 0 5px var(--light));
 }
 
 body>header  #menu-toggle {
