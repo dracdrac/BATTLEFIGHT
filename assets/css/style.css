@@ -259,6 +259,8 @@ body>main>header{
 
 body>main>header #breadcrumbs {
   color: var(--mid);
+    margin-bottom:.5em;
+
 }
 
 body>main>header #breadcrumbs a:hover{
