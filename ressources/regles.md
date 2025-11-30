@@ -2,6 +2,6 @@
 title: Règles
 ---
 
-<code>
+<pre>
 {% include_relative regles.txt %}
-</code>
+</pre>
