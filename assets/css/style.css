@@ -93,6 +93,10 @@ body>header h1 a:hover {
 
 }
 
+body>header #logo {
+  width: 70px;
+}
+
 body>header  #menu-toggle {
   opacity: 0;
   display:none;
