@@ -140,18 +140,41 @@ FOOTER
 ****************************************/
 
 body>footer {
-  font-size: .7em;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
+body>footer>:not(:first-child){
+    font-size: .7em;
+
+}
+
+body>footer nav {
+  display: inline-block;
+  border-bottom: 1px solid gray;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
 body>footer nav ul {
   list-style: none;
   margin: 0;
   padding: 0;
-  display: flex;
+  display: inline-flex;
   justify-content: center;
   gap:2em;
 }
+
+body>footer nav a {
+  font-weight:bold;
+  text-decoration: none;
+}
+
+body>footer a:hover {
+  text-shadow: 0 0 1em white, 0 0 .5em white ;
+}
+
 
 body>footer p {
   margin: .2em;

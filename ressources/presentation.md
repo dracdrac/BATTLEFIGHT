@@ -1,8 +1,5 @@
 ---
-title: À propos de BattleFight
+title: À propos
 ---
-
-
-
 
 
