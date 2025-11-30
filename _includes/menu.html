@@ -8,5 +8,5 @@
     {% assign itempage = site.pages | where: "path", item.path | first %}
     <li><a href="{{item.href}}">{{ itempage.title }}</a></li>"
   {% endif %}
-{% enfor %}
+{% endfor %}
 </ul>
