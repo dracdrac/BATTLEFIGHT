@@ -264,7 +264,6 @@ body>main>header #page-description {
 body>main>header h1{
   margin:0;
     background-color: transparent;
-  text-shadow: 0 0 10px var(--light);
 
 }
 
