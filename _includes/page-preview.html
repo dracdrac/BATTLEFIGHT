@@ -1,0 +1,10 @@
+<section class="page-preview">
+{% assign itempage = site.pages | where: "url", include.page | first%}
+{% if itempage %}{% else %}
+{% assign hrefwithext = include.page | append: ".html" %}
+{% assign itempage = site.pages | where: "url", hrefwithext | first%}
+{% endif %}
+<h2>{{ itempage.title }}</h2>
+<p>{{ itempage.excerpt }}</p>
+<a href="{{include.page}}">En savoir plus</a>
+</section>
