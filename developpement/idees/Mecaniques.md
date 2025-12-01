@@ -30,7 +30,6 @@ Donc ici il ne serait plus possible de jouer de techniques de Défense (autant d
 Ces cartes pourraient être Unique, et donc n'en posseder qu'une seule à la fois en jeu. Une autre carte unique viendrait remplacer votre carte unique.
 Les uniques pourraient être indestructible, une fois mises elles restent jusqua la fin de la partie, et ne pourraient changer qui si une autre carte unique est jouée
 
-## Armes / Armement
 
 ## Permanentes à effets déclanchés
 
