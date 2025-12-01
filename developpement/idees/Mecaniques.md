@@ -13,12 +13,7 @@ Cette mécanique permet de remplacer
 ## Fusil formique
 ___
 title: Fusil Formique
-description:
-* Pause : Passer 2
-* Distance
-* Défausser 1
-* Blesser 7
-* Reprendre la carte en main
+description: * Pause : Passer 2 * Distance * Défausser 1 * Blesser 7 * Reprendre la carte en main
 excerpt: a
 ___
 
