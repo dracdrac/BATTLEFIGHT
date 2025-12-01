@@ -12,8 +12,8 @@ Cette mécanique permet de remplacer
 
 ## Fusil formique
 ___
-title : Fusil Formique
-description :
+title: Fusil Formique
+description:
 * Pause : Passer 2
 * Distance
 * Défausser 1
