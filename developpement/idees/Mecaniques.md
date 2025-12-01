@@ -12,7 +12,7 @@ Une variante serait une mécanique qui remplace une ou des techniques de base. P
 Passif de Base : Piocher 2 / Se blesser 1
 
 
-| Fusil Formique  | 
+|  | 
 | :--------------- |
 | Rhétorique de Base :  Intervenir /  Se blesser 1 |
 | Passif : Piocher 3 / Se Blesser 1|
