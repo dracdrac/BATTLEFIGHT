@@ -19,6 +19,7 @@ description:
 * Défausser 1
 * Blesser 7
 * Reprendre la carte en main
+excerpt: a
 ___
 
 
