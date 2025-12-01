@@ -1,11 +1,11 @@
 ---
 title: BattleFight
 description: Le site en construction d'un jeu en construction
-excerpt: Bienvenue sur le site de BattleFight !
+excerpt: Découvre BattleFight, un jeu de cartes à collectionner (TCG) stratégique rythmé et positionnel.
 permalink: /
 ---
 
-
+![Visuel BattleFight](img/visu2.png)
 
 ## Newsletter
 
