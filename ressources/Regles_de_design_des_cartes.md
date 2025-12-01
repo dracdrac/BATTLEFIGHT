@@ -12,40 +12,40 @@
 
 # Syntaxe
 
-*Chaque description d'étape se finie par un point.
+* Chaque description d'étape se finie par un point.
 
-*Majuscules pour tous les mots des titres des cartes.
+* Majuscules pour tous les mots des titres des cartes.
 
-*Écriture inclusive systematique
+* Écriture inclusive systematique
 
-*Infinitif pour parler des actions de lae joueurse
+* Infinitif pour parler des actions de lae joueurse
 
-*Présent troisième personne pour parler du reste
+* Présent troisième personne pour parler du reste
 
-*plusieurs effet sur une même intervention, inclure mots de liaisons tel que "ou", "et". (blesser 1 et se blesser 1)
+* plusieurs effet sur une même intervention, inclure mots de liaisons tel que "ou", "et". (blesser 1 et se blesser 1)
 
-*On accorde pas en genre et en nbr les types de carte et les mots clés (tout vocabulaire qui possède une entrée dans le glossaire est invariable)
+* On accorde pas en genre et en nbr les types de carte et les mots clés (tout vocabulaire qui possède une entrée dans le glossaire est invariable)
 
-*Si un EFFET pourrait se retrouver à differentes places sur une carte sans changer son sens => le placer en dernier.
+* Si un EFFET pourrait se retrouver à differentes places sur une carte sans changer son sens => le placer en dernier.
 
-*une condition qui n'est pas respectée fait que la carte va direct dans l'historique
+* une condition qui n'est pas respectée fait que la carte va direct dans l'historique
 
-##Formulations récurentes :
+## Formulations récurentes :
 
-*L'adversaire a : [règle]
+* L'adversaire a : [règle]
 
-*Tout le monde a : [règle]
+* Tout le monde a : [règle]
 
-*Les adversaires ont : [règle]
+* Les adversaires ont : [règle]
 
-*À son tour, l'adversaire (...)
+* À son tour, l'adversaire (...)
 
-*À la fin de son tour (...)
+* À la fin de son tour (...)
 
-*(Joueur.se seulement)
+* (Joueur.se seulement)
 
-*Jouer un/une [type]
+* Jouer un/une [type]
 
-*Jouer un/une [type] : [règle]
+* Jouer un/une [type] : [règle]
 
-*Avoir joué un/une [type] au tour précédent
+* Avoir joué un/une [type] au tour précédent
