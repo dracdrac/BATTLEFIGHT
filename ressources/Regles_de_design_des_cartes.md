@@ -9,7 +9,7 @@
 - Les mots clés uttilisés hors de leur type naturel doivent être avoir une valeur/tour plus basse. Pour contrebalancer l'avantage de pouvoir jouer la méca d'un type meme si ce type est empéché.
 
 
-* Syntaxe
+* Syntaxe *
 Chaque description d'étape se finie par un point.
 Majuscules pour tous les mots des titres des cartes.
 Écriture inclusive systematique
