@@ -1,3 +1,9 @@
+---
+title: Guideline
+description: Règles de design de carte
+excerpt: Ici se trouvent les principes à suivre qu'on s'est fixé pour créer les cartes
+---
+
 # Règles 
 - Une carte ne peut pas être strictly better qu'une autre. C'est a dire que même si une carte est moins bien qu'une autre il faut qu'il existe un contexte précis où elle puisse être plus adaptée.
 
