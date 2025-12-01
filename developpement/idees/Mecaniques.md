@@ -13,11 +13,13 @@ Cette mécanique permet de remplacer
 
 ## Fusil formique
 
-| Aligné à gauche  | Centré          | Aligné à droite |
-| :--------------- |:---------------:| -----:|
-| Aligné à gauche  |   ce texte        |  Aligné à droite |
-| Aligné à gauche  | est             |   Aligné à droite |
-| Aligné à gauche  | centré          |    Aligné à droite |
+| Fusil Formique  | 
+| :--------------- |
+| Pause : Passer 2  |
+| Distance  |
+| Défausser 1 | 
+| Blesser 7 | 
+| Reprendre la carte en main| 
 
 
 
