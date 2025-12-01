@@ -11,7 +11,7 @@ Cette mécanique permet de remplacer
 ## Permanentes à effets déclanchés
 
 ## Fusil formique
-
+___
 > Pause : Passer 2
 
 > Distance
@@ -21,7 +21,7 @@ Cette mécanique permet de remplacer
 > Blesser 7
 
 > Reprendre la carte en main
-
+___
 
 
 
