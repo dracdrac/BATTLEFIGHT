@@ -11,11 +11,10 @@ Cette mécanique permet de remplacer
 ## Permanentes à effets déclanchés
 
 ## Fusil formique
+
 ---
 title: Fusil Formique
-description: * Pause : Passer 2 
-* Distance
-* * Défausser 1 * Blesser 7 * Reprendre la carte en main
+description: * Pause 
 excerpt: a
 ---
 
