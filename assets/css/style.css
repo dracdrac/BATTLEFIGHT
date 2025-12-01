@@ -341,6 +341,10 @@ body>main>article a:hover {
   color:var(--light);
 }
 
+body>main>article img{
+  max-width:100%;
+}
+
 /*************************************
 divers
 **************************************/
