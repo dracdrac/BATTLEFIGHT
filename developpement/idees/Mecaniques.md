@@ -5,7 +5,21 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 ## Apprendre
 
-Cette mécanique permet de remplacer
+Cette mécanique permet d'avoir acces à une nouvelle technique de base. 
+
+Une variante serait une mécanique qui remplace une ou des techniques de base. Par exemple :
+
+* Passif de Base : Piocher 2 / Se blesser 1
+
+* Rhétorique de Base :  Intervenir /  Se blesser 1
+
+Passif : Piocher 3 / Se Blesser 1
+
+* Attaque de Base : Blesser 2 càc
+  Défense de Base : S'empêcher défense
+
+Donc ici il ne serait plus possible de jouer de techniques de Défense (autant de base que de cartes) mais en contrepartie votre attaque de base est augmenté de 1
+
 
 ## Armes / Armement
 
