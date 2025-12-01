@@ -34,6 +34,23 @@ Les uniques pourraient être indestructible, une fois mises elles restent jusqua
 
 ## Permanentes à effets déclanchés
 
+Ces cartes étaient présentes pendant le premier semestre de 2025, mais ont été enlevé de la premiere edition car elles elles ajoutaient une mécaniques, et ça pouvait faire lourd pour des néo-joueur.se.
+
+Elles consistent à faire déclencher un effet lorsque qu'un type de technique est joué. Par exemple :
+
+| Eveil - Passif| 
+| :--------------- |
+| Défausser 1|
+| jouer carte passif : Piocher 2|
+| Intervention 4|
+
+| Instinct Animal - Passif| 
+| :--------------- |
+| jouer attaque : Piocher 1|
+| Intervention 3|
+
+
+
 ## Fusil formique
 
 | Fusil Formique  | 
