@@ -13,9 +13,13 @@ Cette mécanique permet de remplacer
 ## Fusil formique
 
 > Pause : Passer 2
+
 > Distance
+
 > Défausser 1
+
 > Blesser 7
+
 > Reprendre la carte en main
 
 
