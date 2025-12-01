@@ -13,11 +13,11 @@ Cette mécanique permet de remplacer
 
 ## Fusil formique
 
----
-title: Calendrier
-description : Dates importantes du passé et du futur de BattleFight
-excerpt: BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Le développement de la première saison sera finalisé en 2026, sa production en 2027.
----
+| Aligné à gauche  | Centré          | Aligné à droite |
+| :--------------- |:---------------:| -----:|
+| Aligné à gauche  |   ce texte        |  Aligné à droite |
+| Aligné à gauche  | est             |   Aligné à droite |
+| Aligné à gauche  | centré          |    Aligné à droite |
 
 
 
