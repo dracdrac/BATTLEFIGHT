@@ -1,14 +1,12 @@
-{% liquid
-case include.class
-when 'E'
-  assign class = 'effet'
-when 'C'
-  assign class = 'condition'
-when 'P'
-  assign class = 'permanente'
-else 'I'
-  assign class = 'intervention'
-endcase %}
+{% if include.class == 'E' %}
+{% assign class = 'effet' %}
+{% elsif include.class == 'C' %}
+{% assign class = 'condition' %}
+{% elsif include.class == 'P' %}
+{% assign class = 'permanente' %}
+{% elsif include.class == 'I' %}
+{% assign class = 'intervention' %}
+{% endif %}
 <div class="rule {{class}}">
   <div class="rule_text">{{include.text}}</div>
 </div>
