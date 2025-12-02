@@ -6,7 +6,7 @@ excerpt: Depuis des temps immémoriaux, des champion·nes du monde entier vienne
 
 ## La genèse légendaire de l'arène 
 
-Il est, dans ce monde, une époque si ancienne que l'on n'avait pas encore appris à compter, si bien qu'aujourd'hui on ne sait plus vraiment quand c'était. On n'avait pas non plus encore appris à écrire, si bien qu'aujourd'hui on ne sait plus exactement ce qu’il s'est passé.
+Il est, dans ce monde, une époque si ancienne que l'on n'avait pas encore appris à compter, si bien qu'aujourd'hui on ne sait plus vraiment quand c'était. On n'avait pas non plus encore appris à écrire, si bien qu'aujourd'hui on ne sait plus exactement ce qui s'est passé.
 
 Mais on raconte que cette époque appartenait à un être puissant et maléfique, que les légendes appellent le Mauvais Mal, la Dévoreuse ou le Grand Hiver. Cet être apparaissait une fois tous les cent ans, et il était si destructeur, et sa puissance si maléfique, que lorsqu'il apparaissait, en quelques jours à peine, le monde entier était réduit en cendres.
 
