@@ -31,25 +31,12 @@ Défausser X cartes de sa main.
 
 ## Effets
 
+<h3>{% include step.html class='E' text='Blesser X' %}</h3>
 
-```
-Conditions
-
-Corps À Corps
-    Être à une case de l'adversaire.
-Distance
-    Être à plus d'une case de l'adversaire.
-Distance X
-    Être à au moins X cases de l'adversaire.
-Défausser X
-    Défausser X cartes de sa main.
-
-Une condition doit être remplie pour pouvoir passer à l'étape suivante.
-Effets
-
-Blesser X
     Retirer X points de vie à l'adversaire.
-Pousser X
+
+<h3>{% include step.html class='E' text='Pousser X' %}</h3>
+
     Déplacer l'adversaire de X cases dans la direction opposée à la votre.
 Se déplacer X
     Se déplacer de X cases ou moins.
