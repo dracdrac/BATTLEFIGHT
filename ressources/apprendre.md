@@ -12,14 +12,14 @@ Pour jouer il te faut :
 
 - 2 decks de 20 cartes
 - 2 pions
-- 1 plateau hexagonal
-- de quoi compter les points de vie
+- 1 plateau [hexagonal](https://battlefight.jejeu.org/ressources/plateau)
+- [de quoi compter les points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg)
 
 ### Créer son deck
 
 Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
-Pour créer un deck aléatoire il suffit d'ouvrir deux booster et de méllanger leur contenu.
+Pour créer un deck aléatoire il suffit d'ouvrir deux booster et de mélanger leur contenu.
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
@@ -33,23 +33,14 @@ Mélange ton deck et pose ton pion dans un coin du plateau, à l'opposé de l'ad
 
 La partie se déroule au tour par tour. 
 
-A tout moment, si ton adversaire est à zéro point de vie ou si tu le pousse en dehors du terrain, tu gagnes la partie.
+À tout moment, si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
 
 
 ### Jouer son tour
 
-Le tour consiste à jouer une technique, cette technique peut être au choix : **une technique de base** ou **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joue.
+Un tour consiste à jouer une technique, cette technique peut être au choix : une des 5 **techniques de base** ou **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
 
-Il existe **5 techniques de bases**, une pour chacun des 5 types :
-
-- L'attaque de base
-- La défense de base
-- Le déplacement de base
-- La passif de base
-- La rhétorique de base
-
-On reviendra sur ces 5 techniques plus tard. celle que tu jouera le plus souvent c'est la **passif de base**, cette technique consiste simplement à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
-
+La technique de base que tu jouera le plus souvent c'est la **passif de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
 ### Lire les cartes
 
@@ -57,18 +48,15 @@ Une carte a toujours un titre, un type et une liste d'étapes.
 
 Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
 
-
 #### Conditions
 
-Certaines étapes sont des conditions
-
-C'est le cas de Défausser, Distance et Corps à Corps
+Certaines étapes sont des conditions. C'est le cas de Défausser, Distance et Corps à Corps
 
 Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse.
 
 {% include carte.html id="09" %}
 
-Les deux premières étapes de la carte *Décharge* sont des condition, la première demande d'être au corps à corps avec l'adversaire, la deuxième demande de défausser une carte de ma main. Si tu n'es pas au corps à corps ou que tu n'as pas assez de carte en main pour défausser, cette carte se terminera avant d'avoir pu réaliser la dernière étape (infliger 4 dégâts à l'adversaire) 
+Les deux premières étapes de la carte *Décharge* sont des condition, la première demande d'être au corps à corps avec l'adversaire, la deuxième demande de défausser une carte de ta main. Si tu n'es pas au corps à corps ou que tu n'as pas assez de carte en main pour défausser, cette carte se terminera avant d'avoir pu réaliser la dernière étape (infliger 4 blessures à l'adversaire).
 
 #### Permanents
 
@@ -76,12 +64,24 @@ Certaines étapes sont permanentes, elles continuent de faire effet tant que la 
 
 {% include carte.html id="51" %}
 
-La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes la carte est mise en pause : ton tour se termine;, mais *Célérité* reste dans ta zone d'activité. Et tant qu'elle sera active, les effets permanants marqués au dessus seront effectif, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite pendant les prochains tours.
+La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, la carte est mise en pause : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Pause** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
 
 #### Intervenir
 
-Rédaction en cours
+Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour cela il te faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
+Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, il te faudra donc **intervenir** dessus et te défausser de 2 cartes.
+
+#### Les techniques de base
+
+Il existe **5 techniques de bases**, une pour chacun des 5 types :
+
+| Attaque   | Défense   |  Déplacement  |  Passif  |  Rhétorique  |
+|:--------: |:--------: |:--------: |:--------: |:--------: |
+| Corps à Corps     | Bloquer 1   | Se déplacer 1  | Piocher 1 | Intervenir |
+| Blesser 1 |
+
+Chaque tour, vous aurez donc le choix de soit jouer une carte de votre main, soit de jouer une des techniques de base.
 
 
 
