@@ -34,7 +34,7 @@ La partie se déroule au tour par tour. À tout moment, si ton adversaire est à
 
 ### Jouer son tour
 
-Un tour consiste à jouer une technique : soit une des 5 **techniques de base**, soit **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
+Un tour consiste à jouer une technique : soit une des 5 **techniques de base**, soit une **carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
 
 La technique de base que tu joueras le plus souvent c'est la **passif de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
