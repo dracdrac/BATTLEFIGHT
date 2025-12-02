@@ -1,7 +1,7 @@
 ---
 title: BattleFight
 description: Le site en construction d'un jeu en construction
-excerpt: BattleFight est un jeu de cartes à collectionner (TCG) stratégique rythmé et positionnel.
+excerpt: BattleFight est un jeu de cartes à collectionner stratégique, rythmé et positionnel.
 permalink: /
 ---
 
