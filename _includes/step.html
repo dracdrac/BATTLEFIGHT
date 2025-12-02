@@ -1,0 +1,14 @@
+{% liquid
+case include.class
+when 'E'
+  assign class = 'effet'
+when 'C'
+  assign class = 'condition'
+when 'P'
+  assign class = 'permanente'
+else 'I'
+  assign class = 'intervention'
+endcase %}
+<div class="rule {{class}}">
+  <div class="rule_text">{{include.text}}</div>
+</div>
