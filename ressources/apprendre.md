@@ -12,14 +12,14 @@ Pour jouer il te faut :
 
 - 2 decks de 20 cartes
 - 2 pions
-- 1 plateau hexagonal
+- 1 plateau [hexagonal](https://battlefight.jejeu.org/ressources/plateau)
 - de quoi compter les points de vie
 
 ### Créer son deck
 
 Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
-Pour créer un deck aléatoire il suffit d'ouvrir deux booster et de méllanger leur contenu.
+Pour créer un deck aléatoire il suffit d'ouvrir deux booster et de mélanger leur contenu.
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
