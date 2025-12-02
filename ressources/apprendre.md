@@ -84,12 +84,7 @@ Il existe **5 techniques de bases**, une pour chacun des 5 types :
 | Corps à Corps     | Bloquer 1   | Se déplacer 1  | Piocher 1 | Intervenir |
 | Blesser 1 |
 
-
-- L'attaque de base
-- La défense de base
-- Le déplacement de base
-- La passif de base
-- La rhétorique de base
+Chaque tour, vous aurez donc le choix de soit jouer une carte de votre main, soit de jouer une des techniques de base.
 
 
 
