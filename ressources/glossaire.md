@@ -68,6 +68,8 @@ Piocher X cartes.
 
 Effets permanents
 
+<small>Les étapes permanentes restent effective tant que la carte est en jeu</small>
+
 <h3>{% include step.html class='P' text='Force X' %}</h3>
 Augmente de X vos Blesser et Se Blesser.
 
@@ -95,5 +97,4 @@ Vous ne pouvez pas jouer le type X.
 
 Jouer une technique de type X déclenche l'action Y.
 
-Les étapes permanentes restent effective tant que la carte est dans
-```
+
