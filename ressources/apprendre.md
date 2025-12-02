@@ -64,7 +64,7 @@ Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour c
 
 Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, il te faudra donc **intervenir** dessus et te défausser de 2 cartes.
 
-#### Les techniques de base
+### Les techniques de base
 
 Il en existe 5, une pour chacun des 5 types :
 
