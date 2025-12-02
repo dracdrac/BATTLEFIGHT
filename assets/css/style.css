@@ -923,3 +923,20 @@ pre {
     widh:100%;
   
 }
+
+table {
+  border-collapse: collapse;
+  overflow:hidden;
+}
+
+table th {
+  background: var(--light);
+  color:var(--lgray);
+} 
+
+table td,
+table th {
+  border : 1px solid var(--mid);
+
+  padding: .1em .5em;
+}
