@@ -79,8 +79,8 @@ Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, 
 
 Il existe **5 techniques de bases**, une pour chacun des 5 types :
 
-| Attaque | Défense | Déplacement | Passif | Rhétorique |
-|:-------- |:-------- |:-------- |:-------- |:-------- |
+| Attaque   | Défense   |  Déplacement  |  Passif  |  Rhétorique  |
+|:--------: |:--------: |:--------: |:--------: |:--------: |
 | Corps à Corps     | Bloquer 1   | Se déplacer 1  | Piocher 1 | Intervenir |
 | Blesser 1 |
 
