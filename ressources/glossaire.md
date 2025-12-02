@@ -1,6 +1,6 @@
 ---
 title: Glossaire
-description: toutes les définitions des mots clefs
+description: Les définitions des mots clefs
 excerpt: 
 ---
 
