@@ -38,18 +38,9 @@ La partie se déroule au tour par tour.
 
 ### Jouer son tour
 
-Un tour consiste à jouer une technique, cette technique peut être au choix : **une technique de base** ou **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
-
-Il existe **5 techniques de bases**, une pour chacun des 5 types :
-
-- L'attaque de base
-- La défense de base
-- Le déplacement de base
-- La passif de base
-- La rhétorique de base
+Un tour consiste à jouer une technique, cette technique peut être au choix : une des 5 **techniques de base** ou **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
 
 On reviendra sur ces 5 techniques plus tard. Celle que tu jouera le plus souvent c'est la **passif de base**, elle consiste simplement à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
-
 
 ### Lire les cartes
 
@@ -77,12 +68,28 @@ Certaines étapes sont permanentes, elles continuent de faire effet tant que la 
 La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, la carte est mise en pause : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Pause** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
 
 
-
 #### Intervenir
 
 L'étape **Pause** suspend donc la lecture d'une carte. Pour pouvoir se débarraser d'une telle carte, il faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra se défausser d'autant de cartes. 
 
 Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, il te faudra donc **intervenir** dessus et te défausser de 2 cartes.
+
+
+#### Les techniques de base
+
+Il existe **5 techniques de bases**, une pour chacun des 5 types :
+
+| Attaque de base | Défense de base | Déplacement de base | Passif de base | Rhétorique de base |
+|:-------- |:-------- |:-------- |:-------- |:-------- |
+| Corps à Corps     | Bloquer 1   | Se déplacer 1  | Piocher 1 | Intervenir |
+| Blesser 1 |
+
+
+- L'attaque de base
+- La défense de base
+- Le déplacement de base
+- La passif de base
+- La rhétorique de base
 
 
 
