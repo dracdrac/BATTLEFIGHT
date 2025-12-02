@@ -33,12 +33,12 @@ Mélange ton deck et pose ton pion dans un coin du plateau, à l'opposé de l'ad
 
 La partie se déroule au tour par tour. 
 
-A tout moment, si ton adversaire est à zéro point de vie ou si tu le pousse en dehors du terrain, tu gagnes la partie.
+À tout moment, si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
 
 
 ### Jouer son tour
 
-Le tour consiste à jouer une technique, cette technique peut être au choix : **une technique de base** ou **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joue.
+Un tour consiste à jouer une technique, cette technique peut être au choix : **une technique de base** ou **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
 
 Il existe **5 techniques de bases**, une pour chacun des 5 types :
 
@@ -48,7 +48,7 @@ Il existe **5 techniques de bases**, une pour chacun des 5 types :
 - La passif de base
 - La rhétorique de base
 
-On reviendra sur ces 5 techniques plus tard. celle que tu jouera le plus souvent c'est la **passif de base**, cette technique consiste simplement à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
+On reviendra sur ces 5 techniques plus tard. Celle que tu jouera le plus souvent c'est la **passif de base**, elle consiste simplement à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
 
 ### Lire les cartes
@@ -60,15 +60,13 @@ Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as f
 
 #### Conditions
 
-Certaines étapes sont des conditions
-
-C'est le cas de Défausser, Distance et Corps à Corps
+Certaines étapes sont des conditions. C'est le cas de Défausser, Distance et Corps à Corps
 
 Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse.
 
 {% include carte.html id="09" %}
 
-Les deux premières étapes de la carte *Décharge* sont des condition, la première demande d'être au corps à corps avec l'adversaire, la deuxième demande de défausser une carte de ma main. Si tu n'es pas au corps à corps ou que tu n'as pas assez de carte en main pour défausser, cette carte se terminera avant d'avoir pu réaliser la dernière étape (infliger 4 dégâts à l'adversaire) 
+Les deux premières étapes de la carte *Décharge* sont des condition, la première demande d'être au corps à corps avec l'adversaire, la deuxième demande de défausser une carte de ta main. Si tu n'es pas au corps à corps ou que tu n'as pas assez de carte en main pour défausser, cette carte se terminera avant d'avoir pu réaliser la dernière étape (infliger 4 blessures à l'adversaire).
 
 #### Permanents
 
@@ -76,12 +74,15 @@ Certaines étapes sont permanentes, elles continuent de faire effet tant que la 
 
 {% include carte.html id="51" %}
 
-La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes la carte est mise en pause : ton tour se termine;, mais *Célérité* reste dans ta zone d'activité. Et tant qu'elle sera active, les effets permanants marqués au dessus seront effectif, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite pendant les prochains tours.
+La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes la carte est mise en pause : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Pause** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
+
+
 
 #### Intervenir
 
-Rédaction en cours
+L'étape **Pause** suspend donc la lecture d'une carte. Pour pouvoir se débarraser d'une telle carte, il faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra se défausser d'autant de cartes. 
 
+Si l'adversaire à la carte *Célérité* et que tu veux lui enlever l'effet permanent de **Vitesse 1**, il te faudra donc **intervenir** dessus et te défausser de 2 cartes.
 
 
 
