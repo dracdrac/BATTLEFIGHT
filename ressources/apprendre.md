@@ -82,7 +82,7 @@ La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, 
 
 L'étape **Pause** suspend donc la lecture d'une carte. Pour pouvoir se débarraser d'une telle carte, il faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra se défausser d'autant de cartes. 
 
-Si l'adversaire à la carte *Célérité* et que tu souhaite lui enlever, il te faudra donc **intervenir** dessus et te défausser de 2 cartes.
+Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, il te faudra donc **intervenir** dessus et te défausser de 2 cartes.
 
 
 
