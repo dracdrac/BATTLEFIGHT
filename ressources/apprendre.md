@@ -69,7 +69,7 @@ Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, 
 Chaque tour, tu aas le choix de soit jouer une carte de ta main, soit de jouer une techniques de base. Il en existe 5, une pour chacun des 5 types :
 
 | Attaque   | Défense   |  Déplacement  |  Passif  |  Rhétorique  |
-|:--------: |:--------: |:--------: |:--------: |:--------: |
+|:---- |:----- |:------ |:------ |:------|
 | Corps à Corps     | Bloquer 1   | Se déplacer 1  | Piocher 1 | Intervenir |
 | Blesser 1 |
 
