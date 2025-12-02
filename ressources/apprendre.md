@@ -17,9 +17,7 @@ Pour jouer il te faut :
 
 ### Créer son deck
 
-Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
-
-Pour créer un deck aléatoire il suffit d'ouvrir deux booster et de mélanger leur contenu.
+Pour une première partie on te conseille de jouer avec un **deck aléatoire** : pour créer le créer il suffit d'ouvrir deux boosters et de mélanger leur contenu.
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
@@ -31,9 +29,7 @@ Mélange ton deck et pose ton pion dans un coin du plateau, à l'opposé de l'ad
 
 ## Que le combat commence !
 
-La partie se déroule au tour par tour. 
-
-À tout moment, si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
+La partie se déroule au tour par tour. À tout moment, si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
 
 
 ### Jouer son tour
@@ -44,15 +40,11 @@ La technique de base que tu jouera le plus souvent c'est la **passif de base**, 
 
 ### Lire les cartes
 
-Une carte a toujours un titre, un type et une liste d'étapes.
-
-Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
+Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
 
 #### Conditions
 
-Certaines étapes sont des conditions. C'est le cas de Défausser, Distance et Corps à Corps
-
-Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse.
+Certaines étapes sont des conditions. C'est le cas de Défausser, Distance et Corps à Corps. Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse.
 
 {% include carte.html id="09" %}
 
