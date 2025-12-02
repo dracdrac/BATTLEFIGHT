@@ -13,7 +13,7 @@ Pour jouer il te faut :
 - 2 decks de 20 cartes
 - 2 pions
 - 1 plateau [hexagonal](https://battlefight.jejeu.org/ressources/plateau)
-- de quoi compter les points de vie
+- [de quoi compter les points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg)
 
 ### Créer son deck
 
