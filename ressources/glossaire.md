@@ -68,20 +68,32 @@ Piocher X cartes.
 
 Effets permanents
 
-Force X
-    Augmente de X vos Blesser et Se Blesser.
-Bouclier X
-    Diminue de X les Blesser de l'adversaire et vos Se Blesser.
-Vitesse X
-    Augmente de X vos Se Déplacer.
-Charme X
-    Augmente de X vos interventions quand c'est l'adversaire qui intervient.
-Empêcher X
-    L'adversaire ne peut pas jouer le type X.
-S'empêcher X
-    Vous ne pouvez pas jouer le type X.
-Jouer X : Y
-    Jouer une technique de type X déclenche l'action Y.
+<h3>{% include step.html class='P' text='Force X' %}</h3>
+Augmente de X vos Blesser et Se Blesser.
+
+<h3>{% include step.html class='P' text='Bouclier X' %}</h3>
+
+Diminue de X les Blesser de l'adversaire et vos Se Blesser.
+
+<h3>{% include step.html class='P' text='Vitesse X' %}</h3>
+
+Augmente de X vos Se Déplacer.
+
+<h3>{% include step.html class='P' text='Charme X' %}</h3>
+
+Augmente de X vos interventions quand c'est l'adversaire qui intervient.
+
+<h3>{% include step.html class='P' text='Empêcher X' %}</h3>
+
+L'adversaire ne peut pas jouer le type X.
+
+<h3>{% include step.html class='P' text='S'empêcher X' %}</h3>
+
+Vous ne pouvez pas jouer le type X.
+
+<h3>{% include step.html class='P' text='Jouer X : Y' %}</h3>
+
+Jouer une technique de type X déclenche l'action Y.
 
 Les étapes permanentes restent effective tant que la carte est dans
 ```
