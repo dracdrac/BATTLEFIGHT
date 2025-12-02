@@ -4,7 +4,7 @@ description: Résumé des règles pour une prise en main rapide
 excerpt: Dans BattleFight, deux personnes s'affrontent en jouant chacune leur tour une technique de combat, jusqu'à ce qu'une des deux tombe à court de point de vie ou soit poussée hors du plateau.
 ---
 
-Ce document est un survol rapide des règles, il devrait suffire pour une première partie. Pour aller plus loin, visiter [Règles](règles.md).
+Ce document est un survol rapide des règles, il devrait suffire pour une première partie. Pour aller plus loin, visiter [Règles](regles).
 
 ## Avant de jouer
 
