@@ -4,9 +4,26 @@ Une condition doit être remplie pour pouvoir passer à l'étape suivante
 
 <small>Si la condition n'est pas remplie, défausser la carte</small>
 
-### {% include step.html class='C' text='Corps À Corps' %}
+<h3>{% include step.html class='C' text='Corps À Corps' %}</h3>
 
 Être à une case de l'adversaire.
+
+<h3>{% include step.html class='C' text='Distance' %}</h3>
+
+Être à plus d'une cases de l'adversaire.
+
+<h3>{% include step.html class='C' text='Distance X' %}</h3>
+
+Être à au moins X cases de l'adversaire.
+
+<h3>{% include step.html class='C' text='Défausser X' %}</h3>
+
+Défausser X cartes de sa main.
+
+<small>Si on n'a pas assez de carte, la condition n'est pas remplie mais il faut quand même défausser toute sa main</small>
+
+
+## Effets
 
 
 ```
