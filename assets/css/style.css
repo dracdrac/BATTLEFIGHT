@@ -795,6 +795,7 @@ body>main>article section.page-preview {
   border:1px solid var(--mid);
   border-radius:5px;
   overflow: hidden;
+  margin : 2em 0;
 }
 
 body>main>article section.page-preview h2,
@@ -809,7 +810,8 @@ body>main>article section.page-preview a {
 }
 
 body>main>article section.page-preview a {
-    background: var(--mid);
+    background: var(--lgray);
+  color:var(--mid);
     border-top: 1px solid 
 }
 
