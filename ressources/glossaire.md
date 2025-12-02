@@ -1,5 +1,7 @@
 ---
 title: Glossaire
+description: toutes les définitions des mots clefs
+excerpt: 
 ---
 
 ## Conditions
