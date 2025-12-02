@@ -1,5 +1,6 @@
 ---
 title: À propos
+description: tout savoir sur battlefight
 ---
 
 {% include page-preview.html page="/ressources/lore" %}
