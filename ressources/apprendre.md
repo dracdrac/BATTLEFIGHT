@@ -70,7 +70,7 @@ La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, 
 
 #### Intervenir
 
-L'étape **Pause** suspend donc la lecture d'une carte. Pour pouvoir se débarraser d'une telle carte, il faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra se défausser d'autant de cartes. 
+Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour cela il te faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
 Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, il te faudra donc **intervenir** dessus et te défausser de 2 cartes.
 
@@ -79,7 +79,7 @@ Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, 
 
 Il existe **5 techniques de bases**, une pour chacun des 5 types :
 
-| Attaque de base | Défense de base | Déplacement de base | Passif de base | Rhétorique de base |
+| Attaque | Défense | Déplacement | Passif | Rhétorique |
 |:-------- |:-------- |:-------- |:-------- |:-------- |
 | Corps à Corps     | Bloquer 1   | Se déplacer 1  | Piocher 1 | Intervenir |
 | Blesser 1 |
