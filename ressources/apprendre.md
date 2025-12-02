@@ -66,7 +66,7 @@ Ainsi, si l'adversaire a la carte *Célérité* et que tu souhaite lui enlever, 
 
 #### Les techniques de base
 
-Chaque tour, tu aas le choix de soit jouer une carte de ta main, soit de jouer une techniques de base. Il en existe 5, une pour chacun des 5 types :
+Il en existe 5, une pour chacun des 5 types :
 
 | Attaque   | Défense   |  Déplacement  |  Passif  |  Rhétorique  |
 |:---- |:----- |:------ |:------ |:------|
