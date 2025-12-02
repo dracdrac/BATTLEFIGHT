@@ -1,111 +1,86 @@
 ---
 title: Apprendre à jouer
+description: Résumé des règles pour une prise en main rapide
+excerpt: Dans BattleFight, deux personnes s'affrontent en jouant chacune leur tour une technique de combat, jusqu'à ce qu'une des deux tombe à court de point de vie ou soit poussée hors du plateau.
 ---
 
-## Règles de base
-BATTLEFIGHT est un jeu de deckbuilding où deux adversaires se battent sur une arène. Le but du jeu est de faire tomber les points de vie de son adversaire à zéro ou de le faire sortir de l'arène.
+Ce document est un survol rapide des règles, il devrait suffire pour une première partie. Pour aller plus loin, visiter [Règles](règles.md).
 
-### Préparation
+## Avant de jouer
 
-Matériel nécéssaire : 
-- deux decks de 20 cartes
-- un plateau hexagonal
-- deux pions
-- deux compteurs de point de vie
+Pour jouer il te faut :
 
-On mélange les decks, on pose les pions sur le plateau, chacun sur un angle opposé et on met les compteurs de vie à 20 points.
+- 2 decks de 20 cartes
+- 2 pions
+- 1 plateau hexagonal
+- de quoi compter les points de vie
 
-<img src="/img/plateau_pions_cartes.png" width="400">
+### Créer son deck
 
-### Le deck
+Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
-On commence avec son propre deck de 20 cartes. Ces cartes représentent l'ensemble des tecnhiques de combat du personnage que vous incarnez. 
+Pour créer un deck aléatoire il suffit d'ouvrir deux booster et de méllanger leur contenu.
 
-Chaque deck contient 4 cartes de chacun des type suivants :
-- l'attaque, qui fait baisser les points de vie adverses
-- la défense, qui bloque les blessures
-- le déplacement, qui fait se déplacer sur l'arène
-- le passif, qui permet de piocher des cartes
-- la rhétorique, qui permet d'enlever des cartes adverses
+Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
-### Les Zones de jeu
+### Mise en place
 
-Il existe 4 zones de jeu :
-- l'arène, représentée par un plateau héxagonal
-- la pioche, où l'on place son deck
-- la main, où l'on garde secrètement ses cartes
-- la zone d'activité, où l'on place les cartes jouées depuis la main
-- la défausse, où l'on place les cartes utilisées face visible
+Mélange ton deck et pose ton pion dans un coin du plateau, à l'opposé de l'adversaire.
 
-L'arène est le seul espace partagé, tout le monde posssède sa propre pioche, main, zone d'activité et défausse.
+![La table d'une partie de BattleFight]()
 
-### Anatomie des cartes
+## Que le combat commence !
 
-Les cartes sont composées ainsi :
+La partie se déroule au tour par tour. 
 
-<img src="/img/meteorite.png" width="200">
-
-- Le nom de la technique (ici Météorite)
-- Le type, qui se situe en dessous du titre (ici attaque). Il est aussi rappelé dans le coin droit par un petit symbôle.
-- Les étapes de la carte (ici représentés par les trois rectangles).
-- Les informations d'édition, qui n'impactent pas le jeu.
-
-### Jouer les cartes
-
-Lorsqu'on joue une carte, on la pose depuis sa **main** dans sa **zone d'activité** le temps d'effectuer les étapes. 
-Une fois que toutes les étapes sont passées, on place la carte dans sa propre **défausse**.
-
-Il éxiste 4 sortes d'étapes :
-* **condition**
-* **effet**
-* **permanente**
-* **pause**
-
-Si une étape est une **condition**  : il faut respecter la condition pour passer à l'étape suivante. Si la condition n'est pas respectée, la carte va directement dans la défausse.
-
-Si une étape est un **effet** :  on l'effectue si possible et on passe a l'étape suivante.
-
-Si une étape est une **permanente** : on passe a l'étape suivante. Cette règle restera active tant que la carte est dans la zone d'activité.
-
-Si une étape est une **pause** : on ne passe pas à l'étape suivante, la carte est alors en "pause" et ne va pas dans la défausse à la fin du tour.  
-N'importe quel joueur ou joueuse pourra **intervenir** dessus pour continuer la carte. S'il l'effectue, on passe à la règle suivante. S'il n'y a rien après la **pause**, alors la carte est défaussée.
-
-Remarque : Pause X signifie que pour intervenir dessus il faut se défausser en plus de X cartes.
-
-### Déroulement d'une partie
-
-Chacun.e notre tour, on va pouvoir éffectuer une de ces 2 actions :
-- jouer une carte de sa main
-- éffectuer une action de base
-
-Les actions de base sont les suivantes, chacunes correspondant à un type de carte :
-- attaque de base : Blesser 1 au corps à corps
-- défense de base : Bloquer 1
-- déplacement de base : Se Déplacer 1
-- passif de base : Piocher 1
-- rhétorique de base : Intervenir
-
-Il faut imaginer les techniques de bases comme des cartes gratuites, disponibles à chaque tour.
-
-Lorsqu'une technique de base ou une carte est jouée, ça passe au tour de l'adversaire. Les cartes dont les étapes sont finies vont dans la défausse.
-
-A tout moment, si on est à zéro point de vie ou en dehors des limites du terrain, on perd la partie.
-On ne peux pas revenir sur le plateau une fois sorti des limites du plateau, ni jouer si nos points de vie sont à zéro.
-
-Les tours vont donc s'enchaîner rapidement, il conviendra d'annoncer à voix haute l'action choisie.
-
-### Les modes de jeux
-Battlefight est vendu sous forme de Boosters. Ce sont des paquets constitués de 10 cartes aléatoires, comprenant 2 cartes de chaque type. Il en découle deux modes de jeux : les deck aléatoires et les decks construits.
-
-Le deck aléatoire consiste à ce que les joueur.ses prennent chacun.es deux boosters, les mélangent et s'affrontent. Il est possible de simuler des boosters en triant votre collection en fonction des types (une pile des cartes attaque, une pile des cartes défense, etc..). Disposez alors les 5 piles face cachée, et prenez 4 cartes de chaque pile pour former un deck.
-
-L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
+A tout moment, si ton adversaire est à zéro point de vie ou si tu le pousse en dehors du terrain, tu gagnes la partie.
 
 
+### Jouer son tour
+
+Le tour consiste à jouer une technique, cette technique peut être au choix : **une technique de base** ou **une carte**. L'usage est de toujours annoncer à voix haute la technique que tu joue.
+
+Il existe **5 techniques de bases**, une pour chacun des 5 types :
+
+- L'attaque de base
+- La défense de base
+- Le déplacement de base
+- La passif de base
+- La rhétorique de base
+
+On reviendra sur ces 5 techniques plus tard. celle que tu jouera le plus souvent c'est la **passif de base**, cette technique consiste simplement à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
 
+### Lire les cartes
+
+Une carte a toujours un titre, un type et une liste d'étapes.
+
+Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
 
 
+#### Conditions
+
+Certaines étapes sont des conditions
+
+C'est le cas de Défausser, Distance et Corps à Corps
+
+Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse.
+
+{% include carte.html id="09" %}
+
+Les deux premières étapes de la carte *Décharge* sont des condition, la première demande d'être au corps à corps avec l'adversaire, la deuxième demande de défausser une carte de ma main. Si tu n'es pas au corps à corps ou que tu n'as pas assez de carte en main pour défausser, cette carte se terminera avant d'avoir pu réaliser la dernière étape (infliger 4 dégâts à l'adversaire) 
+
+#### Permanents
+
+Certaines étapes sont permanentes, elles continuent de faire effet tant que la carte est active. Les cartes avec des effets permanents finissent généralement par une **Pause**.
+
+{% include carte.html id="51" %}
+
+La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes la carte est mise en pause : ton tour se termine;, mais *Célérité* reste dans ta zone d'activité. Et tant qu'elle sera active, les effets permanants marqués au dessus seront effectif, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite pendant les prochains tours.
+
+#### Intervenir
+
+Rédaction en cours
 
 
 
