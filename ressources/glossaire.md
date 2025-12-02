@@ -1,3 +1,7 @@
+---
+title: Glossaire
+---
+
 ## Conditions
 
 Une condition doit être remplie pour pouvoir passer à l'étape suivante
