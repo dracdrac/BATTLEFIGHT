@@ -1,5 +1,7 @@
 ---
 title: Glossaire
+description: Les définitions des mots clefs
+excerpt: 
 ---
 
 ## Conditions
@@ -29,57 +31,70 @@ Défausser X cartes de sa main.
 
 ## Effets
 
+<h3>{% include step.html class='E' text='Blesser X' %}</h3>
+Retirer X points de vie à l'adversaire.
 
-```
-Conditions
+<h3>{% include step.html class='E' text='Pousser X' %}</h3>
 
-Corps À Corps
-    Être à une case de l'adversaire.
-Distance
-    Être à plus d'une case de l'adversaire.
-Distance X
-    Être à au moins X cases de l'adversaire.
-Défausser X
-    Défausser X cartes de sa main.
+Déplacer l'adversaire de X cases dans la direction opposée à la votre.
 
-Une condition doit être remplie pour pouvoir passer à l'étape suivante.
-Effets
+<h3>{% include step.html class='E' text='Se déplacer X' %}</h3>
 
-Blesser X
-    Retirer X points de vie à l'adversaire.
-Pousser X
-    Déplacer l'adversaire de X cases dans la direction opposée à la votre.
-Se déplacer X
-    Se déplacer de X cases ou moins.
-Défausser X si possible
-    Défausser X cartes de sa main. Si c'est impossible, défausser toute sa main.
-Intervenir
-    Choisir une intervention et l'activer si possible.
-Se blesser X
-    Se retirer X points de vie.
-Bloquer X
-    Récupérer jusqu'à X points de vie perdus depuis votre dernier tour.
-Rejouer
-    Jouer une autre technique.
-Piocher X
-    Piocher X cartes.
+Se déplacer de X cases ou moins.
 
-Effets permanents
+<h3>{% include step.html class='E' text='Défausser X si possible' %}</h3>
 
-Force X
-    Augmente de X vos Blesser et Se Blesser.
-Bouclier X
-    Diminue de X les Blesser de l'adversaire et vos Se Blesser.
-Vitesse X
-    Augmente de X vos Se Déplacer.
-Charme X
-    Augmente de X vos interventions quand c'est l'adversaire qui intervient.
-Empêcher X
-    L'adversaire ne peut pas jouer le type X.
-S'empêcher X
-    Vous ne pouvez pas jouer le type X.
-Jouer X : Y
-    Jouer une technique de type X déclenche l'action Y.
+Défausser X cartes de sa main. Si c'est impossible, défausser toute sa main.
 
-Les étapes permanentes restent effective tant que la carte est dans
-```
+<h3>{% include step.html class='E' text='Intervenir' %}</h3>
+
+Choisir une intervention et l'activer si possible.
+
+<h3>{% include step.html class='E' text='Se blesser X' %}</h3>
+
+Se retirer X points de vie.
+
+<h3>{% include step.html class='E' text='Bloquer X' %}</h3>
+
+Récupérer jusqu'à X points de vie perdus depuis votre dernier tour.
+
+<h3>{% include step.html class='E' text='Rejouer' %}</h3>
+
+Jouer une autre technique.
+
+<h3>{% include step.html class='E' text='Piocher X' %}</h3>
+
+Piocher X cartes.
+
+## Effets permanents
+
+<small>Les étapes permanentes restent effective tant que la carte est en jeu</small>
+
+<h3>{% include step.html class='P' text='Force X' %}</h3>
+Augmente de X vos Blesser et Se Blesser.
+
+<h3>{% include step.html class='P' text='Bouclier X' %}</h3>
+
+Diminue de X les Blesser de l'adversaire et vos Se Blesser.
+
+<h3>{% include step.html class='P' text='Vitesse X' %}</h3>
+
+Augmente de X vos Se Déplacer.
+
+<h3>{% include step.html class='P' text='Charme X' %}</h3>
+
+Augmente de X vos interventions quand c'est l'adversaire qui intervient.
+
+<h3>{% include step.html class='P' text='Empêcher X' %}</h3>
+
+L'adversaire ne peut pas jouer le type X.
+
+<h3>{% include step.html class='P' text="S'empêcher X" %}</h3>
+
+Vous ne pouvez pas jouer le type X.
+
+<h3>{% include step.html class='P' text='Jouer X : Y' %}</h3>
+
+Jouer une technique de type X déclenche l'action Y.
+
+
