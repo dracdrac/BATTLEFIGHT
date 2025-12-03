@@ -89,7 +89,7 @@ Augmente de X vos interventions quand c'est l'adversaire qui intervient.
 
 L'adversaire ne peut pas jouer le type X.
 
-<h3>{% include step.html class='P' text='S'empêcher X' %}</h3>
+<h3>{% include step.html class='P' text='S"empêcher X' %}</h3>
 
 Vous ne pouvez pas jouer le type X.
 
