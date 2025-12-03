@@ -68,15 +68,14 @@ Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, il t
 
 Il en existe 5, une pour chacun des 5 types :
 
-| Attaque   | Défense   |  Déplacement  |  Passif  |  Rhétorique  |
-|:---- |:----- |:------ |:------ |:------|
-| Corps à Corps     | Bloquer 1   | Se déplacer 1  | Piocher 1 | Intervenir |
+| Attaque   | Défense   |  Déplacement  |  
+|:---- |:----- |:------ |
+| Corps à Corps     | Bloquer 1   | Se déplacer 1  | 
 | Blesser 1 |
 
-
-
-
-
+|Passif  |  Rhétorique  |
+|:------ |:------|
+| Piocher 1 | Intervenir |
 
 
 
