@@ -1,8 +1,13 @@
----
-title: Lore
+---title: Lore
 description: L'histoire que raconte BattleFight
 excerpt: Depuis des temps immémoriaux, des champion·nes du monde entier viennent s'affronter dans cette arène, verser leur sueur et leur sang sur ces éternelles dalles de pierre. Une pratique riche et complexe qui traverse les âges et rassemble les peuples.
 ---
+
+## Entrez dans l'histoire !
+
+Dans BattleFight, vous jouez un·e champion·ne qui prend part aux combats de l'arène. Chaque carte de votre deck correspond à une technique de combat que votre champion·ne maîtrise.
+
+Chaque saison se déroule dans une époque différente et introduit 100 nouvelles techniques de combat, inspirées des dix héro·ïnes de cette époque. L'occasion de découvrir ces dix personnages qui ont marqué l'histoire ainsi que leurs techniques de combat les plus emblématiques.
 
 ## La genèse légendaire de l'arène 
 
@@ -31,10 +36,4 @@ Une fois par an, un tournoi très prestigieux est organisé dans l'arène. Chaqu
 Tous les siècles a lieu le tournoi centennal, qui est si populaire à travers le monde que, pendant quelques semaines, des villages entiers voient le jour dans les environs de l'arène. À cette occasion, d'immenses gradins sont dressés pour accueillir les supporters venu·es du monde entier.
 
 C'est une pratique très riche, où la force physique et la puissance magique sont aussi importantes que la psychologie et l'éloquence, et où les profils des champion·nes sont très variés.
-
-## Entrez dans l'histoire !
-
-Dans BattleFight, vous jouez un·e champion·ne qui prend part aux combats de l'arène. Chaque carte de votre deck correspond à une technique de combat que votre champion·ne maîtrise.
-
-Chaque saison se déroule dans une époque différente et introduit 100 nouvelles techniques de combat, inspirées des dix héro·ïnes de cette époque. L'occasion de découvrir ces dix personnages qui ont marqué l'histoire ainsi que leurs techniques de combat les plus emblématiques.
 
