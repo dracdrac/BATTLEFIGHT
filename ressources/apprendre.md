@@ -34,7 +34,22 @@ La partie se déroule au tour par tour. À tout moment, si ton adversaire est à
 
 ### Jouer son tour
 
-Un tour consiste à jouer une technique : soit une des 5 **techniques de base**, soit une **carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
+Un tour consiste à jouer une seule technique : soit une des 5 **techniques de base**, soit une **carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
+
+Une fois la technique jouée, c'est au tour de l'adversaire. 
+
+### Les techniques de base
+
+Il en existe 5, une pour chacun des 5 types :
+
+| Attaque   | Défense   |  Déplacement  |  
+|:---- |:----- |:------ |
+| Corps à Corps     | Bloquer 1   | Se déplacer 1  | 
+| Blesser 1 |
+
+|Passif  |  Rhétorique  |
+|:------ |:------|
+| Piocher 1 | Intervenir |
 
 La technique de base que tu joueras le plus souvent c'est la **passif de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
@@ -64,34 +79,6 @@ Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour c
 
 Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, il te faut **intervenir** dessus et te défausser de 2 cartes.
 
-### Les techniques de base
+### Aller plus loin
 
-Il en existe 5, une pour chacun des 5 types :
-
-| Attaque   | Défense   |  Déplacement  |  
-|:---- |:----- |:------ |
-| Corps à Corps     | Bloquer 1   | Se déplacer 1  | 
-| Blesser 1 |
-
-|Passif  |  Rhétorique  |
-|:------ |:------|
-| Piocher 1 | Intervenir |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+Voilà, tu sais jouer à Battlefight ! Si tu as des doutes, tu peux te reporter aux règles plus détaillées ou encore au Glossaire pour avoir toutes les définitions des mots clefs. 
