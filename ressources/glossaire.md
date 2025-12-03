@@ -66,7 +66,7 @@ Jouer une autre technique.
 
 Piocher X cartes.
 
-Effets permanents
+## Effets permanents
 
 <small>Les étapes permanentes restent effective tant que la carte est en jeu</small>
 
