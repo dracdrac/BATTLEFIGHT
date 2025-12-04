@@ -1,3 +1,5 @@
+{% if {{include.id}} %}
+
 <div class="card" data-id="{{include.id}}">
   <div class=content>
     <div class="header">
@@ -20,3 +22,39 @@
   </div>
 </div>
 
+{% else %}
+
+{% assign edition = include.e | default: 'I' %}
+{% assign version = include.v | default: 'alpha' %}
+{% assign number = include.n %}
+
+{% assign edition_obj = site.data.editions | find: 'id', edition %}
+{% assign version_obj = edition_obj.versions | find: 'id', edition %}
+{% assign cards = site.data[version_obj.cards] %}
+
+{% assign card = cards | find: 'ID', number % }
+
+{% assign title = card.TITLE | strip %}
+{% assign type = card.TYPE | strip %}
+{% assign steps_types = card.STEPS | strip %}
+
+
+<div class="card">
+  <div class=content>
+    <div class="header">
+      <div class=title>{{title}}</div>
+      <div class=types>
+        <span class=primary_types>{{type}}</span>
+      </div>
+    </div>
+    <div class=illu><img></img></div>
+    <div class=rules>
+      {% render step.html class=steps_types[0] text=card['STEP1'] %}
+    </div>
+    <div class="footer">
+    <span class="id">{{edition}} ({{version}}) {{number}}</span><span>BattleFight 2025</span>
+    </div>
+  </div>
+</div>
+
+{% endif %}

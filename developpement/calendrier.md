@@ -29,7 +29,7 @@ caption="La carte Impro lorsqu'on reprend serieusement le développement du jeu,
 
 ## 2026
 
-* **11 Fevrier 2026** : On fait un playtest à la Taverne Mille Piques ( local Piquemille, Toulouse)
+* **11 Fevrier 2026** : On fait un playtest à la Taverne Mille Piques (local Piquemille, Toulouse)
 
 * **25 au 1er Mars 2026** : On présente le prototype de BattleFight aux protonights du FIJ (Festival Internationnal du Jeu de Cannes).
 
