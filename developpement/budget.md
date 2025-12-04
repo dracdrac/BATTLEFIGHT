@@ -22,7 +22,7 @@ https://www.vistaprint.fr/etiquettes-autocollants/stickers-personnalises/autocol
 
 https://www.vistaprint.fr/supports-marketing/flyers
 
-# Budget Edition 0
+# Budget Edition Beta
 
 Il faut décider d'un nombre de boîte à fabriquer et comment les financer. Est ce qu'on en fait un certain nombre qu'on donne pour la com et le reste à vendre? à qui? notre entourage? peut etre un peu tot jsp
 Bon en tout cas si on fait 50 envoi de boîtes pour la com c'est dejà pas mal non?
