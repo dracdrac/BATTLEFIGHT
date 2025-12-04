@@ -49,7 +49,7 @@
     </div>
     <div class=illu><img></img></div>
     <div class=rules>
-      {% assign step_class = steps_classes | slice 0 %}
+      {% assign step_class = steps_classes | slice: 0 %}
       {% assign step_text_column = 'STEP' | append: 0 + 1 %}
       {% assign step_text = card[step_text_column] %}
 
