@@ -3,4 +3,4 @@
   versions :
     - id : alpha
       cards : cartes-I-alpha
-      illu-dir : /cartes/illu
+      illu-dir : /cartes/illu/
