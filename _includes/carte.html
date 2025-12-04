@@ -39,7 +39,13 @@
 {% assign illu_src = version_obj.illu-dir | append: number | append: '.jpg' %}
 {% assign steps_classes = card.STEPS | strip %}
 
-<div class="card">
+<div class="card"
+  data-title="{{title}}"
+  data-type="{{type}}"
+  data-edition="{{edition}}"
+  data-number="{{number}}"
+  data-version="{{version}}"
+  >
   <div class=content>
     <div class="header">
       <div class=title>{{title}}</div>
