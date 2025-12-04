@@ -1,5 +1,5 @@
 - id : I
-  current-edition : ALPHA
+  current-edition : alpha
   versions :
-    - id : ALPHA
+    - id : alpha
       cards : cartes-I-alpha
