@@ -79,6 +79,14 @@ Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour c
 
 Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, il te faut **intervenir** dessus et te défausser de 2 cartes.
 
+### Finir sa pioche
+
+Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois à la place :
+- diviser tes points de vies par 2, arrondi à l'unité supérieure
+- mélanger ta défausse pour qu'elle devienne ta nouvelle pioche
+- piocher 
+
+
 ### Aller plus loin
 
 Voilà, tu sais jouer à Battlefight ! Si tu as des doutes, tu peux te reporter aux règles plus détaillées ou encore au Glossaire pour avoir toutes les définitions des mots clefs. 
