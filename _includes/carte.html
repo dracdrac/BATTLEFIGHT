@@ -34,7 +34,7 @@
 
 {% assign card = cards | find: 'ID', '05' %}
 {% assign card = cards | slice: 5 | first %}
-{% assign card = cards | find: 'ID', '01' | first %}
+{% assign card = cards | find: 'ID', 02 | first %}
 
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
