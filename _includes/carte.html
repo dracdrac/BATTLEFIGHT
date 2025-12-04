@@ -32,14 +32,16 @@
 {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
 {% assign cards = site.data[version_obj.cards] %}
 
-
-
 {% assign card = cards | where: 'ID', number | first %}
-
 
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
 {% assign steps_classes = card.STEPS | strip %}
+
+
+{% assign step_class = steps_classes | slice: 0 %}
+{% assign step_text_column = 'STEP' | append: 0 + 1 %}
+{% assign step_text = card[step_text_column] %}
 
 <pre>
   edition: {{edition}}
@@ -48,7 +50,11 @@
   edition_obj : {{edition_obj | inspect}}
   version_obj : {{version_obj | inspect}}
   card : {{card | inspect}}
-      title : {{title}}
+  title : {{title}}
+  step_class : {{step_class}}
+  step_text_column : {{step_text_column}}
+  step_text : {{step_text}}
+
 
 </pre>
 
