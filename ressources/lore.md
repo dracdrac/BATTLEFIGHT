@@ -8,7 +8,7 @@ excerpt: Depuis des temps immémoriaux, des champion·nes du monde entier vienne
 
 Dans BattleFight, vous jouez un·e champion·ne qui prend part aux combats de l'arène. Chaque carte de votre deck correspond à une technique de combat que votre champion·ne maîtrise.
 
-Chaque saison se déroule dans une époque différente et introduit 100 nouvelles techniques de combat, inspirées des dix héro·ïnes de cette époque. L'occasion de découvrir ces dix personnages qui ont marqué l'histoire ainsi que leurs techniques de combat les plus emblématiques.
+Chaque édition se déroule dans une époque différente et introduit 100 nouvelles techniques de combat, inspirées des dix héro·ïnes de cette époque. L'occasion de découvrir ces dix personnages qui ont marqué l'histoire ainsi que leurs techniques de combat les plus emblématiques.
 
 ## La genèse légendaire de l'arène 
 
