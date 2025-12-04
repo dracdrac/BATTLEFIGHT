@@ -35,7 +35,25 @@
 {% assign card = cards | find: 'ID', '05' %}
 {% assign card = cards | slice: 5 | first %}
 {% assign card = cards | find: 'ID', 02 | first %}
-
+<pre>
+  02
+  {{card | inspect}}
+</pre>
+{% assign card = cards | find: 'ID', 2 | first %}
+<pre>
+  2
+  {{card | inspect}}
+</pre>
+{% assign card = cards | find: 'ID', '2' | first %}
+<pre>
+  '2'
+  {{card | inspect}}
+</pre>
+{% assign card = cards | find: 'ID', number | first %}
+<pre>
+  number
+  {{card | inspect}}
+</pre>
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
 {% assign steps_classes = card.STEPS | strip %}

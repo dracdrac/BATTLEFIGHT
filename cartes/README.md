@@ -7,7 +7,7 @@ permalink: /cartes/
 
 <!--<pre>{{site.data.cartes-I-alpha | inspect}}</pre>-->
 
-{% for i in (0..99) %}
+{% for i in (0..2) %}
 {% assign n = i | prepend: '00' | slice: -2, 2 %}
 {% include carte.html e="I" v="alpha" n=n t="ST" %}
 {% endfor %}
