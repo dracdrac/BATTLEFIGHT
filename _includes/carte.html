@@ -40,9 +40,7 @@
 
 {% assign illu_src = version_obj.illu-dir | append: number | append: '.jpg' %}
 
-{% assign step_class = steps_classes | slice: 0 %}
-{% assign step_text_column = 0 | plus: 1 | prepend: 'STEP' %}
-{% assign step_text = card[step_text_column] %}
+
 
 <pre>
   edition: {{edition}}
@@ -52,9 +50,7 @@
   version_obj : {{version_obj | inspect}}
   card : {{card | inspect}}
   title : {{title}}
-  step_class : {{step_class}}
-  step_text_column : {{step_text_column}}
-  step_text : {{step_text}}
+
 
 
 </pre>
@@ -69,10 +65,14 @@
     </div>
     <div class=illu><img src="{{illu_src}}"></div>
     <div class=rules>
-
-
-      {% include step.html class=step_class text=step_text %}
-
+      {% for i in (0..10) %}
+        {% assign step_class = steps_classes | slice: i %}
+        {% if step_class %}
+        {% assign step_text_column = i | plus: 1 | prepend: 'STEP' %}
+        {% assign step_text = card[step_text_column] %}
+        {% include step.html class=step_class text=step_text %}
+        {% endif %}
+        {% endfor %}
     </div>
     <div class="footer">
     <span class="id">{{edition}} ({{version}}) {{number}}</span><span>BattleFight 2025</span>
