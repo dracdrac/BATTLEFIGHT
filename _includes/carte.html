@@ -29,7 +29,7 @@
 {% assign number = include.n %}
 
 {% assign edition_obj = site.data.editions | find: 'id', edition %}
-{% assign version_obj = edition_obj.versions | find: 'id', edition %}
+{% assign version_obj = edition_obj.versions | find: 'id', version %}
 {% assign cards = site.data[version_obj.cards] %}
 
 {% assign card = cards | find: 'ID', number % }
@@ -38,6 +38,14 @@
 {% assign type = card.TYPE | strip %}
 {% assign steps_classes = card.STEPS | strip %}
 
+<pre>
+  edition: {{edition}}
+  version: {{version}
+  number: {{number}}
+  edition_obj : {{edition_obj | inspect}}
+  version_obj : {{version_obj | inspect}}
+
+</pre>
 
 <div class="card">
   <div class=content>
