@@ -33,15 +33,9 @@
 {% assign cards = site.data[version_obj.cards] %}
 
 
-<pre>
-  cards
-  {{cards | inspect}}
-</pre>
-{% assign card = cards | where: 'ID', "12" %}
-<pre>
-  "12"
-  {{card | inspect}}
-</pre>
+
+{% assign card = cards | where: 'ID', number | first %}
+
 
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
