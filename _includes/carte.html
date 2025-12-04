@@ -39,17 +39,17 @@
   02
   {{card | inspect}}
 </pre>
-{% assign card = cards | find: 'ID', 2 | first %}
+{% assign card = cards | find: 'ID', 2 %}
 <pre>
   2
   {{card | inspect}}
 </pre>
-{% assign card = cards | find: 'ID', '2' | first %}
+{% assign card = cards | find: 'ID', "2" %}
 <pre>
   '2'
   {{card | inspect}}
 </pre>
-{% assign card = cards | find: 'ID', number | first %}
+{% assign card = cards | find: 'ID', number %}
 <pre>
   number
   {{card | inspect}}
