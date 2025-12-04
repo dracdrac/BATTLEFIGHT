@@ -37,7 +37,7 @@
   cards
   {{cards | inspect}}
 </pre>
-{% assign card = cards | find: 'ID', "12" | first %}
+{% assign card = cards | where: 'ID', "12" %}
 <pre>
   "12"
   {{card | inspect}}
