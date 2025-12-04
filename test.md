@@ -9,7 +9,7 @@ Salut cette page n'est pas sensée être visitée elle est juste utilisée pour 
 
 Test include :
 
-{% include carte.html id="00" %}
+{% include carte.html n="00" %}
 
 Test 3d :
 

@@ -61,7 +61,7 @@ Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue u
 
 Certaines étapes sont des conditions. C'est le cas de Défausser, Distance et Corps à Corps. Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse.
 
-{% include carte.html id="09" %}
+{% include carte.html e="I" n="09" %}
 
 Les deux premières étapes de la carte *Décharge* sont des condition, la première demande d'être au corps à corps avec l'adversaire, la deuxième demande de défausser une carte de ta main. Si tu n'es pas au corps à corps ou que tu n'as pas assez de carte en main pour défausser, cette carte se terminera avant d'avoir pu réaliser la dernière étape (infliger 4 blessures à l'adversaire).
 
@@ -69,7 +69,7 @@ Les deux premières étapes de la carte *Décharge* sont des condition, la premi
 
 Certaines étapes sont permanentes, elles continuent de faire effet tant que la carte est active. Les cartes avec des effets permanents finissent généralement par une **Pause**.
 
-{% include carte.html id="51" %}
+{% include card.html e="I" n="51" %}
 
 La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, la carte est mise en pause : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Pause** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
 
