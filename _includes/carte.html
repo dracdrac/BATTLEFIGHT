@@ -55,7 +55,7 @@
     </div>
     <div class=illu><img src="{{illu_src}}"></div>
     <div class=rules>
-      {% assign steps_size_minus = steps_classes.size | minus: 1}
+      {% assign steps_size_minus = steps_classes.size | minus: 1 %}
       {% for i in (0..steps_size_minus) %}
       {% assign step_class = steps_classes | slice: i %}
       {% assign step_text_column = i | plus: 1 | prepend: 'STEP' %}
