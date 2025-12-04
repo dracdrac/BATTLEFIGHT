@@ -36,24 +36,8 @@
 
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
-{% assign steps_classes = card.STEPS | strip %}
-
 {% assign illu_src = version_obj.illu-dir | append: number | append: '.jpg' %}
-
-
-
-<pre>
-  edition: {{edition}}
-  version: {{version}}
-  number: {{number}}
-  edition_obj : {{edition_obj | inspect}}
-  version_obj : {{version_obj | inspect}}
-  card : {{card | inspect}}
-  title : {{title}}
-
-
-
-</pre>
+{% assign steps_classes = card.STEPS | strip %}
 
 <div class="card">
   <div class=content>
@@ -65,7 +49,7 @@
     </div>
     <div class=illu><img src="{{illu_src}}"></div>
     <div class=rules>
-      {% for i in (0..10) %}
+      {% for i in (0..steps_classes.size) %}
         {% assign step_class = steps_classes | slice: i %}
         {% if step_class %}
         {% assign step_text_column = i | plus: 1 | prepend: 'STEP' %}
