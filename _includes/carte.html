@@ -41,7 +41,7 @@
 {% assign illu_src = version_obj.illu-dir | append: number | append: '.jpg' %}
 
 {% assign step_class = steps_classes | slice: 0 %}
-{% assign step_text_column = 'STEP' | append: 0 + 1 %}
+{% assign step_text_column = 'STEP' | append: (0 + 1) %}
 {% assign step_text = card[step_text_column] %}
 
 <pre>
