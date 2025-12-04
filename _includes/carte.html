@@ -36,7 +36,7 @@
 
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
-{% assign steps_types = card.STEPS | strip %}
+{% assign steps_classes = card.STEPS | strip %}
 
 
 <div class="card">
@@ -49,7 +49,12 @@
     </div>
     <div class=illu><img></img></div>
     <div class=rules>
-      {% include step.html class=steps_types[0] text=card.STEP1 %}
+      {% assign step_class = steps_classes | slice 0 %}
+      {% assign step_text_column = 'STEP' | append: 0 + 1 %}
+      {% assign step_text = card[step_text_column] %}
+
+      {% include step.html class=step_class text=step_text %}
+
     </div>
     <div class="footer">
     <span class="id">{{edition}} ({{version}}) {{number}}</span><span>BattleFight 2025</span>
