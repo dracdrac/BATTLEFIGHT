@@ -1,8 +1,4 @@
-ID,TITLE,TYPE,,QT,COMMENT,T,STEPS,STEP1,STEP2,STEP3,STEP4,STEP5,STEP6,,Finisher,"Permanentes (a le mot clé intervenir)","Effet a point (force/charme/bouclier)","Tout le monde a : ""jouer technique T"" : effet","Se blesser  7",Maitrise,illu,,,,,,,,,,,,,,
-,Test,Rhétorique,,,Test,,CEPPI,"Défausser 1","<sup>L'adversaire a</sup>Rejouer","Charme 4","<sup>Tout le monde a</sup> Force 1","Pause <sub>Défausser 1</sub>",,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,"EDITION 1 (DE BASE)",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+ID,TITLE,TYPE,,QT,COMMENT,T,STEPS,STEP1,STEP2,STEP3,STEP4,STEP5,STEP6,,Finisher,"Permanentes (a le mot clé intervenir)","Effet a point (force/charme/bouclier)","Tout le monde a : ""jouer
 00," Météorite"," Attaque",,1,V,3,CCE," Distance 3"," Défausser 1"," Blesser 6",," ",,,,,,,,,x,,,,,,,,,,,,,,
 01," Électrochoc"," Attaque",,1,"25/10/28 MODIFIEE",3,CCEE," Distance"," Défausser 1"," Blesser 3",Rejouer,,,,,,,,,,x,,,,,,,,,,,,,,
 02," Onde De Choc"," Attaque",,1,V,5,CCEE,Distance,"Défausser 3"," Blesser 5"," Pousser 1",,,,X,x,,,,,x,,,,,,,,,,,,,,
