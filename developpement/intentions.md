@@ -17,13 +17,22 @@ mais bcp de chemins de combinaisons
 
 ## Un TCG
 
-### C'est quoi un TCG
+### C'est quoi un TCG ?
 
-On s'inscrit dans le genre TCG (definir ce que c'est)
+On s'inscrit dans le genre du TCG.
+
+Un TCG ou jeu de cartes a collectionner, est un jeu où les joueur·se rassemblent une collection de cartes avec lesquelles on peu jouer, mais qu'on peut aussi échanger, conserver ou admirer comme tout objet de collection.
+
+Les TCG reposent sur deux principes :
+
+- Les cartes sont vendues dans des pochettes distribuées aléatoirement (des *boosters*)
+- Quand on joue avec des paquets personnalisés que l'on compose avec les cartes de sa collection (des *decks*)
 
 ### L'aléatoire
 
-Détailler pourquoi ça nous interesse
+Un TCG perme
+
+La distribution aléatoire des cartes est pour no
 
 ### La communauté
 
@@ -33,30 +42,40 @@ Détailler pourquoi ça nous interesse
 
 Détailler pourquoi ça nous interesse
 
-## Pas un TCG comme les autres
+## Pas un TCG comme les autres.
+
+BattleFight se distingue de la plus-part des TCG sur plusieurs points :
 
 ### Il peut se jouer comme jeu de société
 
-La boite de base est suffisante pour jouer, meme si tu ne collectinone pas, meme si tu n'aime pas construire des decks.
+
+Quelqu'un qui n'est pas intéressé par la collection ou la construction de deck peut tout à fait jouer au jeu. La boite de base (40 cartes) et le mode de jeu deck aléatoire peuvent suffire à fournir une expérience ludique riche et complète.
+
 
 ### Une autre façon de penser le deck
 
-Deck avec peu de carte
+Comme les autres TCG, BattleFight se joue avec un deck, mais son fonctionnement est différent sur plusieurs points :
 
-Pas de couleurs, toutes les cartes peuvent aller dans n'importe quelle deck
+- pas de système de couleur ou de faction, chaque carte. asa place dans chaque deck
+- en contrepartie la composition est plus stricte, un deck fait toujours exactement 20 cartes avec 4 cartes pour chacun des 5 types.
+- En plus d'être économique, la petite taille des decks (20 cartes) réduit la variance (car chaque carte est plus régulièrement piochée).
+- le mode de jeu *Deck Aléatoire* permet de créer un deck au hasard. Ce format simple à mettre en place est une bonne introduction au jeu, mais il est aussi très stratégique et peu être joué à un niveau avancé.
 
-Plus de plus que 50 000 000 000 000 000 000 decks ( 5.44430976919e+19) -> Plus de personnage qu'il y a de gens sur terre
 
-Deck aléatoire à la fois une bonne introduction au jeu a la fois un mode de jeu très stratégique pour joueurse avancées.
+1 deck au hasard parmi les 50 000 000 000 000 000 000 decks possible.
+
+ ( 5.44430976919e+19) -> Plus de personnage qu'il y a de gens sur terre
+
+
 
 
 ### Un TCG avec un plateau
 
-Ajoute une nouvelle dimension peut utilisee dans les tcg.
+ une nouvelle dimension peut utilisee dans les tcg.
 
 Fondamental pour le game play.
 
-### Les cartes plus puissantes ne sont plus rare
+### Les cartes plus puissantes ne sont pas plus rare
 
 Toutes les cartes sont imprimées en un même nombre d'exemplaire
 
