@@ -7,6 +7,6 @@
 {% elsif include.class == 'I' %}
 {% assign class = 'intervention' %}
 {% endif %}
-<div class="rule {{class}}">
-  <div class="rule_text">{{include.text}}</div>
+<div class="rule step{{class}}">{include.text}}
+  <!--<div class="rule_text">{{include.text}}</div>-->
 </div>
