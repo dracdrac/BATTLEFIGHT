@@ -5,7 +5,7 @@ permalink: /cartes/
 
 * [l'ancienne page pour voir les cartes](cards-old.html)
 
-<pre>{{site.data.cartes-I-alpha | inspect}}<pre>
+<!--<pre>{{site.data.cartes-I-alpha | inspect}}</pre>-->
 
 {% for i in (0..99) %}
 {% assign n = i | prepend: '00' | slice: -2, 2 %}
