@@ -1,7 +1,7 @@
 ---
 title: Personnages
 description: Les personnages qui figurent sur les cartes
-excerpt: La première saison introduit 10 combattant·es. Ces personnages sont tous très différents que ce soit par leurs techniques de combat ou leur identités. 
+excerpt: La première édition introduit 10 combattant·es. Ces personnages sont tous très différents que ce soit par leurs techniques de combat ou leur identités. 
 ---
 
 ## À propos des personnages sur les cartes
