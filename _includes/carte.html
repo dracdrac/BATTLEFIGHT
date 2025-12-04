@@ -33,7 +33,7 @@
 {% assign cards = site.data[version_obj.cards] %}
 
 {% assign card = cards | find: 'ID', '05' %}
-{% assign card = cards | slice: 5 %}
+{% assign card = cards | slice: 5 | first %}
 
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
