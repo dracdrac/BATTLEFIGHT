@@ -27,8 +27,10 @@
 .card {
   --width:63mm;
   --height:88mm;
-  --border:5mm;
-  --gap:2.5mm;
+  --border:3mm;
+  --footer:3mm;
+  --gap:3mm;
+  --step-gap:2.5mm;
 
     font-family: 'Zarathustra';
     font-weight: bold;
@@ -38,8 +40,23 @@
     height: var(--height);
     
     border-radius: 2mm;
+    overflow: hidden;
 
     background: black;
+}
+
+
+.card .content:after{
+    /* BLACK BORDER*/
+    content:' ';
+    display: block;
+    border:calc(var(--border) + .05mm) solid black;
+    width:calc(var(--width)  - .05mm  - var(--border) * 2);
+    height:calc(var(--height) - .05mm - var(--border) * 2);
+    position: absolute;
+    top:0;
+    left:0;
+    z-index:3;
 }
 
 
@@ -68,27 +85,21 @@
 
 
 .card .content {
-   width:calc(var(--width) - var(--border));
-   height:calc(var(--height) -  var(--border));
-    padding:calc(var(--border) / 2);
-    padding-bottom: 0;
     position: relative;
-    top:calc(var(--border) / 2);
-    left:calc(var(--border) / 2);
-
-    display: flex;
-    flex-direction: column;
-}
-
-.card .header {
-    flex-grow: 1;
+   width:var(--width);
+   height:var(--height);
+    padding: 0;
+    top:0;
+    left:0;
 }
 
 .card .title {
   position: relative;
   padding: 0 .2em;
-  font-family: 'Zarathustra';
   z-index:2;
+   width:calc(var(--width) - var(--border) * 2 - var(--gap) * 2);
+   top:calc(var(--border) + var(--gap));
+    left:calc(var(--border) + var(--gap));
 }
 
 .card .title:after {
@@ -97,8 +108,8 @@
 }
 
 .card .type {
-    left:1.5mm;
-    top:0.5mm;
+    left:7.5mm;
+    top:6.5mm;
     position:relative;
     font-size: .6em;
     z-index: 2;
@@ -142,16 +153,20 @@
 
 .card .footer {
     display: flex;
-    font-family: sans;
+    font-family: 'Archivo Narrow';
     font-weight: normal;
-    text-transform: uppercase;
+    text-transform: ;
     color: white;
     background: black;
     justify-content: space-between;
-    font-size: .5em;
-    padding-top: .5em;
-    margin-top:var(--gap);
+    font-size: .6em;
     z-index: 1;
+    position: absolute;
+    padding-top: .2em;
+    height: var(--footer);
+    width:calc(var(--width) - var(--border) * 2);
+    bottom:var(--border);
+    left:var(--border);
 }
 
 
@@ -226,10 +241,17 @@
 /***************************************/
 
 .card .steps {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    gap:var(--gap);
+    gap:var(--step-gap);
     width: 66%;
+    
+   --w: calc(var(--width) - var(--border) * 2 - var(--gap) * 2);
+   width:calc(var(--w) * .7);
+   bottom:calc(var(--border) + var(--footer) + var(--gap));
+   left:calc(var(--border) + var(--gap));
+
   
 }
 

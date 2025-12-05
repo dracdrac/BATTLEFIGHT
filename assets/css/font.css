@@ -16,6 +16,20 @@
 
 }
 
+
+
+@font-face {
+    font-family: 'Archivo Narrow';
+    src: url('../font/archivo_narrow_medium-webfont.woff2') format('woff2'),
+        url('../font/archivo_narrow_medium-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+
 @font-face {
     font-family: 'FreeMono';
     src: url('../font/FreeMono.woff2') format('woff2'),
