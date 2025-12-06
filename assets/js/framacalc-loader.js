@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   // Load on button press
-  document.querySelecor('#load-cards').addEventListener('click',()=>{
+  document.querySelector('#load-cards').addEventListener('click',()=>{
     let framacalcCode = document.querySelector('#framacalc-code').value.trim();
-    if(document.querySelecor('#remember').value){
+    if(document.querySelector('#remember').value){
       setCookie('framacalc-code', framacalcCode, 365);
     }
     loadCards(framacalcCode)
@@ -47,7 +47,7 @@ function getCookie(cname) {
 function loadCards(framacalcCode){
 
   let framacalcUrl = FRAMACALC_BASE_URL + framacalcCode + '.csv'
-  let cardsElements = document.querySelecor('.cards');
+  let cardsElements = document.querySelector('.cards');
   Papa.parse(framacalcUrl, {
     download:true,
     header:true,
