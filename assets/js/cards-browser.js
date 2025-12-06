@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 function changeTreatments(treatment){
-  document.querySelecorAll('.cards .card').forEach((card)=>{
+  document.querySelectorAll('.cards .card').forEach((card)=>{
     card.dataset.treatment = treatment;
     card.querySelector('.treatment').innerHTML = treatment;
   });
