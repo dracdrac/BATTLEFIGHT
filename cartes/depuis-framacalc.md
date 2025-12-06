@@ -23,8 +23,7 @@ const ILLU_DIR = "{{illu_dir}}";
 
 <form id="framacalc-loader">
 {% include warning.html id="framacalc-load-error-message" close=true %}
-<input id="framacalc-code"/>
-<input type="checkbox" id="remember" name="remember" value="remember"/><label for="remember">Se souvenir du lien</label><br>
-<input type="checkbox" id="show-iframe" name="show-iframe" value="show-iframe"/><label for="show-iframe">Afficher le tableau</label><br>
+<label for="framacalc-code">Code du framacalc</label><input id="framacalc-code" name="framacalc-code"/>
+<input type="checkbox" id="remember" name="remember" value="remember"/><label for="remember">Se souvenir du code</label><br>
 <button id="load-cards">Charger les cartes</button>
 </form>
