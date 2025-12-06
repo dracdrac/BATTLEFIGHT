@@ -22,8 +22,7 @@ const ILLU_DIR = "{{illu_dir}}";
 <script src="/assets/js/papaparse.min.js"></script>
 
 <form id="framacalc-loader">
-{% include warning.html id="framacalc-load-error-message" close=true %}
-<label for="framacalc-code">Code du framacalc</label><input id="framacalc-code" name="framacalc-code"/>
-<input type="checkbox" id="remember" name="remember" value="remember"/><label for="remember">Se souvenir du code</label><br>
+<label for="framacalc-code">Code du framacalc</label><input id="framacalc-code" name="framacalc-code"/><br/>
+<input type="checkbox" id="remember" name="remember" value="remember"/><label for="remember">Se souvenir du code</label><br/>
 <button id="load-cards">Charger les cartes</button>
 </form>
