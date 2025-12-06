@@ -1,11 +1,10 @@
 ---
 title: Cartes
 permalink: /cartes/
+layout: cards
 ---
 
 * [l'ancienne page pour voir les cartes](cards-old.html)
-
-<!--<pre>{{site.data.cartes-I-alpha | inspect}}</pre>-->
 
 {% for i in (0..100) %}
 {% assign n = i | prepend: '00' | slice: -2, 2 %}

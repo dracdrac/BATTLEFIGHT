@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ {% include head.html %}
+</head>
+<body>
+ {% include header.html %}
+  <main>
+    <header>
+      {% include breadcrumbs.html %}
+      <h1 id="page-title">{{ page.title }}</h1>
+      <p id="page-description">{{ page.description }}</p>
+    </header>
+    <article>
+      {% if page.excerpt %}
+    <section id="page-excerpt">
+      {{ page.excerpt }}
+    </section>
+      {% endif %}
+    <section id="page-content">
+      {{ content }}
+    </section>
+    </article>
+  </main>
+  {% include footer.html %}
+</body>
+</html>
