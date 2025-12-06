@@ -3,7 +3,7 @@ const FRAMACALC_BASE_URL = "https://lite.framacalc.org/";
 
 document.addEventListener("DOMContentLoaded", function() {
   let framacalcCode = getCookie('framacalc-code');
-  document.querySelector('.cartes').innerHTML = '';
+  document.querySelector('.cards').innerHTML = '';
 
   // Auto Load
   if(framacalcCode){
@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Load on button press
   document.querySelector('#load-cards').addEventListener('click',()=>{
-     document.querySelector('.cartes').innerHTML='Chargement...'
+     document.querySelector('.cards').innerHTML='Chargement...'
     let framacalcCode = document.querySelector('#framacalc-code').value.trim();
     document.querySelector('#framacalc-load-error-message').close();
     if(document.querySelector('#remember').checked){
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function displayError(msg) {
-  document.querySelector('.cartes').innerHTML = msg;
+  document.querySelector('.cards').innerHTML = msg;
 };
 
 function setCookie(cname, cvalue, exdays) {
