@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Load on button press
   document.querySelector('#load-cards').addEventListener('click',()=>{
+     document.querySelector('.cartes').innerHTML='Chargement...'
     let framacalcCode = document.querySelector('#framacalc-code').value.trim();
     document.querySelector('#framacalc-load-error-message').close();
     if(document.querySelector('#remember').checked){
@@ -23,8 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function displayError(msg) {
-  document.querySelector('#framacalc-load-error-message').showModal();
-  document.querySelector('#framacalc-load-error-message p').innerHTML = msg;
+  document.querySelector('.cartes').innerHTML = msg;
 };
 
 function setCookie(cname, cvalue, exdays) {
@@ -116,7 +116,7 @@ function createCard(data, container){
   for(let i=0; i<stepsClasses.length; i++){
       let stepClass = stepsClasses[i];
       let stepText = data['STEP'+(i+1)].trim();
-  console.log(title, i, stepClass, stepText)
+
       createStep(stepText, stepClass, clone.querySelector(".steps"));
   }
 
@@ -126,9 +126,9 @@ function createCard(data, container){
 
 
 function createStep(stepText, stepClass, container){
-  let ruleTemplate = document.querySelector("#rule-template");
+  let stepTemplate = document.querySelector("#step-template");
   const CLASSES = {'C':'condition','E':'effet','I':'intervention','P':'permanente'};
-  let clone = document.importNode(ruleTemplate.content, true);
+  let clone = document.importNode(stepTemplate.content, true);
   clone.querySelector('.step').classList.add(CLASSES[c])
   clone.querySelector('.step-text').innerHTML = stepText;
   container.appendChild(clone);
