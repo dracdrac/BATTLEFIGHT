@@ -15,6 +15,7 @@ cards_version: alpha
 <script>
 const EDITION = "{{edition}}";
 const VERSION = "{{version}}";
+const TREATMENT = "ST";
 const ILLU_DIR = "{{illu_dir}}";
 </script>
 

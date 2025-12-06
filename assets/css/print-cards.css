@@ -1,5 +1,19 @@
 @media print {
 
+    
+    @page{
+    size: 25in 35in; /* this is poker size x10 */
+}
+
+.card {
+    scale: 1000%; /* this is x10 */
+    translate: calc(25in / 2 - var(--width) / 2)
+    calc(35in / 2 - var(--height) / 2)
+    ;
+}
+
+
+    
 body,
 body:after{
     background: none;
@@ -24,17 +38,6 @@ body>main>.cards{
 }
 
 
-
-@page{
-    size: 750px 1050px; /* this is poker size at 300ppi */
-}
-
-.card {
-    scale: 313%; /* this is 300ppi/96ppi */
-    translate: calc(750px / 2 - var(--width) / 2)
-    calc(1050px / 2 - var(--height) / 2)
-    ;
-}
 
 
 }

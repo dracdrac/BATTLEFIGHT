@@ -4,3 +4,10 @@
     - id : alpha
       cards : cartes-I-alpha
       illu-dir : /cartes/illu/
+      treamtments :
+        - id : ST
+          name : STandard
+        - id : LF
+          name : Large Font
+        - id : BL
+          name : BorderLess

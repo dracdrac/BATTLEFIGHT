@@ -24,14 +24,27 @@
     </section>
     </article>
 
-      <template id="card-template">{% include card.html blank=true %}</template>
-      <template id="step-template">{% include step.html blank=true %}</template>
+    <aside id="cards-browser">
+      <select id="treatments">
+        {% assign edition = page.cards_edition | default: 'I' %}
+        {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
+        {% assign version = page.cards_version | default: edition_obj.current-version %}
+        {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
+        {% for traitment in version_obj.traitments %}
+          <option value="{{traitment.id}}">{{traitment.id}} ({{traitment.name}})</option>
+        {% endfor %}
+      </select>
+
+    </aside>
       <div class="cards">
     {% for i in (0..100) %}
     {% assign n = i | prepend: '00' | slice: -2, 2 %}
     {% include card.html e=page.cards_edition v=page.cards_version n=n %}
     {% endfor %}
     </div>
+
+    <template id="card-template">{% include card.html blank=true %}</template>
+    <template id="step-template">{% include step.html blank=true %}</template>
   </main>
 
 

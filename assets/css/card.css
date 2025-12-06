@@ -10,23 +10,13 @@
 }
 
 
-/**************** HD PRINT HACK ****************/
-@media print {
-    @page{
-      size: 2381.1px 3326.0px;
-    }
-    .card {
-       scale: 1000%;
-       translate: 450% 450%;
-    }
-}
 
 /*****************************/
 
 
 .card {
-  --width:63mm;
-  --height:88mm;
+  --width:2.5in;
+  --height:3.5in;
   --border:3mm;
   --footer:3mm;
   --gap:3mm;

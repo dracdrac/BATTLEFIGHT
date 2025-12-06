@@ -91,7 +91,7 @@ function createCard(data, container){
 
   let edition = EDITION;
   let version = VERSION;
-  let treatment = '';
+  let treatment = TREATMENT;
   let number = data['ID'].trim();
   let title = data['TITLE'].trim();
   let type = data['TYPE'].trim();
@@ -112,6 +112,7 @@ function createCard(data, container){
   clone.querySelector(".card").dataset.edition = edition;
   clone.querySelector(".card").dataset.number = number;
   clone.querySelector(".card").dataset.version = version;
+  clone.querySelector(".card").dataset.treatment = treatment;
 
   for(let i=0; i<stepsClasses.length; i++){
       let stepClass = stepsClasses[i];
