@@ -6,15 +6,6 @@ excerpt: Dans BattleFight, deux personnes s'affrontent en jouant chacune leur to
 
 Ce document est un survol rapide des règles, il devrait suffire pour une première partie. Pour aller plus loin, visiter [Règles](regles).
 
-## Avant de jouer
-
-Pour jouer il te faut :
-
-- 2 decks de 20 cartes
-- 2 pions
-- 1 plateau [hexagonal](https://battlefight.jejeu.org/ressources/plateau)
-- [de quoi compter les points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg)
-
 ### Créer son deck
 
 Pour une première partie on te conseille de jouer avec un **deck aléatoire** : pour créer le créer il suffit d'ouvrir deux boosters et de mélanger leur contenu.
@@ -23,13 +14,13 @@ Si tu souhaites créer ton deck autrement, l'important est que le deck contienne
 
 ### Mise en place
 
-Mélange ton deck et pose ton pion dans un coin du plateau, à l'opposé de l'adversaire.
+Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
 ![La table d'une partie de BattleFight]()
 
 ## Que le combat commence !
 
-Tout le monde commence avec 20 points de vie. Si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
+Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg). Si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
 
 
 ### Jouer son tour
