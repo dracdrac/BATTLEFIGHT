@@ -113,7 +113,7 @@ function createCard(data, container){
   clone.querySelector(".card").dataset.number = number;
   clone.querySelector(".card").dataset.version = version;
 
-  for(let i=0; i++; i<stepsClasses.length){
+  for(let i=0; i<stepsClasses.length; i++){
       let stepClass = stepsClasses[i];
       let stepText = data['STEP'+(i+1)].trim();
       createStep(stepText, stepClass, clone.querySelector(".steps"));

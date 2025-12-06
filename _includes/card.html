@@ -33,7 +33,7 @@
       <div class="types type">{{type}}</div>
     </div>
     <div class=illu><img src="{{illu_src}}"></div>
-    <div class="rules steps">
+    <div class="steps">
       {% assign steps_size_minus = steps_classes.size | minus: 1 %}
       {% for i in (0..steps_size_minus) %}
       {% assign step_class = steps_classes | slice: i %}
