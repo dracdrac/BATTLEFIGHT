@@ -2,6 +2,8 @@
 <html lang="fr">
 <head>
  {% include head.html %}
+  <script src="/assets/js/cards-browser.js"></script>
+  <link rel="stylesheet" href="{{ '/assets/css/print-cards.css?v=' | append: site.github.build_revision | relative_url }}"/>"
 </head>
 <body>
  {% include header.html %}
@@ -21,6 +23,7 @@
       {{ content }}
     </section>
     </article>
+
       <template id="card-template">{% include card.html blank=true %}</template>
       <template id="step-template">{% include step.html blank=true %}</template>
       <div class="cards">

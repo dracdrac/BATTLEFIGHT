@@ -1,0 +1,40 @@
+@media print {
+
+body,
+body:after{
+    background: none;
+}
+body>*,
+body>main>*{
+    display: none !important;
+    padding: 0;
+    margin: 0;
+}
+body>main,
+body>main>.cards{
+    display: block !important;
+    padding: 0;
+    margin: 0;
+    background: none;
+}
+
+.card{
+    page-break-after: always;
+    border-radius:0;
+}
+
+
+
+@page{
+    size: 750px 1050px; /* this is poker size at 300ppi */
+}
+
+.card {
+    scale: 313%; /* this is 300ppi/96ppi */
+    translate: calc(750px / 2 - var(--width) / 2)
+    calc(1050px / 2 - var(--height) / 2)
+    ;
+}
+
+
+}
