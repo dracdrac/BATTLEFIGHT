@@ -33,7 +33,7 @@
       {% assign treatment = page.cards_treatment | default: 'ST' %}
       <select id="cards-treatments">
         {% for t in version_obj.treatments %}
-          <option value="{{t.id}}" {% if t.id == treatment%}selected{% endif %}>{{t.id}} ({{t.name}})</option>
+          <option value="{{t.id}}" {% if t.id == treatment %}selected{% endif %}>{{t.id}} ({{t.name}})</option>
         {% endfor %}
       </select>
       <button id="print-cards">Imprimer</button>
