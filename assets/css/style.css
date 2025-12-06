@@ -159,6 +159,9 @@ body>main>article a:hover {
 
 body>main>article img{
   max-width:100%;
+  display: block;
+  margin:auto;
+    
 }
 
 body>main>article section.page-preview {
