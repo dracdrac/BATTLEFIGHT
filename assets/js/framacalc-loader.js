@@ -3,7 +3,7 @@ const FRAMACALC_BASE_URL = "https://lite.framacalc.org/";
 
 document.addEventListener("DOMContentLoaded", function() {
   let framacalcCode = getCookie('framacalc-code');
-  document.querySelector('.cards').html = '';
+  document.querySelector('.cards').innerHTML = '';
 
   // Auto Load
   if(framacalcCode){
@@ -14,6 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
   // Load on button press
   document.querySelector('#load-cards').addEventListener('click',()=>{
     let framacalcCode = document.querySelector('#framacalc-code').value.trim();
+    document.querySelector('#framacalc-load-error-message').close();
     if(document.querySelector('#remember').value){
       setCookie('framacalc-code', framacalcCode, 365);
     }
@@ -21,6 +22,10 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+function displayError(msg) {
+  document.querySelector('#framacalc-load-error-message').showModal();
+  document.querySelector('#framacalc-load-error-message p').innerHTML = msg;
+};
 
 function setCookie(cname, cvalue, exdays) {
   const d = new Date();
@@ -57,6 +62,7 @@ function loadCards(framacalcCode){
       createCards(results.data, cardsElements);
     },
     error: function(err, file, inputElem, reason) {
+      displayError('impossible de charger ' + framacalcUrl);
       console.log("Error:", err, reason);
     }
   });

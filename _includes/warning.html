@@ -1,0 +1,6 @@
+<dialog {% unless include.close %} open {% endunless %} class="warning" id="{{include.id}}">
+  <p>{{include.text}}</p>
+  <form method="dialog">
+    <button>Ok</button>
+  </form>
+</dialog>
