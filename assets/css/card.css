@@ -47,20 +47,6 @@
 }
 
 
-.card .content:after{
-    /* BLACK BORDER*/
-    content:' ';
-    display: block;
-    border:calc(var(--border) + 1.1mm) solid black;
-    width:calc(var(--width)  - .05mm  - var(--border) * 2);
-    height:calc(var(--height) - .05mm - var(--border) * 2);
-    position: absolute;
-    top:-1mm;
-    left:-1mm;
-    z-index:3;
-    pointer-events: none;
-}
-
 
 
 /*** CUSTOM BORDERS *****/
@@ -94,6 +80,21 @@
     top:0;
     left:0;
 }
+
+.card .content:after{
+    /* BLACK BORDER*/
+    content:' ';
+    display: block;
+    border:calc(var(--border) + 1.1mm) solid black;
+    width:calc(var(--width)  - .05mm  - var(--border) * 2);
+    height:calc(var(--height) - .05mm - var(--border) * 2);
+    position: absolute;
+    top:-1mm;
+    left:-1mm;
+    pointer-events: none;
+}
+
+
 
 .card .title {
   position: relative;
