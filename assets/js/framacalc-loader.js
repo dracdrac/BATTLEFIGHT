@@ -75,7 +75,7 @@ function loadCards(framacalcCode){
 
 function createCards(data, container){
   container.innerHTML = '';
-  if(! 'ID' in cardData) {
+  if(! 'ID' in data) {
     displayError('Pas de colonne ID dans le tableau.');
     return;
   }
