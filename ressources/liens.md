@@ -12,4 +12,6 @@ description:
 
 ## youtubeur.se
 - [Val&Pl](https://www.youtube.com/@valplreplay840) 
-- [KoilosBat](https://www.youtube.com/@KoilosBat/featured) 
+- [KoilosBat](https://www.youtube.com/@KoilosBat/featured)
+- [Joueurs du Dimanche](https://www.youtube.com/@LesJoueursDuDimanche)
+- [Le Passe temps](https://www.youtube.com/@LePasseTempsToulouse)
