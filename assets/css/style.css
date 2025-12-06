@@ -52,7 +52,7 @@ body>*{
 MAIN   
 
 ****************************************/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
 
   body>main {   
     margin: 10px;
@@ -185,6 +185,44 @@ body>main>.cards .card:hover {
 
 
 
+body>main>article section.page-preview {
+  border:1px solid var(--mid);
+  border-radius:5px;
+  overflow: hidden;
+  margin : 2em 0;
+}
+
+body>main>article section.page-preview h2,
+body>main>article section.page-preview a {
+  display: block;
+  background: var(--mid);
+  text-align:center;
+  color:var(--lgray);
+  font-size:inherit;
+  margin:0;
+  padding: .1em .5em;
+}
+
+body>main>article section.page-preview a {
+    background: var(--lgray);
+  color:var(--mid);
+    border-top: 1px solid 
+}
+
+body>main>article section.page-preview p {
+  margin: .5em;
+}
+
+body>main>article section.page-preview p,
+body>main>article section.page-preview h2 {
+    font-size:1.2em;
+
+}
+body>main>article section.page-preview a:hover {
+  background:var(--light);
+
+}
+
 /****************************************
 
 HEADER   
@@ -197,15 +235,21 @@ body>header{
   height: var(--header-height);
   font-size:1.15em;
     top: 0;
-    z-index: 3;
+    z-index: 10;
   background: black;
   width: 100vw;
+    border-bottom: 1px solid var(--light);
+
+}
+
+body>header #menu-bar{
+  max-width:var(--site-width);
+  margin: auto;
   display: flex;
   justify-content: space-between;
     flex-wrap: wrap;
     gap:1em;
   padding: .5em 1em;
-    border-bottom: 1px solid var(--light);
 
 }
 
