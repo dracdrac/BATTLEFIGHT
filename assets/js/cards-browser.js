@@ -1,8 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  document.querySelector('#cards-browser').addEventListener('click', ()=>{
+  document.querySelector('#print-cards').addEventListener('click', ()=>{
     print();
   });
+
   document.querySelector('#cards-treatments').addEventListener('change',(e)=>{
     changeTreatments(e.target.value)
   })
