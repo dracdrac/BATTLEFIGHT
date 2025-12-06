@@ -15,4 +15,4 @@ description:
 - [KoilosBat](https://www.youtube.com/@KoilosBat/featured)
 - [Joueurs du Dimanche](https://www.youtube.com/@LesJoueursDuDimanche)
 - [Le Passe temps](https://www.youtube.com/@LePasseTempsToulouse)
-- [Magic c'est Chic]https://www.youtube.com/@MagicCestChic/videos
+- [Magic c'est Chic](https://www.youtube.com/@MagicCestChic/videos)
