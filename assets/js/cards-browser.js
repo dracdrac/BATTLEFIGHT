@@ -12,6 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function changeTreatments(treatment){
   document.querySelecorAll('.cards .card').forEach((card)=>{
-    card.dataset.treatment
+    card.dataset.treatment = treatment;
+    card.querySelector('.treatment').innerHTML = treatment;
   });
 }
