@@ -116,6 +116,7 @@ function createCard(data, container){
   for(let i=0; i<stepsClasses.length; i++){
       let stepClass = stepsClasses[i];
       let stepText = data['STEP'+(i+1)].trim();
+  console.log(title, i, stepClass, stepText)
       createStep(stepText, stepClass, clone.querySelector(".steps"));
   }
 
