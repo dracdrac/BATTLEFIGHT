@@ -21,9 +21,9 @@
       {{ content }}
     </section>
     </article>
-      <div class="cards">
       <template id="card-template">{% include card.html blank=true %}</template>
       <template id="step-template">{% include step.html blank=true %}</template>
+      <div class="cards">
     {% for i in (0..100) %}
     {% assign n = i | prepend: '00' | slice: -2, 2 %}
     {% include card.html e=page.cards_edition v=page.cards_version n=n %}

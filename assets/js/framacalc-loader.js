@@ -3,6 +3,7 @@ const FRAMACALC_BASE_URL = "https://lite.framacalc.org/";
 
 document.addEventListener("DOMContentLoaded", function() {
   let framacalcCode = getCookie('framacalc-code');
+  document.querySelector('.cards').html = '';
 
   // Auto Load
   if(framacalcCode){
