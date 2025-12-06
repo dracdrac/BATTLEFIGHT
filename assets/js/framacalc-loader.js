@@ -129,7 +129,7 @@ function createStep(stepText, stepClass, container){
   let stepTemplate = document.querySelector("#step-template");
   const CLASSES = {'C':'condition','E':'effet','I':'intervention','P':'permanente'};
   let clone = document.importNode(stepTemplate.content, true);
-  clone.querySelector('.step').classList.add(CLASSES[c])
+  clone.querySelector('.step').classList.add(CLASSES[stepClass])
   clone.querySelector('.step-text').innerHTML = stepText;
   container.appendChild(clone);
 }
