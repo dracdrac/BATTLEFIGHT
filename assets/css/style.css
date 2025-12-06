@@ -1,5 +1,6 @@
 :root {
   --lgray:#d8dee2;
+  --mgray:#7f8e9b;
   --light:#746ac0;
   --mid:#413882;
   --dark:#1b1927;
@@ -238,6 +239,7 @@ body>footer a {
   color:inherit;
 }
 
+
 /****************************************
 
 MAIN   
@@ -353,6 +355,24 @@ body>main>article img{
 
 body>main>article section.page-preview {
   border:1px solid
+}
+
+body>main>.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+      border-radius: 3px;
+
+  gap:10px;
+  background: var(--mgray);
+  padding: 10px;
+}
+
+body>main>.cards .card:hover {
+  transform: scale(110%);
+  box-shadow: 0 0 50px  black;
+  z-index: 10;
+  transition:100ms;
 }
 
 

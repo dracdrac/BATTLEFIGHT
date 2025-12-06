@@ -43,6 +43,7 @@
     overflow: hidden;
 
     background: black;
+    color:black;
 }
 
 
@@ -50,13 +51,14 @@
     /* BLACK BORDER*/
     content:' ';
     display: block;
-    border:calc(var(--border) + .05mm) solid black;
+    border:calc(var(--border) + 1.1mm) solid black;
     width:calc(var(--width)  - .05mm  - var(--border) * 2);
     height:calc(var(--height) - .05mm - var(--border) * 2);
     position: absolute;
-    top:0;
-    left:0;
+    top:-1mm;
+    left:-1mm;
     z-index:3;
+    pointer-events: none;
 }
 
 
@@ -159,14 +161,15 @@
     color: white;
     background: black;
     justify-content: space-between;
-    font-size: .6em;
+    font-size: .65em;
     z-index: 1;
     position: absolute;
+    padding: 0 var(--border);
     padding-top: .2em;
-    height: var(--footer);
-    width:calc(var(--width) - var(--border) * 2);
-    bottom:var(--border);
-    left:var(--border);
+    height: calc(var(--border) + var(--footer));
+    width:var(--width);
+    bottom:0;
+    left:0;
 }
 
 
