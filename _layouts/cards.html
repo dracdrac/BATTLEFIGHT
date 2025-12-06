@@ -25,13 +25,12 @@
     </article>
 
     <aside id="cards-browser">
-
       {% assign edition = page.cards_edition | default: 'I' %}
       {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
       {% assign version = page.cards_version | default: edition_obj.current-version %}
       {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
       {% assign treatment = page.cards_treatment | default: 'ST' %}
-      <select id="cards-treatments">
+      <label for="treatment">Traitement : </label><select name="treatment" id="cards-treatments">
         {% for t in version_obj.treatments %}
           <option value="{{t.id}}" {% if t.id == treatment %}selected{% endif %}>{{t.id}} ({{t.name}})</option>
         {% endfor %}

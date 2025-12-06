@@ -163,73 +163,6 @@
 }
 
 
-/******* BIG TEXTS ******/
-
-
-[data-card-style="bigtext"] .card .rules {
-
-    width:100% !important;
-}
-
-
-[data-card-style="bigtext"] .card .rule{
-
-    font-size: 1.1em !important;
-}
-
-
-[data-card-style="bigtext"] .card .rule sup{
-
-    font-size: .8em !important;
-    background: white;
-    top:-4mm;
-}
-
-
-
-[data-card-style="bigtext"] .card .title {
-        font-size: 1.1em !important;
-
-}
-
-
-[data-card-style="bigtext"] .card .types {
-    display: inline-block;
-        font-size: .8em !important;
-    background: lightgrey;
-        top:-1mm;
-
-
-}
-
-[data-card-style="altperm"] .card .rule.permanente,
-[data-card-style="altperm"] .card .rule.intervention {
-    margin-top: 1mm !important;
-    margin-bottom: 2mm !important;
-}
-
-[data-card-style="altperm"] .card .rule.permanente:has(sup) {
-    margin-top: 2.5mm !important;
-}
-
-
-[data-card-style="altperm"] .card .rule.permanente sup {
-    top:-3.3mm;
-}
-
-
-[data-card-style="altperm"] .card .rule.permanente:after{
-      border-image-source:url('../img/bord-etape-perm-alt.png') !important;  
-}
-
-[data-card-style="altperm"] .card .rule.permanente:has(sup):after{
-      border-image-source:url('../img/bord-etape-perm-cible-alt.png') !important;  
-}
-
-[data-card-style="altperm"] .card .rule.intervention:after{
-      border-image-source:url('../img/bord-etape-perm-pause-alt.png') !important;  
-}
-
 
 /***************************************/
 
@@ -295,5 +228,52 @@
   top:-2.75mm;
   font-size: .6em;
 }
-      
+
+
+
+/******* LF ******/
+
+
+.card[data-treatment="LF"] .steps {
+    width:calc(var(--width) - var(--border) * 2 - var(--gap) * 2);
+}
+
+.card[data-treatment="LF"] .title{
+    font-size:1.2em
+}
+
+.card[data-treatment="LF"] .steps{
+    font-size:1.6em
+}
+
+
+.card[data-treatment="LF"] .step sup {
+    font-size:.7em;
+    width: 100%;
+    background: white;
+    top:-5mm;
+    border:1px solid black;
+    padding:0 .5em;
+}
+
+.card[data-treatment="LF"] .step:has(sup){
+      margin-top: 4mm;
+}
+
+
+.card[data-treatment="LF"] .types {
+    font-size:1em;
+    display: inline-block;
+    background: lightgrey;
+    border:1px solid black;
+        padding:0 .5em;
+}
+
+
+/******* BL ******/
+
+
+.card[data-treatment="BL"] .content:after{
+  display:none;
+}
  
