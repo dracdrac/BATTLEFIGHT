@@ -29,12 +29,12 @@ Mélange ton deck et pose ton pion dans un coin du plateau, à l'opposé de l'ad
 
 ## Que le combat commence !
 
-La partie se déroule au tour par tour. À tout moment, si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
+Tout le monde commence avec 20 points de vie. Si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
 
 
 ### Jouer son tour
 
-Un tour consiste à jouer une seule technique : soit une des 5 **techniques de base**, soit une **carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
+La partie se déroule au tour par tour. Un tour consiste à jouer une seule technique : soit une des 5 **techniques de base**, soit une **carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
 
 Une fois la technique jouée, c'est au tour de l'adversaire. 
 
