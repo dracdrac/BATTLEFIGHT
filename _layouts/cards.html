@@ -30,12 +30,12 @@
       {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
       {% assign version = page.cards_version | default: edition_obj.current-version %}
       {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
-      <select id="treatments">
+      <select id="cards-treatments">
         {% for treatments in version_obj.treatments %}
           <option value="{{treatments.id}}">{{treatments.id}} ({{treatments.name}})</option>
         {% endfor %}
       </select>
-      <button id="print-cards"></button>
+      <button id="print-cards">Imprimer</button>
     </aside>
       <div class="cards">
     {% for i in (0..100) %}
