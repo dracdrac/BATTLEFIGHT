@@ -2,7 +2,9 @@
 title: Cartes
 permalink: /cartes/
 layout: cards
+cards_edition: I
+cards_version: alpha
 ---
 
-* [l'ancienne page pour voir les cartes](cards-old.html)
+Voilà les cartes de l'alpha
 

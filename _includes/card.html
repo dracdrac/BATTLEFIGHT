@@ -1,3 +1,7 @@
+{% if include.blank %}
+
+{% else %}
+
 {% assign edition = include.e | default: 'I' %}
 {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
 
@@ -7,10 +11,14 @@
 {% assign number = include.n %}
 {% assign card = site.data[version_obj.cards] | where: 'ID', number | first %}
 
+{% assign treatment = include.t | default : 'ST' %}
+
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
 {% assign illu_src = version_obj.illu-dir | append: number | append: '.jpg' %}
 {% assign steps_classes = card.STEPS | strip %}
+
+{% endif %}
 
 <div class="card"
   data-title="{{title}}"
@@ -35,7 +43,8 @@
       {% endfor %}
   </div>
     <div class="footer">
-    <span class="id">{{edition}}-{{number}} ({{version}})</span><span>BattleFight 2025</span>
+      <div class="id"><span class="edition">{{edition}}</span> <span class="number">{{number}}</span> <span class="treatment">{{treatment}}</span> <span class="version">{{version}}</span></div>
+      <div class="copyright">BattleFight <span class="year">2025</span></div>
     </div>
   </div>
 </div>
