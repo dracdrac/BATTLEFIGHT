@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.querySelector('#load-cards').addEventListener('click',()=>{
     let framacalcCode = document.querySelector('#framacalc-code').value.trim();
     document.querySelector('#framacalc-load-error-message').close();
-    if(document.querySelector('#remember').value){
+    if(document.querySelector('#remember').checked){
       setCookie('framacalc-code', framacalcCode, 365);
     }
     loadCards(framacalcCode)
@@ -52,6 +52,10 @@ function getCookie(cname) {
 
 function loadCards(framacalcCode){
 
+  if(framacalcCode.length=0){
+      displayError('Merci de renseigner un code');
+      return;
+  }
   let framacalcUrl = FRAMACALC_BASE_URL + framacalcCode + '.csv'
   let cardsElements = document.querySelector('.cards');
   Papa.parse(framacalcUrl, {
@@ -71,6 +75,10 @@ function loadCards(framacalcCode){
 
 function createCards(data, container){
   container.innerHTML = '';
+  if(! 'ID' in cardData) {
+    displayError('Pas de colonne ID dans le tableau.');
+    return;
+  }
   data = data.filter((cardData)=>cardData['ID'].trim().length)
   data.forEach((cardData, i)=>{
     createCard(cardData, container);
