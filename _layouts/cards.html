@@ -30,7 +30,7 @@
       {% assign version = page.cards_version | default: edition_obj.current-version %}
       {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
       {% assign treatment = page.cards_treatment | default: 'ST' %}
-      <form action="#">
+      <form action="#" onsubmit="return false;">
         <fieldset>
             <legend>Chercher</legend>
           <input placeholder="Entre le texte à chercher" name="filter-string" id="filter-string"/>

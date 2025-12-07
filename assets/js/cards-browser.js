@@ -8,16 +8,16 @@ document.addEventListener("DOMContentLoaded", function() {
     changeTreatments(e.target.value)
   })
 
-  document.querySelector('#filter-string').addEventListener('input',(e)=>{
-  console.log(e)
-    if(e.target.value.trim().length) onFilterStringChange(e.target.value.trim());
-  });
+  document.querySelector('#filter-string').addEventListener('input',onSearchInput);
+    document.querySelector('#search-in').addEventListener('input',onSearchInput);
 
 
 
 });
 
-function onFilterStringChange(str){
+function onSearchInput(e){
+    let str = e.target.value.trim();
+    if(e.target.value.trim().length <= 0 ) return;
     let selector = document.querySelector('#search-in').value;
     let cards = document.querySelectorAll('.cards .card');
     filterCards(cards, selector, str);
