@@ -17,7 +17,7 @@ Cet outil est utilisé en interne pour créer les cartes. Les différentes carte
 <script>
 const EDITION = "{{edition}}";
 const VERSION = "{{version}}";
-const TREATMENT = {{site.default_treatment}};
+const TREATMENT = "{{site.default_treatment}}";
 const ILLU_DIR = "{{illu_dir}}";
 </script>
 
