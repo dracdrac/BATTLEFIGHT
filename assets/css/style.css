@@ -170,9 +170,41 @@ body>main>article section.page-preview {
 }
 
 body>main>#cards-browser{
-  background: var(--lgray);
+  background: var(--mgray);
+  color: black;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
-  padding: 10px;
+  overflow: hidden;
+}
+
+body>main>#cards-browser form{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:1px;
+  
+}
+
+body>main>#cards-browser legend {
+    color:var(--mid);
+  float:left;
+    width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+body>main>#cards-browser fieldset {
+
+  display: block;
+  background: var(--lgray);
+  border:none;
+  padding: .2em .5em;
+  margin:0;
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  text-align: center;
+}
+
+body>main>#cards-browser fieldset:first-child {
+  flex-grow:1;
 }
 
 body>main>.cards{

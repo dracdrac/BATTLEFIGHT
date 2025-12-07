@@ -33,7 +33,7 @@
       <form action="#">
         <fieldset>
             <legend>Chercher</legend>
-          <label for="filter-string">Chercher : </labbel><input placeholder="Enter some text" name="filter-string" id="filter-string"/>
+          <input placeholder="Entre le texte à chercher" name="filter-string" id="filter-string"/>
       <label for="search-in">dans : </labbel><select name="search-in" id="search-in">
             <option value=".content" selected>Toute la carte</option>
            <option value=".title">Le titre</option>
@@ -42,7 +42,7 @@
         </select>
         </fieldset>
         <fieldset>
-        <legend>Chercher</legend>
+        <legend>Options</legend>
       <label for="treatment">Traitement : </label><select name="treatment" id="cards-treatments">
         {% for t in version_obj.treatments %}
           <option value="{{t.id}}" {% if t.id == treatment %}selected{% endif %}>{{t.id}} ({{t.name}})</option>
@@ -50,6 +50,7 @@
       </select>
         </fieldset>
         <fieldset>
+        <legend>Actions</legend>
       <button id="print-cards">Imprimer</button>
         </fieldset>
       </form>
