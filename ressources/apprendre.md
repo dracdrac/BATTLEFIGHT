@@ -4,7 +4,7 @@ description: Résumé des règles pour une prise en main rapide
 excerpt: Dans BattleFight, deux personnes s'affrontent en jouant chacune leur tour une technique de combat, jusqu'à ce qu'une des deux tombe à court de point de vie ou soit poussée hors du plateau.
 ---
 
-Ce document est un survol rapide des règles, il devrait suffire pour une première partie. Pour aller plus loin, visiter [Règles](regles).
+
 
 ## Préparation
 
@@ -97,4 +97,4 @@ Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois à l
 
 ### Aller plus loin
 
-Voilà, tu sais jouer à Battlefight ! Si tu as des doutes, tu peux te reporter aux règles plus détaillées ou encore au Glossaire pour avoir toutes les définitions des mots clefs. 
+Voilà, tu sais jouer à Battlefight ! Si tu as des doutes, tu peux te reporter aux [règles](regles) plus détaillées, ou encore au [glossaire](glossaire) pour avoir toutes les définitions des mots clefs. 
