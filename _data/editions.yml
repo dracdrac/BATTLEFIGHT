@@ -11,3 +11,11 @@
           name : Large Font
         - id : BL
           name : BorderLess
+- id : BASIC_TECHNIQUES
+  current-version : 0
+  versions :
+    - id : 0
+      cards : basic-techniques
+      treatments :
+        - id : BT
+          name : Basic Techniques

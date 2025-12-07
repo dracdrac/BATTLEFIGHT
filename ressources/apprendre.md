@@ -6,32 +6,49 @@ excerpt: Dans BattleFight, deux personnes s'affrontent en jouant chacune leur to
 
 Ce document est un survol rapide des règles, il devrait suffire pour une première partie. Pour aller plus loin, visiter [Règles](regles).
 
+## Préparation
+
 ### Créer son deck
 
 Pour une première partie on te conseille de jouer avec un **deck aléatoire** : pour créer le créer il suffit d'ouvrir deux boosters et de mélanger leur contenu.
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
+![Créer son deck](/img/visu-deck.png)
+
 ### Mise en place
 
 Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
-![La table d'une partie de BattleFight]()
+![La table d'une partie de BattleFight](/img/visu-table.png)
+
+1. Le plateau
+2. Ta pioche, toujours face cachée
+3. Ta zone d'activité, où tu joue tes cartes
+4. Ta défausse
+5. Le compte de tes points de vie
 
 ## Que le combat commence !
 
-Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg). Si ton adversaire est à zéro point de vie ou si tu le pousses en dehors du plateau, tu gagnes la partie.
+Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg).
 
+Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plateau, tu gagnes la partie.
 
 ### Jouer son tour
 
-La partie se déroule au tour par tour. Un tour consiste à jouer une seule technique : soit une des 5 **techniques de base**, soit une **carte**. L'usage est de toujours annoncer à voix haute la technique que tu joues.
+La partie se déroule au tour par tour. Un tour consiste à jouer une seule technique : soit une des 5 **techniques de base**, soit une **carte**.
+
+L'usage est de toujours annoncer à voix haute la technique que tu joues.
 
 Une fois la technique jouée, c'est au tour de l'adversaire. 
+
+![Jouer une technique](/img/visu-jouer-une-tech.png)
 
 ### Les techniques de base
 
 Il en existe 5, une pour chacun des 5 types :
+
+<div class="basic-tech">{% for i in (0..4) %}{% include card.html e="BASIC_TECHNIQUES" t="BT" n=n %}{% endfor %}</div>
 
 | Attaque   | Défense   |  Déplacement  |  
 |:---- |:----- |:------ |
@@ -47,6 +64,13 @@ La technique de base que tu joueras le plus souvent c'est la **passif de base**,
 ### Lire les cartes
 
 Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
+
+![Lecture d'une carte](/img/visu-lecture-carte.png)
+
+1. Le titre
+2. Le type
+3. Les étapes
+4. [Identification de la carte](identification-carte) 
 
 #### Conditions
 
@@ -71,6 +95,8 @@ Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour c
 Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, il te faut **intervenir** dessus et te défausser de 2 cartes.
 
 ### Finir sa pioche
+
+![Pioche vide](/img/visu-pioche-vide.png)
 
 Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois à la place :
 - diviser tes points de vies par 2, arrondi à l'unité supérieure

@@ -75,12 +75,12 @@
     /* BLACK BORDER*/
     content:' ';
     display: block;
-    border:calc(var(--border) + 1.1mm) solid black;
-    width:calc(var(--width)  - .05mm  - var(--border) * 2);
-    height:calc(var(--height) - .05mm - var(--border) * 2);
+    border:calc(var(--border) + 5.1mm) solid black;
+    width:calc(var(--width)  - 0.05mm  - var(--border) * 2);
+    height:calc(var(--height) - 0.05mm - var(--border) * 2);
     position: absolute;
-    top:-1mm;
-    left:-1mm;
+    top:-5mm;
+    left:-5mm;
     pointer-events: none;
 }
 
