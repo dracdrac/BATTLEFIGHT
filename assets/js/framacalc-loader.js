@@ -2,14 +2,21 @@
 const FRAMACALC_BASE_URL = "https://lite.framacalc.org/";
 
 document.addEventListener("DOMContentLoaded", function() {
-  let framacalcCode = getCookie('framacalc-code');
-  document.querySelector('.cards').innerHTML = '';
+
+const urlParams = new URL(window.location.href).searchParams;
+const framacalcCodeParam = urlParams.get('framacalc-code');
+const framacalcCodeCookie = getCookie('framacalc-code');
+
+document.querySelector('.cards').innerHTML = '';
 
   // Auto Load
-  if(framacalcCode){
+  if(framacalcCodeParam){
     document.querySelector('#framacalc-code').value = framacalcCode;
     loadCards(framacalcCode)
-  }
+  } else if(framacalcCodeCookie){
+    document.querySelector('#framacalc-code').value = framacalcCode;
+    loadCards(framacalcCode)
+  })
 
   // Load on button press
   document.querySelector('#load-cards').addEventListener('click',()=>{
