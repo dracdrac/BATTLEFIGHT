@@ -181,17 +181,20 @@ body>main>#cards-browser form{
   flex-direction: row;
   flex-wrap: wrap;
   gap:1px;
+  align-content: stretch;
   
 }
 
 body>main>#cards-browser legend {
-    color:var(--mid);
+    color:var(--light);
   float:left;
     width: 100%;
   margin: 0;
   padding: 0;
   text-align: center;
+  margin-bottom:.2em;
 }
+
 body>main>#cards-browser fieldset {
 
   display: block;
@@ -201,10 +204,12 @@ body>main>#cards-browser fieldset {
   margin:0;
     border-radius: var(--border-radius) var(--border-radius) 0 0;
   text-align: center;
+    flex-grow:1;
+
 }
 
 body>main>#cards-browser fieldset:first-child {
-  flex-grow:1;
+  flex-grow:2;
 }
 
 body>main>.cards{
