@@ -52,20 +52,23 @@ body>*{
 MAIN   
 
 ****************************************/
-@media screen and (max-width: 1000px) {
-
-  body>main {   
-    margin: 10px;
-  }
-  
-}
 
 body>main {
   max-width:var(--site-width);
   flex-grow: 1;
   padding-top: var(--header-height);
-
+  width:100%;
 }
+
+@media screen and (max-width: 1000px) {
+
+  body>main {   
+    margin: 10px;
+    width:auto;
+  }
+  
+}
+
 
 body>main>header{
   text-align: center;
