@@ -277,3 +277,39 @@
   display:none;
 }
  
+
+
+/******* BT ******/
+
+
+.card[data-treatment="BT"] {
+  --height:1.5in;
+  --width:2.4in;
+  --footer:0mm;
+    --border:0mm;
+    font-size:1em;
+    background: var(--mgray);
+    background:white;
+    border:1px solid black;
+}
+
+.card[data-treatment="BT"] .content:after{
+  display:none;
+}
+
+.card[data-treatment="BT"] .footer{
+  display:none;
+}
+.card[data-treatment="BT"] img {
+    display: none;
+}
+.card[data-treatment="BT"] .steps {
+    width:calc(var(--width) - var(--border) * 2 - var(--gap) * 2);
+}
+
+.card[data-treatment="BT"] .type {
+top:3mm;
+    left:4.5mm;
+}
+
+ 

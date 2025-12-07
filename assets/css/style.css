@@ -234,6 +234,14 @@ body>main>article section.page-preview a:hover {
 
 }
 
+body>main .basic-tech {
+  display: flex;
+  justify-content: center;
+  gap:1em;
+  flex-wrap: wrap;
+  margin:1em 0;
+}
+
 /****************************************
 
 HEADER   
