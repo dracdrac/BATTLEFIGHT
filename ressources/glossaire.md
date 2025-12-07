@@ -48,7 +48,7 @@ Défausser X cartes de sa main. Si c'est impossible, défausser toute sa main.
 
 <h3>{% include step.html class='E' text='Intervenir' %}</h3>
 
-Choisir une intervention et l'activer si possible.
+Choisir une Pause et l'activer si vous voulez.
 
 <h3>{% include step.html class='E' text='Se Blesser X' %}</h3>
 
@@ -94,9 +94,11 @@ L'adversaire ne peut pas jouer le type X.
 Vous ne pouvez pas jouer le type X.
 
 
-## Condition Permanente
+## Pause
+
+**Pause** permet de garder des cartes dans la zone d'activité. Pour pouvoir les enlever de la zone il faut Intervenir dessus.
 
 <h3>{% include step.html class='I' text='Pause X' %}</h3>
 
-Défausse une carte de la zone d'activité en défaussant X avec l'effet Intervenir.
+Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
 
