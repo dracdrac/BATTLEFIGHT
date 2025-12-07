@@ -83,7 +83,7 @@ La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, 
 
 Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour cela il te faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
-Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, il te faut **intervenir** dessus et te défausser de 2 cartes.
+Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra **intervenir** dessus et te défausser de 2 cartes.
 
 ### Finir sa pioche
 
