@@ -104,9 +104,11 @@ Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
 
 ## Cibles
 
+Des cadres peuvent se placer au dessus d'effets ou d'effets permanents pour indiquer à qui s'applique l'étape.
+
 <h3>{% include step.html class='E' text="<sup>L'adversaire a</sup>S'Empêcher Déplacement" %}</h3>
 
-Indique qu'un effet ou un effet permanent ne s'applique qu'a l'adversaire.
+Indique qu'un effet ou un effet permanent ne s'applique que à l'adversaire.
 
 <h3>{% include step.html class='E' text='<sup>Tout le monde a</sup>Se déplacer 1' %}</h3>
 
