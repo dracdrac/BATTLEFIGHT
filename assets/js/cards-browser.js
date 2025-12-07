@@ -9,6 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
   })
 
   document.querySelector('#filter-string').addEventListener('input',(e)=>{
+  console.log(e)
     if(e.target.value.trim().length) filterCards(e.target.value.trim());
   });
 
@@ -31,7 +32,7 @@ function changeTreatments(treatment){
 
 
 function filterCards(cards, selector, str){
-  const removeDiatrics = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
+  const removeDiatrics = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
   str = removeDiatrics(str.toLowerCase());
   cards.forEach((card)=>{
     let cardText = card.querySelector(selector).innerText;
