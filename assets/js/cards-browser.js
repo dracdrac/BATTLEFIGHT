@@ -32,7 +32,7 @@ function changeTreatments(treatment){
 
 function filterCards(cards, selector, str){
   const removeDiatrics = (str) => str.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
-  str = removeDiatrics(str.toLowerCase();
+  str = removeDiatrics(str.toLowerCase());
   cards.forEach((card)=>{
     let cardText = card.querySelector(selector).innerText;
     cardText = removeDiatrics(cardText.toLowerCase();
