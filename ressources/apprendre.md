@@ -10,7 +10,7 @@ Ce document est un survol rapide des règles, il devrait suffire pour une premi�
 
 ### Créer son deck
 
-Pour une première partie on te conseille de jouer avec un **deck aléatoire** : pour créer le créer il suffit d'ouvrir deux boosters et de mélanger leur contenu.
+Pour une première partie on te conseille de jouer avec un **deck aléatoire** : pour créer le créer il suffit d'ouvrir deux [Boosters](booster.md) et de mélanger leur contenu.
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
