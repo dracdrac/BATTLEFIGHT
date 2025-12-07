@@ -31,6 +31,7 @@
       {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
       {% assign treatment = page.cards_treatment | default: 'ST' %}
       <form action="#" onsubmit="return false;">
+        <button type="submit" disabled style="display: none" aria-hidden="true"></button>
         <fieldset>
             <legend>Chercher</legend>
           <input placeholder="Entre le texte à chercher" name="filter-string" id="filter-string"/>
