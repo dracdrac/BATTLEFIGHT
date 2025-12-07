@@ -96,9 +96,13 @@ Vous ne pouvez pas jouer le type X.
 
 ## Pause
 
-**Pause** permet de garder des cartes dans la zone d'activité. Pour pouvoir les enlever de la zone il faut Intervenir dessus.
+**Pause** permet de garder des cartes dans la zone d'activité. Pour pouvoir les retirer et qu'elles se retrouvent dans la défausse, il faut Intervenir dessus.
 
 <h3>{% include step.html class='I' text='Pause X' %}</h3>
 
 Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
 
+## Cibles
+
+
+<sup>Tout le monde a</sup><h3>{% include step.html class='I' text='XXX' %}</h3>
