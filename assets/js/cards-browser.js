@@ -10,14 +10,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
   document.querySelector('#filter-string').addEventListener('input',(e)=>{
   console.log(e)
-    if(e.target.value.trim().length) filterCards(e.target.value.trim());
+    if(e.target.value.trim().length) onFilterStringChange(e.target.value.trim());
   });
 
 
 
 });
 
-function filterCards(str){
+function onFilterStringChange(str){
     let selector = document.querySelector('#search-in').value;
     let cards = document.querySelectorAll('.cards .card');
     filterCards(cards, selector, str);
