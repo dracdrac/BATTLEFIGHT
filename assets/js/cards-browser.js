@@ -35,7 +35,7 @@ function filterCards(cards, selector, str){
   str = removeDiatrics(str.toLowerCase());
   cards.forEach((card)=>{
     let cardText = card.querySelector(selector).innerText;
-    cardText = removeDiatrics(cardText.toLowerCase();
+    cardText = removeDiatrics(cardText.toLowerCase());
     if(cardText.indexOf(str)>=0){
       card.style.display='';
     }
