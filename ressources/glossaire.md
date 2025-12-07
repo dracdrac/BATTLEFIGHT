@@ -50,7 +50,7 @@ Défausser X cartes de sa main. Si c'est impossible, défausser toute sa main.
 
 Choisir une intervention et l'activer si possible.
 
-<h3>{% include step.html class='E' text='Se blesser X' %}</h3>
+<h3>{% include step.html class='E' text='Se Blesser X' %}</h3>
 
 Se retirer X points de vie.
 
