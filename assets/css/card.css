@@ -42,7 +42,7 @@
 /*** CUSTOM BORDERS *****/
 
 .card .title:after,
-.card .step:after
+.step:after
 {
   --border-image-slice-size:7mm;
   --border-image-slice-size-source:100;
