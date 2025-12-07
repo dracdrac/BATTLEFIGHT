@@ -15,7 +15,6 @@ document.addEventListener("DOMContentLoaded", function() {
   document.querySelector('#load-cards').addEventListener('click',()=>{
      document.querySelector('.cards').innerHTML='Chargement...'
     let framacalcCode = document.querySelector('#framacalc-code').value.trim();
-    document.querySelector('#framacalc-load-error-message').close();
     if(document.querySelector('#remember').checked){
       setCookie('framacalc-code', framacalcCode, 365);
     }

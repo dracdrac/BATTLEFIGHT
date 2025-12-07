@@ -25,11 +25,11 @@
     </article>
 
     <aside id="cards-browser">
-      {% assign edition = page.cards_edition | default: 'I' %}
+      {% assign edition = page.cards_edition | default: site.default_edition %}
       {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
       {% assign version = page.cards_version | default: edition_obj.current-version %}
       {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
-      {% assign treatment = page.cards_treatment | default: 'ST' %}
+      {% assign treatment = page.cards_treatment | default: site.default_treatment %}
       <form action="#" onsubmit="return false;">
         <button type="submit" disabled style="display: none" aria-hidden="true"></button>
         <fieldset>

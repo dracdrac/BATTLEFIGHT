@@ -2,7 +2,7 @@
 
 {% else %}
 
-{% assign edition = include.e | default: 'I' %}
+{% assign edition = include.e | default: site.default_edition %}
 {% assign edition_obj = site.data.editions | where: 'id', edition | first %}
 
 {% assign version = include.v | default: edition_obj.current-version %}
@@ -11,7 +11,7 @@
 {% assign number = include.n %}
 {% assign card = site.data[version_obj.cards] | where: 'ID', number | first %}
 
-{% assign treatment = include.t | default : 'ST' %}
+{% assign treatment = include.t | default : site.default_treatment  %}
 
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}

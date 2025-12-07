@@ -1,8 +1,8 @@
-- id : I
+- id : BF01
   current-version : alpha
   versions :
     - id : alpha
-      cards : cartes-I-alpha
+      cards : cartes-BF01-alpha
       illu-dir : /cartes/illu/
       treatments :
         - id : ST

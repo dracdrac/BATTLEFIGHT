@@ -2,9 +2,11 @@
 title: Cartes depuis framacalc
 description : Outil utilisé pour développer un set.
 layout: cards
-cards_edition: I
+cards_edition: BF01
 cards_version: alpha
 ---
+
+Cet outil est utilisé en interne pour créer les cartes. Les différentes cartes sont définies dans un tableur [Framacalc](https://framacalc.org/), le code de ce tableur peut être entré ci-dessous pour afficher les cartes. (Le code du tableur est ce qui est indiqué à la fin de l'url : `https://lite.framacalc.org/**code-a-entrer**`).
 
 {% assign edition = page.cards_edition %}
 {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
@@ -15,7 +17,7 @@ cards_version: alpha
 <script>
 const EDITION = "{{edition}}";
 const VERSION = "{{version}}";
-const TREATMENT = "ST";
+const TREATMENT = {{site.default_treatment}};
 const ILLU_DIR = "{{illu_dir}}";
 </script>
 
@@ -23,7 +25,8 @@ const ILLU_DIR = "{{illu_dir}}";
 <script src="/assets/js/papaparse.min.js"></script>
 
 <form id="framacalc-loader">
-<label for="framacalc-code">Code du framacalc</label><input id="framacalc-code" name="framacalc-code"/><br/>
+<label for="framacalc-code">Code du framacalc</label><br/>
+<input id="framacalc-code" name="framacalc-code"/><br/>
 <input type="checkbox" id="remember" name="remember" value="remember"/><label for="remember">Se souvenir du code</label><br/>
 <button id="load-cards">Charger les cartes</button>
 </form>
