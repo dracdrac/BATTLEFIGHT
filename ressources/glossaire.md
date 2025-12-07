@@ -104,7 +104,7 @@ Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
 
 ## Cibles
 
-<h3>{% include step.html class='E' text='<sup>L'adversaire a</sup>S'Empêcher Déplacement' %}</h3>
+<h3>{% include step.html class='E' text="<sup>L'adversaire a</sup>S'Empêcher Déplacement" %}</h3>
 
 Indique qu'un effet ou un effet permanent ne s'applique qu'a l'adversaire.
 
