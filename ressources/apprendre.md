@@ -14,8 +14,6 @@ Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
-<img align="right" width="100" height="100" src="/img/visu-deck.png">
-
 ![Créer son deck](/img/visu-deck.png)
 
 ### Mise en place
