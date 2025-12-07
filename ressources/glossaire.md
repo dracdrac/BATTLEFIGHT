@@ -60,7 +60,7 @@ Récupérer jusqu'à X points de vie perdus depuis votre dernier tour.
 
 <h3>{% include step.html class='E' text='Rejouer' %}</h3>
 
-Jouer une autre technique.
+Jouer une technique.
 
 <h3>{% include step.html class='E' text='Piocher X' %}</h3>
 
@@ -73,7 +73,7 @@ Piocher X cartes.
 <h3>{% include step.html class='P' text='Force X' %}</h3>
 Augmente de X vos Blesser et Se Blesser.
 
-<h3>{% include step.html class='P' text='Bouclier X' %}</h3>
+<h3>{% include step.html class='P' text='Protection X' %}</h3>
 
 Diminue de X les Blesser de l'adversaire et vos Se Blesser.
 
@@ -83,18 +83,20 @@ Augmente de X vos Se Déplacer.
 
 <h3>{% include step.html class='P' text='Charme X' %}</h3>
 
-Augmente de X vos interventions quand c'est l'adversaire qui intervient.
+Diminue de X le nombre de cartes que vous devez défausser pour Intervenir sur les Pauses.
 
 <h3>{% include step.html class='P' text='Empêcher X' %}</h3>
 
 L'adversaire ne peut pas jouer le type X.
 
-<h3>{% include step.html class='P' text="S'empêcher X" %}</h3>
+<h3>{% include step.html class='P' text="S'Empêcher X" %}</h3>
 
 Vous ne pouvez pas jouer le type X.
 
-<h3>{% include step.html class='P' text='Jouer X : Y' %}</h3>
 
-Jouer une technique de type X déclenche l'action Y.
+## Condition Permanente
 
+<h3>{% include step.html class='I' text='Pause X' %}</h3>
+
+Défausse une carte de la zone d'activité en défaussant X avec l'effet Intervenir.
 
