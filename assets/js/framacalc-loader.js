@@ -16,7 +16,7 @@ document.querySelector('.cards').innerHTML = '';
   } else if(framacalcCodeCookie){
     document.querySelector('#framacalc-code').value = framacalcCode;
     loadCards(framacalcCode)
-  })
+  }
 
   // Load on button press
   document.querySelector('#load-cards').addEventListener('click',()=>{

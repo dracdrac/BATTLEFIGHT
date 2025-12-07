@@ -6,7 +6,7 @@ cards_edition: BF01
 cards_version: alpha
 ---
 
-Cet outil est utilisé en interne pour créer les cartes. Les différentes cartes sont définies dans un tableur [Framacalc](https://framacalc.org/), le code de ce tableur peut être entré ci-dessous pour afficher les cartes. (Le code du tableur est ce qui est indiqué à la fin de l'url : `https://lite.framacalc.org/**code-a-entrer**`).
+Cet outil est utilisé en interne pour créer les cartes. Les différentes cartes sont définies dans un tableur [Framacalc](https://framacalc.org/), le code de ce tableur peut être entré ci-dessous pour afficher les cartes. (Le code du tableur est ce qui est indiqué à la fin de l'url : `https://lite.framacalc.org/[code-a-entrer]`).
 
 {% assign edition = page.cards_edition %}
 {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
