@@ -14,13 +14,15 @@ Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
-![Créer son deck](/img/visu-deck.png)
+![Le Deck](/img/visu-deck.png)
 
 ### Mise en place
 
 Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
-![La table d'une partie de BattleFight](/img/visu-table.png)
+
+<img width="50%" src="/img/visu-table.png">
+
 
 1. Le plateau
 2. Ta pioche, toujours face cachée
@@ -36,13 +38,12 @@ Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plate
 
 ### Jouer son tour
 
-La partie se déroule au tour par tour. Un tour consiste à jouer une seule technique : soit une des 5 **techniques de base**, soit une **carte**.
-
-L'usage est de toujours annoncer à voix haute la technique que tu joues.
-
-Une fois la technique jouée, c'est au tour de l'adversaire. 
+La partie se déroule au tour par tour. Une fois que tu as joué une technique (soit une des 5 **techniques de base**, soit une **carte**) c'est au tour de l'adversaire.
 
 ![Jouer une technique](/img/visu-jouer-une-tech.png)
+
+
+L'usage est de toujours annoncer à voix haute la technique que tu joues.  
 
 ### Les techniques de base
 
@@ -61,7 +62,7 @@ Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue u
 1. Le titre
 2. Le type
 3. Les étapes
-4. [Identification de la carte](identification-carte) 
+4. [Identification de la carte](identification-cartes.md) 
 
 #### Conditions
 
