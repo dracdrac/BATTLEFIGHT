@@ -24,7 +24,7 @@ const ILLU_DIR = "{{illu_dir}}";
 <script src="/assets/js/framacalc-loader.js"></script>
 <script src="/assets/js/papaparse.min.js"></script>
 
-<form id="framacalc-loader">
+<form action="#" id="framacalc-loader">
 <label for="framacalc-code">Code du framacalc</label><br/>
 <input id="framacalc-code" name="framacalc-code"/><br/>
 <input type="checkbox" id="remember" name="remember" value="remember"/><label for="remember">Se souvenir du code</label><br/>
