@@ -105,4 +105,4 @@ Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
 ## Cibles
 
 
-<sup>Tout le monde a</sup><h3>{% include step.html class='I' text='XXX' %}</h3>
+<h3>{% include step.html class='I' text='<sup>Tout le monde a</sup>' %}</h3>
