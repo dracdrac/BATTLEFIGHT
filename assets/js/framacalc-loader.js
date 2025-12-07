@@ -11,11 +11,11 @@ document.querySelector('.cards').innerHTML = '';
 
   // Auto Load
   if(framacalcCodeParam){
-    document.querySelector('#framacalc-code').value = framacalcCode;
-    loadCards(framacalcCode)
+    document.querySelector('#framacalc-code').value = framacalcCodeParam;
+    loadCards(framacalcCodeParam)
   } else if(framacalcCodeCookie){
-    document.querySelector('#framacalc-code').value = framacalcCode;
-    loadCards(framacalcCode)
+    document.querySelector('#framacalc-code').value = framacalcCodeCookie;
+    loadCards(framacalcCodeCookie)
   }
 
   // Load on button press

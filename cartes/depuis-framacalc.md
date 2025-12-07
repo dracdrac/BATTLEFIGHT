@@ -1,6 +1,6 @@
 ---
 title: Cartes depuis framacalc
-description : Outil utilisé pour développer un set.
+description : Outil utilisé pour développer un set
 layout: cards
 cards_edition: BF01
 cards_version: alpha
