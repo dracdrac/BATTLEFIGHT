@@ -4,13 +4,13 @@ description: Résumé des règles pour une prise en main rapide
 excerpt: Dans BattleFight, deux personnes s'affrontent en jouant chacune leur tour une technique de combat, jusqu'à ce qu'une des deux tombe à court de point de vie ou soit poussée hors du plateau.
 ---
 
-Ce document est un survol rapide des règles, il devrait suffire pour une première partie. Pour aller plus loin, visiter [Règles](regles).
+
 
 ## Préparation
 
 ### Créer son deck
 
-Pour une première partie on te conseille de jouer avec un **deck aléatoire** : pour créer le créer il suffit d'ouvrir deux boosters et de mélanger leur contenu.
+Pour une première partie on te conseille de jouer avec un **deck aléatoire** : pour créer le créer il suffit d'ouvrir deux [Boosters](booster.md) et de mélanger leur contenu.
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
@@ -50,15 +50,6 @@ Il en existe 5, une pour chacun des 5 types :
 
 <div class="basic-tech">{% for i in (0..4) %}{% include card.html e="BASIC_TECHNIQUES" t="BT" n=i %}{% endfor %}</div>
 
-| Attaque   | Défense   |  Déplacement  |  
-|:---- |:----- |:------ |
-| Corps à Corps     | Bloquer 1   | Se déplacer 1  | 
-| Blesser 1 |
-
-|Passif  |  Rhétorique  |
-|:------ |:------|
-| Piocher 1 | Intervenir |
-
 La technique de base que tu joueras le plus souvent c'est la **passif de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
 ### Lire les cartes
@@ -92,7 +83,7 @@ La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, 
 
 Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour cela il te faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
-Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, il te faut **intervenir** dessus et te défausser de 2 cartes.
+Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra **intervenir** dessus et te défausser de 2 cartes.
 
 ### Finir sa pioche
 
@@ -106,4 +97,4 @@ Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois à l
 
 ### Aller plus loin
 
-Voilà, tu sais jouer à Battlefight ! Si tu as des doutes, tu peux te reporter aux règles plus détaillées ou encore au Glossaire pour avoir toutes les définitions des mots clefs. 
+Voilà, tu sais jouer à Battlefight ! Si tu as des doutes, tu peux te reporter aux [règles](regles) plus détaillées, ou encore au [glossaire](glossaire) pour avoir toutes les définitions des mots clefs. 
