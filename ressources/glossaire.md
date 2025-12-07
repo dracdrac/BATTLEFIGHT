@@ -104,5 +104,13 @@ Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
 
 ## Cibles
 
+<h3>{% include step.html class='E' text='<sup>L'adversaire a</sup>'S'Empêcher Déplacement %}</h3>
 
-<h3>{% include step.html class='I' text='<sup>Tout le monde a</sup>' %}</h3>
+Indique qu'un effet ou un effet permanent ne s'applique qu'a l'adversaire.
+
+<h3>{% include step.html class='E' text='<sup>Tout le monde a</sup>'Se déplacer 1 %}</h3>
+
+Indique qu'un effet ou un effet permanent s'applique à tout le monde. 
+
+<small>*Tout le monde a* s'applique en premier à la personne qui a joué la carte, puis aux adversaires.</small>
+
