@@ -3,10 +3,10 @@
 {% else %}
 
 {% assign edition = include.e | default: 'I' %}
-{% assign edition_obj = site.data.editions | find: 'id', edition | first %}
+{% assign edition_obj = site.data.editions | where: 'id', edition | first %}
 
 {% assign version = include.v | default: edition_obj.current-version %}
-{% assign version_obj = edition_obj.versions | find: 'id', version | first %}
+{% assign version_obj = edition_obj.versions | where: 'id', version | first %}
 
 {% assign number = include.n %}
 {% assign card = site.data[version_obj.cards] | where: 'ID', number | first %}
