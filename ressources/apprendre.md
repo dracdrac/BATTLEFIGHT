@@ -57,7 +57,7 @@ La technique de base que tu joueras le plus souvent c'est la **passif de base**,
 
 Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
 
-<img width="30%" src="/img/visu-lecture-carte.png">
+![Lecture d'une carte](/img/visu-lecture-carte.png)
 
 1. Le titre
 2. Le type
