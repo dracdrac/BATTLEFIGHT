@@ -21,7 +21,7 @@ Si tu souhaites créer ton deck autrement, l'important est que le deck contienne
 Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
 
-![La table d'une partie de BattleFight](<img width="30%" src="[La table d'une partie de BattleFight](/img/visu-table.png)">)
+<img width="50%" src="[La table d'une partie de BattleFight](/img/visu-table.png)">
 
 
 1. Le plateau
