@@ -14,6 +14,8 @@ Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
+<img align="right" width="100" height="100" src="![Créer son deck](/img/visu-deck.png)">
+
 ![Créer son deck](/img/visu-deck.png)
 
 ### Mise en place
@@ -21,6 +23,8 @@ Si tu souhaites créer ton deck autrement, l'important est que le deck contienne
 Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
 ![La table d'une partie de BattleFight](/img/visu-table.png)
+
+
 
 1. Le plateau
 2. Ta pioche, toujours face cachée
