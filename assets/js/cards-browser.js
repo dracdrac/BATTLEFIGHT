@@ -9,15 +9,15 @@ document.addEventListener("DOMContentLoaded", function() {
   })
 
   document.querySelector('#filter-string').addEventListener('input',onSearchInput);
-    document.querySelector('#search-in').addEventListener('input',onSearchInput);
+  document.querySelector('#search-in').addEventListener('input',onSearchInput);
 
 
 
 });
 
 function onSearchInput(e){
-    let str = e.target.value.trim();
-    if(e.target.value.trim().length <= 0 ) return;
+    let str = document.querySelector('#filter-string').value.trim();
+    if(str.length <= 0 ) return;
     let selector = document.querySelector('#search-in').value;
     let cards = document.querySelectorAll('.cards .card');
     filterCards(cards, selector, str);
