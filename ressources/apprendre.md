@@ -50,15 +50,6 @@ Il en existe 5, une pour chacun des 5 types :
 
 <div class="basic-tech">{% for i in (0..4) %}{% include card.html e="BASIC_TECHNIQUES" t="BT" n=i %}{% endfor %}</div>
 
-| Attaque   | Défense   |  Déplacement  |  
-|:---- |:----- |:------ |
-| Corps à Corps     | Bloquer 1   | Se déplacer 1  | 
-| Blesser 1 |
-
-|Passif  |  Rhétorique  |
-|:------ |:------|
-| Piocher 1 | Intervenir |
-
 La technique de base que tu joueras le plus souvent c'est la **passif de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
 ### Lire les cartes
