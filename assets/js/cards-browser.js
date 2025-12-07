@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
 
-  document.querySelector('#print-cards').addEventListener('click', ()=>{
+  document.querySelector('#print-cards').addEventListener('click', (e)=>{
+   console.log(e)
     print();
   });
 
