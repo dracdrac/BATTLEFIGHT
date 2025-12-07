@@ -12,9 +12,9 @@
         - id : BL
           name : BorderLess
 - id : BASIC_TECHNIQUES
-  current-version : 0
+  current-version : 1
   versions :
-    - id : 0
+    - id : 1
       cards : basic-techniques
       treatments :
         - id : BT
