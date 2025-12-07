@@ -31,7 +31,7 @@
       {% assign version_obj = edition_obj.versions | find: 'id', version | first %}
       {% assign treatment = page.cards_treatment | default: 'ST' %}
       <form action="#">
-        <fileldset>
+        <fieldset>
             <legend>Chercher</legend>
           <label for="filter-string">Chercher : </labbel><input placeholder="Enter some text" name="filter-string" id="filter-string"/>
       <label for="search-in">dans : </labbel><select name="search-in" id="search-in">
@@ -40,18 +40,18 @@
            <option value=".steps">Les étapes</option>
            <option value=".id">L'identifiant</option>
         </select>
-        </filedset>
-        <fileldset>
+        </fieldset>
+        <fieldset>
         <legend>Chercher</legend>
       <label for="treatment">Traitement : </label><select name="treatment" id="cards-treatments">
         {% for t in version_obj.treatments %}
           <option value="{{t.id}}" {% if t.id == treatment %}selected{% endif %}>{{t.id}} ({{t.name}})</option>
         {% endfor %}
       </select>
-        </filedset>
-        <fileldset>
+        </fieldset>
+        <fieldset>
       <button id="print-cards">Imprimer</button>
-        </filedset>
+        </fieldset>
       </form>
     </aside>
       <div class="cards">
