@@ -48,7 +48,7 @@ Une fois la technique jouée, c'est au tour de l'adversaire.
 
 Il en existe 5, une pour chacun des 5 types :
 
-<div class="basic-tech">{% for i in (0..4) %}{% include card.html e="BASIC_TECHNIQUES" t="BT" n=n %}{% endfor %}</div>
+<div class="basic-tech">{% for i in (0..4) %}{% include card.html e="BASIC_TECHNIQUES" t="BT" n=i %}{% endfor %}</div>
 
 | Attaque   | Défense   |  Déplacement  |  
 |:---- |:----- |:------ |

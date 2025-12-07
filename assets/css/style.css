@@ -546,3 +546,22 @@ table th {
 
   padding: .1em .5em;
 }
+
+ol {
+  counter-reset: item;
+  padding: 0;
+}
+ol li { display: block }
+ol li:before {
+  background:#9c709e;
+  display: inline-block;
+  border:1px solid black;
+  margin:.2em .5em;
+  height:1.2em;
+  width:1.2em;
+  border-radius:1.2em;
+  text-align: center;
+  line-height: 1.2em;
+  content: counter(item);
+  counter-increment: item;
+}
