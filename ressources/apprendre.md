@@ -62,7 +62,7 @@ Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue u
 1. Le titre
 2. Le type
 3. Les étapes
-4. [Identification de la carte](identification-cartes) 
+4. [Identification de la carte](identification-cartes.md) 
 
 #### Conditions
 
