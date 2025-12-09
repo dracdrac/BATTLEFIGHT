@@ -4,7 +4,7 @@ description: Définitions des mots clefs
 excerpt: 
 ---
 
-<div class="two-col" markdown="1"> <!--Cet élément permet d'afficher le contenu sur deux colonnes -->
+<section class="half-w" markdown="1"> <!--Cet élément permet d'afficher le contenu sur deux colonnes -->
 
 ## Conditions
 
@@ -30,6 +30,8 @@ Défausser X cartes de sa main.
 
 <small>Si on n'a pas assez de carte, la condition n'est pas remplie mais il faut quand même défausser toute sa main</small>
 
+</div>
+<section class="half-w" markdown="1">
 
 ## Effets
 
@@ -68,6 +70,9 @@ Jouer une technique.
 
 Piocher X cartes.
 
+</div>
+<section class="half-w" markdown="1">
+
 ## Effets permanents
 
 <small>Les étapes permanentes restent effective tant que la carte est en jeu</small>
@@ -95,6 +100,8 @@ L'adversaire ne peut pas jouer le type X.
 
 Vous ne pouvez pas jouer le type X.
 
+</div>
+<section class="half-w" markdown="1">
 
 ## Pause
 
@@ -103,6 +110,9 @@ Vous ne pouvez pas jouer le type X.
 <h3>{% include step.html class='I' text='Pause X' %}</h3>
 
 Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
+
+</div>
+<section class="half-w" markdown="1">
 
 ## Cibles
 
