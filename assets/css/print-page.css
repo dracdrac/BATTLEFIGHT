@@ -1,0 +1,36 @@
+@media print {
+
+body{
+  background:white !important;
+}
+
+body:after{
+  display: none;
+}
+
+body>header{
+  display: none;
+}
+
+body>footer{
+  display:none;
+}
+
+body>main>header{
+  display: none;
+}
+
+body>main {
+  padding: 0;
+}
+
+body>main>article,
+body>main>header{
+  margin:0;
+}
+
+body>main>article{
+  box-shadow: none;
+}
+
+}
