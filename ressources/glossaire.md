@@ -30,7 +30,7 @@ Défausser X cartes de sa main.
 
 <small>Si on n'a pas assez de carte, la condition n'est pas remplie mais il faut quand même défausser toute sa main</small>
 
-</div>
+</section>
 <section class="half-w" markdown="1">
 
 ## Effets
@@ -70,7 +70,7 @@ Jouer une technique.
 
 Piocher X cartes.
 
-</div>
+</section>
 <section class="half-w" markdown="1">
 
 ## Effets permanents
@@ -100,7 +100,7 @@ L'adversaire ne peut pas jouer le type X.
 
 Vous ne pouvez pas jouer le type X.
 
-</div>
+</section>
 <section class="half-w" markdown="1">
 
 ## Pause
@@ -111,7 +111,7 @@ Vous ne pouvez pas jouer le type X.
 
 Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
 
-</div>
+</section>
 <section class="half-w" markdown="1">
 
 ## Cibles
@@ -128,4 +128,4 @@ Indique qu'un effet ou un effet permanent s'applique à tout le monde.
 
 <small>*Tout le monde a* s'applique en premier à la personne qui a joué la carte, puis aux adversaires.</small>
 
-</div>
+</section>
