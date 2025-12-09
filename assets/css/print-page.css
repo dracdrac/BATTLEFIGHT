@@ -27,10 +27,17 @@ body>main {
 body>main>article,
 body>main>header{
   margin:0;
+ 
 }
 
-body>main>article{
+body>main>article,
+  body>main>article>section{
   box-shadow: none;
+    background: transparent;
+
 }
 
+}
+
+body>main>article {
 }

@@ -618,3 +618,13 @@ code {
   padding: 0 .2em
 }
 
+section:has(.half-w){
+  columns:2;
+  column-gap: 2em;
+  
+}
+
+
+.half-w {
+  break-inside: avoid;
+}

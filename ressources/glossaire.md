@@ -40,7 +40,7 @@ Retirer X points de vie à l'adversaire.
 
 <h3>{% include step.html class='E' text='Pousser X' %}</h3>
 
-Déplacer l'adversaire de X cases dans la direction opposée à la votre.
+Déplacer l'adversaire de X cases de manière à l'éloigner.
 
 <h3>{% include step.html class='E' text='Se déplacer X' %}</h3>
 
@@ -52,7 +52,9 @@ Défausser X cartes de sa main. Si c'est impossible, défausser toute sa main.
 
 <h3>{% include step.html class='E' text='Intervenir' %}</h3>
 
-Choisir une Pause et l'activer si vous voulez.
+Choisir une carte mise en *Pause* et intervenir dessus. 
+
+<small>Cet effet est facultatif.</small>
 
 <h3>{% include step.html class='E' text='Se Blesser X' %}</h3>
 
@@ -60,7 +62,7 @@ Se retirer X points de vie.
 
 <h3>{% include step.html class='E' text='Bloquer X' %}</h3>
 
-Récupérer jusqu'à X points de vie perdus depuis votre dernier tour.
+Récupérer jusqu'à X points de vie perdus depuis la fin de son dernier tour.
 
 <h3>{% include step.html class='E' text='Rejouer' %}</h3>
 
@@ -75,57 +77,66 @@ Piocher X cartes.
 
 ## Effets permanents
 
-<small>Les étapes permanentes restent effective tant que la carte est en jeu</small>
+<small>Les étapes permanentes restent effectives tant que la carte est en jeu</small>
 
 <h3>{% include step.html class='P' text='Force X' %}</h3>
-Augmente de X vos Blesser et Se Blesser.
+Augmente de X tes Blesser et Se Blesser.
 
 <h3>{% include step.html class='P' text='Protection X' %}</h3>
 
-Diminue de X les Blesser de l'adversaire et vos Se Blesser.
+Diminue de X les Blesser de l'adversaire et tes Se Blesser.
 
 <h3>{% include step.html class='P' text='Vitesse X' %}</h3>
 
-Augmente de X vos Se Déplacer.
+Augmente de X tes Se Déplacer.
 
 <h3>{% include step.html class='P' text='Charme X' %}</h3>
 
-Diminue de X le nombre de cartes que vous devez défausser pour Intervenir sur les Pauses.
+Diminue de X le nombre de cartes que tu dois défausser pour Intervenir sur les Pauses.
 
-<h3>{% include step.html class='P' text='Empêcher X' %}</h3>
-
-L'adversaire ne peut pas jouer le type X.
 
 <h3>{% include step.html class='P' text="S'Empêcher X" %}</h3>
 
-Vous ne pouvez pas jouer le type X.
+Tu ne peux pas jouer le type X.
+
+<h3>{% include step.html class='P' text="S'Empêcher Carte X" %}</h3>
+
+Tu ne peux pas jouer de cartes du type X.
+
+<h3>{% include step.html class='P' text="S'Empêcher Carte" %}</h3>
+
+Tu ne peux pas jouer de cartes.
 
 </section>
 <section class="half-w" markdown="1">
 
 ## Pause
 
-**Pause** permet de garder des cartes dans la zone d'activité. Pour pouvoir les retirer et qu'elles se retrouvent dans la défausse, il faut Intervenir dessus.
 
 <h3>{% include step.html class='I' text='Pause X' %}</h3>
 
-Il faut se défausser de X cartes en plus de l'effet **Intervenir**.
+La carte est mise en pause. Une carte mise en pause reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Intervenir en défaussant X cartes.
+
+<h3>{% include step.html class='I' text='Pause' %}</h3>
+
+La carte est mise en pause. Une carte mise en pause reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Intervenir (sans défausser de cartes)
+
 
 </section>
 <section class="half-w" markdown="1">
 
 ## Cibles
 
-Des cadres peuvent se placer au dessus d'effets ou d'effets permanents pour indiquer à qui s'applique l'étape.
+Des cadres peuvent se trouver au dessus d'étapes pour indiquer à qui elles s'appliquent.
 
-<h3>{% include step.html class='E' text="<sup>L'adversaire a</sup>S'Empêcher Déplacement" %}</h3>
+<h3>{% include step.html class='E' text="<sup>L'adversaire a</sup>X" %}</h3>
 
-Indique qu'un effet ou un effet permanent ne s'applique que à l'adversaire.
+Indique que l'effet X s'applique à l'adversaire.
 
-<h3>{% include step.html class='E' text='<sup>Tout le monde a</sup>Se déplacer 1' %}</h3>
+<h3>{% include step.html class='E' text='<sup>Tout le monde a</sup>X' %}</h3>
 
-Indique qu'un effet ou un effet permanent s'applique à tout le monde. 
+Indique que l'effet X s'applique à tout le monde. 
 
-<small>*Tout le monde a* s'applique en premier à la personne qui a joué la carte, puis aux adversaires.</small>
+<small>L'effet s'applique en premier à la personne qui a joué la carte.</small>
 
 </section>
