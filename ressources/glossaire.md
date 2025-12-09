@@ -4,6 +4,8 @@ description: Définitions des mots clefs
 excerpt: 
 ---
 
+<div class="two-col" markdown="1"> <!--Cet élément permet d'afficher le contenu sur deux colonnes -->
+
 ## Conditions
 
 Une condition doit être remplie pour pouvoir passer à l'étape suivante
@@ -116,3 +118,4 @@ Indique qu'un effet ou un effet permanent s'applique à tout le monde.
 
 <small>*Tout le monde a* s'applique en premier à la personne qui a joué la carte, puis aux adversaires.</small>
 
+</div>
