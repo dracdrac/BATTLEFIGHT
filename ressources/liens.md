@@ -1,6 +1,6 @@
 ---
 title: Liens
-description: 
+description: Divers liens vers des trucs plus ou moins liés aux jeux de cartes à collectionner
 ---
 
 ## TCG indés
