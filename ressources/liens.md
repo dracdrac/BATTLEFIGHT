@@ -33,6 +33,7 @@ description: Divers liens vers des trucs plus ou moins liés aux jeux de cartes 
 - [Nafubi](https://www.instagram.com/nafubi_dungeon/) (insta) - Artiste qui fait des alters et des tokens Magic
 - [Sammy Stein](sammystein.fr) - Artiste qui a édité quelques beaux jeux de cartes (pas des cartes à jouer), notamment MÉTABIBLIOTHÈQUE, FRAGMENTS
 - [David Genchi](https://www.instagram.com/d_g_e_n_c_h_i), Illustrateur qui a publié un jeu qui s'appelle Kartomantik chez Hollow Press.
+- [Dead Line](https://www.exemplaire-editions.fr/librairie/livre/dead-line), le super beau jeu de l'auteur de bédé Helkarava.
 
 ## autre
 
