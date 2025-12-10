@@ -5,11 +5,14 @@ description:
 
 ## TCG indés
 
-- [safire](https://safircards.com)
-- [phantasm tcg](https://phantasm.world)
+- [Altered](https://www.altered.gg/fr-fr)
+- [Safire](https://safircards.com)
+- [Phantasm TCG](https://phantasm.world)
 - [Machicoulis](https://machicoulis-jcc.fr/)
 - [Flawed](https://flawed.play.carde.io/cards)
+- [Rise](https://www.risetcgofficial.com/)
 - [Le Château des Récits Croisés](https://matieregrasse.fr/shop/mg7)
+
 
 ## youtubeur.se 
 
@@ -34,4 +37,4 @@ description:
 ## autre
 
 - [Le musée de la carte à jouer](https://www.museecarteajouer.com/) - Super musée avec très belle collection si vous avez l'occas de le visiter
-
+- [SAJ](https://societedesauteursdejeux.fr/) - Une asso d'auteur·ices de jeu
