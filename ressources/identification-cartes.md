@@ -10,10 +10,9 @@ L'identification précise des cartes peut se faire grâce à un identifiant insc
 ## Anatomie de l'identifiant
 
 
-L'identifiant est inscrit sur deux lignes. Par exemple, l'identifiant peut ressembler à ça :
+L'identifiant peut ressembler à ça :
 
-    I 00
-    1 ST
+    BF01 00 ST (beta)
 
 La première ligne est suffisante pour identifier la carte en terme de règles et de gameplay. Elle contient :
 
@@ -25,17 +24,17 @@ La deuxième ligne donne des information supplémentaires pour identifier la car
 - Le numéro d'édition
 - Le code de traitement
 
-## Le numéro de saison
+## Le code de l'édition
 
-Le numéro de saison est inscrit en chiffre romains.
+Le code de l'édition est écrit en 2 lettres et 2 chiffres.
 
-Une saison est un ensemble de 100 cartes publiées à un même moment et en même nombre d'exemplaires qui forment un tout cohérent en terme de mécaniques de jeu et de lore.
+Une édition est un ensemble de 100 cartes publiées à un même moment et en même nombre d'exemplaires qui forment un tout cohérent en terme de mécaniques de jeu et de lore.
 
 ## Le numéro de carte
 
 Le numéro de carte est écrit en deux chiffres. De 00 à 99, il désigne la place de la carte dans la saison.
 
-## Le numéro d'édition
+## La version/le tirage
 
 Le numéro d'édition est un numéro incrémenté à chaque fois que les cartes de la saison sont réimprimées.
 
