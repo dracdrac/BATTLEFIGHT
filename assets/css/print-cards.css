@@ -3,13 +3,14 @@
     
     @page{
     size: 25in 35in; /* this is poker size x10 */
-}
+    }
 
 .card {
     scale: 1000%; /* this is x10 */
     translate: calc(25in / 2 - var(--width) / 2)
     calc(35in / 2 - var(--height) / 2)
     ;
+    margin-bottom: calc(35in - 3.5in);
 }
 
 
