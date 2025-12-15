@@ -1,5 +1,14 @@
 {% if include.blank %}
 
+{% assign edition = "" %}
+{% assign version = "" %}
+{% assign number = "" %}
+{% assign treatment = ""  %}
+{% assign title = "" %}
+{% assign type = "" %}
+{% assign illu_src = "" %}
+{% assign steps_classes = "" %}
+
 {% else %}
 
 {% assign edition = include.e | default: site.default_edition %}
