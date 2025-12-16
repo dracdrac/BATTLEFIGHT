@@ -124,6 +124,10 @@
   border-image-source:url('../img/bord-titre-pas.png');
 }
 
+.card[data-type~="Concentration"] .title:after {
+  border-image-source:url('../img/bord-titre-con.png');
+}
+
 .card[data-type~="Rhétorique"] .title:after {
   border-image-source:url('../img/bord-titre-rhe.png');
 }
