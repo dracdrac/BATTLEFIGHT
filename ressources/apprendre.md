@@ -82,9 +82,9 @@ La deuxième étape de *Célérité* est une **Stabilisation**. Lorsque tu l'ex�
 
 #### Déstabiliser
 
-Tu peux te débarrasser de n'importe quelle carte en jeu. Pour cela il te faut **Déstabiliser** les **Stabilisation**. Si la **Stabilisation** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
+À ton tour, tu peux te débarrasser de n'importe quelle carte restée en jeu grâce à la **Stabilisation**. Pour cela il te faut la **Déstabiliser**. Si la **Stabilisation** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
-Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra **Déstabiliser** et te défausser de 2 cartes.
+Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra la **Déstabiliser** et te défausser de 2 cartes.
 
 ### Finir sa pioche
 
