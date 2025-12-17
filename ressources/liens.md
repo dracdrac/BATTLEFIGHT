@@ -25,7 +25,7 @@ description: Divers liens vers des trucs plus ou moins liés aux jeux de cartes 
 ## articles / blogs
 
 - [Cards & Research](https://research.cards-and-coding.click) (fr) - Blog de recherche tenu par Nicolas Tilly autour de la carte à jouer et à collectionner.
-- [Every Single TCG Card Back Ranked Because I Don’t Have the Time or Money to Actually Play Them](https://hard-drive.net/every-single-tcg-card-back-ranked-because-i-dont-have-the-time-or-money-to-actually-play-them/) (en) - Un articlme délirant où Nik Theorin analyse les dos de pas moins de 162 TCG
+- [Every Single TCG Card Back Ranked Because I Don’t Have the Time or Money to Actually Play Them](https://hard-drive.net/every-single-tcg-card-back-ranked-because-i-dont-have-the-time-or-money-to-actually-play-them/) (en) - Un article délirant où Nik Theorin analyse les dos de pas moins de 162 TCG
 - [Magic Rarities : Alpha, Beta, Gamma Playtest cards](https://www.magiclibrarities.net/961-rarities-alpha-beta-gamma-playtest-cards-english-cards-index.html) (en) - page présentant les cartes des premiers playtests de *Magic: The Gathering*
 
 ## artiste cartistes
