@@ -10,7 +10,7 @@ excerpt:
 
 Une condition doit être remplie pour pouvoir passer à l'étape suivante.
 
-<small>Si la condition n'est pas remplie, défausser la carte</small>
+<small>Si la condition n'est pas remplie, défausses la carte.</small>
 
 <h3>{% include step.html class='C' text='Corps À Corps' %}</h3>
 
@@ -28,7 +28,7 @@ Une condition doit être remplie pour pouvoir passer à l'étape suivante.
 
 Défausser X cartes de sa main.
 
-<small>Si on n'a pas assez de carte, la condition n'est pas remplie mais il faut quand même défausser toute sa main.</small>
+<small>Si tu n'as pas assez de carte, la condition n'est pas remplie mais il faut quand même que tu défausses toute ta main.</small>
 
 </section>
 <section class="half-w" markdown="1">
