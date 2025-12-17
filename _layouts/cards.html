@@ -57,7 +57,7 @@
       </form>
     </aside>
       <div class="cards">
-    {% for i in (0..100) %}
+    {% for i in (0..99) %}
     {% assign n = i | prepend: '00' | slice: -2, 2 %}
     {% include card.html e=page.cards_edition v=page.cards_version n=n %}
     {% endfor %}
