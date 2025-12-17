@@ -8,7 +8,7 @@ excerpt:
 
 ## Conditions
 
-Une condition doit être remplie pour pouvoir passer à l'étape suivante
+Une condition doit être remplie pour pouvoir passer à l'étape suivante.
 
 <small>Si la condition n'est pas remplie, défausser la carte</small>
 
@@ -28,7 +28,7 @@ Une condition doit être remplie pour pouvoir passer à l'étape suivante
 
 Défausser X cartes de sa main.
 
-<small>Si on n'a pas assez de carte, la condition n'est pas remplie mais il faut quand même défausser toute sa main</small>
+<small>Si on n'a pas assez de carte, la condition n'est pas remplie mais il faut quand même défausser toute sa main.</small>
 
 </section>
 <section class="half-w" markdown="1">
@@ -77,7 +77,7 @@ Piocher X cartes.
 
 ## Effets permanents
 
-<small>Les étapes permanentes restent effectives tant que la carte est en jeu</small>
+<small>Les étapes permanentes restent effectives tant que la carte est en jeu.</small>
 
 <h3>{% include step.html class='P' text='Force X' %}</h3>
 Augmente de X tes Blesser et Se Blesser.
@@ -119,7 +119,7 @@ La carte est mise en Stabilisation. Une carte mise en Stabilisation reste dans l
 
 <h3>{% include step.html class='I' text='Stabilisation' %}</h3>
 
-La carte est mise en Stabilisation. Une carte mise en Stabilisation reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Déstabiliser (sans défausser de cartes)
+La carte est mise en Stabilisation. Une carte mise en Stabilisation reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Déstabiliser (sans défausser de cartes).
 
 
 </section>
