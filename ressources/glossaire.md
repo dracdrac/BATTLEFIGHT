@@ -92,7 +92,7 @@ Augmente de X tes Se Déplacer.
 
 <h3>{% include step.html class='P' text='Charme X' %}</h3>
 
-Diminue de X le nombre de cartes que tu dois défausser pour Déstabiliser sur les Stabilisations.
+Diminue de X les Stabilisation X.
 
 
 <h3>{% include step.html class='P' text="S'Empêcher X" %}</h3>
