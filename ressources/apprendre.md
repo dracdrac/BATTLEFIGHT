@@ -51,7 +51,7 @@ Il en existe 5, une pour chacun des 5 types :
 
 <div class="basic-tech">{% for i in (0..4) %}{% include card.html e="BASIC_TECHNIQUES" t="BT" n=i %}{% endfor %}</div>
 
-La technique de base que tu joueras le plus souvent c'est la **passif de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
+La technique de base que tu joueras le plus souvent c'est la **concentration de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
 ### Lire les cartes
 
@@ -74,17 +74,17 @@ Les deux premières étapes de la carte *Décharge* sont des condition, la premi
 
 #### Permanents
 
-Certaines étapes sont permanentes, elles continuent de faire effet tant que la carte est active. Les cartes avec des effets permanents finissent généralement par une **Pause**.
+Certaines étapes sont permanentes, elles continuent de faire effet tant que la carte est active. Les cartes avec des effets permanents finissent généralement par une **Stabilisation**.
 
 {% include card.html e="BF01" n="51" %}
 
-La deuxième étape de *Célérité* est une **Pause**. Lorsque tu l'exécutes, la carte est mise en pause : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Pause** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
+La deuxième étape de *Célérité* est une **Stabilisation**. Lorsque tu l'exécutes, la carte devient stabilisée : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Stabilisation** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
 
-#### Intervenir
+#### Déstabiliser
 
-Tu peux te débarrasser des cartes qui sont en jeu en intervenant dessus. Pour cela il te faut **intervenir** sur la **Pause**. Si la **Pause** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
+À ton tour, tu peux te débarrasser de n'importe quelle carte restée en jeu grâce à la **Stabilisation**. Pour cela il te faut la **Déstabiliser**. Si la **Stabilisation** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
-Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra **intervenir** dessus et te défausser de 2 cartes.
+Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra la **Déstabiliser** et te défausser de 2 cartes.
 
 ### Finir sa pioche
 

@@ -8,12 +8,15 @@ excerpt: BattleFight est un jeu de carte à collectionner aux parties rythmées 
 
 ### Des parties courtes et rythmées
 
-Détailler
+{% include wip.html %}
 
 ### Un jeu complexe avec des règles simples
 
-Peu de mots dans les cartes c'est des mots transparents intuitif.
-mais bcp de chemins de combinaisons
+{% include wip.html %}
+
+<!-- Peu de mots dans les cartes c'est des mots transparents intuitif.
+mais bcp de chemins de combinaisons -->
+
 
 ## Un TCG
 
@@ -30,27 +33,24 @@ Les TCG reposent sur deux principes :
 
 ### L'aléatoire
 
-Un TCG perme
+{% include wip.html %}
 
-La distribution aléatoire des cartes est pour no
 
 ### La communauté
 
-Détailler pourquoi ça nous interesse
+{% include wip.html %}
 
 ### La Collection
 
-Détailler pourquoi ça nous interesse
+{% include wip.html %}
 
 ## Pas un TCG comme les autres.
 
-BattleFight se distingue de la plus-part des TCG sur plusieurs points :
+{% include wip.html %}
 
 ### Il peut se jouer comme jeu de société
 
-
 Quelqu'un qui n'est pas intéressé par la collection ou la construction de deck peut tout à fait jouer au jeu. La boite de base (40 cartes) et le mode de jeu deck aléatoire peuvent suffire à fournir une expérience ludique riche et complète.
-
 
 ### Une autre façon de penser le deck
 
@@ -66,14 +66,13 @@ Comme les autres TCG, BattleFight se joue avec un deck, mais son fonctionnement 
 
  ( 5.44430976919e+19) -> Plus de personnage qu'il y a de gens sur terre
 
-
-
-
 ### Un TCG avec un plateau
 
- une nouvelle dimension peut utilisee dans les tcg.
+{% include wip.html %}
 
-Fondamental pour le game play.
+<!-- une nouvelle dimension peut utilisee dans les tcg.
+
+Fondamental pour le game play. -->
 
 ### Les cartes plus puissantes ne sont pas plus rare
 
@@ -83,7 +82,9 @@ La rareté ne concerne que les arts et les traitements alternatif : les cartes p
 
 ## L'univers
 
-Un univers bizarre et décalé mais qui se prend au sérieux
+{% include wip.html %}
+
+<!-- Un univers bizarre et décalé mais qui se prend au sérieux
 
 References aux shonen de combat. BD indé 
 
@@ -91,7 +92,7 @@ style graphique different de ce qui se fait dans le genre.
 
 Fun surprenant amusant.
 
-Combat mais pas que on se tape.
+Combat mais pas que on se tape. -->
 
 ## Autres valeurs et intentions
 

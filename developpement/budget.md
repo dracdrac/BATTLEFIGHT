@@ -3,7 +3,9 @@ title: Budget
 description : Estimation des coûts de fabrication.
 ---
 
+{% include wip.html %}
 
+<!--
 # Budget com Cannes
 
 On aurait besoin de ces éléments pour la com de Cannes, à discuter bien sûr, peut être que tout n'est pas nécessaire :
@@ -103,3 +105,5 @@ Faire un appli comme sur jejeu sur le site
 ## Les stickers
 
 ça fait tjrs plaisir les kdos
+
+-->

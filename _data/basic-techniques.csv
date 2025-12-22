@@ -2,5 +2,5 @@ ID,TITLE,TYPE,STEPS,STEP1,STEP2
 0,Attaque de base,Attaque,CE,Corps À Corps,Blesser 1
 1,Défense de base,Défense,E,Bloquer 1,
 2,Déplacement de base,Déplacement,E,Se Déplacer 1,
-3,Passif de base,Passif,E,Piocher 1,
-4,Rhétorique de base,Rhétorique,E,Intervenir,
+3,Concentration de base,Concentration,E,Piocher 1,
+4,Rhétorique de base,Rhétorique,E,Déstabiliser,

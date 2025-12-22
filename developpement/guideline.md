@@ -18,6 +18,8 @@ excerpt: Ici se trouvent les principes à suivre qu'on s'est fixé pour créer l
 
 # Syntaxe
 
+<!--
+
 * Chaque description d'étape se finie par un point.
 
 * Majuscules pour tous les mots des titres des cartes.
@@ -55,3 +57,5 @@ excerpt: Ici se trouvent les principes à suivre qu'on s'est fixé pour créer l
 * Jouer un/une [type] : [règle]
 
 * Avoir joué un/une [type] au tour précédent
+
+-->

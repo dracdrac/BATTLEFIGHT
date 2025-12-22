@@ -8,9 +8,9 @@ excerpt:
 
 ## Conditions
 
-Une condition doit être remplie pour pouvoir passer à l'étape suivante
+Une condition doit être remplie pour pouvoir passer à l'étape suivante.
 
-<small>Si la condition n'est pas remplie, défausser la carte</small>
+<small>Si la condition n'est pas remplie, défausses la carte.</small>
 
 <h3>{% include step.html class='C' text='Corps À Corps' %}</h3>
 
@@ -28,7 +28,7 @@ Une condition doit être remplie pour pouvoir passer à l'étape suivante
 
 Défausser X cartes de sa main.
 
-<small>Si on n'a pas assez de carte, la condition n'est pas remplie mais il faut quand même défausser toute sa main</small>
+<small>Si tu n'as pas assez de carte, la condition n'est pas remplie mais il faut quand même que tu défausses toute ta main.</small>
 
 </section>
 <section class="half-w" markdown="1">
@@ -50,9 +50,9 @@ Se déplacer de X cases ou moins.
 
 Défausser X cartes de sa main. Si c'est impossible, défausser toute sa main.
 
-<h3>{% include step.html class='E' text='Intervenir' %}</h3>
+<h3>{% include step.html class='E' text='Déstabiliser' %}</h3>
 
-Choisir une carte mise en *Pause* et intervenir dessus. 
+Choisir une carte mise en *Stabilisation* et Déstabiliser dessus. 
 
 <small>Cet effet est facultatif.</small>
 
@@ -77,7 +77,7 @@ Piocher X cartes.
 
 ## Effets permanents
 
-<small>Les étapes permanentes restent effectives tant que la carte est en jeu</small>
+<small>Les étapes permanentes restent effectives tant que la carte est en jeu.</small>
 
 <h3>{% include step.html class='P' text='Force X' %}</h3>
 Augmente de X tes Blesser et Se Blesser.
@@ -92,7 +92,7 @@ Augmente de X tes Se Déplacer.
 
 <h3>{% include step.html class='P' text='Charme X' %}</h3>
 
-Diminue de X le nombre de cartes que tu dois défausser pour Intervenir sur les Pauses.
+Diminue de X les Stabilisation X.
 
 
 <h3>{% include step.html class='P' text="S'Empêcher X" %}</h3>
@@ -110,16 +110,16 @@ Tu ne peux pas jouer de cartes.
 </section>
 <section class="half-w" markdown="1">
 
-## Pause
+## Stabilisation
 
 
-<h3>{% include step.html class='I' text='Pause X' %}</h3>
+<h3>{% include step.html class='I' text='Stabilisation X' %}</h3>
 
-La carte est mise en pause. Une carte mise en pause reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Intervenir en défaussant X cartes.
+La carte est mise en Stabilisation. Une carte mise en Stabilisation reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Déstabiliser en défaussant X cartes.
 
-<h3>{% include step.html class='I' text='Pause' %}</h3>
+<h3>{% include step.html class='I' text='Stabilisation' %}</h3>
 
-La carte est mise en pause. Une carte mise en pause reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Intervenir (sans défausser de cartes)
+La carte est mise en Stabilisation. Une carte mise en Stabilisation reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Déstabiliser (sans défausser de cartes).
 
 
 </section>
