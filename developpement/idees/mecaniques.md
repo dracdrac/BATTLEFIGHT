@@ -3,6 +3,35 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
+## Remémorer X
+
+Permet de placer X cartes de son choix depuis la défausse vers la pioche et mélanger la pioche.
+
+## Percer X
+
+Comme blesser X mais pas affecté par Force et protection
+
+## Piquer X (trouver meilleur mot)
+
+Diminuer les pdv de l'adversaire de X, augmenter ses points de vie de X
+
+## Ignorer X
+
+L'étape numéro X des techniques jouées est ignorée
+
+(surement pas ouf tel quel mais peut etre une version mieux a trouver, attention à Ignorer 1 qui empecherai de faire la plupart des tech de base (y compris rhe de base....))
+
+## Cercle X
+
+être positionné dans le cercle numéro X (cercle 1 étant le centre du plateau, cercle  4 étant le bord)
+
+## se positionner / positionner
+
+positionner son pion / celui de l'adv n'importe où.
+
+
+
+
 ## Apprendre
 
 Cette mécanique permet d'avoir acces à une nouvelle technique de base. 
