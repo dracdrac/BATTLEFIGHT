@@ -61,7 +61,7 @@ Il éxiste 4 sortes d'étapes :
 * **condition**
 * **effet**
 * **permanente**
-* **stabilisation**
+* **stable**
 
 Si une étape est une **condition**  : il faut respecter la condition pour passer à l'étape suivante. Si la condition n'est pas respectée, la carte va directement dans la défausse.
 
@@ -69,10 +69,10 @@ Si une étape est un **effet** :  on l'effectue si possible et on passe a l'éta
 
 Si une étape est une **permanente** : on passe a l'étape suivante. Cette règle restera active tant que la carte est dans la zone d'activité.
 
-Si une étape est une **Stabilisation** : on ne passe pas à l'étape suivante, la carte est alors en "Stabilisation" et ne va pas dans la défausse à la fin du tour.  
-N'importe quel joueur ou joueuse pourra **Déstabiliser** dessus pour continuer la carte. S'il l'effectue, on passe à la règle suivante. S'il n'y a rien après la **Stabilisation**, alors la carte est défaussée.
+Si une étape est **Stable** : on ne passe pas à l'étape suivante, la carte est alors "Stable" et ne va pas dans la défausse à la fin du tour.  
+N'importe quel joueur ou joueuse pourra **Déstabiliser** dessus pour continuer la carte. S'il l'effectue, on passe à la règle suivante. S'il n'y a rien après **Stable**, alors la carte est défaussée.
 
-Remarque : Stabilisation X signifie que pour Déstabiliser dessus il faut se défausser en plus de X cartes.
+Remarque : Stable X signifie que pour Déstabiliser dessus il faut se défausser en plus de X cartes.
 
 ### Déroulement d'une partie
 
