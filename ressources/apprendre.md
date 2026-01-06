@@ -82,7 +82,7 @@ La deuxième étape de *Célérité* est **Stable**. Lorsque tu l'exécutes, la 
 
 #### Déstabiliser
 
-À ton tour, tu peux te débarrasser de n'importe quelle carte restée en jeu grâce à la **Stable**. Pour cela il te faut la **Déstabiliser**. Si la **Stable** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
+À ton tour, tu peux te débarrasser de n'importe quelle carte restée en jeu grâce à l'étape **Stable**. Pour cela il te faut la **Déstabiliser**. Si **Stable** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
 Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra la **Déstabiliser** et te défausser de 2 cartes.
 
