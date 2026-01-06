@@ -1,7 +1,7 @@
 ---
 title: Calendrier
 description : Dates importantes du passé et du futur de BattleFight
-excerpt: BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Le développement de la première édition sera finalisé en 2026, sa production en 2027.
+excerpt: BattleFight est un jeu qu'on a mûrit pendant plusieurs années avant de se lancer sérieusement dans le développement en 2025. Dans l'idéal, le développement de la première édition serait finalisé en 2026 et sa production en 2027.
 ---
 
 ## 2020
@@ -33,7 +33,7 @@ caption="La carte Impro lorsqu'on reprend serieusement le développement du jeu,
 
 * **25 au 1er Mars 2026** : On présente le prototype de BattleFight aux protonights du FIJ (Festival Internationnal du Jeu de Cannes).
 
-* **Fin 2026** : On tire l'édition Beta, une première édition aboutie du jeu, produite en peu d'exemplaires. On envoie des échantillons à des professionnel·les et influenceur·ses. l'idée est de trouver des personnes qui seraient d'accord de relayer le lancement de la campagne de financement.
+* **Fin 2026** : On tire l'édition Beta, une première édition aboutie du jeu, produite en peu d'exemplaires. On envoie des échantillons à des professionnel·les et influenceur·ses. l'idée est de trouver des personnes qui seraient d'accord de relayer le lancement de la campagne de financement. La suite dépend beacuoup des retours récoltés lors des étapes clés de cette année.
 
 {% include card-img-with-caption.html
 img="/img/carte-inconue.png"
