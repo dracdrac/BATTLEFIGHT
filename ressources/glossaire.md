@@ -92,8 +92,7 @@ Augmente de X tes Se Déplacer.
 
 <h3>{% include step.html class='P' text='Charme X' %}</h3>
 
-Diminue la valeur de Stable de X.
-
+Diminue de X les Stable lorsque tu joues Déstabiliser.
 
 <h3>{% include step.html class='P' text="S'Empêcher X" %}</h3>
 
