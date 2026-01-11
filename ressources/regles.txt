@@ -132,7 +132,7 @@ Les joueur.se jouent chacun·e leur tour, dans le sens des aiguilles d'une montr
 
 2.4. Déroulement d'un tour de jeu
 Le tour de jeu consiste à jouer une Technique.
-Le tour s'arrête quand l'exécution de cette technique échoue, est terminée ou est mise en Stabilisation.
+Le tour s'arrête quand l'exécution de cette technique échoue, est terminée ou est Stable.
 
 2.5. Dégâts
 Lorsqu'un·e joueur·se subit des dégâts,
@@ -232,8 +232,8 @@ Si la technique choisie est une carte de sa main, le·a joueur·se pose cette ca
 Une fois la technique activée on commence à executer ses étapes.
 L'execution d'une technique consiste à exécuter les étapes unes par unes, dans l'ordre jusqu'à ce qu'une de ces trois situation se présente :
 
-3.4.3.1. L'execution est mise en Stabilisation
-Quand l'execution d'une technique est mise en Stabilisation, la technique reste active.
+3.4.3.1. L'execution est Stable
+Quand l'execution d'une technique est Stable, la technique reste active.
 
 3.4.3.2. L'execution échoue
 Quand l'execution d'une technique échoue, la technique est désactivée.
@@ -314,7 +314,7 @@ l'exécution de la technique échoue.
 Tant que la technique est active, ajouter N aux points de Force du·de la joueur·se.
 
 4.4.8. Déstabiliser
-Le·a joueur·se peut choisir une technique dont l'execution est en Stabilisation,
+Le·a joueur·se peut choisir une technique dont l'execution est Stable,
 cette technique peut-être choisie parmis ses techniques ou celles de ses adversaires,
 Soit C les points de Charme du·de la joueur·se ;
 et I le coût d'intervention de cette technique,
@@ -324,9 +324,9 @@ Le·a joueur·se choisi I - C cartes parmi sa main,
 placer ces cartes dans sa défausse,
 Reprendre l'exécution de la technique choisie.
 
-4.4.9. Stabilisation [N]
+4.4.9. Stable [N]
 Si N est omis, N = 0.
-L'execution de la technique est mise en Stabilisation.
+L'execution de la technique est Stable.
 Le coup d'intervention de la technique est de N.
 
 4.4.10. Piocher [N]

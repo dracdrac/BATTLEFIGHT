@@ -74,15 +74,15 @@ Les deux premières étapes de la carte *Décharge* sont des condition, la premi
 
 #### Permanents
 
-Certaines étapes sont permanentes, elles continuent de faire effet tant que la carte est active. Les cartes avec des effets permanents finissent généralement par une **Stabilisation**.
+Certaines étapes sont permanentes, elles continuent de faire effet tant que la carte est active. Les cartes avec des effets permanents finissent généralement par **Stable**.
 
 {% include card.html e="BF01" n="51" %}
 
-La deuxième étape de *Célérité* est une **Stabilisation**. Lorsque tu l'exécutes, la carte devient stabilisée : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Stabilisation** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
+La deuxième étape de *Célérité* est **Stable**. Lorsque tu l'exécutes, la carte devient Stable : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Stable** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
 
 #### Déstabiliser
 
-À ton tour, tu peux te débarrasser de n'importe quelle carte restée en jeu grâce à la **Stabilisation**. Pour cela il te faut la **Déstabiliser**. Si la **Stabilisation** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
+À ton tour, tu peux te débarrasser de n'importe quelle carte restée en jeu grâce à l'étape **Stable**. Pour cela il te faut la **Déstabiliser**. Si **Stable** est suivie d'un chiffre, il faudra te défausser d'autant de cartes. 
 
 Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à ton tour il te faudra la **Déstabiliser** et te défausser de 2 cartes.
 
