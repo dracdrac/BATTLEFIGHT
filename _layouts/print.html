@@ -1,11 +1,13 @@
 <!doctype html>
 <html lang="fr">
+<!-- LAYOUT : PRINT -->
 <head>
  {% include head.html %}
+
   <style>
     @media print {
       @page{
-        size: {{page.width}} {{page.height}}; /* this is poker size x10 */
+        size: {{page.width}} {{page.height}};
       }
       body, body:after{
         background: none;
