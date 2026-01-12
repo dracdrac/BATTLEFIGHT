@@ -136,7 +136,14 @@ function createStep(stepText, stepClass, container){
   let stepTemplate = document.querySelector("#step-template");
   const CLASSES = {'C':'condition','E':'effet','I':'intervention','P':'permanente'};
   let clone = document.importNode(stepTemplate.content, true);
-  clone.querySelector('.step').classList.add(CLASSES[stepClass])
+  clone.querySelector('.step').classList.add(CLASSES[stepClass]);
+
+  stepText = stepText.replace('Attaque', '<span class="inline-type attaque">Attaque</span>');
+  stepText = stepText.replace('Défense', '<span class="inline-type defense">Défense</span>');
+  stepText = stepText.replace('Déplacement', '<span class="inline-type deplacement">Déplacement</span>');
+  stepText = stepText.replace('Concentration', '<span class="inline-type concentration">Concentration</span>');
+  stepText = stepText.replace('Rhétorique', '<span class="inline-type rhetorique">Rhétorique</span>');
+
   clone.querySelector('.step-text').innerHTML = stepText;
   container.appendChild(clone);
 }

@@ -7,6 +7,14 @@
 {% elsif include.class == 'I' %}
 {% assign class = 'intervention' %}
 {% endif %}
+{% assign text = include.text %}
+
+{% assign text = text | replace 'Attaque', '<span class="inline-type attaque">Attaque</span>' %}
+{% assign text = text | replace 'Défense', '<span class="inline-type defense">Défense</span>' %}
+{% assign text = text | replace 'Déplacement', '<span class="inline-type deplacement">Déplacement</span>' %}
+{% assign text = text | replace 'Concentration', '<span class="inline-type concentration">Concentration</span>' %}
+{% assign text = text | replace 'Rhétorique', '<span class="inline-type rhetorique">Rhétorique</span>' %}
+
 <div class="step {{class}}">
-  <div class="step-text">{{include.text}}</div>
+  <div class="step-text">{{text}}</div>
 </div>
