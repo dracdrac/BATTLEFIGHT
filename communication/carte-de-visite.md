@@ -1,9 +1,8 @@
 ---
 title: Carte de visite
 layout: print
-description: 
+description: Une carte qui n'est pas à collectionner
 excerpt: Une carte de visite à distribuer aux joueur·se et aux pros. Pour rester en contact ou juste garder un souvenir.
-
 width:85mm
 height:55mm
 bleed:3mm
