@@ -2,15 +2,24 @@
 
     
     @page{
-    size: 25in 35in; /* this is poker size x10 */
+    size: 25in 35.5in; /* this is poker size x10 */
     }
 
 .card {
     scale: 1000%; /* this is x10 */
-    translate: calc(25in / 2 - var(--width) / 2)
-    calc(35in / 2 - var(--height) / 2)
+    translate: calc(25in / 2 - 2.5in / 2)
+    calc(35in / 2 - 3.5in / 2)
     ;
     margin-bottom: calc(35in - 3.5in);
+    
+    /* Cut */
+    border-radius:0;
+    overflow: visible;
+
+    
+    page-break-after: always;
+    break-after: page;
+
 }
 
 

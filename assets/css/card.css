@@ -100,7 +100,7 @@
 
     /* Frame */
     background-image: url('../img/frames-std/title.png');
-    background-size: contain;
+    background-size: 100% 100%;
 }
 
 
