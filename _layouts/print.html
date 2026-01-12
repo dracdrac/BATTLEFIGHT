@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="fr">
+<head>
+ {% include head.html %}
+  <script src="/assets/js/qrcode.min.js"></script>
+  <style>
+    @media print {
+      @page{
+        size: {{page.width}} {{page.height}}; /* this is poker size x10 */
+      }
+      body, body:after{
+        background: none;
+      }
+      body>*, body>main>*{
+        display: none !important;
+        padding: 0;
+        margin: 0;
+      }
+      .page{
+        display: block !important;
+        margin:0;
+      }
+    }
+    .page{
+        background:white;
+        display: block !important;
+        width: {{page.width}};
+        height: {{page.height}};
+        page-break-after: always;
+        break-after : page;
+        margin:10px;
+      }
+  </style>
+</head>
+<body>
+ {% include header.html %}
+  <main>
+    <header>
+      {% include breadcrumbs.html %}
+      <h1 id="page-title">{{ page.title }}</h1>
+      <p id="page-description">{{ page.description }}</p>
+    </header>
+    <article>
+      {% if page.excerpt %}
+    <section id="page-excerpt">
+      {{ page.excerpt }}
+    </section>
+      {% endif %}
+    <section id="page-content">
+      {{ content }}
+    </section>
+    </article>
+
+
+
+  </main>
+
+
+  {% include footer.html %}
+</body>
+</html>
