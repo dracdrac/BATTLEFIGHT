@@ -14,13 +14,11 @@ bleed: 3mm
 
 *Jeu de cartes à collectionner stratégique, rythmé et positionnel.*
 
-- ![Web](/assets/img/icon-web.png) site battlefight.jejeu.org
-- ![Mail](/assets/img/icon-mail.png) mail contact@jejeu.org
+- ![Web](/assets/img/icon-web.png) battlefight.jejeu.org
+- ![Mail](/assets/img/icon-mail.png) contact@jejeu.org
 - ![Insta](/assets/img/icon-insta.png) @battlefight_tcg
 
 <div data-qrcode-url="https://battlefight.jejeu.org"></div>
-
-![Insta](/assets/img/logo.png)
 
 </div>
 
@@ -70,11 +68,6 @@ bleed: 3mm
   right : 5mm;
   transform-origin: bottom right;
   scale:50%;
-}
-
-#recto>p>img {
-  display: none;
-  width:2em;
 }
 
 #verso {
