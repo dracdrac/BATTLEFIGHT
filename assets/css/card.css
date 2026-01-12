@@ -93,7 +93,7 @@
     position: absolute;
     top:-0.024in;
     left:-0.024in;
-    width: 2.090in; /* Update with new files */
+    width: 2.149in; /* Update with new files */
     height: 0.319in;
 
     /* Frame */
@@ -116,7 +116,7 @@
 }
 .card[data-type=Concentration]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames-std/title-pas.png');
+    background-image: url('../img/frames-std/title-con.png');
 }
 .card[data-type=Rhétorique]>.content>.header:before{
     /* Frame */
@@ -211,10 +211,10 @@
 .card>.content>.steps>.step.permanente:before,
 .card>.content>.steps>.step.intervention:before{
     /* Frame Geometry */
-    top:-0.054in;
-    left:-0.095in;
-    width: 1.606in;
-    height: 0.274in;
+    top:-0.024in;
+    left:-0.066in;
+    width: 1.549in;
+    height: 0.215in;
 
     /* Frame */
     background-image: url('../img/frames-std/step-perm.png');
@@ -239,7 +239,7 @@
 
 .card>.content>.steps>.step.permanente:has(br):before{
     /* Frame Geometry */
-    height: 0.442in;
+    height: 0.382in;
 
     /* Frame */
     background-image: url('../img/frames-std/step-perm-big.png');
@@ -255,7 +255,7 @@
 
 .card>.content>.steps>.step.permanente:has(br):has(sup):before{
     /* Frame Geometry */
-    height: 0.546in;
+    height: 0.485in;
     top:-0.007in;
 
     /* Frame */
@@ -298,7 +298,7 @@
 .card>.content>.steps>.step.permanente:has(sup):before{
     /* Frame Geometry */
     top:-0.007in;
-    height: 0.348in;
+    height: 0.318in;
 
     /* Frame */
     background-image: url('../img/frames-std/step-perm-target.png');
@@ -364,3 +364,28 @@
     font-size:6pt;   
 }
 
+
+/******************************/
+/*           VARIANT LF       */
+/******************************/
+
+.card[data-treatment="LF"]>.content>.steps {
+    transform-origin: bottom left;
+    scale:145%;
+    translate: 2%;
+}
+
+
+/******************************/
+/*           VARIANT BL       */
+/******************************/
+
+.card[data-treatment="BL"] .step:before,
+.card[data-treatment="BL"] .header:before
+{
+    opacity:.5;
+}
+
+.card[data-treatment="BL"]>.content:before {
+    background-image: url('../img/frames-std/content-BL.png');
+}
