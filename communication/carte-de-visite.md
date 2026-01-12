@@ -9,7 +9,7 @@ height:55mm
 bleed:3mm
 ---
 
-<div id="recto" class="page">
+<div id="recto" class="page" markdown="1">
 
 # BattleFight
 
@@ -26,7 +26,7 @@ bleed:3mm
 </div>
 
 
-<div id="verso" class="page">
+<div id="verso" class="page" markdown="1">
 
 ![Visuel](/img/visu2.png)
 
