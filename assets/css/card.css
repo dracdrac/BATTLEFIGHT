@@ -43,6 +43,8 @@
 
     /* Frame */
     background-image: url('../img/frames-std/content.png');
+    background-size: 100% 100%;
+
 
 }
 
@@ -347,7 +349,7 @@
 .card>.content>.footer{
     /* Geometry */
     position: absolute;
-    bottom:calc(3mm + 0.1in);
+    bottom:calc(3mm + 0.1in - 0.01in);
     left:calc(3mm + 0.1in);
     width:2.3in;
     height:0.1in;
@@ -387,5 +389,5 @@
 }
 
 .card[data-treatment="BL"]>.content:before {
-    background-image: url('../img/frames-std/content-BL.png');
+    background-image: url('../img/frames-std/content-bl.png');
 }
