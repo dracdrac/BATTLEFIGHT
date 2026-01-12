@@ -18,10 +18,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function onSearchInput(e){
-    let str = document.querySelector('#filter-string').value.trim();
-    if(str.length <= 0 ) return;
-    let selector = document.querySelector('#search-in').value;
     let cards = document.querySelectorAll('.cards .card');
+    let str = document.querySelector('#filter-string').value.trim();
+    if(str.length <= 0 ) return removeFilterCards(cards);
+    let selector = document.querySelector('#search-in').value;
     filterCards(cards, selector, str);
 }
 
@@ -32,6 +32,9 @@ function changeTreatments(treatment){
   });
 }
 
+function removeFilterCards(cards){
+  cards.forEach((card)=>{card.style.display='';});
+}
 
 function filterCards(cards, selector, str){
   const removeDiatrics = (s) => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "");
