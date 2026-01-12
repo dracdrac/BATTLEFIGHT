@@ -2,7 +2,7 @@
 
     
     @page{
-    size: 25in 35.5in; /* this is poker size x10 */
+    size: 25in 35in; /* this is poker size x10 */
     }
 
 .card {
@@ -16,12 +16,16 @@
     border-radius:0;
     overflow: visible;
 
-    
-    page-break-after: always;
-    break-after: page;
-
 }
 
+    .card-container {
+        width: 25in;
+        height:35in;
+        overflow: hidden;
+        page-break-after: always;
+        break-after: page;
+
+    }
 
     
 body,
