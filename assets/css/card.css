@@ -310,19 +310,22 @@
 
 .card>.content>.steps>.step .inline-type {
     /* Geometry */
-    position: relative;
-    bottom:.15em;
-    padding: 0 .3em;
+    display: inline-block;
+    
+    /* Geometry */
+    padding: 0 .4em;
+    line-height: 6pt;
 
     /* Frame */
     border-radius:1em;
+    border:0.01in solid black;
     
     /* Text */
     font-size: 6pt;
 }
 
 .inline-type.attaque {
-    background:#f76e6e;
+    background:#f57d8c;
 }
 
 .inline-type.defense {
@@ -341,6 +344,15 @@
     background:#b18eb2;
 }
 
+/* Small */
+
+.card>.content>.steps small {
+    font-size: 7.5pt;
+}
+
+.card>.content>.steps small small{
+    font-size: 6pt;
+}
 /******************************/
 /*           FOOTER           */
 /******************************/
@@ -385,7 +397,7 @@
 .card[data-treatment="BL"] .step:before,
 .card[data-treatment="BL"] .header:before
 {
-    opacity:.5;
+    opacity:.7;
 }
 
 .card[data-treatment="BL"]>.content:before {
