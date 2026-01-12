@@ -30,3 +30,63 @@ bleed: 3mm
 ![Visuel](/img/visu2.png)
 
 </div>
+
+
+
+<style>
+#recto, #verso {
+ position:relative;
+ padding: 5mm; 
+  overflow: hidden;
+  
+}
+
+#recto h1 {
+  margin:0;
+  font-size:24pt;
+}
+
+#recto em {
+  display: block;
+  font-size:7pt;
+}
+
+#recto ul {
+  font-size:10.5pt;
+
+  list-style: none;
+  padding: 0;
+  
+}
+
+#recto ul img {
+  display: inline-block;
+  width:1em;
+}
+
+#recto div[data-qrcode-url] {
+  position: absolute;
+  bottom: 5mm;
+  right : 5mm;
+  transform-origin: bottom right;
+  scale:50%;
+}
+
+#recto>p>img {
+  display: none;
+  width:2em;
+}
+
+#verso {
+  background: var(--dark);
+}
+#verso img{
+  position: absolute;
+  top:50%;
+  left:0;
+  translate: 0 -50%;  
+  rotate: 90deg;
+  scale: 70%
+}
+
+</style>
