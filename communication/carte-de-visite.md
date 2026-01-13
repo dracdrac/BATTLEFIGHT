@@ -108,6 +108,9 @@ bleed: 3mm
   padding: 0;
 }
 
+#verso p{
+margin:0;
+}
 #verso img{
   width: 100%;
 
