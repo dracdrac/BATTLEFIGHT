@@ -62,9 +62,9 @@
     $("#emailaddress").live('input',function(e){
         var v = $("#emailaddress").val();
         if (v == "") {
-            $("#phplistsubscribe").prop('disabled', true);
+            $("#phplistsubscribe").attr('disabled', true);
         } else {
-            $("#phplistsubscribe").prop('disabled', false);
+            $("#phplistsubscribe").attr('disabled', false);
         }
     });
     var i = document.cookie;

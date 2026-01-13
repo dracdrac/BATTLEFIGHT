@@ -335,6 +335,19 @@ body>main #print-pages {
   padding:10px;
 }
 
+/* Glossaire */
+
+h3:has(.step) {
+    font-size: 8pt;
+  margin-top: 3em;
+  
+
+}
+h3 .step {
+  transform-origin: center left;
+  scale:170%;
+}
+
 /****************************************
 
 HEADER   

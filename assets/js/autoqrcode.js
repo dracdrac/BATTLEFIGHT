@@ -12,8 +12,11 @@ function setupQrCodes(){
         colorLight : element.dataset.qrcodeColorLight || "#ffffff",
       	correctLevel : QRCode.CorrectLevel.M
       });
-      qrcode.clear(); // clear the code.
-      qrcode.makeCode(element.dataset.qrcodeUrl); // make another code.
+
       console.log("Generate a qrcode :", qrcode);
+      setTimeout(() => {
+        qrcode.clear(); // clear the code.
+        qrcode.makeCode(element.dataset.qrcodeUrl); // make another code.
+      }, 500);
   });
 }

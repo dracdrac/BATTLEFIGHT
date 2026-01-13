@@ -166,7 +166,7 @@
     height: auto;
 }
 
-.card>.content>.steps>.step{
+.step{
     /* Geometry */
     position: relative;
     width:1.417in;
@@ -175,7 +175,7 @@
     margin-top:0.09in;
 }
 
-.card>.content>.steps>.step>.step-text{
+.step>.step-text{
     /* Geometry */
     position: absolute;
     bottom: 0;
@@ -188,7 +188,7 @@
     
 }
 
-.card>.content>.steps>.step:before{
+.step:before{
     /* Frame Display */
     display: block;
     content:'';
@@ -205,13 +205,13 @@
     background-size: 100% 100%;
 }
 
-.card>.content>.steps>.step.condition:before{
+.step.condition:before{
     /* Frame */
     background-image: url('../img/frames-std/step-cond.png');
 }
 
-.card>.content>.steps>.step.permanente:before,
-.card>.content>.steps>.step.intervention:before{
+.step.permanente:before,
+.step.intervention:before{
     /* Frame Geometry */
     top:-0.024in;
     left:-0.066in;
@@ -222,24 +222,24 @@
     background-image: url('../img/frames-std/step-perm.png');
 }
 
-.card>.content>.steps>.step.intervention:before {
+.step.intervention:before {
     /* Frame */
     background-image: url('../img/frames-std/step-stable.png');
 }
 
 /* Step with br */
 
-.card>.content>.steps>.step>.step-text:has(br){
+.step>.step-text:has(br){
     /* Geometry */
     height:0.333in;
 }
 
-.card>.content>.steps>.step:has(br){
+.step:has(br){
     /* Geometry */
     height:0.333in;
 }
 
-.card>.content>.steps>.step.permanente:has(br):before{
+.step.permanente:has(br):before{
     /* Frame Geometry */
     height: 0.382in;
 
@@ -249,13 +249,13 @@
 
 /* Step with br and target */
 
-.card>.content>.steps>.step:has(br):has(sup){
+.step:has(br):has(sup){
     /* Geometry */
     height:0.457in;
 
 }
 
-.card>.content>.steps>.step.permanente:has(br):has(sup):before{
+.step.permanente:has(br):has(sup):before{
     /* Frame Geometry */
     height: 0.485in;
     top:-0.007in;
@@ -267,14 +267,14 @@
 
 /* Step with Target */
 
-.card>.content>.steps>.step:has(sup){
+.step:has(sup){
     /* Geometry */
     height:0.291in;
     margin-top:0.079in;
 
 }
 
-.card>.content>.steps>.step>.step-text sup {
+.step>.step-text sup {
     /* Geometry */
     position: absolute;
     top:-0.12in;
@@ -288,7 +288,7 @@
     padding: 0 .1em;
 }
 
-.card>.content>.steps>.step:has(sup):before{
+.step:has(sup):before{
     /* Frame Geometry */
     top:0;
     height: 0.312in;
@@ -297,7 +297,7 @@
     background-image: url('../img/frames-std/step-target.png');
 }
 
-.card>.content>.steps>.step.permanente:has(sup):before{
+.step.permanente:has(sup):before{
     /* Frame Geometry */
     top:-0.007in;
     height: 0.318in;
@@ -308,7 +308,7 @@
 
 /* Inline type */
 
-.card>.content>.steps>.step .inline-type {
+.step .inline-type {
     /* Geometry */
     display: inline-block;
     
@@ -346,11 +346,11 @@
 
 /* Small */
 
-.card>.content>.steps small {
+.steps small {
     font-size: 7.5pt;
 }
 
-.card>.content>.steps small small{
+.steps small small{
     font-size: 6pt;
 }
 /******************************/
