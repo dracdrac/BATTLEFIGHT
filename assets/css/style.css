@@ -312,15 +312,18 @@ body>main .image-gallery {
 body>main .image-gallery .image-thumb {
   background: white;
   width: 300px;
-  height: 200px;
+  height: 300px;
   padding: 5px;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 body>main .image-gallery .image-thumb img {
-  max-height: 70%;
+  max-height: 50%;
+  max-width:100%;
+  flex-grow: 1;
 }
-body>main .image-gallery .image-thumb span {
+body>main .image-gallery .image-thumb a {
   font-size : .8em;
   
 }
@@ -539,18 +542,20 @@ divers
 **************************************/
 
 a.button, button {
-    background: var(--light);
+  background: var(--light);
   border-radius:50px;
   border:1px solid var(--mid);
   border-color: var(--mgray);
   padding: 5px 15px;
   color:var(--lgray);
+  text-align: center;
   background: linear-gradient(0deg,var(--mid) 10%,var(--light));
   cursor:pointer;
   text-decoration: none;
 }
 a.button:hover, button:hover {
     background: var(--light);
+  color:var(--lgray);
 }
 
 a.button:active, button:active {

@@ -14,6 +14,6 @@
 {% endif %}
 
 
-<li><a href="{{item.href}}">{% if itempage %}{{ itempage.title }}{% else %}???{% endif %}</a></li>
+<li><a href="{{item.href}}">{% if item.title %}{{item.title}}}{% elsif itempage %}{{ itempage.title }}{% else %}???{% endif %}</a></li>
 {% endif %}
 {% endfor %}</ul>

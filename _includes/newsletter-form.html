@@ -59,7 +59,7 @@
             $("#emailaddress").val(pleaseEnter)
         }
     });
-    $("#emailaddress").on('input',function(e){
+    $("#emailaddress").live('input',function(e){
         var v = $("#emailaddress").val();
         if (v == "") {
             $("#phplistsubscribe").prop('disabled', true);
