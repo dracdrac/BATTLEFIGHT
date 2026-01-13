@@ -12,12 +12,14 @@
       body, body:after{
         background: none;
       }
-      body>*{
+      body>*,
+      body>main>*{
         display: none !important;
         padding: 0;
         margin: 0;
       }
-      body>#print-pages{
+      body>main,
+      body>main>#print-pages{
         display: block !important;
         margin:0;
       }
@@ -48,7 +50,7 @@
     </section>
       {% endif %}
     </article>
-  </main>
+
 
       <aside class="tool-menu" id="print-menu">
       <form action="#" onsubmit="return false;">
@@ -63,7 +65,7 @@
   <div id="print-pages">
       {{ content }}
   </div>
-
+  </main>
   {% include footer.html %}
 </body>
 </html>
