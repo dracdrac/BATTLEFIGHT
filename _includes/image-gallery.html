@@ -10,10 +10,11 @@
         file.extname == '.gif' or 
         file.extname == '.png' %}
 
-            <a href="{{ file.path }}" class="image-thumb">
+            <div class="image-thumb">
             <img src="{{ file.path }}"/>
-            <span>{{ file.path }}</span>
-            </a>
+            <a href="{{ file.path }}">{{ file.path }}</a>
+            <a href="{{ file.path }}" class="button" download>Télécharger</a>
+            </div>
 
         {% elsif file.extname == '.svg' or 
         file.extname == '.pdf' or 

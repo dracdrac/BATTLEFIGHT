@@ -538,21 +538,28 @@ body>footer a {
 divers
 **************************************/
 
-button {
+a.button, button {
     background: var(--light);
   border-radius:50px;
   border:1px solid var(--mid);
+  border-color: var(--mgray);
   padding: 5px 15px;
   color:var(--lgray);
   background: linear-gradient(0deg,var(--mid) 10%,var(--light));
   cursor:pointer;
+  text-decoration: none;
 }
-button:hover {
+a.button:hover, button:hover {
     background: var(--light);
 }
 
-button:active {
+a.button:active, button:active {
   background: linear-gradient(0deg,var(--light) 10%,var(--mid));
+}
+
+button:disabled {
+  background: linear-gradient(0deg,var(--mgray) 0%,var(--lgray) 150%);
+  cursor:not-allowed;
 }
 
 
