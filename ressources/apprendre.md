@@ -34,7 +34,7 @@ Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight
 
 ## Que le combat commence !
 
-Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg).
+Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=pv).
 
 Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plateau, tu gagnes la partie.
 
