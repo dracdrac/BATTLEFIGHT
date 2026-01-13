@@ -5,9 +5,9 @@ layout: directory
 permalink: /communication/
 ---
 
-# Réseaux sociaux
+## Réseaux sociaux
 
-* instagram pour publier régulièrement et tenir informé
+* Un compte instagram pour publier régulièrement et tenir informé : [@battlefight_tcg](https://instagram.com/battlefight_tcg)
 * youtube pour heberger du contenu
 
 
