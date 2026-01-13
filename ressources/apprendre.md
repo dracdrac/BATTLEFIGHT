@@ -60,7 +60,9 @@ La technique de base que tu joueras le plus souvent c'est la **concentration de 
 
 Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joues une carte, tu exécutes chaque étape dans l'ordre, quand tu as fini tu mets la carte face visible dans ta défausse.
 
-![Lecture d'une carte](/img/visu-lecture-carte.png)
+<!-- ![Lecture d'une carte](/img/visu-lecture-carte.png) -->
+
+<img width="40%" src="/img/visu-lecture-carte.png">
 
 1. Le titre
 2. Le type
