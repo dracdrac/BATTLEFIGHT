@@ -1,6 +1,9 @@
 <div class="image-gallery">
+{% assign mydir = page.url | split: '/' | where_exp: "a", "a.size > 0" | join: '/' %}
+{{mydir}}
 {% for file in site.static_files %}
 
+      {% if file.path contains mydir %}
         {% if file.extname == '.jpg' or
         file.extname == '.jpeg' or 
         file.extname == '.JPG' or 
@@ -31,7 +34,7 @@
             </a>
 
         {% endif %}
-      {% if file.path contains include.folder %}
+
     {% endif %}
 {% endfor %}
 </div>
