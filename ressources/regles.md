@@ -3,9 +3,14 @@ title: Règles
 description: Version intermédiaire des règles
 ---
 
+{% include wip.html %}
+
+<!--
 ## Règles de base
 
 BATTLEFIGHT est un jeu de deckbuilding où deux adversaires se battent sur une arène. Le but du jeu est de faire tomber les points de vie de son adversaire à zéro ou de le faire sortir de l'arène.
+
+
 
 ### Préparation
 
@@ -103,14 +108,7 @@ Le deck aléatoire consiste à ce que les joueur.ses prennent chacun.es deux boo
 
 L'autre mode jeu sont les decks construits : les joueur.euse préparent en avance leur deck, en choisissant les cartes qu'iels veulent et s'affrontent.
 
-
-
-
-
-
-
-
-
+-->
 
 
 
