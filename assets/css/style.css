@@ -301,6 +301,29 @@ body>main .basic-tech {
   margin:1em 0;
 }
 
+/* Galery */
+
+body>main .image-gallery {
+  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+body>main .image-gallery .image-thumb {
+  background: white;
+  width: 300px;
+  height: 200px;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+}
+body>main .image-gallery .image-thumb img {
+  max-height: 70%;
+}
+body>main .image-gallery .image-thumb span {
+  font-size : .8em;
+  
+}
 /****************************************
 
 HEADER   
