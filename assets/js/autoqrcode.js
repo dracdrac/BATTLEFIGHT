@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function setupQrCodes(){
   document.querySelectorAll('[data-qrcode-url]').forEach((element)=>{
+      console.log("Generate a qrcode :" qrcode)
       let qrcode = new QRCode(element, {
       text: element.dataset.qrcodeUrl,
       width: element.dataset.qrcodeWidth || 128,
