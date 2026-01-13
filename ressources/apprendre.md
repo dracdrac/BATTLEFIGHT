@@ -16,7 +16,7 @@ Si tu souhaites créer ton deck autrement, l'important est que le deck contienne
 
 <!-- ![Le Deck](/img/visu-deck.png) -->
 
-<img width="50%" src="/img/visu-deck.png">
+<img width="30%" src="/img/visu-deck.png">
 
 ### Mise en place
 
