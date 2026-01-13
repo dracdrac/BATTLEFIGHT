@@ -1,7 +1,7 @@
 <div class="image-gallery">
 {% for file in site.static_files %}
-    {% if file.path contains include.folder %}
-        {% if file.extname == '.jpg' or 
+
+        {% if file.extname == '.jpg' or
         file.extname == '.jpeg' or 
         file.extname == '.JPG' or 
         file.extname == '.JPEG' or 
@@ -31,6 +31,7 @@
             </a>
 
         {% endif %}
+      {% if file.path contains include.folder %}
     {% endif %}
 {% endfor %}
 </div>

@@ -2,5 +2,6 @@
 title: Éléments réseaux sociaux
 description: Images à destinations de nos réseaux 
 layout: gallery
+permalink: /communication/elements-reseaux-sociaux/
 ---
 

@@ -191,14 +191,14 @@ body>main>article>section>form button {
 }
 
 
-body>main>#cards-browser{
+body>main>.tool-menu{
   background: var(--mgray);
   color: black;
   border-radius: var(--border-radius) var(--border-radius) 0 0;
   overflow: hidden;
 }
 
-body>main>#cards-browser form{
+body>main>.tool-menu form{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -207,7 +207,7 @@ body>main>#cards-browser form{
   
 }
 
-body>main>#cards-browser legend {
+body>main>.tool-menu legend {
     color:var(--light);
   float:left;
     width: 100%;
@@ -217,7 +217,7 @@ body>main>#cards-browser legend {
   margin-bottom:.2em;
 }
 
-body>main>#cards-browser fieldset {
+body>main>.tool-menu fieldset {
 
   display: block;
   background: var(--lgray);
@@ -230,7 +230,7 @@ body>main>#cards-browser fieldset {
 
 }
 
-body>main>#cards-browser fieldset:first-child {
+body>main>.tool-menu fieldset:first-child {
   flex-grow:2;
 }
 
