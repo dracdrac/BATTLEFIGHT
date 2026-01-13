@@ -14,14 +14,16 @@ Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
-![Le Deck](/img/visu-deck.png)
+<!-- ![Le Deck](/img/visu-deck.png) -->
+
+<img width="25%" src="/img/visu-deck.png">
 
 ### Mise en place
 
 Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
 
-<img width="50%" src="/img/visu-table.png">
+<img width="40%" src="/img/visu-table.png">
 
 
 1. Le plateau
@@ -32,7 +34,7 @@ Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight
 
 ## Que le combat commence !
 
-Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=mtg).
+Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=pv).
 
 Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plateau, tu gagnes la partie.
 
@@ -40,8 +42,9 @@ Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plate
 
 La partie se déroule au tour par tour. Une fois que tu as joué une technique (soit une des 5 **techniques de base**, soit une **carte**) c'est au tour de l'adversaire.
 
-![Jouer une technique](/img/visu-jouer-une-tech.png)
+<!-- ![Jouer une technique](/img/visu-jouer-une-tech.png) -->
 
+<img width="40%" src="/img/visu-jouer-une-tech.png">
 
 L'usage est de toujours annoncer à voix haute la technique que tu joues.  
 
@@ -55,9 +58,11 @@ La technique de base que tu joueras le plus souvent c'est la **concentration de 
 
 ### Lire les cartes
 
-Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
+Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joues une carte, tu exécutes chaque étape dans l'ordre, quand tu as fini tu mets la carte face visible dans ta défausse.
 
-![Lecture d'une carte](/img/visu-lecture-carte.png)
+<!-- ![Lecture d'une carte](/img/visu-lecture-carte.png) -->
+
+<img width="30%" src="/img/visu-lecture-carte.png">
 
 1. Le titre
 2. Le type
@@ -88,7 +93,9 @@ Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à t
 
 ### Finir sa pioche
 
-![Pioche vide](/img/visu-pioche-vide.png)
+<!-- ![Pioche vide](/img/visu-pioche-vide.png) -->
+
+<img width="30%" src="/img/visu-pioche-vide.png">
 
 Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois à la place :
 - diviser tes points de vies par 2, arrondi à l'unité supérieure
