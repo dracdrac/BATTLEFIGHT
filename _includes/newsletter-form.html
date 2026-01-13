@@ -59,6 +59,14 @@
             $("#emailaddress").val(pleaseEnter)
         }
     });
+    $("#emailaddress").on('input',function(e){
+        var v = $("#emailaddress").val();
+        if (v == "") {
+            $("#phplistsubscribe").prop('disabled', true);
+        } else {
+            $("#phplistsubscribe").prop('disabled', false);
+        }
+    });
     var i = document.cookie;
     if (i.indexOf('phplistsubscribed=yes') >= 0) {
         /* Modifié pour ne pas détruire le form */
@@ -113,5 +121,5 @@ $.ajaxTransport("+*", function(d, e, f) {
 <div id="phplistsubscriberesult"></div>
 <form action="https://battlefight.hosted.phplist.com/lists/?p=subscribe&id=2" method="post" id="phplistsubscribeform">
 <input type="text" name="email" value="" id="emailaddress" /><br/>
-<button type="submit" id="phplistsubscribe">S'inscrire à notre newsletter</button>
+<button type="submit" id="phplistsubscribe" disabled>S'inscrire à notre newsletter</button>
 </form>
