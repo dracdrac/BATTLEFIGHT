@@ -324,6 +324,14 @@ body>main .image-gallery .image-thumb span {
   font-size : .8em;
   
 }
+
+/* Print pages */
+
+body>main #print-pages {
+  background: var(--light);
+  padding:10px;
+}
+
 /****************************************
 
 HEADER   

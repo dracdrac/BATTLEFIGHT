@@ -18,7 +18,7 @@ bleed: 3mm
 - ![Mail](/assets/img/icon-mail.png) contact@jejeu.org
 - ![Insta](/assets/img/icon-insta.png) @battlefight_tcg
 
-<div data-qrcode-url="https://battlefight.jejeu.org"></div>
+<div data-qrcode-url="https://battlefight.jejeu.org" data-qrcode-color-light="#d4cab9"></div>
 
 </div>
 
@@ -32,43 +32,65 @@ bleed: 3mm
 
 
 <style>
+
 #recto, #verso {
  position:relative;
  padding: 5mm; 
   overflow: hidden;
+  color: black;
   
 }
 
 #recto {
-    display:flex;
-    flex-direction:column;
+  background: #d4cab9;
+
 }
 
 #recto h1 {
   margin:0;
   font-size:24pt;
+  padding-bottom: .2em;
+  border-bottom: 1pt solid #3c2c4d;
+
 }
 
 #recto em {
   display: block;
+  text-align: center;
   font-size:7pt;
 }
 
 #recto ul {
-  font-size:10.5pt;
+  position: absolute;
+  bottom: 5mm;
+  left : 5mm;
+  margin:0;
+  
+  font-size:11.5pt;
 
   list-style: none;
   padding: 0;
-  flex-grow: 1;
   display:flex;
   flex-direction:column;
   justify-content:flex-end;
+    gap:.1em
+
+}
+
+#recto ul li {
+  display: flex;
+  align-items: center;
+  gap:.7em
 }
 
 #recto ul img {
-  display: inline-block;
-  width:1em;
+  display: block;
+  max-width:1em;
+  max-height:1em;
+    width: auto;
+  height: auto;
 }
+
 
 #recto div[data-qrcode-url] {
   position: absolute;
@@ -79,15 +101,18 @@ bleed: 3mm
 }
 
 #verso {
-  background: var(--dark);
+  background: #3c2c4d;
+  display:flex;
+ justify-content: center;
+  align-items: center;
+  padding: 0;
 }
+
 #verso img{
-  position: absolute;
-  top:50%;
-  left:0;
-  translate: 0 -50%;  
-  rotate: 90deg;
-  scale: 70%
+  width: 100%;
+
 }
+
+
 
 </style>

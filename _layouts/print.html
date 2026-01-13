@@ -5,12 +5,15 @@
  {% include head.html %}
   <script src="/assets/js/print-pages.js"></script>
   <style>
-    @media print {
+
+        @media print {
       @page{
         size: {{page.width}} {{page.height}};
       }
       body, body:after{
         background: none;
+        padding: 0;
+        margin: 0;
       }
       body>*,
       body>main>*{
@@ -21,18 +24,25 @@
       body>main,
       body>main>#print-pages{
         display: block !important;
+        padding: 0;
+        margin:0;
+      }
+
+      body>main>#print-pages>.page{
+        display: block !important;
         margin:0;
       }
     }
     .page{
         background:white;
-        display: block !important;
         width: {{page.width}};
         height: {{page.height}};
         page-break-after: always;
         break-after : page;
         margin:10px;
       }
+
+
   </style>
 </head>
 <body>
