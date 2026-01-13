@@ -42,8 +42,9 @@ Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plate
 
 La partie se déroule au tour par tour. Une fois que tu as joué une technique (soit une des 5 **techniques de base**, soit une **carte**) c'est au tour de l'adversaire.
 
-![Jouer une technique](/img/visu-jouer-une-tech.png)
+<!-- ![Jouer une technique](/img/visu-jouer-une-tech.png) -->
 
+<img width="50%" src="/img/visu-jouer-une-tech.png">
 
 L'usage est de toujours annoncer à voix haute la technique que tu joues.  
 
