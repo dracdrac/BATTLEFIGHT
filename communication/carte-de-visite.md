@@ -25,7 +25,7 @@ bleed: 3mm
 
 <div id="verso" class="page" markdown="1">
 
-![Visuel](/img/visu2.png)
+![Visuel](/img/visu-carte-visite.png)
 
 </div>
 
@@ -37,6 +37,11 @@ bleed: 3mm
  padding: 5mm; 
   overflow: hidden;
   
+}
+
+#recto {
+    display:flex;
+    flex-direction:column;
 }
 
 #recto h1 {
@@ -54,7 +59,10 @@ bleed: 3mm
 
   list-style: none;
   padding: 0;
-  
+  flex-grow: 1;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
 }
 
 #recto ul img {

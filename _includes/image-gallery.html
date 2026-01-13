@@ -1,0 +1,36 @@
+<div class="image-gallery">
+{% for file in site.static_files %}
+    {% if file.path contains include.folder %}
+        {% if file.extname == '.jpg' or 
+        file.extname == '.jpeg' or 
+        file.extname == '.JPG' or 
+        file.extname == '.JPEG' or 
+        file.extname == '.gif' or 
+        file.extname == '.png' %}
+
+            <a href="{{ file.path }}" class="image-thumb">
+            <img src="{{ file.path }}"/>
+            <span>{{ file.path }}</span>
+            </a>
+
+        {% elsif file.extname == '.svg' or 
+        file.extname == '.pdf' or 
+        file.extname == '.xcf' or 
+        file.extname == '.dxf' %}
+
+            <a href="{{ file.path }}" title="{{ filename }}">
+            <img src="/assets/img/file{{file.extname}}.png"/>
+            <span>{{ file.path }}</span>
+            </a>
+
+        {% else %}
+
+            <a href="{{ file.path }}" title="{{ filename }}">
+            <img src="/assets/img/file.png"/>
+            <span>{{ file.path }}</span>
+            </a>
+
+        {% endif %}
+    {% endif %}
+{% endfor %}
+</div>

@@ -24,7 +24,7 @@
     </section>
     </article>
 
-    <aside id="cards-browser">
+    <aside class="tool-menu" id="cards-browser">
       {% assign edition = page.cards_edition | default: site.default_edition %}
       {% assign edition_obj = site.data.editions | find: 'id', edition | first %}
       {% assign version = page.cards_version | default: edition_obj.current-version %}

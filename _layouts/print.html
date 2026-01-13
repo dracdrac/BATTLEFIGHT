@@ -3,7 +3,7 @@
 <!-- LAYOUT : PRINT -->
 <head>
  {% include head.html %}
-
+  <script src="/assets/js/print-pages.js"></script>
   <style>
     @media print {
       @page{
@@ -12,12 +12,12 @@
       body, body:after{
         background: none;
       }
-      body>*, body>main>*{
+      body>*{
         display: none !important;
         padding: 0;
         margin: 0;
       }
-      .page{
+      body>#print-pages{
         display: block !important;
         margin:0;
       }
@@ -47,15 +47,22 @@
       {{ page.excerpt }}
     </section>
       {% endif %}
-    <section id="page-content">
-      {{ content }}
-    </section>
     </article>
-
-
-
   </main>
 
+      <aside class="tool-menu" id="print-menu">
+      <form action="#" onsubmit="return false;">
+        <button type="submit" disabled style="display: none" aria-hidden="true"></button>
+        <fieldset>
+        <legend>Actions</legend>
+          <button id="print">Imprimer</button>
+        </fieldset>
+      </form>
+    </aside>
+
+  <div id="print-pages">
+      {{ content }}
+  </div>
 
   {% include footer.html %}
 </body>
