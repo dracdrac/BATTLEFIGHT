@@ -14,14 +14,16 @@ Pour une première partie on te conseille de jouer avec un **deck aléatoire** :
 
 Si tu souhaites créer ton deck autrement, l'important est que le deck contienne toujours 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 
-![Le Deck](/img/visu-deck.png)
+<!-- ![Le Deck](/img/visu-deck.png) -->
+
+<img width="80%" src="/img/visu-deck.png">
 
 ### Mise en place
 
 Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
 
-<img width="50%" src="/img/visu-table.png">
+<img width="80%" src="/img/visu-table.png">
 
 
 1. Le plateau
@@ -55,7 +57,7 @@ La technique de base que tu joueras le plus souvent c'est la **concentration de 
 
 ### Lire les cartes
 
-Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joue une carte, tu exécute chaque étape dans l'ordre, quand tu as fini tu met la carte face visible dans ta défausse.
+Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joues une carte, tu exécutes chaque étape dans l'ordre, quand tu as fini tu mets la carte face visible dans ta défausse.
 
 ![Lecture d'une carte](/img/visu-lecture-carte.png)
 
