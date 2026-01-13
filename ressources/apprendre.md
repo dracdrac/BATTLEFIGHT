@@ -62,7 +62,7 @@ Une carte a toujours un titre, un type et une liste d'étapes. Lorsque tu joues 
 
 <!-- ![Lecture d'une carte](/img/visu-lecture-carte.png) -->
 
-<img width="40%" src="/img/visu-lecture-carte.png">
+<img width="30%" src="/img/visu-lecture-carte.png">
 
 1. Le titre
 2. Le type
@@ -93,7 +93,9 @@ Ainsi, si l'adversaire a la carte *Célérité* et que tu veux lui enlever, à t
 
 ### Finir sa pioche
 
-![Pioche vide](/img/visu-pioche-vide.png)
+<!-- ![Pioche vide](/img/visu-pioche-vide.png) -->
+
+<img width="30%" src="/img/visu-pioche-vide.png">
 
 Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois à la place :
 - diviser tes points de vies par 2, arrondi à l'unité supérieure
