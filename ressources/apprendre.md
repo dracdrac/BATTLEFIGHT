@@ -16,14 +16,14 @@ Si tu souhaites créer ton deck autrement, l'important est que le deck contienne
 
 <!-- ![Le Deck](/img/visu-deck.png) -->
 
-<img width="80%" src="/img/visu-deck.png">
+<img width="50%" src="/img/visu-deck.png">
 
 ### Mise en place
 
 Mélange ton deck et pose ton pion dans un coin du [plateau](https://battlefight.jejeu.org/ressources/plateau), à l'opposé de l'adversaire.
 
 
-<img width="80%" src="/img/visu-table.png">
+<img width="70%" src="/img/visu-table.png">
 
 
 1. Le plateau
