@@ -11,23 +11,51 @@ bleed: 0px
 
 <div id="slide1" class="page" markdown="1">
 
-![Visuel](/img/visu2.png)
 
 </div>
 
 
 <div id="slide2" class="page" markdown="1">
 
-BattleFight est un jeu de carte à collectionner sur lequel on travaille depuis des années, et on ne résiste plus à l'envie de vous partager l'avancée du développement et de vous faire tester le prototype irl.
 
-Restez connecté·es on partageras l'avancée du projet ici et sur notre site.
+    BattleFight est un jeu de carte à collectionner sur lequel on travaille depuis des années, et on ne résiste plus à l'envie de vous partager l'avancée du développement et de vous faire tester le prototype irl.
 
-Léon et Louis
+    Restez connecté·es on partageras l'avancée du projet ici et sur notre site.
+
+    Léon et Louis
 
 </div>
 
 
 <style>
 
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#ffddca;  
+  background-image: url(/img/visu-fond.png);
+}
 
+#slide1 {
+  background-image: url(/img/visu1.png);
+  }
+
+#slide1 p {
+  width: 100%;
+}
+
+#slide1 img {
+  width:100%;
+}
+
+
+#slide2 {
+    background:#ffddca;  
+  font-size : 50px;
+  color:#4c335b;
+  padding: 10%;
+  text-align: center;
+
+}
 </style>
