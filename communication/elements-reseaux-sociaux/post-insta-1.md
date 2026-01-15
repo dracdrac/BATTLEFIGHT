@@ -18,9 +18,9 @@ bleed: 0px
 <div id="slide2" class="page" markdown="1">
 
 
-BattleFight est un jeu de carte à collectionner sur lequel on travaille depuis des années, et on ne résiste plus à l'envie de vous partager l'avancée du développement et de vous faire tester le prototype irl.
+BattleFight est un jeu de carte à collectionner sur lequel on travaille depuis des années et on a très hâte de vous en partager le développement et de vous faire tester le prototype irl !
 
-Restez connecté·es on partageras l'avancée du projet ici et sur notre site.
+Restez connecté·es pour suivre l’avancée du projet ici et sur notre site.
 
 Léon et Louis
 
