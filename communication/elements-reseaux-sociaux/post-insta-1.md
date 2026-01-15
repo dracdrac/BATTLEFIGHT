@@ -30,6 +30,8 @@ Léon et Louis
 <style>
 
 
+
+
 .page {
   display: flex;
   justify-content: center;
@@ -39,6 +41,7 @@ Léon et Louis
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
+  flex-direction:column;
 }
 
 #slide1 {
@@ -55,12 +58,18 @@ Léon et Louis
 
 
 #slide2 {
-  font-size : 50px;
+  font-size : 45px;
   color:#4c335b;
-  padding: 10%;
+  padding: 14%;
   text-align: center;
   color:#fed7c2;
 
 }
+
+#slide2 p {
+  margin:0;
+  padding: .4em 0;
+}
+
 
 </style>

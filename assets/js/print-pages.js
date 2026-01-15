@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 function downloadCanvasAsImage(canvas, name){
   var link = document.createElement('a');
-  link.download = name + 'png';
+  link.download = name + '.png';
   link.href = canvas.toDataURL();
   link.click();
 }
