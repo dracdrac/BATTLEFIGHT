@@ -14,15 +14,15 @@ L'identifiant peut ressembler à ça :
 
     BF01 00 ST (beta)
 
-La première ligne est suffisante pour identifier la carte en terme de règles et de gameplay. Elle contient :
+Les deux premiers segments sont suffisants pour identifier la carte en terme de règles et de gameplay :
 
-- Le numéro de saison
-- Le numéro de carte
+- Le code de l'édition 
+- Le numéro de la carte
 
-La deuxième ligne donne des information supplémentaires pour identifier la carte en terme de collection. Elle contient :
+Les informations suivantes sont des informations supplémentaires pour identifier la carte en terme de collection :
 
-- Le numéro d'édition
-- Le code de traitement
+- Le code de la version alternative
+- Le code du tirage 
 
 ## Le code de l'édition
 
@@ -34,7 +34,7 @@ Une édition est un ensemble de 100 cartes publiées à un même moment et en m�
 
 Le numéro de carte est écrit en deux chiffres. De 00 à 99, il désigne la place de la carte dans la saison.
 
-## La version/le tirage
+## le tirage
 
 Le numéro d'édition est un numéro incrémenté à chaque fois que les cartes de la saison sont réimprimées.
 
