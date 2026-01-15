@@ -4,6 +4,7 @@
 <head>
  {% include head.html %}
   <script src="/assets/js/print-pages.js"></script>
+  <script src="/assets/js/html2canvas.min.js"></script>
   <style>
 
         @media print {
@@ -80,7 +81,7 @@
         <fieldset>
         <legend>Actions</legend>
           <button id="print">Imprimer</button>
-          <button id="print" disabled>Exporter comme image (prochainement)</button>
+          <button id="export" >Exporter comme image</button>
         </fieldset>
       </form>
     </aside>
