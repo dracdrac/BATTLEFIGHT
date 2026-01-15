@@ -348,6 +348,14 @@ h3 .step {
   scale:170%;
 }
 
+body>main strong.wip {
+  color: var(--light);
+  border : 1px dashed;
+  padding: .1em 1em; 
+}
+
+
+
 /****************************************
 
 HEADER   
