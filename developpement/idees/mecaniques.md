@@ -3,6 +3,14 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
+## Exiler X
+
+Permet de sortir de la partie X cartes de sa défausse
+
+## Réveler 
+
+L'adversaire joue avec sa main révélée. 
+
 ## Remémorer X
 
 Permet de placer X cartes de son choix depuis la défausse vers la pioche et mélanger la pioche.
