@@ -61,7 +61,7 @@ Coche les cases qui te correspondent :
 
 La durée de la partie t'as semblée : {% include jauge.html from="Trop courte" to="trop longue" %}
 
-Le rythme de la partie t'as semblée : {% include jauge.html from="Trop speed" to="trop lent %}
+Le rythme de la partie t'as semblée : {% include jauge.html from="Trop speed" to="trop lent" %}
 
 La personne qui a gagné : {% include jauge.html from="A eu de la chance" to="a bien joué" %}
 
