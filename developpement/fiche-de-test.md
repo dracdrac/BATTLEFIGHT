@@ -41,7 +41,7 @@ Coche les cases qui te correspondent :
 
 Tu trouves les règles : {% include jauge.html from="Simplissimes" to="Trop compliquées" %}
 
-Les mots utilisés par le jeu te semblent : {% include jauge.html "Extrêmement logiques" to="plutôt tordus" %}
+Les mots utilisés par le jeu te semblent : {% include jauge.html from="Extrêmement logiques" to="plutôt tordus" %}
 
 Quel concept, mot ou carte t'ont posé des problèmes de compréhension :
 
