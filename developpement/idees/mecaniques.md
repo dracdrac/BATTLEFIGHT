@@ -9,7 +9,10 @@ Permet de sortir de la partie X cartes de sa défausse
 
 ## Réveler 
 
-L'adversaire joue avec sa main révélée. 
+Jouer avec sa main révélée. 
+Peut autant être utilisé contre l'adversaire avec un "l'adversaire a", ou à soit même en tant que coût. 
+Ex :
+sincérité : Piocher 3 / reveler
 
 ## Remémorer X
 
