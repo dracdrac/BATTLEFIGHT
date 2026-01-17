@@ -104,3 +104,10 @@ Si tu veux qu'on t'inscrive à la newsletter donne ton mail :
 
 
 </div>
+
+<style>
+  .page {
+    columns:2
+    column-gap:10mm;
+    color: black !important;
+</style>
