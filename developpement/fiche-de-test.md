@@ -109,7 +109,12 @@ Si tu veux qu'on t'inscrive à la newsletter donne ton mail :
   .page {
 font-size: 9pt;
     columns:2;
-padding: 20mm;
+padding: 10mm;
     column-gap:10mm;
     color: black !important;
+}
+
+.page h1 {
+font-size :12pt;
+}
 </style>
