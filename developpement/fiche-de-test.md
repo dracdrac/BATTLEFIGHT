@@ -107,6 +107,7 @@ Si tu veux qu'on t'inscrive à la newsletter donne ton mail :
 
 <style>
   .page {
+font-size: 9pt;
     columns:2;
     column-gap:10mm;
     color: black !important;
