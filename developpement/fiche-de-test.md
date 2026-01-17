@@ -69,7 +69,7 @@ Les choix que tu faisait pendant la partie : {% include jauge.html from="hauteme
 
 Ton immersion dans le jeu : {% include jauge.html from="Tu avais l'impression d'être sur l'arène" to="c'était plutôt abstrait" %}
 
-# Ton deck
+## Ton deck
 
 La carte que tu as préfèré jouer :
 
@@ -83,7 +83,7 @@ Coche les cases qui te correspondent :
 - [ ] Tu as envie de changer de deck changer de deck 
 
 
-# En général 
+## En général 
 
 Coche les cases qui te correspondent :
 
@@ -98,7 +98,7 @@ Ce que t'as moins aimé :
 
 Autre chose à dire ? :
 
-# Contact
+## Contact
 
 Si tu veux qu'on t'inscrive à la newsletter donne ton mail :
 
@@ -109,6 +109,7 @@ Si tu veux qu'on t'inscrive à la newsletter donne ton mail :
   .page {
 font-size: 9pt;
     columns:2;
+padding: 20mm;
     column-gap:10mm;
     color: black !important;
 </style>
