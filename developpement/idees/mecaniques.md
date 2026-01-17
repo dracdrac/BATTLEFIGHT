@@ -3,6 +3,19 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
+## Meuler X
+
+Consiste à mettre X cartes depuis sa pioche dans la défausse. 
+
+Ex : Meuler 3 / Piocher 3
+Ou
+L'adversaire a Meuler 4
+
+
+## Vol
+
+Permet de passer au dessus de l'adversaire lors de déplacements (on ne peut pas s'arrêter sur une case adverse). Rajoute distance +1.
+
 ## Exiler X
 
 Permet de sortir de la partie X cartes de sa défausse
