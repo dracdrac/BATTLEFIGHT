@@ -400,6 +400,20 @@
   margin-left:.5mm;
 }
 
+.card>.content>.footer .id {
+    display: flex;
+    align-items: center;
+    gap:.15em;
+}
+.version {
+    padding: 0;
+    max-height: 1em;
+}
+.version img{
+    display: inline-block;
+    max-width: 1em;
+    line-height: 1em;
+}
 /******************************/
 /*           VARIANT LF       */
 /******************************/
