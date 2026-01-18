@@ -142,7 +142,7 @@
     /* Geometry */
     position: absolute;
     bottom:0;
-    left:0.104in;
+    left:0.04in;
     width:1.892in;
     height:0.1in;
     
@@ -378,6 +378,27 @@
     font-size:6pt;   
 }
 
+
+.card>.content>.footer .treatment {
+  --h:5pt;
+  font-size: var(--h);
+  display: inline-block;
+  height: var(--h);
+    line-height: var(--h);
+  border:.4pt solid white;
+    border-radius:.2em;
+  width:1.5em;
+  text-align: center;
+  color:black;
+  background: white;
+  padding: 0 .1em;
+}
+
+
+.card>.content>.footer .treatment,
+.card>.content>.footer .version {
+  margin-left:.5mm;
+}
 
 /******************************/
 /*           VARIANT LF       */

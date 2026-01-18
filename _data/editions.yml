@@ -2,6 +2,7 @@
   current-version : alpha
   versions :
     - id : alpha
+      icon : /assets/img/footer-icons/alpha.svg
       cards : cartes-BF01-alpha
       illu-dir : /cartes/illu/
       treatments :
