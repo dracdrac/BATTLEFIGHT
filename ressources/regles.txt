@@ -1,6 +1,8 @@
 Règles officielles de BattleFight
 
-Ces règles sont les règles officielles de BattleFight à partir du 20 novembre 2025 et jusqu'à ce qu'une version plus récente soit publiée.
+Version 0.2 - 18 Janvier 2026
+
+Ces règles sont les règles officielles de BattleFight à partir de la date indiquée ci-dessus et jusqu'à ce qu'une version plus récente soit publiée.
 
 0. Avant-propos
 
@@ -28,7 +30,7 @@ La face d'une carte indique de haut en bas :
 - le titre de la technique ;
 - le type de la technique ;
 - les étapes de la technique ;
-- l'immatriculation et les crédits de la carte.
+- l'identification et les crédits de la carte.
 
 1.1.2. Proxy
 
@@ -40,29 +42,23 @@ L'utilisation de proxys est toujours permise dans toute partie de BattleFight.
 
 Un booster est un ensemble de 10 cartes.
 Un booster contient toujours 2 cartes pour chacun des 5 types.
-Ces cartes sont distribuées aléatoirement et secretement parmis les cartes d'une édition.
+Ces cartes sont distribuées aléatoirement et secretement parmis les cartes d'une édition(?).
 
 1.1.3. Deck
-Un deck est l'ensemble des cartes que peut jouer un joueur·se pendant une partie.
+Un deck est l'ensemble des cartes que peut jouer un·e joueur·se pendant une partie.
 Un deck doit contenir 4 cartes pour chacun des 5 types, soit un total de 20 cartes.
 Un deck peut contenir plusieurs fois la même carte.
 Les dos des cartes d'un même deck doivent être indiscernables.
 S'il est possible de discerner des cartes d'un deck par leur dos, utiliser des protège-cartes.
 Il existe plusieurs manière de former un deck :
 
-1.1.3.1. Former un deck aléatoire
-pour chaque type,
-constituer une pile d'au moins 5 cartes appartenant à ce type,
-mélanger cette pile,
-piocher les 4 premières cartes de cette pile.
-
-1.1.3.2. Former un deck boosté
+1.1.3.1. Former un deck aléatoire 
 Ouvrir 2 booster et joindre le contenu de ces deux boosters.
 
-1.1.3.3. Former un deck construit
-choisir 4 cartes pour chacun des 5 types parmis l'ensemble de votre collection.
+1.1.3.2. Former un deck construit
+Choisir 4 cartes pour chacun des 5 types parmis l'ensemble de sa collection.
 
-1.1.3.4. Former un deck drafté
+1.1.3.3. Former un deck scellé 
 Ouvrir 3 booster, choisir 4 cartes pour chacun des 5 types parmis le contenu de ces 3 boosters.
 
 
@@ -75,11 +71,10 @@ Le plateau est une grille hexagonale de 4 par 4 par 4 cases hexagonales. Soit 37
 Deux cases sont considérés comme adjacentes si elles partagent un de leur 6 côtés.
 
 1.2.3. Distance
-La distance entre deux cases est le nombre de case minimum qu'il faut franchir pour tracer un chemin de l'une à l'autre.
+La distance entre deux cases est définie par le nombre de fois qu'il faut changer de case pour se rendre de l'une à l'autre.
 La distance entre deux cases adjacente est donc 1.
 
 1.2.4. Pions
-
 Un pion indique la position d'un·e joueur·se,
 Dans une partie, les pions de chaque joueur·se doivent être distinguable,
 Un pion sur le plateau est toujours placé sur une case et il ne peut y avoir qu'un seul pion par case.
@@ -116,16 +111,16 @@ Les pions doivent être placés dans les angles du plateau de telle sorte à ce 
 
 2.1.4. Mellange des decks
 Mélanger séparément chaque deck.
-Placer chaque deck dans la pioche de sa·on joueur·se.
+Chaque joueur·se place son deck dans sa pioche.
 
 2.1.5. Initialisation et des points
 Chaque joueur.se commence la partie avec vingt points de vie.
-Tout autre compte de point évoqué par les cartes et les règles débute à zéro.
+Tout autre compte de point évoqué par les cartes et les règles commence à zéro.
 
 2.1.6. Désignation de le·a première joueur·se
-En cas de match, le·a première joueur·se à jouer et le·a premièr·e à avoir été éliminée à la partie précédénte.
-Si c'est la première partie du match ou que la partie n'est pas dans un match,
-tirer au sort le·a premier·e joueur·se.
+Lors de la première partie d'un match, tirer au sort le·a premier·e joueur·se.
+Lors des parties suivantes, le·a premier·e joueur·se est cell.ui qui a perdu la partie précédente en premier.
+Si la partie précédente du match est nulle, tirer au sort le·a premier·e joueur·se.
 
 2.3. Sens du jeu
 Les joueur.se jouent chacun·e leur tour, dans le sens des aiguilles d'une montre.
@@ -149,9 +144,17 @@ Si une technique cible une personne et que cette personne est éliminée alors q
 les étapes qui font référence à cette personne dans leur définition sont ignorées,
 les autres étapes sont executées normalement.
 
-2.5. Fin de la partie
+2.5. Gagner de la partie
 Si, à tout moment, un·e joueur·se est le·a dernier·re à ne pas avoir perdu, la partie s'arrête ;
 ce·tte joueur·se gagne la partie.
+
+2.6. Partie nulle
+
+2.6.1. Par commun accord 
+À tout moment un.e joueurs.e peut proposer de considérer la partie nulle. si ses adversaires acceptent, la partie s'arrête et est considérée comme nulle.
+
+2.6.2 Nulle par répétion
+Si, lors du début d'un tour, l'état du jeu (points, positions des pions sur le plateau, répartition des cartes dans les zones, état d'exécution des techniques active) est strictement identique à un état déjà atteint deux fois au cours de la partie, n'importe quel joueur.se peut réclamer la nulle par répétion, dans ce cas, la partie s'arrête et est considérée comme nulle.
 
 3. Techniques
 
@@ -189,26 +192,26 @@ Les étapes de cette technique sont :
 - Blesser 1
 
 3.3.2 Défense de base
-Le titre de cette technique est : Attaque de base.
-Le type de cette technique est : Attaque.
+Le titre de cette technique est : Défense de base.
+Le type de cette technique est : Défense.
 L'étape de cette technique est :
 - Bloquer 1
 
 3.3.3 Déplacement de base
-Le titre de cette technique est : Attaque de base.
-Le type de cette technique est : Attaque.
+Le titre de cette technique est : Déplacement de base.
+Le type de cette technique est : Déplacement.
 L'étape de cette technique est :
 - Se déplacer 1
 
 3.3.4 Concentration de base
-Le titre de cette technique est : Attaque de base.
-Le type de cette technique est : Attaque.
+Le titre de cette technique est : Concentration de base.
+Le type de cette technique est : Concentration.
 L'étape de cette technique est :
 - Piocher 1
 
 3.3.5 Rhétorique de base
-Le titre de cette technique est : Attaque de base.
-Le type de cette technique est : Attaque.
+Le titre de cette technique est : Rhétorique de base.
+Le type de cette technique est : Rhétorique.
 L'étape de cette technique est :
 - Déstabiliser
 
@@ -242,7 +245,7 @@ Quand l'execution d'une technique échoue, la technique est désactivée.
 Quand la dernière étape a été éxécutée, la technique est désactivée.
 
 3.4.4. Désactivation de la technique
-Quand une technique est désactivée, si c'est une carte, on la place dans l'historique face visible.
+Quand une technique est désactivée, si c'est une carte, on la place dans la défausse.
 
 
 4. Étapes
@@ -317,7 +320,7 @@ Tant que la technique est active, ajouter N aux points de Force du·de la joueur
 Le·a joueur·se peut choisir une technique dont l'execution est Stable,
 cette technique peut-être choisie parmis ses techniques ou celles de ses adversaires,
 Soit C les points de Charme du·de la joueur·se ;
-et I le coût d'intervention de cette technique,
+et I le coût de déstabilisation de cette technique,
 la technique ne peut être choisie si le nombre de cartes en main du·e la joueur·se est inférieur à I - C.
 Si une technique est choisie,
 Le·a joueur·se choisi I - C cartes parmi sa main,
@@ -327,7 +330,7 @@ Reprendre l'exécution de la technique choisie.
 4.4.9. Stable [N]
 Si N est omis, N = 0.
 L'execution de la technique est Stable.
-Le coup d'intervention de la technique est de N.
+Le coup de déstabilisation de la technique est de N.
 
 4.4.10. Piocher [N]
 Répéter cette opération N fois :
