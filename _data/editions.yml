@@ -4,7 +4,7 @@
     - id : alpha
       icon : /assets/img/footer-icons/alpha.svg
       cards : cartes-BF01-alpha
-      illu-dir : /cartes/illu/
+      illu-dir : /cartes/illu/BF01-alpha/
       treatments :
         - id : ST
           name : STandard
@@ -12,6 +12,13 @@
           name : Large Font
         - id : BL
           name : BorderLess
+    - id : beta
+      icon : /assets/img/footer-icons/beta.svg
+      cards : cartes-BF01-alpha
+      illu-dir : /cartes/illu/BF01-beta/
+      treatments :
+        - id : ST
+          name : STandard
 - id : BASIC_TECHNIQUES
   current-version : 1
   versions :

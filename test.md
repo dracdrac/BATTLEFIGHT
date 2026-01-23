@@ -9,7 +9,7 @@ Salut cette page n'est pas sensée être visitée elle est juste utilisée pour 
 
 Test include :
 
-
+{% include card.html e="BF01" v="beta" n="59" %}
 
 Test 3d :
 
