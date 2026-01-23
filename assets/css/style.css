@@ -252,26 +252,27 @@ body>main>.cards .card-container:hover {
   transition:100ms;
 }
 
-.card-container {
-  --scale:1.25;
-  width: calc(2.5in * var(--scale));
-  height: calc(3.5in * var(--scale));
+@media screen {
+  .card-container {
+    --scale:1.25;
+    width: calc(2.5in * var(--scale));
+    height: calc(3.5in * var(--scale));
+  }
+
+  .card-container .card {
+    transform-origin: top left;
+    scale: calc(100% * var(--scale));
+  }
+
+  .card-container[data-size=S] {
+    --scale:0.75;
+  }
+
+  .card-container[data-size=L] {
+    --scale:2;
+
+  }
 }
-
-.card-container .card {
-  transform-origin: top left;
-  scale: calc(100% * var(--scale));
-}
-
-.card-container[data-size=S] {
-  --scale:0.75;
-}
-
-.card-container[data-size=L] {
-  --scale:2;
-
-}
-
 
 
 body>main>article section.page-preview {
