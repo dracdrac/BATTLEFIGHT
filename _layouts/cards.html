@@ -48,12 +48,13 @@
         {% for t in version_obj.treatments %}
           <option value="{{t.id}}" {% if t.id == treatment %}selected{% endif %}>{{t.id}} ({{t.name}})</option>
         {% endfor %}
-        <label for="size">Taille : </label><select name="size" id="size">
+
+      </select>
+                  <label for="size">Taille : </label><select name="size" id="size">
             <option value="S">Petit</option>
            <option value="M" selected>Moyen</option>
            <option value="L">Grand</option>
-        </select>
-      </select>
+        </select>"
         </fieldset>
         <fieldset>
         <legend>Actions</legend>
