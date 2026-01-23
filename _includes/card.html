@@ -42,7 +42,7 @@
       <div class="title">{{title}}</div>
       <div class="types type">{{type}}</div>
     </div>
-    <div class=illu><img src="{{illu_src}}"></div>
+    <div class=illu><img src="{{illu_src}}"/></div>
     <div class="steps">
       {% assign steps_size_minus = steps_classes.size | minus: 1 %}
       {% for i in (0..steps_size_minus) %}
@@ -53,7 +53,7 @@
       {% endfor %}
   </div>
     <div class="footer">
-      <div class="id"><span class="edition">{{edition}}</span>-<span class="number">{{number}}</span> <span class="treatment">{{treatment}}</span> <span class="version"><img title="{{version}}" src="{{version_obj.icon}}"></img></span></div>
+      <div class="id"><span class="edition">{{edition}}</span>-<span class="number">{{number}}</span> <span class="treatment">{{treatment}}</span> <span class="version"><img title="{{version}}" src="{{version_obj.icon}}"/></span></div>
       <div class="copyright">BattleFight <span class="year">2025</span></div>
     </div>
   </div>
