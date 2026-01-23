@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function downloadElementsAsImages(elements) {
-  if(elements.length = 1){
+  if(elements.length == 1){
     downloadHTMLAsImage(elements[0])
   }
   else if(elements.length > 1){
