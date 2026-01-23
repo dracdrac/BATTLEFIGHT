@@ -3,7 +3,7 @@
 
 function downloadElementsAsImages(elements) {
   let dialog = document.createElement('dialog');
-  dialog.innerHTML('Export en cours... (ça peut prendre du temps)')
+  dialog.innerHTML='Export en cours... (ça peut prendre du temps)';
   document.body.appendChild(dialog);
   dialog.showModal();
   elements = elements.filter(e => window.getComputedStyle(e).getPropertyValue('display') != 'none');
