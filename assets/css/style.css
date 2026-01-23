@@ -246,11 +246,30 @@ body>main>.cards{
 }
 
 
-body>main>.cards .card:hover {
-  transform: scale(110%);
+body>main>.cards .card-container:hover {
   box-shadow: 0 0 50px  black;
   z-index: 10;
   transition:100ms;
+}
+
+.card-container {
+  --scale:1.25;
+  width: calc(2.5in * var(--scale));
+  height: calc(3.5in * var(--scale));
+}
+
+.card-container .card {
+  transform-origin: top left;
+  scale: calc(100% * var(--scale));
+}
+
+.card-container[data-size=S] {
+  --scale:0.75;
+}
+
+.card-container[data-size=L] {
+  --scale:2;
+
 }
 
 
@@ -692,3 +711,4 @@ section:has(.half-w){
 .half-w {
   break-inside: avoid;
 }
+

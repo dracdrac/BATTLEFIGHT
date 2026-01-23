@@ -9,6 +9,9 @@ document.addEventListener("DOMContentLoaded", function() {
   document.querySelector('#cards-treatments').addEventListener('change',(e)=>{
     changeTreatments(e.target.value)
   })
+  document.querySelector('#cards-sizes').addEventListener('change',(e)=>{
+    changeSize(e.target.value)
+  })
 
   document.querySelector('#filter-string').addEventListener('input',onSearchInput);
   document.querySelector('#search-in').addEventListener('input',onSearchInput);
@@ -31,6 +34,13 @@ function changeTreatments(treatment){
     card.querySelector('.treatment').innerHTML = treatment;
   });
 }
+
+function changeSize(size){
+  document.querySelectorAll('.cards .card-container').forEach((container)=>{
+    container.dataset.size = size;
+  });
+}
+
 
 function removeFilterCards(cards){
   cards.forEach((card)=>{card.style.display='';});

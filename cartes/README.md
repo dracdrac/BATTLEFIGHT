@@ -10,3 +10,5 @@ Ci-dessous la version archivée des cartes de l'alpha. Les visuels sont actuelle
 
 Pour la création des carte, utiliser : [Cartes depuis framacalc](depuis-framacalc.md).
 
+Pour la bêta (en cours de création) : [Cartes de la bêta](BF01-beta.md).
+

@@ -46,7 +46,10 @@
     background-image: url('../img/frames/ST/content.png');
     background-size: 100% 100%;
 
+}
 
+.cardback>.content:before{
+    display: none;
 }
 
 /******************************/
