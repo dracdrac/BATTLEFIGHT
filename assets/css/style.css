@@ -712,3 +712,8 @@ section:has(.half-w){
   break-inside: avoid;
 }
 
+dialog::backdrop {
+  background-image: linear-gradient(var(--mgray), var(--lgray));
+  opacity: 0.75;
+}
+
