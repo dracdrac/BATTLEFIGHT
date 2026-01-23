@@ -23,7 +23,7 @@ function downloadElementsAsImages(elements) {
 function downloadHTMLAsImage(element, onClose){
   let name = element.id ? element.id : 'sanstitre';
   name += ".png";
-  html2canvas(element).then(canvas => {
+  html2canvas(element, {allowTaint: true, backgroundColor: "rgba(0,0,0,0)"}).then(canvas => {
     let link = document.createElement('a');
     link.download = name;
     link.href = canvas.toDataURL();
@@ -43,7 +43,7 @@ function addImagesToZipThenDownload(zip,elements,i, onClose){
   if (element) {
     let name = element.id ? element.id : 'sanstitre'+i;
     name += ".png";
-    html2canvas(element).then(canvas => {
+    html2canvas(element, {allowTaint: true, backgroundColor: "rgba(0,0,0,0)"}).then(canvas => {
       let data = canvas.toDataURL("image/png", [0.0, 1.0]).split(',')[1]
       zip.file(name, data, {base64: true});
       addImagesToZipThenDownload(zip, elements, i+1, onClose);
