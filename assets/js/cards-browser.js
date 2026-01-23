@@ -51,7 +51,10 @@ function changeSize(size){
 
 
 function removeFilterCards(cards){
-  cards.forEach((card)=>{card.parentElement.style.display='';});
+  cards.forEach((card)=>{
+    card.parentElement.style.display='';
+    card.style.display='';
+  });
 }
 
 function filterCards(cards, selector, str){
@@ -62,9 +65,11 @@ function filterCards(cards, selector, str){
     cardText = removeDiatrics(cardText.toLowerCase());
     if(cardText.indexOf(str)>=0){
       card.parentElement.style.display='';
+      card.style.display='';
     }
     else {
       card.parentElement.style.display='none';
+      card.style.display='none';
     }
   });
 } 
