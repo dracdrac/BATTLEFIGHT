@@ -11,6 +11,10 @@ Test include :
 
 {% include card.html e="BF01" v="beta" n="59" %}
 
+{% include card-back.html %}
+
 Test 3d :
 
-<div class="flipcard-container"><span class="inner-card-backface"><img src="img/test-dos-1.png" width="250"></span><span class="inner-card"><img src="img/test-carte-1.png" width="250"><span class="glare"></span></span></div>
+
+
+<div class="flipcard-container"><span class="inner-card-backface">{% include card-back.html %}</span><span class="inner-card">{% include card.html e="BF01" v="beta" n="59" %}<span class="glare"></span></span></div>

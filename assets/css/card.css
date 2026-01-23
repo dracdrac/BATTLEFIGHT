@@ -12,7 +12,7 @@
     /* Card cut */
     border-radius:.06in;
     overflow: hidden;
-
+    
     /* Font */
     font-size:9pt;
     color:black;
@@ -42,6 +42,7 @@
 
 
     /* Frame */
+    background:rgba(0,0,0,0.2);
     background-image: url('../img/frames/ST/content.png');
     background-size: 100% 100%;
 
@@ -55,10 +56,13 @@
 .card>.content>.illu {
     /* Geometry */
     position: relative;
-    top:0;
-    left:0;
-    width:calc(2.5in + 6mm);
-    height:calc(3.5in + 6mm);
+    top:50%;
+    left:50%;
+    
+    translate: -50% -50%;
+
+    width:2.7in;
+    height:3.7in;
     z-index: 0;
     background: white;
 }
