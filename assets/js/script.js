@@ -6,7 +6,7 @@ function downloadElementsAsImages(elements) {
   dialog.innerHTML='Export en cours... (ça peut prendre du temps)';
   document.body.appendChild(dialog);
   dialog.showModal();
-  elements = elements.filter(e => window.getComputedStyle(e).getPropertyValue('display') != 'none');
+  elements = Array.from(elements).filter(e => window.getComputedStyle(e).getPropertyValue('display') != 'none');
   if(elements.length == 1){
     downloadHTMLAsImage(elements[0],()=>{dialog.close()});
   }
