@@ -1,3 +1,5 @@
+/*
+
 const CSV_URL = "https://lite.framacalc.org/2cjimar6ts-aegk.csv";
 
 function main(){
@@ -162,4 +164,4 @@ function createRules(data, container){
   });
 }
 
-
+*/

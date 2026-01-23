@@ -43,7 +43,7 @@ function changeSize(size){
 
 
 function removeFilterCards(cards){
-  cards.forEach((card)=>{card.style.display='';});
+  cards.forEach((card)=>{card.parentElement.style.display='';});
 }
 
 function filterCards(cards, selector, str){
@@ -53,10 +53,10 @@ function filterCards(cards, selector, str){
     let cardText = card.querySelector(selector).innerText;
     cardText = removeDiatrics(cardText.toLowerCase());
     if(cardText.indexOf(str)>=0){
-      card.style.display='';
+      card.parentElement.style.display='';
     }
     else {
-      card.style.display='none';
+      card.parentElement.style.display='none';
     }
   });
 } 
