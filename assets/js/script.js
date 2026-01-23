@@ -37,7 +37,8 @@ function addImagesToZipThenDownload(zip,elements,i){
     let name = element.id ? element.id : 'sanstitre'+i;
     name += ".png";
     html2canvas(element).then(canvas => {
-      zip.file(name, canvas.toDataURL(), {base64: true});
+      let data = canvas.toDataURL("image/png", [0.0, 1.0]).split(',')[1]
+      zip.file(name, data), {base64: true});
       addImagesToZipThenDownload(zip, elements, i+1);
     });
   }

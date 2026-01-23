@@ -6,6 +6,14 @@ document.addEventListener("DOMContentLoaded", function() {
     print();
   });
 
+  document.querySelector('#export').addEventListener('click', (e)=>{
+    console.log(e)
+    let cards = document.querySelectorAll('.cards .card');
+    downloadElementsAsImages(cards);
+  });
+
+
+
   document.querySelector('#cards-treatments').addEventListener('change',(e)=>{
     changeTreatments(e.target.value)
   })
