@@ -20,9 +20,9 @@ Une condition doit être remplie pour pouvoir passer à l'étape suivante.
 
 Être à plus d'une cases de l'adversaire.
 
-<h3>{% include step.html class='C' text='Distance X' %}</h3>
+<h3>{% include step.html class='C' text='Distance 3' %}</h3>
 
-Être à au moins X cases de l'adversaire.
+Être à au moins 3 cases de l'adversaire.
 
 <h3>{% include step.html class='C' text='Défausser X' %}</h3>
 
@@ -46,13 +46,15 @@ Déplacer l'adversaire de X cases de manière à l'éloigner.
 
 Se déplacer de X cases ou moins.
 
+<small> Tu peux choisir de ne pas te déplacer. </small>
+
 <h3>{% include step.html class='E' text='Défausser X si possible' %}</h3>
 
 Défausser X cartes de sa main. Si c'est impossible, défausser toute sa main.
 
 <h3>{% include step.html class='E' text='Déstabiliser' %}</h3>
 
-Choisir une carte *Stable* et Déstabiliser dessus. 
+Cet effet permet de mettre dans la défausse n'importe quelle carte en jeu. Si la carte en question a *Stable X*, tu dois en plus te défausser de X cartes. 
 
 <small>Cet effet est facultatif.</small>
 
@@ -66,7 +68,7 @@ Récupérer jusqu'à X points de vie perdus depuis la fin de son dernier tour.
 
 <h3>{% include step.html class='E' text='Rejouer' %}</h3>
 
-Jouer une technique.
+Jouer une technique. <small>Si une carte a l'effet *Rejouer*, elle reste en jeu le temps de d'effectuer la technique. </small>
 
 <h3>{% include step.html class='E' text='Piocher X' %}</h3>
 
@@ -92,15 +94,15 @@ Augmente de X tes Se Déplacer.
 
 <h3>{% include step.html class='P' text='Charme X' %}</h3>
 
-Diminue de X les Stable lorsque tu joues Déstabiliser.
+Diminue de X le nombre de cartes à Défausser pour enlever une carte *Stable* avec l'effet *Déstabiliser*. <small>Ça diminue de X autant les cartes adverses que tes propres cartes. </small>
 
-<h3>{% include step.html class='P' text="S'Empêcher X" %}</h3>
+<h3>{% include step.html class='P' text="S'Empêcher T" %}</h3>
 
-Tu ne peux pas jouer le type X.
+Tu ne peux pas jouer le type T.
 
-<h3>{% include step.html class='P' text="S'Empêcher Carte X" %}</h3>
+<h3>{% include step.html class='P' text="S'Empêcher Carte T" %}</h3>
 
-Tu ne peux pas jouer de cartes du type X.
+Tu ne peux pas jouer de cartes du type T.
 
 <h3>{% include step.html class='P' text="S'Empêcher Carte" %}</h3>
 
@@ -114,12 +116,11 @@ Tu ne peux pas jouer de cartes.
 
 <h3>{% include step.html class='I' text='Stable X' %}</h3>
 
-La carte est Stable. Une carte Stable reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Déstabiliser en défaussant X cartes.
+L'étape *Stable X* permet de garder la carte en jeu. Elle ne va donc pas dans la défausse à la fin du tour. Pour qu'une carte *Stable X* aille dans la défausse, il faut utiliser l'effet *Déstabiliser*, en défaussant également X cartes.
 
 <h3>{% include step.html class='I' text='Stable' %}</h3>
 
-La carte est Stable. Une carte Stable reste dans la zone d'activité. Elle peut en être retirée grâce à l'effet Déstabiliser (sans défausser de cartes).
-
+L'étape *Stable* permet de garder la carte en jeu. Elle ne va donc pas dans la défausse à la fin du tour. Pour qu'une carte *Stable* aille dans la défausse, il faut utiliser l'effet *Déstabiliser*. 
 
 </section>
 <section class="half-w" markdown="1">
