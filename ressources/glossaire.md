@@ -68,7 +68,7 @@ Récupérer jusqu'à X points de vie perdus depuis la fin de son dernier tour.
 
 <h3>{% include step.html class='E' text='Rejouer' %}</h3>
 
-Jouer une technique. <small>Si une carte a l'effet *Rejouer*, elle reste en jeu le temps de d'effectuer la technique. </small>
+Jouer une technique.
 
 <h3>{% include step.html class='E' text='Piocher X' %}</h3>
 
