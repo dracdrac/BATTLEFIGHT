@@ -82,7 +82,7 @@ Piocher X cartes.
 <small>Les étapes permanentes restent effectives tant que la carte est en jeu.</small>
 
 <h3>{% include step.html class='P' text='Force X' %}</h3>
-Augmente de X tes Blesser et Se Blesser.
+Augmente de X tes Blesser et tes Se Blesser.
 
 <h3>{% include step.html class='P' text='Protection X' %}</h3>
 
@@ -102,11 +102,16 @@ Tu ne peux pas jouer le type T.
 
 <h3>{% include step.html class='P' text="S'Empêcher Carte T" %}</h3>
 
-Tu ne peux pas jouer de cartes du type T.
+Tu ne peux pas jouer de cartes du type T. 
+
+<small>Mais tu peux toujours jouer la technique de base du type en question.</small> 
 
 <h3>{% include step.html class='P' text="S'Empêcher Carte" %}</h3>
 
 Tu ne peux pas jouer de cartes.
+
+
+<smallMais> tu peux toujours jouer les techniques de base. </small>
 
 </section>
 <section class="half-w" markdown="1">
