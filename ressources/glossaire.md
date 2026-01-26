@@ -94,7 +94,9 @@ Augmente de X tes Se Déplacer.
 
 <h3>{% include step.html class='P' text='Charme X' %}</h3>
 
-Diminue de X le nombre de cartes à Défausser pour enlever une carte *Stable* avec l'effet *Déstabiliser*. <small>Ça diminue de X autant les cartes adverses que tes propres cartes. </small>
+Le Charme permet d'enlever plus facilement les cartes restées en jeu. Il diminue de X le nombre de cartes à Défausser pour enlever une carte *Stable* (voir l'effet *Déstabiliser*). 
+
+<small>Ça diminue de X autant les cartes adverses que tes propres cartes. </small>
 
 <h3>{% include step.html class='P' text="S'Empêcher T" %}</h3>
 
