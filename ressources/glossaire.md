@@ -88,7 +88,7 @@ Diminue de X les Blesser de l'adversaire et tes Se Blesser.
 <h3>{% include step.html class='P' text='Force +X' %}</h3>
 Augmente de X tes Blesser et tes Se Blesser. 
 
-<h3>{% include step.html class='P' text='FORCE —X' %}</h3>
+<h3>{% include step.html class='P' text='Force —X' %}</h3>
 Diminue de X tes Blesser et tes Se Blesser. 
 
 <h3>{% include step.html class='P' text='Vitesse +X' %}</h3>
