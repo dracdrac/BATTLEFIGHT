@@ -1,17 +1,4 @@
-.card[data-edition="BF01"][data-version="alpha"] * {
-    box-sizing: border-box;
-}
-
 .card[data-edition="BF01"][data-version="alpha"] {
-    /* Geometry */
-    width:2.5in;
-    height:3.5in;
-
-    /* Card cut */
-    border-radius:.06in;
-    overflow: hidden;
-
-    /* Font */
     font-size:9pt;
     color:black;
  }
@@ -171,7 +158,7 @@
     height: auto;
 }
 
-.step{
+.card[data-edition="BF01"][data-version="alpha"] .step{
     /* Geometry */
     position: relative;
     width:1.417in;
@@ -180,12 +167,12 @@
     margin-top:0.09in;
 }
 
-.step.intervention {
+.card[data-edition="BF01"][data-version="alpha"] .step.intervention {
     /* Text */
     color:white;
 }
 
-.step>.step-text{
+.card[data-edition="BF01"][data-version="alpha"] .step>.step-text{
     /* Geometry */
     position: absolute;
     bottom: 0;
@@ -197,7 +184,7 @@
     padding: 0 .2em;
 }
 
-.step:before{
+.card[data-edition="BF01"][data-version="alpha"] .step:before{
     /* Frame Display */
     display: block;
     content:'';
@@ -214,12 +201,12 @@
     background-size: 100% 100%;
 }
 
-.step.condition:before{
+.card[data-edition="BF01"][data-version="alpha"] .step.condition:before{
     /* Frame */
     background-image: url('../img/frames/BF01-alpha/step-cond.png');
 }
 
-.step.permanente:before,
+.card[data-edition="BF01"][data-version="alpha"] .step.permanente:before,
 .step.intervention:before{
     /* Frame Geometry */
     top:-0.024in;
@@ -231,24 +218,24 @@
     background-image: url('../img/frames/BF01-alpha/step-perm.png');
 }
 
-.step.intervention:before {
+.card[data-edition="BF01"][data-version="alpha"] .step.intervention:before {
     /* Frame */
     background-image: url('../img/frames/BF01-alpha/step-stable.png');
 }
 
 /* Step with br */
 
-.step>.step-text:has(br){
+.card[data-edition="BF01"][data-version="alpha"] .step>.step-text:has(br){
     /* Geometry */
     height:0.333in;
 }
 
-.step:has(br){
+.card[data-edition="BF01"][data-version="alpha"] .step:has(br){
     /* Geometry */
     height:0.333in;
 }
 
-.step.permanente:has(br):before{
+.card[data-edition="BF01"][data-version="alpha"] .step.permanente:has(br):before{
     /* Frame Geometry */
     height: 0.382in;
 
@@ -258,13 +245,13 @@
 
 /* Step with br and target */
 
-.step:has(br):has(sup){
+.card[data-edition="BF01"][data-version="alpha"] .step:has(br):has(sup){
     /* Geometry */
     height:0.457in;
 
 }
 
-.step.permanente:has(br):has(sup):before{
+.card[data-edition="BF01"][data-version="alpha"] .step.permanente:has(br):has(sup):before{
     /* Frame Geometry */
     height: 0.485in;
     top:-0.007in;
@@ -276,14 +263,14 @@
 
 /* Step with Target */
 
-.step:has(sup){
+.card[data-edition="BF01"][data-version="alpha"] .step:has(sup){
     /* Geometry */
     height:0.291in;
     margin-top:0.079in;
 
 }
 
-.step>.step-text sup {
+.card[data-edition="BF01"][data-version="alpha"] .step>.step-text sup {
     /* Geometry */
     position: absolute;
     top:-0.12in;
@@ -297,7 +284,7 @@
     padding: 0 .1em;
 }
 
-.step:has(sup):before{
+.card[data-edition="BF01"][data-version="alpha"] .step:has(sup):before{
     /* Frame Geometry */
     top:0;
     height: 0.312in;
@@ -306,7 +293,7 @@
     background-image: url('../img/frames/BF01-alpha/step-target.png');
 }
 
-.step.permanente:has(sup):before{
+.card[data-edition="BF01"][data-version="alpha"] .step.permanente:has(sup):before{
     /* Frame Geometry */
     top:-0.007in;
     height: 0.318in;
@@ -317,7 +304,7 @@
 
 /* Inline type */
 
-.step .inline-type {
+.card[data-edition="BF01"][data-version="alpha"] .step .inline-type {
     /* Geometry */
     display: inline-block;
 
@@ -332,33 +319,33 @@
     font-size: 6pt;
 }
 
-.inline-type.attaque {
+.card[data-edition="BF01"][data-version="alpha"] .inline-type.attaque {
     background:#f57d8c;
 }
 
-.inline-type.defense {
+.card[data-edition="BF01"][data-version="alpha"] .inline-type.defense {
     background:#98bedd;
 }
 
-.inline-type.deplacement {
+.card[data-edition="BF01"][data-version="alpha"] .inline-type.deplacement {
     background:#ffd887;
 }
 
-.inline-type.concentration {
+.card[data-edition="BF01"][data-version="alpha"] .inline-type.concentration {
     background:#88bc9b;
 }
 
-.inline-type.rhetorique {
+.card[data-edition="BF01"][data-version="alpha"] .inline-type.rhetorique {
     background:#b18eb2;
 }
 
 /* Small */
 
-.steps small {
+.card[data-edition="BF01"][data-version="alpha"] .steps small {
     font-size: 7.5pt;
 }
 
-.steps small small{
+.card[data-edition="BF01"][data-version="alpha"] .steps small small{
     font-size: 6pt;
 }
 /******************************/

@@ -1,0 +1,204 @@
+.card * {
+    box-sizing: border-box;
+}
+
+.card {
+    /* Geometry */
+    width:2.5in;
+    height:3.5in;
+
+    /* Card cut */
+    border-radius:.06in;
+    overflow: hidden;
+ }
+
+.step{
+    /* Geometry */
+    position: relative;
+    width:1.417in;
+    height:0.167in;
+
+    margin-top:0.09in;
+}
+
+.step.intervention {
+    /* Text */
+    color:white;
+}
+
+.step>.step-text{
+    /* Geometry */
+    position: absolute;
+    bottom: 0;
+    height:0.167in;
+    width: 100%;
+
+    /* Text */
+    line-height: 0.167in;
+    padding: 0 .2em;
+}
+
+.step:before{
+    /* Frame Display */
+    display: block;
+    content:'';
+
+    /* Frame Geometry */
+    position: absolute;
+    top:-0.024in;
+    left:-0.024in;
+    width: 1.458in;
+    height: 0.208in;
+
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step.png');
+    background-size: 100% 100%;
+}
+
+.step.condition:before{
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step-cond.png');
+}
+
+.step.permanente:before,
+.step.intervention:before{
+    /* Frame Geometry */
+    top:-0.024in;
+    left:-0.066in;
+    width: 1.549in;
+    height: 0.215in;
+
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm.png');
+}
+
+.step.intervention:before {
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step-stable.png');
+}
+
+/* Step with br */
+
+.step>.step-text:has(br){
+    /* Geometry */
+    height:0.333in;
+}
+
+.step:has(br){
+    /* Geometry */
+    height:0.333in;
+}
+
+.step.permanente:has(br):before{
+    /* Frame Geometry */
+    height: 0.382in;
+
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm-big.png');
+}
+
+/* Step with br and target */
+
+.step:has(br):has(sup){
+    /* Geometry */
+    height:0.457in;
+
+}
+
+.step.permanente:has(br):has(sup):before{
+    /* Frame Geometry */
+    height: 0.485in;
+    top:-0.007in;
+
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm-target-big.png');
+}
+
+
+/* Step with Target */
+
+.step:has(sup){
+    /* Geometry */
+    height:0.291in;
+    margin-top:0.079in;
+
+}
+
+.step>.step-text sup {
+    /* Geometry */
+    position: absolute;
+    top:-0.12in;
+    left:0.04in;
+    width:1.337in;
+    height:0.10in;
+
+    /* Text */
+    font-size: 6pt;
+    line-height: 0.104in;
+    padding: 0 .1em;
+}
+
+.step:has(sup):before{
+    /* Frame Geometry */
+    top:0;
+    height: 0.312in;
+
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step-target.png');
+}
+
+.step.permanente:has(sup):before{
+    /* Frame Geometry */
+    top:-0.007in;
+    height: 0.318in;
+
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm-target.png');
+}
+
+/* Inline type */
+
+.step .inline-type {
+    /* Geometry */
+    display: inline-block;
+
+    /* Geometry */
+    padding: .1em .5em;
+    line-height: 6pt;
+
+    /* Frame */
+    border-radius:1em;
+
+    /* Text */
+    font-size: 6pt;
+}
+
+.inline-type.attaque {
+    background:#f57d8c;
+}
+
+.inline-type.defense {
+    background:#98bedd;
+}
+
+.inline-type.deplacement {
+    background:#ffd887;
+}
+
+.inline-type.concentration {
+    background:#88bc9b;
+}
+
+.inline-type.rhetorique {
+    background:#b18eb2;
+}
+
+/* Small */
+
+.steps small {
+    font-size: 7.5pt;
+}
+
+.steps small small{
+    font-size: 6pt;
+}
