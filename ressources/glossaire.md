@@ -113,7 +113,7 @@ Tu ne peux pas jouer de cartes du type T.
 Tu ne peux pas jouer de cartes.
 
 
-<smallMais> tu peux toujours jouer les techniques de base. </small>
+<small>Maos tu peux toujours jouer les techniques de base. </small>
 
 </section>
 <section class="half-w" markdown="1">
