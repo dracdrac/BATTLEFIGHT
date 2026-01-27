@@ -207,7 +207,7 @@
 }
 
 .card[data-edition="BF01"][data-version="alpha"] .step.permanente:before,
-.step.intervention:before{
+.card[data-edition="BF01"][data-version="alpha"] .step.intervention:before{
     /* Frame Geometry */
     top:-0.024in;
     left:-0.066in;
