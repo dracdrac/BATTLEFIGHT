@@ -718,11 +718,21 @@ dialog::backdrop {
   opacity: 0.75;
 }
 
+
+.task-list{
+  list-style: none;
+  padding: 0;
+}
+.task-list .task-list-item-checkbox{  
+margin-right:.5em;
+}
+
 .jauge {
   position: relative;
 
  display: flex;
   justify-content: space-between;
+  font-size:.8em;
 }
 .jauge img {
   position: absolute;
