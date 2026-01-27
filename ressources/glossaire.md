@@ -79,20 +79,25 @@ Piocher X cartes.
 
 ## Effets permanents
 
-<small>Les étapes permanentes restent effectives tant que la carte est en jeu.</small>
 
-<h3>{% include step.html class='P' text='Force X' %}</h3>
-Augmente de X tes Blesser et tes Se Blesser.
+<small>Les étapes permanentes restent effectives tant que la carte est en jeu. </small>
 
-<h3>{% include step.html class='P' text='Protection X' %}</h3>
+<h3>{% include step.html class='P' text='Force +X/—X' %}</h3>
++X : Augmente de X tes Blesser et tes Se Blesser. 
+
+—X : Diminue de X tes Blesser et tes Se Blesser. 
+
+<h3>{% include step.html class='P' text='Protection +X' %}</h3>
 
 Diminue de X les Blesser de l'adversaire et tes Se Blesser.
 
-<h3>{% include step.html class='P' text='Vitesse X' %}</h3>
+<h3>{% include step.html class='P' text='Vitesse +X/—X' %}</h3>
 
-Augmente de X tes Se Déplacer.
++X : Augmente de X tes Se Déplacer. 
 
-<h3>{% include step.html class='P' text='Charme X' %}</h3>
+—X : Diminue de X tes Se Déplacer. 
+
+<h3>{% include step.html class='P' text='Charme +X' %}</h3>
 
 Le Charme permet d'enlever plus facilement les cartes restées en jeu. Il diminue de X le nombre de cartes à Défausser pour enlever une carte *Stable* (voir l'effet *Déstabiliser*). 
 
