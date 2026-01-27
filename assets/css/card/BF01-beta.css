@@ -28,7 +28,7 @@
 
 
     /* Frame */
-    background-image: url('../img/frames/ST/content.png');
+    background-image: url('/assets/img/frames/ST/content.png');
     background-size: 100% 100%;
 
 }
@@ -89,30 +89,30 @@
     height: 0.319in;
 
     /* Frame */
-    background-image: url('../img/frames/ST/title.png');
+    background-image: url('/assets/img/frames/ST/title.png');
     background-size: 100% 100%;
 }
 
 
 .card[data-edition="BF01"][data-version="beta"][data-type=Attaque]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/ST/title-att.png');
+    background-image: url('/assets/img/frames/ST/title-att.png');
 }
 .card[data-edition="BF01"][data-version="beta"][data-type=Défense]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/ST/title-def.png');
+    background-image: url('/assets/img/frames/ST/title-def.png');
 }
 .card[data-edition="BF01"][data-version="beta"][data-type=Déplacement]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/ST/title-dep.png');
+    background-image: url('/assets/img/frames/ST/title-dep.png');
 }
 .card[data-edition="BF01"][data-version="beta"][data-type=Concentration]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/ST/title-con.png');
+    background-image: url('/assets/img/frames/ST/title-con.png');
 }
 .card[data-edition="BF01"][data-version="beta"][data-type=Rhétorique]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/ST/title-rhe.png');
+    background-image: url('/assets/img/frames/ST/title-rhe.png');
 }
 
 .card[data-edition="BF01"][data-version="beta"]>.content>.header>.title {
@@ -191,13 +191,13 @@
     height: 0.208in;
 
     /* Frame */
-    background-image: url('../img/frames/ST/step.png');
+    background-image: url('/assets/img/frames/ST/step.png');
     background-size: 100% 100%;
 }
 
 .card[data-edition="BF01"][data-version="beta"] .step.condition:before{
     /* Frame */
-    background-image: url('../img/frames/ST/step-cond.png');
+    background-image: url('/assets/img/frames/ST/step-cond.png');
 }
 
 .card[data-edition="BF01"][data-version="beta"] .step.permanente:before,
@@ -209,12 +209,12 @@
     height: 0.215in;
 
     /* Frame */
-    background-image: url('../img/frames/ST/step-perm.png');
+    background-image: url('/assets/img/frames/ST/step-perm.png');
 }
 
 .card[data-edition="BF01"][data-version="beta"] .step.intervention:before {
     /* Frame */
-    background-image: url('../img/frames/ST/step-stable.png');
+    background-image: url('/assets/img/frames/ST/step-stable.png');
 }
 
 /* Step with br */
@@ -234,7 +234,7 @@
     height: 0.382in;
 
     /* Frame */
-    background-image: url('../img/frames/ST/step-perm-big.png');
+    background-image: url('/assets/img/frames/ST/step-perm-big.png');
 }
 
 /* Step with br and target */
@@ -251,7 +251,7 @@
     top:-0.007in;
 
     /* Frame */
-    background-image: url('../img/frames/ST/step-perm-target-big.png');
+    background-image: url('/assets/img/frames/ST/step-perm-target-big.png');
 }
 
 
@@ -284,7 +284,7 @@
     height: 0.312in;
 
     /* Frame */
-    background-image: url('../img/frames/ST/step-target.png');
+    background-image: url('/assets/img/frames/ST/step-target.png');
 }
 
 .card[data-edition="BF01"][data-version="beta"] .step.permanente:has(sup):before{
@@ -293,7 +293,7 @@
     height: 0.318in;
 
     /* Frame */
-    background-image: url('../img/frames/ST/step-perm-target.png');
+    background-image: url('/assets/img/frames/ST/step-perm-target.png');
 }
 
 /* Inline type */
@@ -426,5 +426,5 @@
 }
 
 .card[data-edition="BF01"][data-version="beta"][data-treatment="BL"]>.content:before {
-    background-image: url('../img/frames/ST/content-bl.png');
+    background-image: url('/assets/img/frames/ST/content-bl.png');
 }}
