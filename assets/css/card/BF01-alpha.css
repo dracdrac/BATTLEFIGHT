@@ -27,7 +27,7 @@
 
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/content.png');
+    background-image: url('/assets/img/frames/BF01-alpha/content.png');
     background-size: 100% 100%;
 
 }
@@ -91,30 +91,30 @@
     height: 0.319in;
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/title.png');
+    background-image: url('/assets/img/frames/BF01-alpha/title.png');
     background-size: 100% 100%;
 }
 
 
 .card[data-edition="BF01"][data-version="alpha"][data-type=Attaque]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/title-att.png');
+    background-image: url('/assets/img/frames/BF01-alpha/title-att.png');
 }
 .card[data-edition="BF01"][data-version="alpha"][data-type=Défense]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/title-def.png');
+    background-image: url('/assets/img/frames/BF01-alpha/title-def.png');
 }
 .card[data-edition="BF01"][data-version="alpha"][data-type=Déplacement]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/title-dep.png');
+    background-image: url('/assets/img/frames/BF01-alpha/title-dep.png');
 }
 .card[data-edition="BF01"][data-version="alpha"][data-type=Concentration]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/title-con.png');
+    background-image: url('/assets/img/frames/BF01-alpha/title-con.png');
 }
 .card[data-edition="BF01"][data-version="alpha"][data-type=Rhétorique]>.content>.header:before{
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/title-rhe.png');
+    background-image: url('/assets/img/frames/BF01-alpha/title-rhe.png');
 }
 
 .card[data-edition="BF01"][data-version="alpha"]>.content>.header>.title {
@@ -197,13 +197,13 @@
     height: 0.208in;
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step.png');
     background-size: 100% 100%;
 }
 
 .card[data-edition="BF01"][data-version="alpha"] .step.condition:before{
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step-cond.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step-cond.png');
 }
 
 .card[data-edition="BF01"][data-version="alpha"] .step.permanente:before,
@@ -215,12 +215,12 @@
     height: 0.215in;
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step-perm.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm.png');
 }
 
 .card[data-edition="BF01"][data-version="alpha"] .step.intervention:before {
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step-stable.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step-stable.png');
 }
 
 /* Step with br */
@@ -240,7 +240,7 @@
     height: 0.382in;
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step-perm-big.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm-big.png');
 }
 
 /* Step with br and target */
@@ -257,7 +257,7 @@
     top:-0.007in;
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step-perm-target-big.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm-target-big.png');
 }
 
 
@@ -290,7 +290,7 @@
     height: 0.312in;
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step-target.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step-target.png');
 }
 
 .card[data-edition="BF01"][data-version="alpha"] .step.permanente:has(sup):before{
@@ -299,7 +299,7 @@
     height: 0.318in;
 
     /* Frame */
-    background-image: url('../img/frames/BF01-alpha/step-perm-target.png');
+    background-image: url('/assets/img/frames/BF01-alpha/step-perm-target.png');
 }
 
 /* Inline type */
@@ -431,5 +431,5 @@
 }
 
 .card[data-edition="BF01"][data-version="alpha"][data-treatment="BL"]>.content:before {
-    background-image: url('../img/frames/BF01-alpha/content-bl.png');
+    background-image: url('/assets/img/frames/BF01-alpha/content-bl.png');
 }
