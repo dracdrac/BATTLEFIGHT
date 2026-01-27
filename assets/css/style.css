@@ -718,3 +718,16 @@ dialog::backdrop {
   opacity: 0.75;
 }
 
+.jauge {
+  position: relative;
+
+ display: flex;
+  justify-content: space-between;
+}
+.jauge img {
+  position: absolute;
+  top: -10px;
+  left:20px;
+  width:calc(100% - 40px);
+  
+}
