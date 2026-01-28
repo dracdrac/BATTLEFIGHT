@@ -2,6 +2,7 @@
   current-version : alpha
   versions :
     - id : alpha
+      year : 2026
       icon : /assets/img/footer-icons/alpha.svg
       cards : cartes-BF01-alpha
       illu-dir : /cartes/illu/BF01-alpha/
@@ -13,6 +14,7 @@
         - id : BL
           name : BorderLess
     - id : beta
+      year : 2026
       icon : /assets/img/footer-icons/beta.svg
       cards : cartes-BF01-alpha
       illu-dir : /cartes/illu/BF01-beta/

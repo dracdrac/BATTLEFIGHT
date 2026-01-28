@@ -22,6 +22,8 @@
 
 {% assign treatment = include.t | default : site.default_treatment  %}
 
+{% assign year = version_obj.year  %}
+
 {% assign title = card.TITLE | strip %}
 {% assign type = card.TYPE | strip %}
 {% assign illu_src = version_obj.illu-dir | append: number | append: '.jpg' %}
@@ -55,7 +57,7 @@
   </div>
     <div class="footer">
       <div class="id"><span class="edition">{{edition}}</span>-<span class="number">{{number}}</span> <span class="treatment">{{treatment}}</span> <span class="version"><img title="{{version}}" src="{{version_obj.icon}}"/></span></div>
-      <div class="copyright">BattleFight <span class="year">2025</span></div>
+      <div class="copyright">BattleFight <span class="year">{{year}}</span></div>
     </div>
   </div>
 </div>
