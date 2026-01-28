@@ -54,7 +54,7 @@ Il en existe 5, une pour chacun des 5 types :
 
 {% include basic-tech-card.html %}
 
-<!-- <div class="basic-tech">{% for i in (0..4) %}{% include card.html e="BASIC_TECHNIQUES" t="BT" n=i %}{% endfor %}</div> -->
+<!-- <div class="basic-tech"></div> -->
 
 La technique de base que tu joueras le plus souvent c'est la **concentration de base**, elle consiste à piocher une carte. C'est généralement une bonne idée de commencer la partie par jouer cette technique trois-quatre tours de suite pour se faire une petite main.
 
