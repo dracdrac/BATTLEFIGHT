@@ -202,3 +202,94 @@
 .steps small small{
     font-size: 6pt;
 }
+
+
+/* Tech de base */
+
+.card.basic-tech {
+    position: relative; 
+}
+
+.card.basic-tech .content {
+    /* Geometry */
+    position: relative;
+    top:-3mm;
+    left:-3mm;
+    width:calc(2.5in + 6mm);
+    height:calc(3.5in + 6mm);
+    
+    padding-left: calc(0.2in +  3mm);
+    padding-top: calc(0.1in +  3mm);
+    
+    background: white;
+}
+
+.card.basic-tech .title {
+    font-size: smaller;
+    text-align: center;
+    border-radius:.5em;
+    margin-top : .7em;
+width: 2.1in;
+}
+
+.card.basic-tech .title.attaque {
+    background:#f57d8c;
+}
+
+.card.basic-tech .title.defense {
+    background:#98bedd;
+}
+
+.card.basic-tech .title.deplacement {
+    background:#ffd887;
+}
+
+.card.basic-tech .title.concentration {
+    background:#88bc9b;
+}
+
+.card.basic-tech .title.rhetorique {
+    background:#b18eb2;
+}
+
+.card.basic-tech .content:before {
+       /* Frame Display */
+    display: block;
+    content:'';
+
+    /* Frame Geometry */
+    position: absolute;
+    top:0;
+    left:0;
+    width:calc(2.5in + 6mm);
+    height:calc(3.5in + 6mm);
+    z-index: 1;
+
+
+    /* Frame */
+    background-image: url('/assets/img/frames/BF01-alpha/content.png');
+    background-size: 100% 100%;
+
+}
+
+
+
+.card.basic-tech>.content>.footer{
+    /* Geometry */
+    position: absolute;
+    bottom:calc(3mm + 0.1in - 0.01in);
+    left:calc(3mm + 0.1in);
+    width:2.3in;
+    height:0.1in;
+    z-index: 1;
+
+    /* Flex */
+    display: flex;
+    justify-content: space-between;
+
+    /* Text */
+    line-height: 0.1in;
+    color:white;
+    font-family: 'Archivo Narrow';
+    font-size:6pt;
+}
