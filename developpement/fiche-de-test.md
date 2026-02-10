@@ -32,20 +32,18 @@ Tu joue à des jeux de ce style (TCG) : {% include jauge.html from="Jamais" to="
 Coche les cases qui te correspondent :
 
 - [ ] Tu avais déjà joué à BattleFight avant aujourd'hui
-- [ ] Un des créateurs t'a expliqué les règles 
-- [ ] Quelqu'un d'autre t'a expliqué les règles 
-- [ ] Tu as lu les règles
 - [ ] Tu t'es aidé du glossaire
 - [ ] Tu t'es aidé du mémo des techniques de base
-- [ ] Tu as expliqué les règles à quelqu'un d'autre
 
 Tu trouves les règles : {% include jauge.html from="Simplissimes" to="Trop compliquées" %}
 
-Les mots utilisés par le jeu te semblent : {% include jauge.html from="Extrêmement logiques" to="plutôt tordus" %}
-
 Quel concept, mot ou carte t'ont posé des problèmes de compréhension :
 
-Qu'est ce que tu aurais aimé qu'on t'apprenne plus tôt :
+|
+
+|
+
+
 
 
 ## Lisibilité
@@ -57,17 +55,13 @@ Coche les cases qui te correspondent :
 - [ ] Tu as trouvé certains textes trop petits
 - [ ] Les différentes formes des cadres d'étape t'ont aidé à mieux lire les cartes
 
-## Retours sur la dernière partie que tu as joué
+## Retours sur les parties que t'as joué
 
-La durée de la partie t'as semblée : {% include jauge.html from="Trop courte" to="trop longue" %}
+La durée des parties : {% include jauge.html from="Trop courtes" to="trop longues" %}
 
-Le rythme de la partie t'as semblée : {% include jauge.html from="Trop speed" to="trop lent" %}
+Le rythme des parties : {% include jauge.html from="Trop speed" to="trop lent" %}
 
-La personne qui a gagné : {% include jauge.html from="A eu de la chance" to="a bien joué" %}
-
-Les choix que tu faisait pendant la partie : {% include jauge.html from="hautements stratégiques" to="au hasard" %}
-
-Ton immersion dans le jeu : {% include jauge.html from="Tu avais l'impression d'être sur l'arène" to="c'était plutôt abstrait" %}
+La personne qui gagnait : {% include jauge.html from="Avait de la chance" to="jouait bien" %}
 
 ## Ton deck
 
@@ -77,11 +71,9 @@ La carte qui t'a le plus blasé :
 
 Coche les cases qui te correspondent :
 
-- [ ] Tu as envie de refaire des parties avec ce deck
-- [ ] Tu aurais envie d'améliorer ce deck en changeant certaines cartes
+- [ ] Tu as fait des échanges de carte au magasin
+- [ ] Tu as fait des échanges de carte avec les autres joueureuses
 - [ ] Tu as l'impression d'avoir compris le fonctionnement du deck et son potentiel a force de le jouer
-- [ ] Tu as envie de changer de deck changer de deck 
-
 
 ## En général 
 
@@ -90,17 +82,29 @@ Coche les cases qui te correspondent :
 - [ ] C'était fun
 - [ ] C'est pas fait pour toi
 - [ ] Tu aimerais bien rejouer
-- [ ] Tu as l'impression que tu seras meilleur·e la prochaine fois
+- [ ] Tu as l'impression que tu seras meilleure la prochaine fois
 
 Ce que t'as pref :
 
+|
+
+|
+
+
 Ce que t'as moins aimé :
+
+|
+
+|
+
 
 Autre chose à dire ? :
 
-## Contact
+|
 
-Si tu veux qu'on t'inscrive à la newsletter donne ton mail :
+|
+
+
 
 
 </div>
