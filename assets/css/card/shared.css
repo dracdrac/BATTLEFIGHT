@@ -222,16 +222,36 @@
     padding-top: calc(0.1in +  3mm);
     
     background: white;
+    
+    /* Text */
+    font-size: 10pt;
 }
 
 .card.basic-tech .title {
+    position: relative;
     font-size: smaller;
     text-align: center;
     border-radius:.5em;
-    margin-top : .7em;
+    margin-top: 5mm;
 width: 2.1in;
 }
 
+.card.basic-tech .title:after {
+    position: absolute;
+    left:-3mm;
+    top:-3.2mm;
+    content: '';
+    display: block;
+    width:2.5in;
+    height:2mm;
+    background: black;
+}/**/
+
+.card.basic-tech>.content>div:first-child .title{
+    margin-top : 1.5mm;
+}
+
+    
 .card.basic-tech .title.attaque {
     background:#f57d8c;
 }

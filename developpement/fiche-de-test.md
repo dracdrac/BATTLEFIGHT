@@ -121,4 +121,10 @@ padding: 10mm;
 .page h1 {
 font-size :12pt;
 }
+
+.page li {
+    break-inside: avoid;
+}
+
+
 </style>
