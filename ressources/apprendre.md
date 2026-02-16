@@ -10,11 +10,7 @@ excerpt: Dans BattleFight, deux personnes s'affrontent en jouant chacune leur to
 
 ### Le deck
 
-Dans BattleFight, chaque personne joue avec son propre deck.
-
-Ton deck représente les techniques de combat que ton personnage peut utiliser. 
-
-C'est un paquet de 20 cartes contenant 4 cartes pour chacun des 5 types.
+Dans BattleFight, chaque personne joue avec son propre deck. Ton deck représente les techniques de combat que ton personnage peut utiliser. C'est un paquet de 20 cartes contenant 4 cartes pour chacun des 5 types.
 
 
 ### Créer son deck
@@ -29,13 +25,7 @@ Trie les cartes par type et crée deux decks en piochant 4 cartes par type pour 
 
 ### Mise en place
 
-Les decks sont mélangés et posés face cachée pour former les pioches.
-
-Pendant la partie, chaque personne dispose de sa propre pioche et de sa propre défausse.
-
-Deux pions sont placés dans deux coins opposés du [plateau](https://battlefight.jejeu.org/ressources/plateau).
-
-Lorsque la partie commence, on n'a aucune carte en main.
+Les decks sont mélangés et posés face cachée pour former les pioches. Pendant la partie, chaque personne dispose de sa propre pioche et de sa propre défausse. Deux pions sont placés dans deux coins opposés du [plateau](https://battlefight.jejeu.org/ressources/plateau). Lorsque la partie commence, on n'a aucune carte en main.
 
 <img width="40%" src="/img/visu-table.png">
 
@@ -48,17 +38,11 @@ Lorsque la partie commence, on n'a aucune carte en main.
 
 ## Que le combat commence !
 
-Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=pv).
-
-Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plateau, tu gagnes la partie.
+Tout le monde commence avec [20 points de vie](https://jejeu.org/outil.php?id=4&prereglage=pv). Si ton adversaire tombe à zéro point de vie ou que tu le pousses hors du plateau, tu gagnes la partie.
 
 ### Jouer son tour
 
-La partie se déroule au tour par tour. 
-
-À ton tour tu joues une seule technique. Ça peut être une carte que tu joues depuis ta main ou une technique de base.
-
-Une fois que tu as joué une technique c'est au tour de l'adversaire.
+La partie se déroule au tour par tour. À ton tour tu joues une seule technique. Ça peut être une carte que tu joues depuis ta main ou une technique de base. Une fois que tu as joué une technique c'est au tour de l'adversaire.
 
 <!-- ![Jouer une technique](/img/visu-jouer-une-tech.png) -->
 
@@ -68,11 +52,7 @@ L'usage est de toujours annoncer à voix haute la technique que tu joues.
 
 ### Les techniques de base
 
-Les techniques de base sont 5 techniques que tout le monde peut utiliser.
-
-Ce sont des techniques de combat, au même titre que les cartes de ton deck, mais elles sont toujours accessibles pour tout le monde (pas besoin de les piocher).
-
-Il en existe 5, une pour chacun des 5 types :
+Les techniques de base sont 5 techniques que tout le monde peut utiliser. Ce sont des techniques de combat, au même titre que les cartes de ton deck, mais elles sont toujours accessibles pour tout le monde (pas besoin de les piocher). Il en existe 5, une pour chacun des 5 types :
 
 {% include basic-tech-card.html %}
 
