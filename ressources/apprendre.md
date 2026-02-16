@@ -171,7 +171,7 @@ L'effet **Bloquer** permet de récupérer un certain nombre de points de vie per
 
 - Tu ne peux regagner que les points de vie perdus depuis ton dernier tour.
 - Tu ne peux pas regagner les points de vie perdus par la division de tes points de vie (causée par le fait de remélanger de la pioche).
-- Si tu n'as pas perdu de points de vie depuis ton dernier tour, l'étape **Bloquer** n'a pas d'effet.
+- Si tu n'as pas perdu de points de vie depuis la fin de ton dernier tour, l'étape **Bloquer** n'a pas d'effet.
 
 ### Position, distance et déplacement
 
