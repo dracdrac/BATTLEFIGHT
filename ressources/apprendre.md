@@ -133,9 +133,11 @@ Ces étapes ont un effet permanent qui reste actif tant que la carte est en jeu.
 
 Les cartes avec des effets permanents finissent généralement par **Stable**.
 
-{% include card.html e="BF01" n="51" %}
+{% include card-with-caption.html
+e="BF01" n="51" 
+caption="La deuxième étape de *Célérité* est **Stable**. Lorsque tu l'exécutes, la carte devient Stable : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Stable** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite."
+%}
 
-La deuxième étape de *Célérité* est **Stable**. Lorsque tu l'exécutes, la carte devient Stable : ton tour se termine, mais *Célérité* reste en jeu. Et tant qu'elle sera en jeu, les effets permanents marqués au dessus de **Stable** seront effectifs, tu auras donc **Vitesse 1** ce qui te permettra de te déplacer plus vite.
 
 #### Déstabiliser
 
@@ -158,18 +160,18 @@ Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois d'ab
 - mélanger ta défausse pour qu'elle devienne ta nouvelle pioche
 
 
-### Détails de règles
+## Détails de règles
 
 À ce stade de l'explication, tu peux déjà tenter de lancer une partie si tu veux apprendre en jouant. Si tu souhaites déjà comprendre plus de notions, tu peux lire la suite de ce doc. 
 
-#### L'adversaire a / tout le monde a
+### L'adversaire a / tout le monde a
 
 Parfois une étape est précédé d'un texte du type **L'adversaire a**, L'étape en question doit alors être executée du point de vue de l'adversaire.
 
 Si le texte qui précède l'étape est **Tout le monde a**, Tout le monde exécute l'étape à commencer par toi.
 
 
-#### Dégâts
+### Dégâts
 
 L'effet **Blesser** permet de retirer des points de vie à ton adversaire. S'il y a des cartes en jeux qui te donnent de la **Force**, ça augmente le nombre de dégat. S'il y a des cartes en jeux qui donnent de la **Protection** à ton adversaire, ça diminue le nombre de dégât.
 
@@ -181,7 +183,7 @@ L'effet **Bloquer** permet de récupérer un certain nombre de points de vie per
 - Tu ne peux pas regagner les points de vies perdus par la division de tes points de vie causée par le remélange de la pioche.
 - Si tu n'as pas perdu de points de vie au prochain tour, l'étape **Bloquer** n'a pas d'effet.
 
-#### Position, distance et déplacement
+### Position, distance et déplacement
 
 L'effet **Se déplacer** Permet de te déplacer d'un certain nombre de cases. S'il y a des cartes en jeux qui te donnent de la **Vitesse** ça augmente ce nombre.
 
@@ -195,7 +197,7 @@ La condition **Distance** te demande d'être à une certaine distance minimum de
 
 <img width="30%" src="/img/visu-distances.png">
 
-#### S'Empêcher
+### S'Empêcher
 
 L'effet permanent **S'Empêcher** fait que tu ne peux plus jouer un certain type de technique.
 
@@ -206,7 +208,7 @@ Les cartes stables que tu as jouées précédemment restent active, même si ell
 Il existe des variantes de cet effet permanent. Par exemple, **S'Empêcher Carte Rhétorique**, t'empêche de jouer les cartes de type rhétorique mais ne t'empêche pas de jouer la technique de base **Rhétorique de base**. Autre exemple, **S'Empêcher Carte** t'empêche de jouer des cartes, tu ne peux jouer que les techniques de base.
 
 
-#### Défausser
+### Défausser
 
 Il existe deux mots clés bien différents qui se ressemblent un peu :
 
@@ -214,7 +216,7 @@ Il existe deux mots clés bien différents qui se ressemblent un peu :
 
 **Si Possible Défausser** est un effet. Comme **Défausser**, ça te demande de défausser des cartes, mais ce n'est pas une condition donc si tu n'as pas assez de cartes en main, tu défausses seuleemnt ce que tu peux et tu passe à la suite quand même. 
 
-#### Charme
+### Charme
 
 L'effet permanent **Charme** réduit le nombre de carte qu'il faut défausser pour **Déstabiliser**.
 
