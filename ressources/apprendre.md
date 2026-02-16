@@ -76,14 +76,14 @@ La **Défense de base** permet de Bloquer 1, c'est à dire de récupérer un poi
 
 Le **Déplacement de base** permet de se déplacer d'une case sur le plateau.
 
-La **Rhétorique de base** permet de Déstabiliser des cartes (voir **Déstabiliser**, plus bas)
+La **Rhétorique de base** permet de Déstabiliser une carte (voir **Déstabiliser**, plus bas).
 
 
 ### Lire les cartes
 
 Une carte a toujours un titre, un type et une liste d'étapes.
 
-Lorsque tu joues une carte, tu exécutes chaque étape dans l'ordre. Quand tu as fini d'exécuter la dernière étape tu mets la carte face visible dans ta défausse.
+Lorsque tu joues une carte, tu exécutes chaque étape dans l'ordre. Quand tu as fini d'exécuter la dernière étape tu mets la carte dans ta défausse, face visible (chaque défausse est consultable à tout moment).
 
 Les étapes sont écrites avec des mots-clés. La plupart des mots-clés sont plutôt transparents, en cas de doute, tous les mots-clés sont expliqués dans le [glossaire](glossaire).
 
@@ -100,7 +100,7 @@ Les étapes sont écrites avec des mots-clés. La plupart des mots-clés sont pl
 
 Certaines étapes sont des conditions. C'est le cas de **Défausser**, **Distance** et **Corps à Corps**.
 
-Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse. Les étapes qui étaient marquées après cette condition ne sont pas exécutées.
+Si dans la lecture d'une carte tu tombes sur une condition qui n'est pas respectée, la carte est directement placée dans la défausse. Les étapes marquées après cette condition ne sont pas exécutées.
 
 
 {% include card-with-caption.html
@@ -112,7 +112,7 @@ caption="Les deux premières étapes de la carte *Décharge* sont des conditions
 
 Certaines cartes se terminent par l'étape **Stable**.
 
-L'étape **Stable** indique que la carte est stabilisée sur la table, elle reste en jeu (et n'est pas défaussée) même quand le tour de la personne qui l'a posée se termine.
+L'étape **Stable** indique que la carte est stabilisée sur la table, elle reste en jeu et ne va donc pas dans la défausse, même quand le tour de la personne qui l'a posée se termine.
 
 
 #### Permanents
@@ -131,7 +131,7 @@ caption="La deuxième étape de *Célérité* est **Stable**. Lorsque tu l'exéc
 
 #### Déstabiliser
 
-Lorsque tu veux te débarrasser d'une carte **stable** (que ce soit ta carte ou celle de l'adversaire), il faut la **Déstabiliser**.
+Lorsque tu veux te débarrasser d'une carte **Stable** (que ce soit ta carte ou celle de l'adversaire), il faut la **Déstabiliser**.
 
 À ton tour tu peux, par exemple jouer la **Rhétorique de base** qui permet de **Déstabiliser**.
 
@@ -158,30 +158,30 @@ Si tu dois piocher alors qu'il n'y a plus de cartes dans ta pioche, tu dois d'ab
 
 Parfois une étape est précédée d'un texte du type **L'adversaire a**, L'étape en question doit alors être exécutée du point de vue de l'adversaire.
 
-Si le texte qui précède l'étape est **Tout le monde a**, Tout le monde exécute l'étape à commencer par toi.
+Si le texte qui précède l'étape est **Tout le monde a**, tout le monde exécute l'étape à commencer par toi.
 
 
 ### Dégâts
 
 L'effet **Blesser** permet de retirer des points de vie à ton adversaire. S'il y a des cartes en jeu qui te donnent de la **Force**, ça augmente le nombre de dégat. S'il y a des cartes en jeu qui donnent de la **Protection** à ton adversaire, ça diminue le nombre de dégâts.
 
-L'effet **Se Blesser** te retire des points de vie à toi. Dans le cas d'un Se blesser c'est ta **Force** et ta **Protection** qui doivent être pris en compte.
+L'effet **Se Blesser** te retire des points de vie à toi. Dans le cas d'un Se Blesser c'est ta **Force** et ta **Protection** qui doivent être pris en compte.
 
 L'effet **Bloquer** permet de récupérer un certain nombre de points de vie perdus. Attention :
 
-- Tu ne peux regagner que les points de vie perdus depuis ton dernier tour
-- Tu ne peux pas regagner les points de vie perdus par la division de tes points de vie causée par le remélange de la pioche.
-- Si tu n'as pas perdu de points de vie au prochain tour, l'étape **Bloquer** n'a pas d'effet.
+- Tu ne peux regagner que les points de vie perdus depuis ton dernier tour.
+- Tu ne peux pas regagner les points de vie perdus par la division de tes points de vie (causée par le fait de remélanger de la pioche).
+- Si tu n'as pas perdu de points de vie depuis ton dernier tour, l'étape **Bloquer** n'a pas d'effet.
 
 ### Position, distance et déplacement
 
-L'effet **Se déplacer** Permet de te déplacer d'un certain nombre de cases. S'il y a des cartes en jeu qui te donnent de la **Vitesse** ça augmente ce nombre.
+L'effet **Se déplacer** Permet de te déplacer d'un certain nombre de cases. S'il y a des cartes en jeu qui te donnent de la **Vitesse**, ça augmente ce nombre.
 
 Si tu le souhaites, tu peux te déplacer de moins de cases que le nombre indiqué. Tu peux même choisir de ne pas te déplacer.
 
 La condition **Corps à Corps** te demande d'être adjacent à l'adversaire.
 
-La condition **Distance** te demande d'être à une certaine distance minimum de ton adversaire. Par exemple, **Distance 3** te demande d'être à 3 cases de ton adversaire ou plus.
+La condition **Distance** te demande d'être à une certaine distance minimum de ton adversaire. Par exemple, **Distance 3** te demande d'être à 3 cases ou plus de ton adversaire .
 
 <!-- ![Pioche vide](/img/visu-distances.png) -->
 
@@ -191,7 +191,7 @@ La condition **Distance** te demande d'être à une certaine distance minimum de
 
 L'effet permanent **S'Empêcher** fait que tu ne peux plus jouer un certain type de technique.
 
-Par exemple, s'il y a une carte en jeu qui te donne **S'Empêcher Déplacement** tu ne peux pas jouer de cartes dont le type est **Déplacement** et tu ne peux pas non plus jouer la technique de base **Déplacement de base**. Ça ne signifie pas que tu ne peux pas te déplacer du tout, tu pourra par exemple sans problème jouer une carte de type Attaque qui aurait une étape indiquant **Se déplacer**.
+Par exemple, s'il y a une carte en jeu qui te donne **S'Empêcher Déplacement** tu ne peux pas jouer de cartes dont le type est **Déplacement** et tu ne peux pas non plus jouer la technique de base **Déplacement de base**. Ça ne signifie pas que tu ne peux pas te déplacer du tout, tu pourras par exemple sans problème jouer une carte de type Attaque qui aurait une étape indiquant **Se déplacer**.
 
 Les cartes stables que tu as jouées précédemment restent actives, même si elles sont du type empêché.
 
@@ -208,6 +208,6 @@ Il existe deux mots-clés bien différents qui se ressemblent un peu :
 
 ### Charme
 
-L'effet permanent **Charme** réduit le nombre de carte qu'il faut défausser pour **Déstabiliser**.
+L'effet permanent **Charme** réduit le nombre de carte qu'il te faut défausser pour **Déstabiliser**.
 
-Pour rappel, quand tu déstabilises une carte **Stable**. Si le **Stable** en question est suivi d'un nombre, tu dois défausser autant de cartes (depuis ta main vers ta défausse). Tes points de **Charme** réduisent ce nombre.
+Pour rappel, quand tu déstabilises une carte **Stable**, si le **Stable** en question est suivi d'un nombre, tu dois défausser autant de cartes (depuis ta main vers ta défausse). Tes points de **Charme** réduisent ce nombre. S'il n'y a pas de nombre, c'est qu'il faut juste **Déstabiliser** sans défausser de carte.
