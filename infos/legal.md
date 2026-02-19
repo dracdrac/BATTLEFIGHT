@@ -15,7 +15,7 @@ Cela signifie que tu es autorisé·e a partager, copier et distribuer le jeu mai
 
 Sauf mention contraire toutes les illustrations du site sont de *Léon Lenclos*.
 
-Les illustrations des cartes de la version Alpha ne nous appartiennent, nous ne revendiquons aucun droit dessus. Les cartes les utilisant ne sont ni distribuées ni commercialisées.
+Les illustrations des cartes de la version Alpha ne nous appartiennent pas, nous ne revendiquons aucun droit dessus. Ces cartes (cartes de la version Alpha) ne sont ni distribuées ni commercialisées.
 
 ### Fonts
 
