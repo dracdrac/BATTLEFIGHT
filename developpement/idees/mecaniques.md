@@ -3,6 +3,10 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
+## défausser sous la pioche
+
+Condition de défausse moins contraignante, fait mettre des cartes de sa main sous la pioche dans lordre de son choix
+
 ## Meuler X
 
 Consiste à mettre X cartes depuis sa pioche dans la défausse. 
