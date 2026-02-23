@@ -3,7 +3,12 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
-# swap
+## légèreté +/- X
+
+Changer la valeur des pousser adverses sur soit
+
+
+## swap
 
 Échanger sa position avec celle d'un•e autre joueur•euse
 
