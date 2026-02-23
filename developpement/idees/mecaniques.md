@@ -3,6 +3,10 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
+# swap
+
+Échanger sa position avec celle d'un•e autre joueur•euse
+
 ## Engager
 
 L'effet engager permet d'engager une carte et d'annuler ses effets. Il est possible de la désengager en déstabilisant la carte. Ses effets permanents sont alors de nouveaux actifs. 
