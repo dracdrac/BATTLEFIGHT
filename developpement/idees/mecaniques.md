@@ -3,6 +3,24 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
+## Engager
+
+L'effet engager permet d'engager une carte et d'annuler ses effets. Il est possible de la désengager en déstabilisant la carte. Ses effets permanents sont alors de nouveaux actifs. 
+
+## Piege
+
+L'effet piège fait mettre une carte de sa main en jeu face cachee. La carte peut être retournée et faisant Déstabiliser 1. Une carte retournée se voit alors jouée, on applique toutes les étapes normalement. 
+
+ 
+## Cacher
+
+L'effet cacher fait arriver la carte face cachée. (a voir si c'est bien pck y'aurais l'étape cacher à lire quand on retourne la carte..) 
+
+
+## Retourner
+
+L'effet retourner permet de mettre face cacher une carte face visible et face visible une carte face cachee
+
 ## défausser sous la pioche
 
 Condition de défausse moins contraignante, fait mettre des cartes de sa main sous la pioche dans lordre de son choix
