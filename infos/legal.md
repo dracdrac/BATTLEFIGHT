@@ -5,7 +5,7 @@ permalink: /legal
 
 ## License
 
-[BattleFight](battlefight.jejeu.org) © 2020-2025 de Léon Lenclos et Louis Pezet est sous license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0) <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">.
+[BattleFight](battlefight.jejeu.org) © 2020-2026 de Léon Lenclos et Louis Pezet est sous license [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0) <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/sa.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">.
 
 Cela signifie que tu es autorisé·e a partager, copier et distribuer le jeu mais aussi à le modifier l'adapter et le remixer, à condition de créditer l'œuvre, de ne pas en faire un usage commercial et de partager l'œuvre sous les mêmes conditions. Pour plus d'information visite [la page explicative de la license](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr).
 
@@ -15,7 +15,7 @@ Cela signifie que tu es autorisé·e a partager, copier et distribuer le jeu mai
 
 Sauf mention contraire toutes les illustrations du site sont de *Léon Lenclos*.
 
-Les illustrations des cartes de la version Alpha ne nous appartiennent, nous ne revendiquons aucun droit dessus. Les cartes les utilisant ne sont ni distribuées ni commercialisées.
+Les illustrations des cartes de la version Alpha ne nous appartiennent pas, nous ne revendiquons aucun droit dessus. Ces cartes (cartes de la version Alpha) ne sont ni distribuées ni commercialisées.
 
 ### Fonts
 
