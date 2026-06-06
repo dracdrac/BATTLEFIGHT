@@ -54,11 +54,16 @@ Permet de sortir de la partie X cartes de sa défausse
 
 ## Réveler 
 
-Jouer avec sa main révélée. 
+Montrer sa main à l'adversaire.
 Peut autant être utilisé contre l'adversaire avec un "l'adversaire a", ou à soit même en tant que coût. 
 Ex :
 
 sincérité : Piocher 3 / reveler
+
+lire dans les pensées :
+piocher 1
+l'adv a révéler
+rejouer
 
 ## Remémorer X
 
