@@ -1,7 +1,13 @@
 
 ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui nous permettraient de se projeter sur les futures éditions.
+Les collections de 5 cartes se trouvent plus bas.
 
 # Mécaniques
+
+
+## Récupérer X
+
+Mettre X cartes de sa défausse sur la pioche 
 
 ## imparable
 
@@ -187,7 +193,51 @@ Marquer revient à pauser un jeton sur une case adjacente. Ensuite tout les rayo
 
 
 
+# Collections de 5 cartes
 
+## Sacrifice
+
+- Attaque : CàC / Se Blesser 2 / Blesser 5
+- Défense : Se Blesser 1 / l'adv a : Attaque Interdite / Stable 3
+- Rhétorique : Se Blesser 1 / L'adversaire a : Défausser 2
+- Concentration : Distance / Se Blesser 1 / Piocher 4
+- Déplacement : Se Blesser 1 / Se déplacer 3
+
+
+## Imparable
+
+- Attaque : Distance / Imparable / Blesser 4
+- Défense : Bloquer 2 / Imparable / Blesser 2
+- Rhétorique : Défausser 1 / L'adversaire a Défausser 1 / Imparable / Blesser 2
+- Concentration : Piocher 2 / Imparable / L'adversaire a Se Blesser 2
+- Déplacement : Se déplacer 1 / càc / imparable / Blesser 2
+
+## Engageur
+une carte engagée annule ses effets permanents, elle peut être désengagée avec destab
+
+- Attaque : Distance / blesser 3 / engager 1
+- Défense : Bloquer 2 / engager 1
+- Rhétorique : Engager 2 /  Rejouer
+- Concentration : Piocher 2 / Distance / Engager 1
+- Déplacement : Se déplacer 2 / càc / Engager 1
+
+## Meule 
+Meuler = mettre X carte de sa pioche dans la défausse
+
+- Attaque : Distance / Meuler 1 / Blesser 3
+- Défense : Meuler 2 / Bloquer 4
+- Rhétorique : L'adversaire à : Meuler 2 /  Rejouer
+- Concentration : Meuler 1 / Piocher 3
+- Déplacement : Meuler 1 / Se déplacer 3
+
+## Récupérer
+Récupérer = mettre X cartes de sa défausser sur sa pioche
+
+- Attaque : Distance / Récupérer 1 / Blesser 3
+- Défense : Récupérer 1 / Bloquer 2
+- Rhétorique : L'adversaire à défausser 1 / Récupérer 2
+- Concentration : Récupérer 1 / Piocher 2
+- Déplacement : Meuler 1 / Se déplacer 3
 
 
 
