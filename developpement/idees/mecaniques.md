@@ -3,6 +3,10 @@ ici l'idée c'est de lister toutes les mécaniques auxquelles ont pense et qui n
 
 # Mécaniques
 
+## imparable
+
+A son prochain tour, les bloquer de l'adversaire sont égal à zéro
+
 ## légèreté +/- X
 
 Changer la valeur des pousser adverses sur soit
@@ -30,6 +34,8 @@ L'effet cacher fait arriver la carte face cachée. (a voir si c'est bien pck y'a
 
 L'effet retourner permet de mettre face cacher une carte face visible et face visible une carte face cachee
 
+## défausser sur la pioche
+
 ## défausser sous la pioche
 
 Condition de défausse moins contraignante, fait mettre des cartes de sa main sous la pioche dans lordre de son choix
@@ -48,9 +54,9 @@ L'adversaire a Meuler 4
 
 Permet de passer au dessus de l'adversaire lors de déplacements (on ne peut pas s'arrêter sur une case adverse). Rajoute distance +1.
 
-## Exiler X
+## Exiler X / Défausser à jamais X
 
-Permet de sortir de la partie X cartes de sa défausse
+Permet de sortir de la partie X cartes de sa défausse.
 
 ## Réveler 
 
