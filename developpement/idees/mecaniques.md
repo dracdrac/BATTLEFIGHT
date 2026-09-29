@@ -4,6 +4,28 @@ Les collections de 5 cartes se trouvent plus bas.
 
 # Mécaniques
 
+## infinite
+pour l'édition parodique?
+
+Distance / Défausser 4 / Blesser infini
+
+Défausser 2 / Bloquer infini
+
+Défausser 4 / Piocher la pioche
+
+Défausser 2 / Déstabiliser infini
+
+Défausser 2 / Se déplacer infini
+
+## Stable > effet
+
+Epee de Damocles :
+Stable 2 / Blesser 4
+
+Variante
+Stable 2 / càc / Blesser 5
+
+Stable 1 / Bloquer 5 ?
 
 ## Récupérer X
 
@@ -176,6 +198,20 @@ On pourrait ainsi introduire le mot clef "Reprendre" ou "Récupérer". Une versi
 | Distance  |
 | Blesser 7 | 
 | Reprendre | 
+
+maj 29/09/2026 : cest une tour 5 a cause des rejouer données a l'adversaire. La mécanique de reprendre est tres forte.
+Mais le double rejouer est pas tres pratique, sachant qu'une fois les effets passés, c'est a l'adversaire de jouer. 
+pourquoi pas tenter:
+
+| Fusil Formique  | 
+| :--------------- |
+| Défausser 1 | 
+| L'adversaire a : Rejouer|
+| Distance  |
+| Blesser 5 | 
+| Reprendre | 
+
+ça devient une boule de feu. c'est moins bien car tu donne un tour a l'adv et il peut déjouer tes plans, mais tu récupères la carte si tu réussit.
 
 ## Situels
 
