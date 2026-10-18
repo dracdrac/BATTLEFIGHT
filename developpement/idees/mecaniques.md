@@ -4,6 +4,16 @@ Les collections de 5 cartes se trouvent plus bas.
 
 # Mécaniques
 
+## Stocker X
+
+Mettre X cartes de sa défausse / ou main / ou pioche face cachée en pile en jeu
+N'importe qui peut déstabiliser la pile pour que la personne a qui est la pile la récupère dans sa main
+
+## Taille de main max = X
+
+Si vous devez recevoir des cartes et que vous en avez plus de X, défaussez des carte jusqu'a en avoir X en main.
+
+
 ## infinite
 pour l'édition parodique?
 
