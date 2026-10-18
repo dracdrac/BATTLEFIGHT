@@ -4,6 +4,18 @@ Les collections de 5 cartes se trouvent plus bas.
 
 # Mécaniques
 
+## Procrastiner
+/differer/reporter
+
+Procrastiner X : mettre X cartes de sa main sous sa pioche
+
+ex : remettre a plus tard : procrastiner 2 / piocher 3
+
+## Retarder
+mettre une carte en jeu sous la pioche de son/sa propriétaire
+
+Pas maintenant : Défausser 1 / Retarder 1
+
 ## Stocker X
 
 Mettre X cartes de sa défausse / ou main / ou pioche face cachée en pile en jeu
