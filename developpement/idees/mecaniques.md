@@ -80,6 +80,8 @@ Condition de défausse moins contraignante, fait mettre des cartes de sa main so
 
 ## Meuler X
 
+si une personne doit meuler X et qu'il n'y a pas X carte dans la pioche, alors iel meule toute ses cartes et ça ne déclenche pas le mélange de la pioche.
+
 Consiste à mettre X cartes depuis sa pioche dans la défausse. 
 
 Ex : Meuler 3 / Piocher 3
